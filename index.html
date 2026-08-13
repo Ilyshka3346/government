@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0e3f46" />
+    <title>Boston Lawbook</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Majestic RP / Boston</p>
+          <h1>Lawbook</h1>
+        </div>
+        <button id="importOpen" class="icon-button" type="button" title="Импортировать текст">+</button>
+      </header>
+
+      <main>
+        <section class="search-panel">
+          <label class="search-box" for="searchInput">
+            <span>⌕</span>
+            <input
+              id="searchInput"
+              type="search"
+              inputmode="search"
+              placeholder="Номер статьи, наказание, описание или источник"
+              autocomplete="off"
+            />
+          </label>
+          <div id="quickChips" class="chip-row" aria-label="Быстрые фильтры"></div>
+        </section>
+
+        <nav id="tabs" class="tabs" aria-label="Разделы законки"></nav>
+
+        <section class="summary-grid" aria-label="Сводка">
+          <article>
+            <span id="countArticles">0</span>
+            <p>статей</p>
+          </article>
+          <article>
+            <span id="countSources">0</span>
+            <p>источников</p>
+          </article>
+          <article>
+            <span id="countFavorites">0</span>
+            <p>избранных</p>
+          </article>
+        </section>
+
+        <section id="results" class="results" aria-live="polite"></section>
+      </main>
+
+      <aside id="detailSheet" class="detail-sheet" aria-hidden="true">
+        <div class="sheet-panel">
+          <div class="sheet-grip"></div>
+          <div class="sheet-header">
+            <div>
+              <p id="detailCode" class="eyebrow"></p>
+              <h2 id="detailTitle"></h2>
+            </div>
+            <button id="detailClose" class="icon-button" type="button" title="Закрыть">×</button>
+          </div>
+          <div class="detail-meta">
+            <span id="detailArticle"></span>
+            <span id="detailHierarchy"></span>
+            <span id="detailUpdated"></span>
+          </div>
+          <p id="detailText" class="detail-text"></p>
+          <div id="detailPenalty" class="penalty"></div>
+          <a id="detailSource" class="source-link" href="#" target="_blank" rel="noreferrer">Открыть источник</a>
+        </div>
+      </aside>
+
+      <dialog id="importDialog" class="import-dialog">
+        <form method="dialog" class="import-panel">
+          <div class="sheet-header">
+            <div>
+              <p class="eyebrow">Быстрое пополнение</p>
+              <h2>Импорт законки</h2>
+            </div>
+            <button class="icon-button" value="cancel" type="submit" title="Закрыть">×</button>
+          </div>
+
+          <label>
+            Название раздела
+            <input id="importTitle" type="text" placeholder="Например: Уголовный кодекс" />
+          </label>
+
+          <label>
+            Категория
+            <select id="importCategory">
+              <option value="Кодексы">Кодексы</option>
+              <option value="Уставы">Уставы</option>
+              <option value="Правила гос.">Правила гос.</option>
+              <option value="Законы">Законы</option>
+              <option value="Памятки">Памятки</option>
+            </select>
+          </label>
+
+          <label>
+            Ссылка на тему форума
+            <input id="importSource" type="url" placeholder="https://forum.majestic-rp.ru/threads/..." />
+          </label>
+
+          <label>
+            Текст или JSON
+            <textarea
+              id="importText"
+              rows="11"
+              placeholder="Вставь текст темы форума или JSON-массив статей. Приложение разобьет строки вида: Статья 1..., 7.2 (F), 15.6 ч.1..."
+            ></textarea>
+          </label>
+
+          <div class="dialog-actions">
+            <button id="clearLocal" class="secondary-button" type="button">Сбросить базу</button>
+            <button id="importSave" class="primary-button" value="default" type="button">Добавить</button>
+          </div>
+        </form>
+      </dialog>
+    </div>
+
+    <script src="./laws.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
