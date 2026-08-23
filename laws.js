@@ -1,3 +1,24 @@
+window.PROJECTS = [
+  {
+    "id": "boston",
+    "label": "Boston",
+    "shortLabel": "Boston",
+    "eyebrow": "Majestic RP",
+    "title": "Lawbook",
+    "accent": "#0e3f46",
+    "note": "Законодательная база сервера Boston"
+  },
+  {
+    "id": "russia",
+    "label": "Россия Онлайн",
+    "shortLabel": "Россия",
+    "eyebrow": "Majestic RP",
+    "title": "Россия Онлайн",
+    "accent": "#b42b32",
+    "note": "Законодательная база проекта Россия Онлайн"
+  }
+];
+
 window.SEED_LAWS = [
   {
     "id": "constitution-preambula-preambula",
@@ -11,7 +32,8 @@ window.SEED_LAWS = [
     "chapter": "Преамбула",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-1",
@@ -25,7 +47,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-2",
@@ -39,7 +62,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-3",
@@ -53,7 +77,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-4",
@@ -69,7 +94,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-5",
@@ -83,7 +109,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-6",
@@ -97,7 +124,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-7",
@@ -111,7 +139,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-8",
@@ -125,7 +154,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-9",
@@ -139,7 +169,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-10",
@@ -157,7 +188,8 @@ window.SEED_LAWS = [
       "арест",
       "обыск",
       "ордер"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-11",
@@ -174,7 +206,8 @@ window.SEED_LAWS = [
     "tags": [
       "адвокат",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-12",
@@ -190,7 +223,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-13",
@@ -206,7 +240,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-14",
@@ -222,7 +257,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-15",
@@ -236,7 +272,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-16",
@@ -250,7 +287,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Декларация прав",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-i-deklaraciya-prav-razdel-17",
@@ -266,7 +304,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-ii-shtat-san-andreas-razdel-1",
@@ -280,7 +319,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Штат San - Andreas",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-ii-shtat-san-andreas-razdel-2",
@@ -294,7 +334,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Штат San - Andreas",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-ii-shtat-san-andreas-razdel-3",
@@ -308,7 +349,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Штат San - Andreas",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-ii-shtat-san-andreas-razdel-4",
@@ -324,7 +366,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-ii-shtat-san-andreas-razdel-5",
@@ -340,7 +383,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-ii-shtat-san-andreas-razdel-6",
@@ -354,7 +398,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Штат San - Andreas",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-ii-shtat-san-andreas-razdel-7",
@@ -370,7 +415,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-1",
@@ -384,7 +430,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-2",
@@ -400,7 +447,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-3",
@@ -417,7 +465,8 @@ window.SEED_LAWS = [
     "tags": [
       "ордер",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-4",
@@ -431,7 +480,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-5",
@@ -445,7 +495,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-6",
@@ -459,7 +510,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-7",
@@ -473,7 +525,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-8",
@@ -487,7 +540,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-9",
@@ -501,7 +555,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iii-zakonodatel-naya-vlast-razdel-10",
@@ -515,7 +570,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Законодательная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-1",
@@ -531,7 +587,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-2",
@@ -545,7 +602,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Исполнительная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-3",
@@ -559,7 +617,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Исполнительная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-4",
@@ -573,7 +632,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Исполнительная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-5",
@@ -589,7 +649,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-6",
@@ -603,7 +664,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Исполнительная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-7",
@@ -617,7 +679,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Исполнительная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-8",
@@ -631,7 +694,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Исполнительная власть",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-9",
@@ -648,7 +712,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-iv-ispolnitel-naya-vlast-razdel-10",
@@ -665,7 +730,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-1",
@@ -681,7 +747,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-2",
@@ -697,7 +764,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-3",
@@ -713,7 +781,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-4",
@@ -729,7 +798,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-5",
@@ -745,7 +815,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-6",
@@ -762,7 +833,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-7",
@@ -778,7 +850,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-8",
@@ -794,7 +867,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-9",
@@ -810,7 +884,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-10",
@@ -827,7 +902,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-11",
@@ -843,7 +919,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-v-sudebnaya-vlast-razdel-12",
@@ -860,7 +937,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-vi-ierarhiya-normativno-pravovyh-aktov-v-shtate-san-andreas-razdel-1",
@@ -876,7 +954,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-vi-ierarhiya-normativno-pravovyh-aktov-v-shtate-san-andreas-razdel-2",
@@ -892,7 +971,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-vi-ierarhiya-normativno-pravovyh-aktov-v-shtate-san-andreas-razdel-3",
@@ -906,7 +986,8 @@ window.SEED_LAWS = [
     "chapter": "Глава VI. Иерархия нормативно-правовых актов в штате Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-vii-konstitucionnye-popravki-i-peresmotr-konstitucii-razdel-1",
@@ -922,7 +1003,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-vii-konstitucionnye-popravki-i-peresmotr-konstitucii-razdel-2",
@@ -936,7 +1018,8 @@ window.SEED_LAWS = [
     "chapter": "Глава VII. Конституционные поправки и пересмотр конституции",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-vii-konstitucionnye-popravki-i-peresmotr-konstitucii-razdel-3",
@@ -950,7 +1033,8 @@ window.SEED_LAWS = [
     "chapter": "Глава VII. Конституционные поправки и пересмотр конституции",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "constitution-glava-vii-konstitucionnye-popravki-i-peresmotr-konstitucii-razdel-4",
@@ -964,7 +1048,8 @@ window.SEED_LAWS = [
     "chapter": "Глава VII. Конституционные поправки и пересмотр конституции",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1",
@@ -978,7 +1063,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-1",
@@ -994,7 +1080,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-1-2",
@@ -1008,7 +1095,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-3",
@@ -1022,7 +1110,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-4",
@@ -1036,7 +1125,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-5",
@@ -1050,7 +1140,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-6",
@@ -1064,7 +1155,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-7",
@@ -1078,7 +1170,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-8",
@@ -1092,7 +1185,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-9",
@@ -1109,7 +1203,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-1-10",
@@ -1123,7 +1218,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Задачи и принципы Уголовного кодекса штата Сан-Андреас",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-1-11",
@@ -1139,7 +1235,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-2",
@@ -1153,7 +1250,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Понятие преступления, виды преступлений и вина",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-2-1",
@@ -1169,7 +1267,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-2-2",
@@ -1183,7 +1282,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Понятие преступления, виды преступлений и вина",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-2-3",
@@ -1197,7 +1297,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Понятие преступления, виды преступлений и вина",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-2-4",
@@ -1211,7 +1312,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Понятие преступления, виды преступлений и вина",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-2-5",
@@ -1225,7 +1327,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Понятие преступления, виды преступлений и вина",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-2-6",
@@ -1239,7 +1342,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Понятие преступления, виды преступлений и вина",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-2-7",
@@ -1253,7 +1357,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Понятие преступления, виды преступлений и вина",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-2-8",
@@ -1270,7 +1375,8 @@ window.SEED_LAWS = [
     "tags": [
       "задержание",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-3",
@@ -1284,7 +1390,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-3-1",
@@ -1298,7 +1405,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-3-2",
@@ -1312,7 +1420,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-3-3",
@@ -1326,7 +1435,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-3-4",
@@ -1340,7 +1450,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-3-5",
@@ -1354,7 +1465,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-3-6",
@@ -1368,7 +1480,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-3-7",
@@ -1382,7 +1495,8 @@ window.SEED_LAWS = [
     "chapter": "Глава III. Неоконченное преступление и соучастие в преступлении",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-4",
@@ -1398,7 +1512,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-4-1",
@@ -1412,7 +1527,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Обстоятельства, исключающие преступность деяния",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-4-2",
@@ -1428,7 +1544,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-4-3",
@@ -1442,7 +1559,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Обстоятельства, исключающие преступность деяния",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-4-4",
@@ -1456,7 +1574,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Обстоятельства, исключающие преступность деяния",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-4-5",
@@ -1470,7 +1589,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Обстоятельства, исключающие преступность деяния",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5",
@@ -1489,7 +1609,8 @@ window.SEED_LAWS = [
       "прокурор",
       "суд",
       "лишение"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-1",
@@ -1506,7 +1627,8 @@ window.SEED_LAWS = [
     "tags": [
       "суд",
       "лишение"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-1-2",
@@ -1523,7 +1645,8 @@ window.SEED_LAWS = [
     "tags": [
       "суд",
       "лишение"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-2",
@@ -1540,7 +1663,8 @@ window.SEED_LAWS = [
     "tags": [
       "ордер",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-2-1",
@@ -1554,7 +1678,8 @@ window.SEED_LAWS = [
     "chapter": "Глава V. Виды и назначение наказаний, освобождение от уголовной ответственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5-3",
@@ -1568,7 +1693,8 @@ window.SEED_LAWS = [
     "chapter": "Глава V. Виды и назначение наказаний, освобождение от уголовной ответственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5-4",
@@ -1582,7 +1708,8 @@ window.SEED_LAWS = [
     "chapter": "Глава V. Виды и назначение наказаний, освобождение от уголовной ответственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5-5",
@@ -1598,7 +1725,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-6",
@@ -1615,7 +1743,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-7",
@@ -1633,7 +1762,8 @@ window.SEED_LAWS = [
       "арест",
       "ордер",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-8",
@@ -1651,7 +1781,8 @@ window.SEED_LAWS = [
       "штраф",
       "арест",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-9",
@@ -1665,7 +1796,8 @@ window.SEED_LAWS = [
     "chapter": "Глава V. Виды и назначение наказаний, освобождение от уголовной ответственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5-10",
@@ -1679,7 +1811,8 @@ window.SEED_LAWS = [
     "chapter": "Глава V. Виды и назначение наказаний, освобождение от уголовной ответственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5-11",
@@ -1693,7 +1826,8 @@ window.SEED_LAWS = [
     "chapter": "Глава V. Виды и назначение наказаний, освобождение от уголовной ответственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5-12",
@@ -1707,7 +1841,8 @@ window.SEED_LAWS = [
     "chapter": "Глава V. Виды и назначение наказаний, освобождение от уголовной ответственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-5-12-1",
@@ -1723,7 +1858,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-13",
@@ -1739,7 +1875,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "обыск"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-5-14",
@@ -1756,7 +1893,8 @@ window.SEED_LAWS = [
     "tags": [
       "ордер",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-6-1",
@@ -1772,7 +1910,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-6-2",
@@ -1786,7 +1925,8 @@ window.SEED_LAWS = [
     "chapter": "Глава VI. Преступление против жизни и здоровья",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-6-2-1",
@@ -1802,7 +1942,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-6-3",
@@ -1818,7 +1959,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-6-4",
@@ -1834,7 +1976,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-6-5",
@@ -1850,7 +1993,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-6-6",
@@ -1866,7 +2010,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-6-7",
@@ -1882,7 +2027,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-7-1",
@@ -1898,7 +2044,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-7-1-1",
@@ -1915,7 +2062,8 @@ window.SEED_LAWS = [
     "tags": [
       "суд",
       "лишение"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-7-2",
@@ -1931,7 +2079,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-7-3",
@@ -1947,7 +2096,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-7-4",
@@ -1963,7 +2113,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-8-1",
@@ -1979,7 +2130,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-8-2",
@@ -1993,7 +2145,8 @@ window.SEED_LAWS = [
     "chapter": "Глава VIII. Преступления против половой неприкосновенности и половой свободы личности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-8-3",
@@ -2007,7 +2160,8 @@ window.SEED_LAWS = [
     "chapter": "Глава VIII. Преступления против половой неприкосновенности и половой свободы личности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-9-1",
@@ -2023,7 +2177,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-9-2",
@@ -2039,7 +2194,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-1",
@@ -2055,7 +2211,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-2",
@@ -2069,7 +2226,8 @@ window.SEED_LAWS = [
     "chapter": "Глава X. Преступления против собственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-10-2-1",
@@ -2083,7 +2241,8 @@ window.SEED_LAWS = [
     "chapter": "Глава X. Преступления против собственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-10-2-2",
@@ -2099,7 +2258,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-3",
@@ -2115,7 +2275,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-4",
@@ -2131,7 +2292,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-5",
@@ -2147,7 +2309,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-5-1",
@@ -2164,7 +2327,8 @@ window.SEED_LAWS = [
     "tags": [
       "суд",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-6",
@@ -2178,7 +2342,8 @@ window.SEED_LAWS = [
     "chapter": "Глава X. Преступления против собственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-10-7",
@@ -2194,7 +2359,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-10-8",
@@ -2210,7 +2376,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-11-1",
@@ -2226,7 +2393,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-11-2",
@@ -2240,7 +2408,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XI. Преступления в сфере экономической деятельности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-11-3",
@@ -2256,7 +2425,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-11-4",
@@ -2270,7 +2440,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XI. Преступления в сфере экономической деятельности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-11-5",
@@ -2286,7 +2457,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-11-6",
@@ -2302,7 +2474,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-11-7",
@@ -2318,7 +2491,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-11-8",
@@ -2335,7 +2509,8 @@ window.SEED_LAWS = [
     "tags": [
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-11-9",
@@ -2352,7 +2527,8 @@ window.SEED_LAWS = [
     "tags": [
       "суд",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-1",
@@ -2368,7 +2544,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-1-1",
@@ -2384,7 +2561,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-1-2",
@@ -2400,7 +2578,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-2",
@@ -2414,7 +2593,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XII. Преступления против общественной безопасности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-12-3",
@@ -2430,7 +2610,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-4",
@@ -2446,7 +2627,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-5",
@@ -2462,7 +2644,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-6",
@@ -2476,7 +2659,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XII. Преступления против общественной безопасности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-12-6-1",
@@ -2492,7 +2676,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-7",
@@ -2509,7 +2694,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-8",
@@ -2526,7 +2712,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-8-1",
@@ -2542,7 +2729,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-9",
@@ -2558,7 +2746,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-10",
@@ -2574,7 +2763,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-10-1",
@@ -2590,7 +2780,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-11",
@@ -2606,7 +2797,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-12",
@@ -2622,7 +2814,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-12-13",
@@ -2638,7 +2831,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-1",
@@ -2654,7 +2848,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-2",
@@ -2671,7 +2866,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-2-1",
@@ -2687,7 +2883,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-3",
@@ -2703,7 +2900,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-4",
@@ -2719,7 +2917,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-4-1",
@@ -2735,7 +2934,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-5",
@@ -2749,7 +2949,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIII. Преступления против здоровья населения и общественной нравственности",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-13-6",
@@ -2765,7 +2966,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-13-7",
@@ -2782,7 +2984,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-14-1",
@@ -2798,7 +3001,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-14-2",
@@ -2814,7 +3018,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-14-2-1",
@@ -2830,7 +3035,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-14-3",
@@ -2846,7 +3052,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-14-3-1",
@@ -2862,7 +3069,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-14-3-2",
@@ -2878,7 +3086,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-1",
@@ -2895,7 +3104,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-1-1",
@@ -2913,7 +3123,8 @@ window.SEED_LAWS = [
       "штраф",
       "арест",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-2",
@@ -2930,7 +3141,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-3",
@@ -2946,7 +3158,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-4",
@@ -2962,7 +3175,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-5",
@@ -2978,7 +3192,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-5-1",
@@ -2994,7 +3209,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-6",
@@ -3011,7 +3227,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-7",
@@ -3029,7 +3246,8 @@ window.SEED_LAWS = [
       "штраф",
       "суд",
       "лишение"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-15-8",
@@ -3046,7 +3264,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-1",
@@ -3065,7 +3284,8 @@ window.SEED_LAWS = [
       "адвокат",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-2",
@@ -3082,7 +3302,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-3",
@@ -3098,7 +3319,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-4",
@@ -3115,7 +3337,8 @@ window.SEED_LAWS = [
     "tags": [
       "задержание",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-5",
@@ -3131,7 +3354,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-6",
@@ -3148,7 +3372,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-7",
@@ -3164,7 +3389,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-8",
@@ -3180,7 +3406,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-9",
@@ -3196,7 +3423,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-10",
@@ -3216,7 +3444,8 @@ window.SEED_LAWS = [
       "адвокат",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-11",
@@ -3232,7 +3461,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-12",
@@ -3248,7 +3478,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-13",
@@ -3266,7 +3497,8 @@ window.SEED_LAWS = [
       "адвокат",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-13-1",
@@ -3282,7 +3514,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-14",
@@ -3298,7 +3531,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-16-15",
@@ -3312,7 +3546,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XVI. Преступления против правосудия",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-17-1",
@@ -3328,7 +3563,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-2",
@@ -3345,7 +3581,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-3",
@@ -3361,7 +3598,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-4",
@@ -3378,7 +3616,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-5",
@@ -3394,7 +3633,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-6",
@@ -3410,7 +3650,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-7",
@@ -3426,7 +3667,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-8",
@@ -3442,7 +3684,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-17-9",
@@ -3456,7 +3699,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XVII. Преступления против управления",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-17-10",
@@ -3472,7 +3716,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-18-1",
@@ -3488,7 +3733,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-18-2",
@@ -3504,7 +3750,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-18-3",
@@ -3521,7 +3768,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-18-4",
@@ -3537,7 +3785,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-18-5",
@@ -3551,7 +3800,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XVIII. Преступления против военной службы",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "criminal-18-5-1",
@@ -3568,7 +3818,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "criminal-18-6",
@@ -3585,7 +3836,8 @@ window.SEED_LAWS = [
     "tags": [
       "суд",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-1",
@@ -3599,7 +3851,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Принципы Процессуального кодекса",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-2",
@@ -3616,7 +3869,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-3",
@@ -3630,7 +3884,8 @@ window.SEED_LAWS = [
     "chapter": "Глава I. Принципы Процессуального кодекса",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-4",
@@ -3649,7 +3904,8 @@ window.SEED_LAWS = [
       "ордер",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-5",
@@ -3665,7 +3921,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-6",
@@ -3683,7 +3940,8 @@ window.SEED_LAWS = [
       "арест",
       "обыск",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-7",
@@ -3700,7 +3958,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-8",
@@ -3717,7 +3976,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-9",
@@ -3734,7 +3994,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-10",
@@ -3750,7 +4011,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "арест"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-11",
@@ -3767,7 +4029,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-12",
@@ -3784,7 +4047,8 @@ window.SEED_LAWS = [
     "tags": [
       "ордер",
       "прокурор"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-13",
@@ -3798,7 +4062,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Доказательства",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-13-1",
@@ -3812,7 +4077,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Доказательства",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-14",
@@ -3826,7 +4092,8 @@ window.SEED_LAWS = [
     "chapter": "Глава II. Доказательства",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-15",
@@ -3843,7 +4110,8 @@ window.SEED_LAWS = [
     "tags": [
       "задержание",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-16",
@@ -3861,7 +4129,8 @@ window.SEED_LAWS = [
       "задержание",
       "прокурор",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-17",
@@ -3884,7 +4153,8 @@ window.SEED_LAWS = [
       "суд",
       "оружие",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-18",
@@ -3904,7 +4174,8 @@ window.SEED_LAWS = [
       "адвокат",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-19",
@@ -3926,7 +4197,8 @@ window.SEED_LAWS = [
       "прокурор",
       "суд",
       "лишение"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-20",
@@ -3946,7 +4218,8 @@ window.SEED_LAWS = [
       "адвокат",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-21",
@@ -3962,7 +4235,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "задержание"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-22",
@@ -3980,7 +4254,8 @@ window.SEED_LAWS = [
       "арест",
       "адвокат",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-23",
@@ -3997,7 +4272,8 @@ window.SEED_LAWS = [
     "tags": [
       "задержание",
       "адвокат"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-24",
@@ -4016,7 +4292,8 @@ window.SEED_LAWS = [
       "арест",
       "лицензия",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-25",
@@ -4032,7 +4309,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "арест"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-26",
@@ -4049,7 +4327,8 @@ window.SEED_LAWS = [
     "tags": [
       "арест",
       "обыск"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-27",
@@ -4068,7 +4347,8 @@ window.SEED_LAWS = [
       "обыск",
       "суд",
       "оружие"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-28",
@@ -4088,7 +4368,8 @@ window.SEED_LAWS = [
       "прокурор",
       "суд",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-29",
@@ -4105,7 +4386,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-30",
@@ -4123,7 +4405,8 @@ window.SEED_LAWS = [
       "адвокат",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-31",
@@ -4141,7 +4424,8 @@ window.SEED_LAWS = [
       "прокурор",
       "суд",
       "залог"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-32",
@@ -4157,7 +4441,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "залог"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-33",
@@ -4175,7 +4460,8 @@ window.SEED_LAWS = [
       "суд",
       "оружие",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-34",
@@ -4194,7 +4480,8 @@ window.SEED_LAWS = [
       "ордер",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-34-1",
@@ -4211,7 +4498,8 @@ window.SEED_LAWS = [
     "tags": [
       "арест",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-34-2",
@@ -4225,7 +4513,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XI. Розыск",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-34-3",
@@ -4241,7 +4530,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-34-4",
@@ -4257,7 +4547,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-35",
@@ -4273,7 +4564,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-36",
@@ -4289,7 +4581,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-37",
@@ -4303,7 +4596,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIII. Ходатайства и жалобы",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-38",
@@ -4319,7 +4613,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-39",
@@ -4336,7 +4631,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-39-1",
@@ -4353,7 +4649,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-40",
@@ -4367,7 +4664,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-41",
@@ -4381,7 +4679,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-42",
@@ -4395,7 +4694,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-43",
@@ -4409,7 +4709,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-44",
@@ -4425,7 +4726,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-45",
@@ -4443,7 +4745,8 @@ window.SEED_LAWS = [
       "задержание",
       "обыск",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-46",
@@ -4457,7 +4760,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-47",
@@ -4473,7 +4777,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "прокурор"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-48",
@@ -4489,7 +4794,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "обыск"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-49",
@@ -4506,7 +4812,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-50",
@@ -4522,7 +4829,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-51",
@@ -4540,7 +4848,8 @@ window.SEED_LAWS = [
       "адвокат",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-52",
@@ -4556,7 +4865,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "прокурор"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-52-1",
@@ -4570,7 +4880,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-52-2",
@@ -4584,7 +4895,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-52-3",
@@ -4600,7 +4912,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-52-3",
@@ -4616,7 +4929,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "задержание"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-52-4",
@@ -4630,7 +4944,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-52-5",
@@ -4644,7 +4959,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-52-6",
@@ -4658,7 +4974,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XIV. Следствие",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-53",
@@ -4672,7 +4989,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XV. Уголовное производство и уголовное преследование",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-54",
@@ -4688,7 +5006,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-55",
@@ -4704,7 +5023,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-56",
@@ -4720,7 +5040,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-57",
@@ -4737,7 +5058,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-58",
@@ -4751,7 +5073,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XV. Уголовное производство и уголовное преследование",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-58-1",
@@ -4768,7 +5091,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-58-2",
@@ -4784,7 +5108,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-59",
@@ -4798,7 +5123,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XV. Уголовное производство и уголовное преследование",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-59-1",
@@ -4812,7 +5138,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XV. Уголовное производство и уголовное преследование",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "procedure-59-2",
@@ -4829,7 +5156,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-59-3",
@@ -4848,7 +5176,8 @@ window.SEED_LAWS = [
       "ордер",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-59-4",
@@ -4867,7 +5196,8 @@ window.SEED_LAWS = [
       "ордер",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-60",
@@ -4884,7 +5214,8 @@ window.SEED_LAWS = [
     "tags": [
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "procedure-61",
@@ -4903,7 +5234,8 @@ window.SEED_LAWS = [
       "обыск",
       "прокурор",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-1",
@@ -4921,7 +5253,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-2",
@@ -4939,7 +5272,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "дтп"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-2-1",
@@ -4957,7 +5291,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-2-2",
@@ -4974,7 +5309,8 @@ window.SEED_LAWS = [
     "tags": [
       "лицензия",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-3",
@@ -4990,7 +5326,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-4",
@@ -5007,7 +5344,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-5",
@@ -5024,7 +5362,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-6",
@@ -5041,7 +5380,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-7",
@@ -5057,7 +5397,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-8",
@@ -5073,7 +5414,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-9",
@@ -5090,7 +5432,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "суд"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-11",
@@ -5108,7 +5451,8 @@ window.SEED_LAWS = [
       "штраф",
       "суд",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-12",
@@ -5125,7 +5469,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-13",
@@ -5142,7 +5487,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-14",
@@ -5159,7 +5505,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-15",
@@ -5177,7 +5524,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-16",
@@ -5193,7 +5541,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-17",
@@ -5210,7 +5559,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-17-1",
@@ -5227,7 +5577,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-18",
@@ -5245,7 +5596,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-19",
@@ -5263,7 +5615,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-20",
@@ -5277,7 +5630,8 @@ window.SEED_LAWS = [
     "chapter": "Глава IV. Маневрирование",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "road-21",
@@ -5294,7 +5648,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-22",
@@ -5312,7 +5667,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-23",
@@ -5330,7 +5686,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-24",
@@ -5347,7 +5704,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-25",
@@ -5364,7 +5722,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-26",
@@ -5380,7 +5739,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-27",
@@ -5397,7 +5757,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-28",
@@ -5414,7 +5775,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-29",
@@ -5431,7 +5793,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-30",
@@ -5448,7 +5811,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-31",
@@ -5465,7 +5829,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-32",
@@ -5482,7 +5847,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-33",
@@ -5499,7 +5865,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-34",
@@ -5516,7 +5883,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-35",
@@ -5533,7 +5901,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-36",
@@ -5550,7 +5919,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-37",
@@ -5568,7 +5938,8 @@ window.SEED_LAWS = [
       "штраф",
       "суд",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-37-1",
@@ -5585,7 +5956,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-38",
@@ -5602,7 +5974,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-39",
@@ -5619,7 +5992,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-40",
@@ -5636,7 +6010,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-41",
@@ -5652,7 +6027,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-42",
@@ -5668,7 +6044,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-43",
@@ -5684,7 +6061,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-44",
@@ -5700,7 +6078,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-45",
@@ -5718,7 +6097,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-46",
@@ -5734,7 +6114,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-47",
@@ -5752,7 +6133,8 @@ window.SEED_LAWS = [
       "штраф",
       "транспорт",
       "водитель"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-48",
@@ -5769,7 +6151,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-49",
@@ -5785,7 +6168,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-50",
@@ -5801,7 +6185,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-51",
@@ -5817,7 +6202,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-52",
@@ -5834,7 +6220,8 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-53",
@@ -5850,7 +6237,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "штраф"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-54",
@@ -5864,7 +6252,8 @@ window.SEED_LAWS = [
     "chapter": "Глава XI. Дорожная разметка и знаки",
     "source": "",
     "updatedAt": "2026-08-13",
-    "tags": []
+    "tags": [],
+    "project": "boston"
   },
   {
     "id": "road-55",
@@ -5882,7 +6271,8 @@ window.SEED_LAWS = [
       "штраф",
       "суд",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-56",
@@ -5901,7 +6291,8 @@ window.SEED_LAWS = [
       "суд",
       "лишение",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-57",
@@ -5921,7 +6312,8 @@ window.SEED_LAWS = [
       "суд",
       "лишение",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-58",
@@ -5938,7 +6330,8 @@ window.SEED_LAWS = [
     "tags": [
       "задержание",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-59",
@@ -5954,7 +6347,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-60",
@@ -5972,7 +6366,8 @@ window.SEED_LAWS = [
       "штраф",
       "задержание",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-61",
@@ -5988,7 +6383,8 @@ window.SEED_LAWS = [
     "updatedAt": "2026-08-13",
     "tags": [
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-62",
@@ -6005,7 +6401,8 @@ window.SEED_LAWS = [
     "tags": [
       "задержание",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-63",
@@ -6022,7 +6419,8 @@ window.SEED_LAWS = [
     "tags": [
       "суд",
       "транспорт"
-    ]
+    ],
+    "project": "boston"
   },
   {
     "id": "road-64",
@@ -6039,37 +6437,9030 @@ window.SEED_LAWS = [
     "tags": [
       "штраф",
       "транспорт"
+    ],
+    "project": "boston"
+  },
+  {
+    "id": "ru-constitution-1",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 1",
+    "title": "Российская Федерация - Россия есть демократическое федеративное правовое государство с республиканской формой правления. Наименования Российская Федерация и Россия равнозначны",
+    "text": "Российская Федерация - Россия есть демократическое федеративное правовое государство с республиканской формой правления. Наименования Российская Федерация и Россия равнозначны.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-2",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 2",
+    "title": "Человек, его права и свободы являются высшей ценностью. Признание, соблюдение и защита прав и свобод человека и гражданина - обязанность государства",
+    "text": "Человек, его права и свободы являются высшей ценностью. Признание, соблюдение и защита прав и свобод человека и гражданина - обязанность государства.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-3",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 3",
+    "title": "1. Носителем суверенитета и единственным источником власти в Российской Федерации является ее многонациональный народ",
+    "text": "1. Носителем суверенитета и единственным источником власти в Российской Федерации является ее многонациональный народ.\n2. Народ осуществляет свою власть непосредственно, а также через органы государственной власти и органы местного самоуправления.\n3. Высшим непосредственным выражением власти народа являются референдум и свободные выборы.\n4. Никто не может присваивать власть в Российской Федерации. Захват власти или присвоение властных полномочий преследуются по федеральному закону.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-4",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 4",
+    "title": "1. Суверенитет Российской Федерации распространяется на всю ее территорию",
+    "text": "1. Суверенитет Российской Федерации распространяется на всю ее территорию.\n2. Конституция Российской Федерации и федеральные конституционные законы, федеральные законы, кодексы Российской Федерации имеют верховенство на всей территории Российской Федерации.\n3. Российская Федерация обеспечивает целостность и неприкосновенность своей территории.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-5",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 5",
+    "title": "1. Российская Федерация состоит из республик, краев, областей, городов федерального значения, автономной области, автономных округов - равноправных субъектов Российской Федерации",
+    "text": "1. Российская Федерация состоит из республик, краев, областей, городов федерального значения, автономной области, автономных округов - равноправных субъектов Российской Федерации.\n2. Республика (государство) имеет свою конституцию и законодательство. Край, область, город федерального значения, автономная область, автономный округ имеет свой устав и законодательство.\n3. Федеративное устройство Российской Федерации основано на ее государственной целостности, единстве системы государственной власти, разграничении предметов ведения и полномочий между органами государственной власти Российской Федерации и органами государственной власти субъектов Российской Федерации, равноправии и самоопределении народов в Российской Федерации.\n4. Во взаимоотношениях с федеральными органами государственной власти все субъекты Российской Федерации между собой равноправны.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-6",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 6",
+    "title": "1. Гражданство Российской Федерации приобретается и прекращается в соответствии с федеральным законом, является единым и равным независимо от оснований приобретения",
+    "text": "1. Гражданство Российской Федерации приобретается и прекращается в соответствии с федеральным законом, является единым и равным независимо от оснований приобретения.\n2. Каждый гражданин Российской Федерации обладает на ее территории всеми правами и свободами и несет равные обязанности, предусмотренные Конституцией Российской Федерации.\n3. Гражданин Российской Федерации не может быть лишен своего гражданства или права изменить его.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-7",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 7",
+    "title": "1. Российская Федерация - социальное государство, политика которого направлена на создание условий, обеспечивающих достойную жизнь и свободное развитие человека",
+    "text": "1. Российская Федерация - социальное государство, политика которого направлена на создание условий, обеспечивающих достойную жизнь и свободное развитие человека.\n2. В Российской Федерации охраняются труд и здоровье людей, устанавливается гарантированный минимальный размер оплаты труда, обеспечивается государственная поддержка семьи, материнства, отцовства и детства, инвалидов и пожилых граждан, развивается система социальных служб, устанавливаются государственные пенсии, пособия и иные гарантии социальной защиты.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-8",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 8",
+    "title": "1. В Российской Федерации гарантируются единство экономического пространства, свободное перемещение товаров, услуг и финансовых средств, поддержка конкуренции, свобода экономической деятельности",
+    "text": "1. В Российской Федерации гарантируются единство экономического пространства, свободное перемещение товаров, услуг и финансовых средств, поддержка конкуренции, свобода экономической деятельности.\n2. В Российской Федерации признаются и защищаются равным образом частная, государственная, муниципальная и иные формы собственности.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-9",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 9",
+    "title": "1. Земля и другие природные ресурсы используются и охраняются в Российской Федерации как основа жизни и деятельности народов, проживающих на соответствующей территории",
+    "text": "1. Земля и другие природные ресурсы используются и охраняются в Российской Федерации как основа жизни и деятельности народов, проживающих на соответствующей территории.\n2. Земля и другие природные ресурсы могут находиться в частной, государственной, муниципальной и иных формах собственности.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-10",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 10",
+    "title": "Государственная власть в Российской Федерации осуществляется на основе разделения на законодательную, исполнительную и судебную. Органы законодательной, исполнительной и судебной власти самостоятельны",
+    "text": "Государственная власть в Российской Федерации осуществляется на основе разделения на законодательную, исполнительную и судебную. Органы законодательной, исполнительной и судебной власти самостоятельны.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-11",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 11",
+    "title": "1. Государственную власть в Российской Федерации осуществляют Президент Российской Федерации, Федеральное Собрание (Совет Федерации и Государственная Дума), Правительство Российской Федерации, суды Российской Федерации",
+    "text": "1. Государственную власть в Российской Федерации осуществляют Президент Российской Федерации, Федеральное Собрание (Совет Федерации и Государственная Дума), Правительство Российской Федерации, суды Российской Федерации.\n2. Разграничение предметов ведения и полномочий между органами государственной власти Российской Федерации осуществляется настоящей Конституцией.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-12",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 12",
+    "title": "1. В Российской Федерации признается идеологическое многообразие",
+    "text": "1. В Российской Федерации признается идеологическое многообразие.\n2. Никакая идеология не может устанавливаться в качестве государственной или обязательной.\n3. В Российской Федерации признаются политическое многообразие, многопартийность.\n4. Общественные объединения равны перед законом.\n5. Запрещается создание и деятельность общественных объединений, цели или действия которых направлены на насильственное изменение основ конституционного строя и нарушение целостности Российской Федерации, подрыв безопасности государства, создание вооруженных формирований, разжигание социальной, расовой, национальной и религиозной розни.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-13",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 13",
+    "title": "1. Российская Федерация - светское государство. Никакая религия не может устанавливаться в качестве государственной или обязательной",
+    "text": "1. Российская Федерация - светское государство. Никакая религия не может устанавливаться в качестве государственной или обязательной.\n2. Религиозные объединения отделены от государства и равны перед законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-14",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 14",
+    "title": "1. Конституция Российской Федерации имеет высшую юридическую силу, прямое действие и применяется на всей территории Российской Федерации. Законы и иные правовые акты, принимаемые в Российской Федерации, не должны противоречить Конституции Российской Федерации",
+    "text": "1. Конституция Российской Федерации имеет высшую юридическую силу, прямое действие и применяется на всей территории Российской Федерации. Законы и иные правовые акты, принимаемые в Российской Федерации, не должны противоречить Конституции Российской Федерации.\n2. Органы государственной власти, органы местного самоуправления, должностные лица, граждане и их объединения обязаны соблюдать Конституцию Российской Федерации и законы.\n3. Законы подлежат официальному опубликованию. Неопубликованные законы не применяются. Любые нормативные правовые акты, затрагивающие права, свободы и обязанности человека и гражданина, не могут применяться, если они не опубликованы официально для всеобщего сведения.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-15",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 15",
+    "title": "1. Положения настоящей главы Конституции составляют основы конституционного строя Российской Федерации и не могут быть изменены иначе как в порядке, установленном настоящей Конституцией",
+    "text": "1. Положения настоящей главы Конституции составляют основы конституционного строя Российской Федерации и не могут быть изменены иначе как в порядке, установленном настоящей Конституцией.\n2. Никакие другие положения настоящей Конституции не могут противоречить основам конституционного строя Российской Федерации.\n\n\nГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 1. ОСНОВЫ КОНСТИТУЦИОННОГО СТРОЯ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-16",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 16",
+    "title": "1. В Российской Федерации признаются и гарантируются права и свободы человека и гражданина согласно общепризнанным принципам и в соответствии с настоящей Конституцией",
+    "text": "1. В Российской Федерации признаются и гарантируются права и свободы человека и гражданина согласно общепризнанным принципам и в соответствии с настоящей Конституцией.\n2. Основные права и свободы человека неотчуждаемы и принадлежат каждому от рождения.\n3. Осуществление прав и свобод человека и гражданина не должно нарушать права и свободы других лиц.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-17",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 17",
+    "title": "Права и свободы человека и гражданина являются непосредственно действующими. Они определяют смысл, содержание и применение законов, деятельность законодательной и исполнительной власти, местного самоуправления и обеспечиваются правосудием",
+    "text": "Права и свободы человека и гражданина являются непосредственно действующими. Они определяют смысл, содержание и применение законов, деятельность законодательной и исполнительной власти, местного самоуправления и обеспечиваются правосудием.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-18",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 18",
+    "title": "1. Все равны перед законом и судом",
+    "text": "1. Все равны перед законом и судом.\n2. Государство гарантирует равенство прав и свобод человека и гражданина независимо от пола, расы, национальности, языка, происхождения, имущественного и должностного положения, места жительства, отношения к религии, убеждений, принадлежности к общественным объединениям, а также других обстоятельств. Запрещаются любые формы ограничения прав граждан по признакам социальной, расовой, национальной, языковой или религиозной принадлежности.\n3. Мужчина и женщина имеют равные права и свободы и равные возможности для их реализации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-19",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 19",
+    "title": "1. Каждый имеет право на жизнь",
+    "text": "1. Каждый имеет право на жизнь.\n2. Смертная казнь впредь до ее отмены может устанавливаться федеральным законом в качестве исключительной меры наказания за особо тяжкие преступления против жизни при предоставлении обвиняемому права на рассмотрение его дела судом с участием присяжных заседателей.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-20",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 20",
+    "title": "1. Достоинство личности охраняется государством. Ничто не может быть основанием для его умаления",
+    "text": "1. Достоинство личности охраняется государством. Ничто не может быть основанием для его умаления.\n2. Никто не должен подвергаться пыткам, насилию, другому жестокому или унижающему человеческое достоинство обращению или наказанию. Никто не может быть без добровольного согласия подвергнут медицинским, научным или иным опытам.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-21",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 21",
+    "title": "Каждый имеет право на свободу и личную неприкосновенность",
+    "text": "Каждый имеет право на свободу и личную неприкосновенность.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-22",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 22",
+    "title": "1. Каждый имеет право на неприкосновенность частной жизни, личную и семейную тайну, защиту своей чести и доброго имени",
+    "text": "1. Каждый имеет право на неприкосновенность частной жизни, личную и семейную тайну, защиту своей чести и доброго имени.\n2. Каждый имеет право на тайну переписки, телефонных переговоров, почтовых, телеграфных и иных сообщений. Ограничение этого права допускается только на основании судебного решения.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-23",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 23",
+    "title": "1. Сбор, хранение, использование и распространение информации о частной жизни лица без его согласия не допускаются",
+    "text": "1. Сбор, хранение, использование и распространение информации о частной жизни лица без его согласия не допускаются.\n2. Органы государственной власти, их должностные лица обязаны обеспечить каждому возможность ознакомления с документами и материалами, непосредственно затрагивающими его права и свободы, если иное не предусмотрено законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-24",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 24",
+    "title": "Жилище неприкосновенно. Никто не вправе проникать в жилище против воли проживающих в нем лиц иначе как в случаях, установленных федеральным законом, или на основании судебного решения",
+    "text": "Жилище неприкосновенно. Никто не вправе проникать в жилище против воли проживающих в нем лиц иначе как в случаях, установленных федеральным законом, или на основании судебного решения.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-25",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 25",
+    "title": "1. Каждый вправе определять и указывать свою национальную принадлежность. Никто не может быть принужден к определению и указанию своей национальной принадлежности",
+    "text": "1. Каждый вправе определять и указывать свою национальную принадлежность. Никто не может быть принужден к определению и указанию своей национальной принадлежности.\n2. Каждый имеет право на пользование родным языком, на свободный выбор языка общения, воспитания, обучения и творчества.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-26",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 26",
+    "title": "Каждый, кто законно находится на территории Российской Федерации, имеет право свободно передвигаться, выбирать место пребывания и жительства",
+    "text": "Каждый, кто законно находится на территории Российской Федерации, имеет право свободно передвигаться, выбирать место пребывания и жительства.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-27",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 27",
+    "title": "Каждому гарантируется свобода совести, свобода вероисповедания, включая право исповедовать индивидуально или совместно с другими любую религию или не исповедовать никакой, свободно выбирать, иметь и распространять религиозные и иные убеждения и действовать в соответствии с ними",
+    "text": "Каждому гарантируется свобода совести, свобода вероисповедания, включая право исповедовать индивидуально или совместно с другими любую религию или не исповедовать никакой, свободно выбирать, иметь и распространять религиозные и иные убеждения и действовать в соответствии с ними.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-28",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 28",
+    "title": "1. Каждому гарантируется свобода мысли и слова",
+    "text": "1. Каждому гарантируется свобода мысли и слова.\n2. Не допускаются пропаганда или агитация, возбуждающие социальную, расовую, национальную или религиозную ненависть и вражду. Запрещается пропаганда социального, расового, национального, религиозного или языкового превосходства.\n3. Никто не может быть принужден к выражению своих мнений и убеждений или отказу от них.\n4. Каждый имеет право свободно искать, получать, передавать, производить и распространять информацию любым законным способом. Перечень сведений, составляющих государственную тайну, определяется федеральным законом.\n5. Гарантируется свобода массовой информации. Цензура запрещается.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-29",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 29",
+    "title": "1. Каждый имеет право на объединение, включая право создавать профессиональные союзы для защиты своих интересов. Свобода деятельности общественных объединений гарантируется",
+    "text": "1. Каждый имеет право на объединение, включая право создавать профессиональные союзы для защиты своих интересов. Свобода деятельности общественных объединений гарантируется.\n2. Никто не может быть принужден к вступлению в какое-либо объединение или пребыванию в нем.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-30",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 30",
+    "title": "Граждане Российской Федерации имеют право собираться мирно, без оружия, проводить собрания, митинги и демонстрации, шествия и пикетирование",
+    "text": "Граждане Российской Федерации имеют право собираться мирно, без оружия, проводить собрания, митинги и демонстрации, шествия и пикетирование.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-31",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 31",
+    "title": "1. Граждане Российской Федерации имеют право участвовать в управлении делами государства как непосредственно, так и через своих представителей",
+    "text": "1. Граждане Российской Федерации имеют право участвовать в управлении делами государства как непосредственно, так и через своих представителей.\n2. Граждане Российской Федерации имеют право избирать и быть избранными в органы государственной власти и органы местного самоуправления, а также участвовать в референдуме.\n3. Не имеют права избирать и быть избранными граждане, признанные судом недееспособными, а также содержащиеся в местах лишения свободы по приговору суда.\n4. Граждане Российской Федерации имеют равный доступ к государственной службе.\n5. Граждане Российской Федерации имеют право участвовать в отправлении правосудия.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-32",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 32",
+    "title": "Граждане Российской Федерации имеют право обращаться лично, а также направлять индивидуальные и коллективные обращения в государственные органы и органы местного самоуправления",
+    "text": "Граждане Российской Федерации имеют право обращаться лично, а также направлять индивидуальные и коллективные обращения в государственные органы и органы местного самоуправления.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-33",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 33",
+    "title": "1. Каждый имеет право на свободное использование своих способностей и имущества для предпринимательской и иной не запрещенной законом экономической деятельности",
+    "text": "1. Каждый имеет право на свободное использование своих способностей и имущества для предпринимательской и иной не запрещенной законом экономической деятельности.\n2. Не допускается экономическая деятельность, направленная на монополизацию и недобросовестную конкуренцию.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-34",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 34",
+    "title": "1. Право частной собственности охраняется законом",
+    "text": "1. Право частной собственности охраняется законом.\n2. Каждый вправе иметь имущество в собственности, владеть, пользоваться и распоряжаться им как единолично, так и совместно с другими лицами.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-35",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 35",
+    "title": "1. Граждане и их объединения вправе иметь в частной собственности землю",
+    "text": "1. Граждане и их объединения вправе иметь в частной собственности землю.\n2. Владение, пользование и распоряжение землей и другими природными ресурсами осуществляются их собственниками свободно, если это не наносит ущерба окружающей среде и не нарушает прав и законных интересов иных лиц.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-36",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 36",
+    "title": "1. Труд свободен. Каждый имеет право свободно распоряжаться своими способностями к труду, выбирать род деятельности и профессию",
+    "text": "1. Труд свободен. Каждый имеет право свободно распоряжаться своими способностями к труду, выбирать род деятельности и профессию.\n2. Принудительный труд запрещен.\n3. Каждый имеет право на труд в условиях, отвечающих требованиям безопасности и гигиены, на вознаграждение за труд без какой бы то ни было дискриминации и не ниже установленного федеральным законом минимального размера оплаты труда, а также право на защиту от безработицы.\n4. Признается право на индивидуальные и коллективные трудовые споры с использованием установленных федеральным законом способов их разрешения.\n5. Каждый имеет право на отдых. Работающему по трудовому договору гарантируются установленные федеральным законом продолжительность рабочего времени, выходные и праздничные дни, отпуск.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-37",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 37",
+    "title": "1. Каждый имеет право на жилище. Никто не может быть произвольно лишен жилища",
+    "text": "1. Каждый имеет право на жилище. Никто не может быть произвольно лишен жилища.\n2. Органы государственной власти создают условия для осуществления права на жилище.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-38",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 38",
+    "title": "1. Каждый имеет право на охрану здоровья и медицинскую помощь. Медицинская помощь в государственных учреждениях здравоохранения оказывается гражданам бесплатно за счет средств соответствующего бюджета, страховых взносов, других поступлений",
+    "text": "1. Каждый имеет право на охрану здоровья и медицинскую помощь. Медицинская помощь в государственных учреждениях здравоохранения оказывается гражданам бесплатно за счет средств соответствующего бюджета, страховых взносов, других поступлений.\n2. В Российской Федерации финансируются программы способствующие укреплению здоровья человека, развитию физической культуры и спорта, экологическому и санитарно-эпидемиологическому благополучию.\n3. Сокрытие должностными лицами фактов и обстоятельств, создающих угрозу для жизни и здоровья людей, влечет за собой ответственность в соответствии с федеральным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-39",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 39",
+    "title": "Каждый имеет право на благоприятную окружающую среду, достоверную информацию о ее состоянии и на возмещение ущерба, причиненного его здоровью или имуществу экологическим правонарушением",
+    "text": "Каждый имеет право на благоприятную окружающую среду, достоверную информацию о ее состоянии и на возмещение ущерба, причиненного его здоровью или имуществу экологическим правонарушением.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-40",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 40",
+    "title": "1. Каждому гарантируется свобода литературного, художественного, научного, технического и других видов творчества, преподавания",
+    "text": "1. Каждому гарантируется свобода литературного, художественного, научного, технического и других видов творчества, преподавания.\n2. Каждый имеет право на участие в культурной жизни и пользование учреждениями культуры, на доступ к культурным ценностям.\n3. Каждый обязан заботиться о сохранении исторического и культурного наследия, беречь памятники истории и культуры.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-41",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 41",
+    "title": "1. Государственная защита прав и свобод человека и гражданина в Российской Федерации гарантируется",
+    "text": "1. Государственная защита прав и свобод человека и гражданина в Российской Федерации гарантируется.\n2. Каждый вправе защищать свои права и свободы всеми способами, не запрещенными законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-42",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 42",
+    "title": "1. Каждому гарантируется судебная защита его прав и свобод",
+    "text": "1. Каждому гарантируется судебная защита его прав и свобод.\n2. Решения и действия (или бездействие) органов государственной власти, органов местного самоуправления, общественных объединений и должностных лиц могут быть обжалованы в суд.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-43",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 43",
+    "title": "1. Никто не может быть лишен права на рассмотрение его дела в том суде и тем судьей, к подсудности которых оно отнесено законом",
+    "text": "1. Никто не может быть лишен права на рассмотрение его дела в том суде и тем судьей, к подсудности которых оно отнесено законом.\n2. Обвиняемый в совершении преступления имеет право на рассмотрение его дела судом с участием присяжных заседателей в случаях, предусмотренных федеральным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-44",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 44",
+    "title": "1. Каждому гарантируется право на получение квалифицированной юридической помощи. В случаях, предусмотренных законом, юридическая помощь оказывается бесплатно",
+    "text": "1. Каждому гарантируется право на получение квалифицированной юридической помощи. В случаях, предусмотренных законом, юридическая помощь оказывается бесплатно.\n2. Каждый задержанный, заключенный под стражу, обвиняемый в совершении преступления имеет право пользоваться помощью адвоката (защитника) с момента соответственно задержания, заключения под стражу или предъявления обвинения.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-45",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 45",
+    "title": "1. Каждый обвиняемый в совершении преступления считается невиновным, пока его виновность не будет доказана в предусмотренном федеральным законом порядке и установлена вступившим в законную силу приговором суда",
+    "text": "1. Каждый обвиняемый в совершении преступления считается невиновным, пока его виновность не будет доказана в предусмотренном федеральным законом порядке и установлена вступившим в законную силу приговором суда.\n2. Обвиняемый не обязан доказывать свою невиновность.\n3. Неустранимые сомнения в виновности лица толкуются в пользу обвиняемого.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-46",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 46",
+    "title": "1. Никто не может быть повторно осужден за одно и то же преступление",
+    "text": "1. Никто не может быть повторно осужден за одно и то же преступление.\n2. При осуществлении правосудия не допускается использование доказательств, полученных с нарушением федерального закона.\n3. Каждый осужденный за преступление имеет право на пересмотр приговора вышестоящим судом в порядке, установленном федеральным законом, а также право просить о помиловании или смягчении наказания.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-47",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 47",
+    "title": "1. Никто не обязан свидетельствовать против себя самого, своего супруга и близких родственников, круг которых определяется федеральным законом",
+    "text": "1. Никто не обязан свидетельствовать против себя самого, своего супруга и близких родственников, круг которых определяется федеральным законом.\n2. Федеральным законом могут устанавливаться иные случаи освобождения от обязанности давать свидетельские показания.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-48",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 48",
+    "title": "Права потерпевших от преступлений и злоупотреблений властью охраняются законом. Государство обеспечивает потерпевшим доступ к правосудию и компенсацию причиненного ущерба",
+    "text": "Права потерпевших от преступлений и злоупотреблений властью охраняются законом. Государство обеспечивает потерпевшим доступ к правосудию и компенсацию причиненного ущерба.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-49",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 49",
+    "title": "Каждый имеет право на возмещение государством вреда, причиненного незаконными действиями (или бездействием) органов государственной власти или их должностных лиц",
+    "text": "Каждый имеет право на возмещение государством вреда, причиненного незаконными действиями (или бездействием) органов государственной власти или их должностных лиц.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-50",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 50",
+    "title": "1. Закон, устанавливающий или отягчающий ответственность, обратной силы не имеет",
+    "text": "1. Закон, устанавливающий или отягчающий ответственность, обратной силы не имеет.\n2. Никто не может нести ответственность за деяние, которое в момент его совершения не признавалось правонарушением. Если после совершения правонарушения ответственность за него устранена или смягчена, применяется новый закон.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-51",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 51",
+    "title": "1. Перечисление в Конституции Российской Федерации основных прав и свобод не должно толковаться как отрицание или умаление других общепризнанных прав и свобод человека и гражданина",
+    "text": "1. Перечисление в Конституции Российской Федерации основных прав и свобод не должно толковаться как отрицание или умаление других общепризнанных прав и свобод человека и гражданина.\n2. В Российской Федерации не должны издаваться законы, отменяющие или умаляющие права и свободы человека и гражданина.\n3. Права и свободы человека и гражданина могут быть ограничены федеральным законом только в той мере, в какой это необходимо в целях защиты основ конституционного строя, нравственности, здоровья, прав и законных интересов других лиц, обеспечения обороны страны и безопасности государства.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-52",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 52",
+    "title": "1. В условиях чрезвычайного положения для обеспечения безопасности граждан и защиты конституционного строя в соответствии с федеральным конституционным законом, федеральным законом могут устанавливаться отдельные ограничения прав и свобод с указанием пределов и срока их действия",
+    "text": "1. В условиях чрезвычайного положения для обеспечения безопасности граждан и защиты конституционного строя в соответствии с федеральным конституционным законом, федеральным законом могут устанавливаться отдельные ограничения прав и свобод с указанием пределов и срока их действия.\n2. Чрезвычайное положение на всей территории Российской Федерации и в ее отдельных местностях может вводиться при наличии обстоятельств и в порядке, установленных федеральным конституционным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-53",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 53",
+    "title": "Каждый обязан платить законно установленные налоги и сборы",
+    "text": "Каждый обязан платить законно установленные налоги и сборы.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-54",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 54",
+    "title": "Каждый обязан сохранять природу и окружающую среду, бережно относиться к природным богатствам",
+    "text": "Каждый обязан сохранять природу и окружающую среду, бережно относиться к природным богатствам.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-55",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 55",
+    "title": "1. Защита Отечества является долгом и обязанностью гражданина Российской Федерации",
+    "text": "1. Защита Отечества является долгом и обязанностью гражданина Российской Федерации.\n2. Гражданин Российской Федерации несет военную службу в соответствии с федеральным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-56",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 56",
+    "title": "Гражданин Российской Федерации в случае, если его убеждениям или вероисповеданию противоречит несение военной службы, а также в иных установленных федеральным законом случаях имеет право на замену ее альтернативной гражданской службой",
+    "text": "Гражданин Российской Федерации в случае, если его убеждениям или вероисповеданию противоречит несение военной службы, а также в иных установленных федеральным законом случаях имеет право на замену ее альтернативной гражданской службой.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-57",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 57",
+    "title": "Положения настоящей главы составляют основы правового статуса личности в Российской Федерации и не могут быть изменены иначе как в порядке, установленном настоящей Конституцией",
+    "text": "Положения настоящей главы составляют основы правового статуса личности в Российской Федерации и не могут быть изменены иначе как в порядке, установленном настоящей Конституцией.\n\n\nГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 2. ПРАВА И СВОБОДЫ ЧЕЛОВЕКА И ГРАЖДАНИНА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-58",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 58",
+    "title": "В составе Российской Федерации находятся субъекты Российской Федерации",
+    "text": "В составе Российской Федерации находятся субъекты Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-59",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 59",
+    "title": "1. Статус республики определяется Конституцией Российской Федерации и конституцией республики",
+    "text": "1. Статус республики определяется Конституцией Российской Федерации и конституцией республики.\n2. Статус края, области, города федерального значения, автономной области, автономного округа определяется Конституцией Российской Федерации и уставом края, области, города федерального значения, автономной области, автономного округа, принимаемым законодательным (представительным) органом соответствующего субъекта Российской Федерации.\n3. Отношения автономных округов, входящих в состав края или области, могут регулироваться федеральным законом и договором между органами государственной власти автономного округа и, соответственно, органами государственной власти края или области.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-60",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 60",
+    "title": "1. Государственным языком Российской Федерации на всей ее территории является русский язык как язык государствообразующего народа, входящего в многонациональный союз равноправных народов Российской Федерации. Вся официальная деятельность на территории Российской Федерации осуществляется на государственном языке",
+    "text": "1. Государственным языком Российской Федерации на всей ее территории является русский язык как язык государствообразующего народа, входящего в многонациональный союз равноправных народов Российской Федерации. Вся официальная деятельность на территории Российской Федерации осуществляется на государственном языке.\n2. Российская Федерация гарантирует всем ее народам право на сохранение родного языка, создание условий для его изучения и развития.\n3. Культура в Российской Федерации является уникальным наследием ее многонационального народа. Культура поддерживается и охраняется государством.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-61",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 61",
+    "title": "1. Государственные флаг, герб и гимн Российской Федерации, их описание и порядок официального использования устанавливаются федеральным конституционным законом",
+    "text": "1. Государственные флаг, герб и гимн Российской Федерации, их описание и порядок официального использования устанавливаются федеральным конституционным законом.\n2. Столицей Российской Федерации является город федерального значения Москва.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-62",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 62",
+    "title": "В ведении Российской Федерации находятся:",
+    "text": "В ведении Российской Федерации находятся:\nа) принятие и изменение Конституции Российской Федерации и федеральных законов, контроль за их соблюдением;\nб) федеративное устройство и территория Российской Федерации;\nв) регулирование и защита прав и свобод человека и гражданина;\nг) организация публичной власти; установление системы федеральных органов законодательной, исполнительной и судебной власти, порядка их организации и деятельности; формирование федеральных органов государственной власти;\nд) федеральная государственная собственность и управление ею;\nе) установление основ федеральной политики и федеральные программы в области государственного, экономического, экологического, научно-технологического, социального, культурного и национального развития Российской Федерации; установление единых правовых основ системы здравоохранения, системы воспитания и образования, в том числе непрерывного образования;\nж) установление правовых основ единого рынка; финансовое, валютное, кредитное, таможенное регулирование, денежная эмиссия, основы ценовой политики; федеральные экономические службы, включая федеральные банки;\nз) федеральный бюджет; федеральные налоги и сборы; федеральные фонды регионального развития;\nи) федеральные энергетические системы, ядерная энергетика, расщепляющиеся материалы; федеральные транспорт, пути сообщения, информация, информационные технологии и связь; космическая деятельность;\nк) судоустройство; прокуратура; уголовное и уголовно-исполнительное законодательство; амнистия и помилование; гражданское законодательство; процессуальное законодательство; правовое регулирование интеллектуальной собственности;\nл) федеральное коллизионное право;\nм) государственные награды и почетные звания Российской Федерации;\nн) федеральная государственная служба; установление ограничений для замещения государственных и муниципальных должностей, должностей государственной и муниципальной службы, в том числе ограничений, связанных с наличием гражданства иностранного государства либо вида на жительство или иного документа, подтверждающего право на постоянное проживание гражданина Российской Федерации на территории иностранного государства, а также ограничений, связанных с открытием и наличием счетов (вкладов), хранением наличных денежных средств и ценностей в иностранных банках, расположенных за пределами территории Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "транспорт",
+      "конституция",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-constitution-63",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 63",
+    "title": "Денежной единицей в Российской Федерации является рубль (российский рубль)",
+    "text": "Денежной единицей в Российской Федерации является рубль (российский рубль).",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-64",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 64",
+    "title": "В Российской Федерации создаются условия для устойчивого экономического роста страны и повышения благосостояния граждан, для взаимного доверия государства и общества, гарантируются защита достоинства граждан и уважение человека труда, обеспечиваются сбалансированность прав и обязанностей гражданина, социальное партнерство, экономическая, политическая и социальная солидарность",
+    "text": "В Российской Федерации создаются условия для устойчивого экономического роста страны и повышения благосостояния граждан, для взаимного доверия государства и общества, гарантируются защита достоинства граждан и уважение человека труда, обеспечиваются сбалансированность прав и обязанностей гражданина, социальное партнерство, экономическая, политическая и социальная солидарность.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-65",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 65",
+    "title": "1. По предметам ведения Российской Федерации принимаются федеральные конституционные законы и федеральные законы, имеющие прямое действие на всей территории Российской Федерации",
+    "text": "1. По предметам ведения Российской Федерации принимаются федеральные конституционные законы и федеральные законы, имеющие прямое действие на всей территории Российской Федерации.\n2. По предметам совместного ведения Российской Федерации и субъектов Российской Федерации издаются федеральные законы и принимаемые в соответствии с ними законы и иные нормативные правовые акты субъектов Российской Федерации.\n3. Федеральные законы не могут противоречить федеральным конституционным законам.\n4. Вне пределов ведения Российской Федерации, совместного ведения Российской Федерации и субъектов Российской Федерации республики, края, области, города федерального значения, автономная область и автономные округа осуществляют собственное правовое регулирование, включая принятие законов и иных нормативных правовых актов.\n5. Законы и иные нормативные правовые акты субъектов Российской Федерации не могут противоречить федеральным законам, принятым в соответствии с частями первой и второй настоящей статьи. В случае противоречия между федеральным законом и иным актом, изданным в Российской Федерации, действует федеральный закон.\n6. В случае противоречия между федеральным законом и нормативным правовым актом субъекта Российской Федерации, изданным в соответствии с частью четвертой настоящей статьи, действует нормативный правовой акт субъекта Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-66",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 66",
+    "title": "Система органов государственной власти республик, краев, областей, городов федерального значения, автономной области, автономных округов устанавливается субъектами Российской Федерации самостоятельно в соответствии с основами конституционного строя Российской Федерации и общими принципами организации представительных и исполнительных органов государственной власти",
+    "text": "Система органов государственной власти республик, краев, областей, городов федерального значения, автономной области, автономных округов устанавливается субъектами Российской Федерации самостоятельно в соответствии с основами конституционного строя Российской Федерации и общими принципами организации представительных и исполнительных органов государственной власти.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-67",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 67",
+    "title": "Президент Российской Федерации и Правительство Российской Федерации обеспечивают в соответствии с Конституцией Российской Федерации осуществление полномочий федеральной государственной власти на всей территории Российской Федерации",
+    "text": "Президент Российской Федерации и Правительство Российской Федерации обеспечивают в соответствии с Конституцией Российской Федерации осуществление полномочий федеральной государственной власти на всей территории Российской Федерации.\n\n\nГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 3. ФЕДЕРАТИВНОЕ УСТРОЙСТВО",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-68",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 68",
+    "title": "1. Президент Российской Федерации является главой государства",
+    "text": "1. Президент Российской Федерации является главой государства.\n2. Президент Российской Федерации является гарантом Конституции Российской Федерации, прав и свобод человека и гражданина. В установленном Конституцией Российской Федерации порядке он принимает меры по охране суверенитета Российской Федерации, ее независимости и государственной целостности, поддерживает гражданский мир и согласие в стране, обеспечивает согласованное функционирование и взаимодействие органов, входящих в единую систему публичной власти.\n3. Президент Российской Федерации в соответствии с Конституцией Российской Федерации и федеральными законами определяет основные направления внутренней политики государства.\n4. Президент Российской Федерации как глава государства представляет Российскую Федерацию внутри страны.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-69",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 69",
+    "title": "1. Президент Российской Федерации избирается сроком на 45 дней гражданами Российской Федерации на основе всеобщего равного и прямого избирательного права при тайном голосовании",
+    "text": "1. Президент Российской Федерации избирается сроком на 45 дней гражданами Российской Федерации на основе всеобщего равного и прямого избирательного права при тайном голосовании.\n2. В случае невозможности избрания президента, либо его отсутствия, Совет Федерации Федерального Собрания РФ обладает правом наделить Председателя Правительства Российской Федерации всеми правами и полномочиями Президента, его обязанностями. В данном случае Заместитель Председателя Правительства Российской Федерации наделяется всеми правами и полномочиями Председателя Правительства Российской Федерации, установленными законодательством.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-70",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 70",
+    "title": "При вступлении в должность Президент Российской Федерации приносит народу следующую присягу:",
+    "text": "При вступлении в должность Президент Российской Федерации приносит народу следующую присягу:\n\"Клянусь при осуществлении полномочий Президента Российской Федерации уважать и охранять права и свободы человека и гражданина, соблюдать и защищать Конституцию Российской Федерации, защищать суверенитет и независимость, безопасность и целостность государства, верно служить народу\".",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-71",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 71",
+    "title": "Президент Российской Федерации:",
+    "text": "Президент Российской Федерации:\nа) назначает и освобождает Председателя Правительства Российской Федерации от должности;\nб) осуществляет общее руководство Правительством Российской Федерации; вправе председательствовать на заседаниях Правительства Российской Федерации;\nб.1) утверждает по предложению Председателя Правительства Российской Федерации структуру федеральных органов исполнительной власти, вносит в нее изменения; в структуре федеральных органов исполнительной власти определяет органы, руководство деятельностью которых осуществляет Президент Российской Федерации, и органы, руководство деятельностью которых осуществляет Правительство Российской Федерации;\nв) принимает решение об отставке Правительства Российской Федерации;\nв.1) принимает отставку Председателя Правительства Российской Федерации, заместителей Председателя Правительства Российской Федерации, федеральных министров;\nг) назначает на должность заместителей Председателя Правительства Российской Федерации и федеральных министров, и освобождает их от должности;\nд) назначает на должность и освобождает от должности Генерального прокурора Российской Федерации, заместителей Генерального прокурора Российской Федерации;\nе) утверждает военную доктрину Российской Федерации;\nж) формирует Администрацию Президента Российской Федерации в целях обеспечения реализации своих полномочий.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-72",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 72",
+    "title": "Президент Российской Федерации:",
+    "text": "Президент Российской Федерации:\nа) назначает референдум в порядке, установленном федеральным конституционным законом;\nб) вносит законопроекты в Государственную Думу;\nв) подписывает и обнародует федеральные законы.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-73",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 73",
+    "title": "1. Президент Российской Федерации может использовать согласительные процедуры для разрешения разногласий между органами государственной власти Российской Федерации и органами государственной власти субъектов Российской Федерации, а также между органами государственной власти субъектов Российской Федерации. В случае недостижения согласованного решения он может передать разрешение спора на рассмотрение соответствующего суда",
+    "text": "1. Президент Российской Федерации может использовать согласительные процедуры для разрешения разногласий между органами государственной власти Российской Федерации и органами государственной власти субъектов Российской Федерации, а также между органами государственной власти субъектов Российской Федерации. В случае недостижения согласованного решения он может передать разрешение спора на рассмотрение соответствующего суда.\n2. Президент Российской Федерации вправе приостанавливать действие актов органов исполнительной власти субъектов Российской Федерации в случае противоречия этих актов Конституции Российской Федерации и федеральным законам или нарушения прав и свобод человека и гражданина до решения этого вопроса соответствующим судом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-74",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 74",
+    "title": "1. Президент Российской Федерации является Верховным Главнокомандующим Вооруженными Силами Российской Федерации",
+    "text": "1. Президент Российской Федерации является Верховным Главнокомандующим Вооруженными Силами Российской Федерации.\n2. Режим военного положения определяется федеральным конституционным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-75",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 75",
+    "title": "Президент Российской Федерации при обстоятельствах и в порядке, предусмотренных федеральным конституционным законом, вводит на территории Российской Федерации или в отдельных ее местностях чрезвычайное положение",
+    "text": "Президент Российской Федерации при обстоятельствах и в порядке, предусмотренных федеральным конституционным законом, вводит на территории Российской Федерации или в отдельных ее местностях чрезвычайное положение.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-76",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 76",
+    "title": "Президент Российской Федерации:",
+    "text": "Президент Российской Федерации:\nа) награждает государственными наградами Российской Федерации, присваивает почетные звания Российской Федерации, высшие воинские и высшие специальные звания;\nб) осуществляет помилование.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-77",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 77",
+    "title": "1. Президент Российской Федерации издает указы и распоряжения",
+    "text": "1. Президент Российской Федерации издает указы и распоряжения.\n2. Указы и распоряжения Президента Российской Федерации обязательны для исполнения на всей территории Российской Федерации.\n3. Указы и распоряжения Президента Российской Федерации не должны противоречить Конституции Российской Федерации и федеральным законам.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-78",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 78",
+    "title": "Президент Российской Федерации обладает неприкосновенностью",
+    "text": "Президент Российской Федерации обладает неприкосновенностью.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-79",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 79",
+    "title": "1. Президент Российской Федерации приступает к исполнению полномочий с момента принесения им присяги и прекращает их исполнение с истечением срока его пребывания в должности с момента принесения присяги вновь избранным Президентом Российской Федерации",
+    "text": "1. Президент Российской Федерации приступает к исполнению полномочий с момента принесения им присяги и прекращает их исполнение с истечением срока его пребывания в должности с момента принесения присяги вновь избранным Президентом Российской Федерации.\n2. Президент Российской Федерации прекращает исполнение полномочий досрочно в случае его отставки, стойкой неспособности по состоянию здоровья осуществлять принадлежащие ему полномочия или отрешения от должности.\n3. Во всех случаях, когда Президент Российской Федерации не в состоянии выполнять свои обязанности, их временно исполняет Председатель Правительства Российской Федерации. Исполняющий обязанности Президента Российской Федерации не имеет права назначать референдум, а также вносить предложения о поправках и пересмотре положений Конституции Российской Федерации.\n\n\nГЛАВА 5. ФЕДЕРАЛЬНОЕ СОБРАНИЕ",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 4. ПРЕЗИДЕНТ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-80",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 80",
+    "title": "Федеральное Собрание - парламент Российской Федерации - является представительным и законодательным органом Российской Федерации",
+    "text": "Федеральное Собрание - парламент Российской Федерации - является представительным и законодательным органом Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 5. ФЕДЕРАЛЬНОЕ СОБРАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-81",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 81",
+    "title": "1. Федеральное Собрание состоит из двух палат - Совета Федерации и Государственной Думы",
+    "text": "1. Федеральное Собрание состоит из двух палат - Совета Федерации и Государственной Думы.\n2. Совет Федерации состоит из сенаторов Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 5. ФЕДЕРАЛЬНОЕ СОБРАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-82",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 82",
+    "title": "Порядок формирования Государственной Думы устанавливается федеральными законами",
+    "text": "Порядок формирования Государственной Думы устанавливается федеральными законами.\n\n\nГЛАВА 6. ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 5. ФЕДЕРАЛЬНОЕ СОБРАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-83",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 83",
+    "title": "1. Исполнительную власть Российской Федерации осуществляет Правительство Российской Федерации под общим руководством Президента Российской Федерации",
+    "text": "1. Исполнительную власть Российской Федерации осуществляет Правительство Российской Федерации под общим руководством Президента Российской Федерации.\n2. Правительство Российской Федерации состоит из Председателя Правительства Российской Федерации, заместителей Председателя Правительства Российской Федерации и федеральных министров.\n3. Правительство Российской Федерации руководит деятельностью федеральных органов исполнительной власти, за исключением федеральных органов исполнительной власти, руководство деятельностью которых осуществляет Президент Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 6. ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-84",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 84",
+    "title": "Председатель Правительства Российской Федерации в соответствии с Конституцией Российской Федерации, федеральными законами, указами, распоряжениями, поручениями Президента Российской Федерации организует работу Правительства Российской Федерации. Председатель Правительства Российской Федерации несет персональную ответственность перед Президентом Российской Федерации за осуществление возложенных на Правительство Российской Федерации полномочий",
+    "text": "Председатель Правительства Российской Федерации в соответствии с Конституцией Российской Федерации, федеральными законами, указами, распоряжениями, поручениями Президента Российской Федерации организует работу Правительства Российской Федерации. Председатель Правительства Российской Федерации несет персональную ответственность перед Президентом Российской Федерации за осуществление возложенных на Правительство Российской Федерации полномочий.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 6. ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-85",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 85",
+    "title": "1. Правительство Российской Федерации:",
+    "text": "1. Правительство Российской Федерации:\nа) обеспечивает проведение в Российской Федерации единой социально ориентированной государственной политики в области культуры, науки, образования, здравоохранения, социального обеспечения, поддержки, укрепления и защиты семьи, сохранения традиционных семейных ценностей, а также в области охраны окружающей среды;\nа.1) обеспечивает государственную поддержку научно-технологического развития Российской Федерации, сохранение и развитие ее научного потенциала;\nа.2) обеспечивает функционирование системы социальной защиты инвалидов, основанной на полном и равном осуществлении ими прав и свобод человека и гражданина, их социальную интеграцию без какой-либо дискриминации, создание доступной среды для инвалидов и улучшение качества их жизни;\nв) осуществляет управление федеральной собственностью;\nг) осуществляет меры по обеспечению обороны страны, государственной безопасности, реализации внешней политики Российской Федерации;\nд) осуществляет меры по обеспечению законности, прав и свобод граждан, охране собственности и общественного порядка, борьбе с преступностью;\nд.1) осуществляет меры по поддержке институтов гражданского общества, в том числе некоммерческих организаций, обеспечивает их участие в выработке и проведении государственной политики;\nд.2) осуществляет меры по поддержке добровольческой (волонтерской) деятельности;\nд.3) содействует развитию предпринимательства и частной инициативы;\nд.4) обеспечивает реализацию принципов социального партнерства в сфере регулирования трудовых и иных непосредственно связанных с ними отношений;\nд.5) осуществляет меры, направленные на создание благоприятных условий жизнедеятельности населения, снижение негативного воздействия хозяйственной и иной деятельности на окружающую среду, сохранение уникального природного и биологического многообразия страны, формирование в обществе ответственного отношения к животным;\nд.6) создает условия для развития системы экологического образования граждан, воспитания экологической культуры;\nе) осуществляет иные полномочия, возложенные на него Конституцией Российской Федерации, федеральными законами, указами Президента Российской Федерации.\n2. Порядок деятельности Правительства Российской Федерации определяется федеральным конституционным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 6. ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-86",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 86",
+    "title": "1. На основании и во исполнение Конституции Российской Федерации, федеральных законов, указов, распоряжений, поручений Президента Российской Федерации Правительство Российской Федерации издает постановления и распоряжения, обеспечивает их исполнение",
+    "text": "1. На основании и во исполнение Конституции Российской Федерации, федеральных законов, указов, распоряжений, поручений Президента Российской Федерации Правительство Российской Федерации издает постановления и распоряжения, обеспечивает их исполнение.\n2. Постановления и распоряжения Правительства Российской Федерации обязательны к исполнению в Российской Федерации.\n3. Постановления и распоряжения Правительства Российской Федерации в случае их противоречия Конституции Российской Федерации, федеральным законам, указам и распоряжениям Президента Российской Федерации могут быть отменены Президентом Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 6. ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-87",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 87",
+    "title": "Перед вновь избранным Президентом Российской Федерации Правительство Российской Федерации слагает свои полномочия",
+    "text": "Перед вновь избранным Президентом Российской Федерации Правительство Российской Федерации слагает свои полномочия.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 6. ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-88",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 88",
+    "title": "1. Правительство Российской Федерации может подать в отставку, которая принимается или отклоняется Президентом Российской Федерации",
+    "text": "1. Правительство Российской Федерации может подать в отставку, которая принимается или отклоняется Президентом Российской Федерации.\n2. Президент Российской Федерации может принять решение об отставке Правительства Российской Федерации.\n3. Председатель Правительства Российской Федерации, Заместитель Председателя Правительства Российской Федерации, федеральный министр вправе подать в отставку, которая принимается или отклоняется Президентом Российской Федерации.\n4. В случае отставки или сложения полномочий Правительство Российской Федерации по поручению Президента Российской Федерации продолжает действовать до формирования нового Правительства Российской Федерации. В случае освобождения от должности Президентом Российской Федерации или отставки Председателя Правительства Российской Федерации, Заместителя Председателя Правительства Российской Федерации, федерального министра Президент Российской Федерации вправе поручить этому лицу продолжать исполнять обязанности по должности или возложить их исполнение на другое лицо до соответствующего назначения.\n\n\nГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 6. ПРАВИТЕЛЬСТВО РОССИЙСКОЙ ФЕДЕРАЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-89",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 89",
+    "title": "1. Правосудие в Российской Федерации осуществляется только судом",
+    "text": "1. Правосудие в Российской Федерации осуществляется только судом.\n2. Судебная власть осуществляется посредством конституционного, гражданского, административного и уголовного судопроизводства.\n3. Судебная система Российской Федерации устанавливается Конституцией Российской Федерации и федеральным конституционным законом. Судебную систему Российской Федерации составляют Федеральный Суд Российской Федерации, Верховный Суд Российской Федерации и Окружной Суд Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-90",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 90",
+    "title": "1. Судьи независимы и подчиняются только Конституции Российской Федерации и федеральному закону",
+    "text": "1. Судьи независимы и подчиняются только Конституции Российской Федерации и федеральному закону.\n2. Суд, установив при рассмотрении дела несоответствие акта государственного или иного органа закону, принимает решение в соответствии с законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-91",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 91",
+    "title": "Полномочия судьи могут быть прекращены или приостановлены не иначе как в порядке и по основаниям, установленным федеральным законом",
+    "text": "Полномочия судьи могут быть прекращены или приостановлены не иначе как в порядке и по основаниям, установленным федеральным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-92",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 92",
+    "title": "1. Судьи неприкосновенны",
+    "text": "1. Судьи неприкосновенны.\n2. Судья не может быть привлечен к уголовной ответственности иначе как в порядке, определяемом федеральным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-93",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 93",
+    "title": "1. Разбирательство дел во всех судах открытое. Слушание дела в закрытом заседании допускается в случаях, предусмотренных федеральным законом",
+    "text": "1. Разбирательство дел во всех судах открытое. Слушание дела в закрытом заседании допускается в случаях, предусмотренных федеральным законом.\n2. Заочное разбирательство уголовных дел в судах не допускается, кроме случаев, предусмотренных федеральным законом.\n3. Судопроизводство осуществляется на основе состязательности и равноправия сторон.\n4. В случаях, предусмотренных федеральным законом, судопроизводство осуществляется с участием присяжных заседателей.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-94",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 94",
+    "title": "Финансирование судов производится только из федерального бюджета и должно обеспечивать возможность полного и независимого осуществления правосудия в соответствии с федеральным законом",
+    "text": "Финансирование судов производится только из федерального бюджета и должно обеспечивать возможность полного и независимого осуществления правосудия в соответствии с федеральным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-95",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 95",
+    "title": "1. Верховный Суд Российской Федерации является высшим судебным органом конституционного контроля в Российской Федерации, осуществляющим судебную власть посредством конституционного судопроизводства в целях защиты основ конституционного строя, основных прав и свобод человека и гражданина, обеспечения верховенства и прямого действия Конституции Российской Федерации на всей территории Российской Федерации",
+    "text": "1. Верховный Суд Российской Федерации является высшим судебным органом конституционного контроля в Российской Федерации, осуществляющим судебную власть посредством конституционного судопроизводства в целях защиты основ конституционного строя, основных прав и свобод человека и гражданина, обеспечения верховенства и прямого действия Конституции Российской Федерации на всей территории Российской Федерации.\n2. Верховный Суд Российской Федерации по запросам Президента Российской Федерации, Государственной Думы, одной пятой депутатов Государственной Думы, Правительства Российской Федерации, Окружного Суда Российской Федерации, органов законодательной и исполнительной власти субъектов Российской Федерации разрешает дела о соответствии Конституции Российской Федерации:\nа) федеральных конституционных законов, федеральных законов, нормативных актов Президента Российской Федерации, Государственной Думы, Правительства Российской Федерации;\nб) конституций республик, уставов, а также законов и иных нормативных актов субъектов Российской Федерации, изданных по вопросам, относящимся к ведению органов государственной власти Российской Федерации и совместному ведению органов государственной власти Российской Федерации и органов государственной власти субъектов Российской Федерации;\nв) договоров между органами государственной власти Российской Федерации и органами государственной власти субъектов Российской Федерации, договоров между органами государственной власти субъектов Российской Федерации.\n3. Верховный Суд Российской Федерации разрешает споры о компетенции:\nа) между федеральными органами государственной власти;\nб) между органами государственной власти Российской Федерации и органами государственной власти субъектов Российской Федерации;\nв) между высшими государственными органами субъектов Российской Федерации.\n4. Верховный Суд Российской Федерации в порядке, установленном федеральным конституционным законом, проверяет:\nа) по жалобам на нарушение конституционных прав и свобод граждан - конституционность законов и иных нормативных актов, указанных в пунктах \"а\" и \"б\" части 2 настоящей статьи, примененных в конкретном деле, если исчерпаны все другие внутригосударственные средства судебной защиты;\nб) по запросам судов - конституционность законов и иных нормативных актов, указанных в пунктах \"а\" и \"б\" части 2 настоящей статьи, подлежащих применению в конкретном деле.\n5. Верховный Суд Российской Федерации по запросам Президента Российской Федерации, Государственной Думы, Правительства Российской Федерации, органов законодательной власти субъектов Российской Федерации дает толкование Конституции Российской Федерации.\n5.1. Верховный Суд Российской Федерации:\nа) по запросу Президента Российской Федерации проверяет конституционность проектов законов Российской Федерации о поправке к Конституции Российской Федерации, проектов федеральных конституционных законов и федеральных законов до их подписания Президентом Российской Федерации;\nб) в порядке, установленном федеральным конституционным законом, разрешает вопрос о возможности исполнения решений межгосударственных органов, принятых на основании положений международных договоров Российской Федерации в их истолковании, противоречащем Конституции Российской Федерации, а также о возможности исполнения решения иностранного или международного (межгосударственного) суда, иностранного или международного третейского суда (арбитража), налагающего обязанности на Российскую Федерацию, в случае если это решение противоречит основам публичного правопорядка Российской Федерации;\nв) по запросу Президента Российской Федерации в порядке, установленном федеральным конституционным законом, проверяет конституционность законов субъекта Российской Федерации до их обнародования высшим должностным лицом субъекта Российской Федерации (руководителем высшего исполнительного органа государственной власти субъекта Российской Федерации).\n6. Акты или их отдельные положения, признанные неконституционными, утрачивают силу; Акты или их отдельные положения, признанные конституционными в истолковании, данном Верховным Судом Российской Федерации, не подлежат применению в ином истолковании.\n7. Верховный Суд Российской Федерации осуществляет иные полномочия, установленные федеральным конституционным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-96",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 96",
+    "title": "Верховный Суд Российской Федерации является высшим судебным органом по гражданским делам, разрешению экономических споров, уголовным, административным и иным делам, подсудным судам общей юрисдикции и арбитражным судам, образованным в соответствии с федеральным конституционным законом и осуществляющим судебную власть посредством гражданского, арбитражного, административного и уголовного судопроизводства. Верховный Суд Российской Федерации осуществляет в предусмотренных федеральным законом процессуальных формах судебный надзор за деятельностью судов общей юрисдикции и арбитражных судов и дает разъяснения по вопросам судебной практики",
+    "text": "Верховный Суд Российской Федерации является высшим судебным органом по гражданским делам, разрешению экономических споров, уголовным, административным и иным делам, подсудным судам общей юрисдикции и арбитражным судам, образованным в соответствии с федеральным конституционным законом и осуществляющим судебную власть посредством гражданского, арбитражного, административного и уголовного судопроизводства. Верховный Суд Российской Федерации осуществляет в предусмотренных федеральным законом процессуальных формах судебный надзор за деятельностью судов общей юрисдикции и арбитражных судов и дает разъяснения по вопросам судебной практики.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-97",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 97",
+    "title": "1. Председатель Верховного Суда Российской Федерации назначается Советом Федерации",
+    "text": "1. Председатель Верховного Суда Российской Федерации назначается Советом Федерации.\n2. Председатели, заместители председателей и судьи других судов назначаются Председателем Верховного Суда Российской Федерации в порядке, установленном федеральным конституционным законом.\n3. Полномочия, порядок образования и деятельности Конституционного Суда Российской Федерации, Верховного Суда Российской Федерации и иных федеральных судов устанавливаются Конституцией Российской Федерации и федеральным конституционным законом. Порядок осуществления гражданского, арбитражного, административного и уголовного судопроизводства регулируется также соответствующим процессуальным законодательством.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-98",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 98",
+    "title": "1. Прокуратура Российской Федерации - единая федеральная централизованная система органов, осуществляющих надзор за соблюдением Конституции Российской Федерации и исполнением законов, надзор за соблюдением прав и свобод человека и гражданина, уголовное преследование в соответствии со своими полномочиями, а также выполняющих иные функции. Полномочия и функции прокуратуры Российской Федерации, ее организация и порядок деятельности определяются федеральным законом",
+    "text": "1. Прокуратура Российской Федерации - единая федеральная централизованная система органов, осуществляющих надзор за соблюдением Конституции Российской Федерации и исполнением законов, надзор за соблюдением прав и свобод человека и гражданина, уголовное преследование в соответствии со своими полномочиями, а также выполняющих иные функции. Полномочия и функции прокуратуры Российской Федерации, ее организация и порядок деятельности определяются федеральным законом.\n2. Генеральный прокурор Российской Федерации, заместители Генерального прокурора Российской Федерации назначаются на должность и освобождаются от должности Президентом Российской Федерации.\n5. Иные прокуроры могут назначаться на должность и освобождаться от должности Президентом Российской Федерации, если такой порядок назначения на должность и освобождения от должности установлен федеральным законом.\n6. Если иное не предусмотрено федеральным законом, прокуроры городов, районов и приравненные к ним прокуроры назначаются на должность и освобождаются от должности Генеральным прокурором Российской Федерации.\n\n\nГЛАВА 8. МЕСТНОЕ САМОУПРАВЛЕНИЕ",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 7. СУДЕБНАЯ ВЛАСТЬ И ПРОКУРАТУРА",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "конституция",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-constitution-99",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 99",
+    "title": "1. Местное самоуправление в Российской Федерации обеспечивает самостоятельное решение населением вопросов местного значения, владение, пользование и распоряжение муниципальной собственностью",
+    "text": "1. Местное самоуправление в Российской Федерации обеспечивает самостоятельное решение населением вопросов местного значения, владение, пользование и распоряжение муниципальной собственностью.\n2. Местное самоуправление осуществляется гражданами путем референдума, выборов, других форм прямого волеизъявления, через выборные и другие органы местного самоуправления.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 8. МЕСТНОЕ САМОУПРАВЛЕНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-100",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 100",
+    "title": "1. Местное самоуправление осуществляется в муниципальных образованиях, виды которых устанавливаются федеральным законом. Территории муниципальных образований определяются с учетом исторических и иных местных традиций. Структура органов местного самоуправления определяется населением самостоятельно в соответствии с общими принципами организации местного самоуправления в Российской Федерации, установленными федеральным законом",
+    "text": "1. Местное самоуправление осуществляется в муниципальных образованиях, виды которых устанавливаются федеральным законом. Территории муниципальных образований определяются с учетом исторических и иных местных традиций. Структура органов местного самоуправления определяется населением самостоятельно в соответствии с общими принципами организации местного самоуправления в Российской Федерации, установленными федеральным законом.\n2. Органы государственной власти могут участвовать в формировании органов местного самоуправления, назначении на должность и освобождении от должности должностных лиц местного самоуправления в порядке и случаях, установленных федеральным законом.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 8. МЕСТНОЕ САМОУПРАВЛЕНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-101",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 101",
+    "title": "1. Органы местного самоуправления самостоятельно управляют муниципальной собственностью, формируют, утверждают и исполняют местный бюджет, вводят местные налоги и сборы, решают иные вопросы местного значения, а также в соответствии с федеральным законом обеспечивают в пределах своей компетенции доступность медицинской помощи",
+    "text": "1. Органы местного самоуправления самостоятельно управляют муниципальной собственностью, формируют, утверждают и исполняют местный бюджет, вводят местные налоги и сборы, решают иные вопросы местного значения, а также в соответствии с федеральным законом обеспечивают в пределах своей компетенции доступность медицинской помощи.\n2. Органы местного самоуправления могут наделяться федеральным законом, законом субъекта Российской Федерации отдельными государственными полномочиями при условии передачи им необходимых для осуществления таких полномочий материальных и финансовых средств. Реализация переданных полномочий подконтрольна государству.\n3. Органы местного самоуправления и органы государственной власти входят в единую систему публичной власти в Российской Федерации и осуществляют взаимодействие для наиболее эффективного решения задач в интересах населения, проживающего на соответствующей территории.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 8. МЕСТНОЕ САМОУПРАВЛЕНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-102",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 102",
+    "title": "Местное самоуправление в Российской Федерации гарантируется правом на судебную защиту, на компенсацию дополнительных расходов, возникших в результате выполнения органами местного самоуправления во взаимодействии с органами государственной власти публичных функций, а также запретом на ограничение прав местного самоуправления, установленных Конституцией Российской Федерации и федеральными законами",
+    "text": "Местное самоуправление в Российской Федерации гарантируется правом на судебную защиту, на компенсацию дополнительных расходов, возникших в результате выполнения органами местного самоуправления во взаимодействии с органами государственной власти публичных функций, а также запретом на ограничение прав местного самоуправления, установленных Конституцией Российской Федерации и федеральными законами.\n\n\nГЛАВА 9. КОНСТИТУЦИОННЫЕ ПОПРАВКИ И ПЕРЕСМОТР КОНСТИТУЦИИ",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 8. МЕСТНОЕ САМОУПРАВЛЕНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-103",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 103",
+    "title": "Предложения о поправках и пересмотре положений Конституции Российской Федерации могут вносить Президент Российской Федерации, Совет Федерации, Государственная Дума, Правительство Российской Федерации, законодательные (представительные) органы субъектов Российской Федерации, а также группа численностью не менее одной пятой депутатов Государственной Думы",
+    "text": "Предложения о поправках и пересмотре положений Конституции Российской Федерации могут вносить Президент Российской Федерации, Совет Федерации, Государственная Дума, Правительство Российской Федерации, законодательные (представительные) органы субъектов Российской Федерации, а также группа численностью не менее одной пятой депутатов Государственной Думы.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 9. КОНСТИТУЦИОННЫЕ ПОПРАВКИ И ПЕРЕСМОТР КОНСТИТУЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-104",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 104",
+    "title": "1. Положения глав 1, 2 и 9 Конституции Российской Федерации не могут быть пересмотрены Федеральным Собранием",
+    "text": "1. Положения глав 1, 2 и 9 Конституции Российской Федерации не могут быть пересмотрены Федеральным Собранием.\n2. Если предложение о пересмотре положений глав 1, 2 и 9 Конституции Российской Федерации будет поддержано тремя пятыми голосов от общего числа депутатов Государственной Думы, то в соответствии с федеральным конституционным законом созывается Конституционное Собрание.\n3. Конституционное Собрание либо подтверждает неизменность Конституции Российской Федерации, либо разрабатывает проект новой Конституции Российской Федерации, который принимается Конституционным Собранием двумя третями голосов от общего числа его членов или выносится на всенародное голосование. При проведении всенародного голосования Конституция Российской Федерации считается принятой, если за нее проголосовало более половины избирателей, принявших участие в голосовании, при условии, что в нем приняло участие более половины избирателей.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 9. КОНСТИТУЦИОННЫЕ ПОПРАВКИ И ПЕРЕСМОТР КОНСТИТУЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-constitution-105",
+    "project": "russia",
+    "category": "Конституция РФ",
+    "codeTitle": "Конституция Российской Федерации",
+    "articleNumber": "Статья 105",
+    "title": "Поправки к главам 3 - 8 Конституции Российской Федерации принимаются в порядке, предусмотренном для принятия федерального конституционного закона, и вступают в силу после их одобрения органами законодательной власти не менее чем двух третей субъектов Российской Федерации",
+    "text": "Поправки к главам 3 - 8 Конституции Российской Федерации принимаются в порядке, предусмотренном для принятия федерального конституционного закона, и вступают в силу после их одобрения органами законодательной власти не менее чем двух третей субъектов Российской Федерации.",
+    "penalty": "Нормативное положение Конституции.",
+    "section": "",
+    "chapter": "ГЛАВА 9. КОНСТИТУЦИОННЫЕ ПОПРАВКИ И ПЕРЕСМОТР КОНСТИТУЦИИ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "конституция"
+    ]
+  },
+  {
+    "id": "ru-criminal-1",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 1",
+    "title": "Уголовное законодательство Российской Федерации",
+    "text": "1. Уголовное законодательство Российской Федерации состоит из настоящего Кодекса. Новые законы, предусматривающие уголовную ответственность, подлежат включению в настоящий Кодекс.\n2. Настоящий кодекс основывается на Конституции Российской Федерации и общепризнанных принципах и нормах международного права.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-criminal-2",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 2",
+    "title": "Задачи Уголовного кодекса Российской Федерации",
+    "text": "1. Задачами настоящего Кодекса являются: охрана прав и свобод человека и гражданина, собственности, общественного порядка и общественной безопасности, окружающей среды, конституционного строя Российской Федерации от преступных посягательств, обеспечение мира и безопасности человечества, а также предупреждение преступлений.\n2. Для осуществления этих задач настоящий Кодекс устанавливает основание и принципы уголовной ответственности, определяет, какие опасные для личности, общества или государства деяния признаются преступлениями, и устанавливает виды наказаний и иные меры уголовно-правового характера за совершение преступлений.",
+    "penalty": "1. Задачами настоящего Кодекса являются: охрана прав и свобод человека и гражданина, собственности, общественного порядка и общественной безопасности, окружающей среды, конституционного строя Российской Федерации от преступных посягательств, обеспечение мира и безопасности человечества, а также предупреждение преступлений. 2. Для осуществления этих задач настоящий Кодекс устанавливает основание и принципы уголовной ответственности, определяет, какие опасные для личности, общества или государства деяния признаются преступлениями, и устанавливает виды наказаний и иные меры уголовно-правового характера за совершение преступлений.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-3",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 3",
+    "title": "Принцип законности",
+    "text": "1. Преступность деяния, а также его наказуемость и иные уголовно-правовые последствия определяются только настоящим Кодексом.\n2. Применение уголовного закона по аналогии не допускается.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-4",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 4",
+    "title": "Принцип равенства граждан перед законом",
+    "text": "Лица, совершившие преступления, равны перед законом и подлежат уголовной ответственности независимо от пола, расы, национальности, языка, происхождения, имущественного и должностного положения, места жительства, отношения к религии, убеждений, принадлежности к общественным объединениям, а также других обстоятельств.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-5",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 5",
+    "title": "Принцип вины",
+    "text": "1. Лицо подлежит уголовной ответственности только за те общественно опасные действия (бездействие) и наступившие общественно опасные последствия, в отношении которых установлена его вина.\n2. Объективное вменение, то есть уголовная ответственность за невиновное причинение вреда, не допускается.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-6",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 6",
+    "title": "Принцип справедливости",
+    "text": "1. Наказание и иные меры уголовно-правового характера, применяемые к лицу, совершившему преступление, должны быть справедливыми, то есть соответствовать характеру и степени общественной опасности преступления, обстоятельствам его совершения и личности виновного.\n2. Никто не может нести уголовную ответственность дважды за одно и то же преступление.",
+    "penalty": "1. Наказание и иные меры уголовно-правового характера, применяемые к лицу, совершившему преступление, должны быть справедливыми, то есть соответствовать характеру и степени общественной опасности преступления, обстоятельствам его совершения и личности виновного.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-7",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 7",
+    "title": "Принцип гуманизма",
+    "text": "1. Уголовное законодательство Российской Федерации обеспечивает безопасность человека.\n2. Наказание и иные меры уголовно-правового характера, применяемые к лицу, совершившему преступление, не могут иметь своей целью причинение физических страданий или унижение человеческого достоинства.",
+    "penalty": "2. Наказание и иные меры уголовно-правового характера, применяемые к лицу, совершившему преступление, не могут иметь своей целью причинение физических страданий или унижение человеческого достоинства.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-criminal-8",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 8",
+    "title": "Основание уголовной ответственности",
+    "text": "Основанием уголовной ответственности является совершение деяния, содержащего все признаки состава преступления, предусмотренного настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-9",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 9",
+    "title": "Действие уголовного закона во времени",
+    "text": "1. Преступность и наказуемость деяния определяются уголовным законом, действовавшим во время совершения этого деяния.\n2. Временем совершения преступления признается время совершения общественно опасного действия (бездействия) независимо от времени наступления последствий.\n3. Уголовный закон, устраняющий преступность деяния, смягчающий наказание или иным образом улучшающий положение лица, совершившего преступление, имеет обратную силу, то есть распространяется на лиц, совершивших соответствующие деяния до вступления такого закона в силу, в том числе на лиц, отбывающих наказание или отбывших наказание, но имеющих судимость. Уголовный закон, устанавливающий преступность деяния, усиливающий наказание или иным образом ухудшающий положение лица, обратной силы не имеет.\n\n\nРАЗДЕЛ II. ПРЕСТУПЛЕНИЕ\n\n\nГлава 2. Понятие преступления и виды преступлений",
+    "penalty": "3. Уголовный закон, устраняющий преступность деяния, смягчающий наказание или иным образом улучшающий положение лица, совершившего преступление, имеет обратную силу, то есть распространяется на лиц, совершивших соответствующие деяния до вступления такого закона в силу, в том числе на лиц, отбывающих наказание или отбывших наказание, но имеющих судимость. Уголовный закон, устанавливающий преступность деяния, усиливающий наказание или иным образом ухудшающий положение лица, обратной силы не имеет.",
+    "section": "РАЗДЕЛ I. УГОЛОВНЫЙ ЗАКОН",
+    "chapter": "Глава 1. Задачи и принципы Уголовного кодекса Российской Федерации",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-10",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 10",
+    "title": "Понятие преступления",
+    "text": "1. Преступлением признается виновно совершенное общественно опасное деяние, запрещенное настоящим Кодексом под угрозой наказания.\n2. Не является преступлением деяние, хотя формально и содержащее признаки какого-либо деяния, предусмотренного настоящим Кодексом, но в силу малозначительности не представляющее общественной опасности.",
+    "penalty": "1. Преступлением признается виновно совершенное общественно опасное деяние, запрещенное настоящим Кодексом под угрозой наказания.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 2. Понятие преступления и виды преступлений",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-11",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 11",
+    "title": "Категории преступлений",
+    "text": "1. В зависимости от характера и степени общественной опасности деяния, предусмотренные настоящим Кодексом, подразделяются на преступления небольшой тяжести, преступления средней тяжести, тяжкие преступления и особо тяжкие преступления.\n2. Преступлениями небольшой тяжести признаются умышленные и неосторожные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 20 месяцев лишения свободы.\n3. Преступлениями средней тяжести признаются умышленные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 30 месяцев лишения свободы, и неосторожные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 35 месяцев лишения свободы.\n4. Тяжкими преступлениями признаются умышленные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 40 месяцев лишения свободы, и неосторожные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 45 месяцев лишения свободы.\n5. Особо тяжкими преступлениями признаются умышленные деяния, за совершение которых настоящим Кодексом предусмотрено наказание в виде лишения свободы на срок свыше 40 месяцев или более строгое наказание.",
+    "penalty": "2. Преступлениями небольшой тяжести признаются умышленные и неосторожные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 20 месяцев лишения свободы. 3. Преступлениями средней тяжести признаются умышленные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 30 месяцев лишения свободы, и неосторожные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 35 месяцев лишения свободы. 4. Тяжкими преступлениями признаются умышленные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 40 месяцев лишения свободы, и неосторожные деяния, за совершение которых максимальное наказание, предусмотренное настоящим Кодексом, не превышает 45 месяцев лишения свободы.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 2. Понятие преступления и виды преступлений",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-12",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 12",
+    "title": "Совокупность преступлений",
+    "text": "1. Совокупностью преступлений признается совершение двух или более преступлений, ни за одно из которых лицо не было осуждено, за исключением случаев, когда совершение двух или более преступлений предусмотрено статьями Особенной части настоящего Кодекса в качестве обстоятельства, влекущего более строгое наказание. При совокупности преступлений лицо несет уголовную ответственность за каждое совершенное преступление по соответствующей статье или части статьи настоящего Кодекса.\n2. Совокупностью преступлений признается и одно действие (бездействие), содержащее признаки преступлений, предусмотренных двумя или более статьями настоящего Кодекса.\n3. Если преступление предусмотрено общей и специальной нормами, совокупность преступлений отсутствует и уголовная ответственность наступает по специальной норме.",
+    "penalty": "1. Совокупностью преступлений признается совершение двух или более преступлений, ни за одно из которых лицо не было осуждено, за исключением случаев, когда совершение двух или более преступлений предусмотрено статьями Особенной части настоящего Кодекса в качестве обстоятельства, влекущего более строгое наказание. При совокупности преступлений лицо несет уголовную ответственность за каждое совершенное преступление по соответствующей статье или части статьи настоящего Кодекса.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 2. Понятие преступления и виды преступлений",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-13",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 13",
+    "title": "Рецидив преступлений",
+    "text": "Рецидивом преступлений признается совершение умышленного преступления лицом, имеющим судимость за ранее совершенное умышленное преступление.\n\n\nГлава 3. Вина",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 2. Понятие преступления и виды преступлений",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-14",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 14",
+    "title": "Формы вины",
+    "text": "1. Виновным в преступлении признается лицо, совершившее деяние умышленно или по неосторожности.\n2. Деяние, совершенное только по неосторожности, признается преступлением лишь в случае, когда это специально предусмотрено соответствующей статьей Особенной части настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 3. Вина",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-15",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 15",
+    "title": "Преступление, совершенное умышленно",
+    "text": "1. Преступлением, совершенным умышленно, признается деяние, совершенное с прямым или косвенным умыслом.\n2. Преступление признается совершенным с прямым умыслом, если лицо осознавало общественную опасность своих действий (бездействия), предвидело возможность или неизбежность наступления общественно опасных последствий и желало их наступления.\n3. Преступление признается совершенным с косвенным умыслом, если лицо осознавало общественную опасность своих действий (бездействия), предвидело возможность наступления общественно опасных последствий, не желало, но сознательно допускало эти последствия либо относилось к ним безразлично.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 3. Вина",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-16",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 16",
+    "title": "Преступление, совершенное по неосторожности",
+    "text": "1. Преступлением, совершенным по неосторожности, признается деяние, совершенное по легкомыслию или небрежности.\n2. Преступление признается совершенным по легкомыслию, если лицо предвидело возможность наступления общественно опасных последствий своих действий (бездействия), но без достаточных к тому оснований самонадеянно рассчитывало на предотвращение этих последствий.\n3. Преступление признается совершенным по небрежности, если лицо не предвидело возможности наступления общественно опасных последствий своих действий (бездействия), хотя при необходимой внимательности и предусмотрительности должно было и могло предвидеть эти последствия.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 3. Вина",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-17",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 17",
+    "title": "Ответственность за преступление, совершенное с двумя формами вины",
+    "text": "Если в результате совершения умышленного преступления причиняются тяжкие последствия, которые по закону влекут более строгое наказание и которые не охватывались умыслом лица, уголовная ответственность за такие последствия наступает только в случае, если лицо предвидело возможность их наступления, но без достаточных к тому оснований самонадеянно рассчитывало на их предотвращение, или в случае, если лицо не предвидело, но должно было и могло предвидеть возможность наступления этих последствий. В целом такое преступление признается совершенным умышленно.",
+    "penalty": "Если в результате совершения умышленного преступления причиняются тяжкие последствия, которые по закону влекут более строгое наказание и которые не охватывались умыслом лица, уголовная ответственность за такие последствия наступает только в случае, если лицо предвидело возможность их наступления, но без достаточных к тому оснований самонадеянно рассчитывало на их предотвращение, или в случае, если лицо не предвидело, но должно было и могло предвидеть возможность наступления этих последствий. В целом такое преступление признается совершенным умышленно.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 3. Вина",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-18",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 18",
+    "title": "Невиновное причинение вреда",
+    "text": "1. Деяние признается совершенным невиновно, если лицо, его совершившее, не осознавало и по обстоятельствам дела не могло осознавать общественной опасности своих действий (бездействия) либо не предвидело возможности наступления общественно опасных последствий и по обстоятельствам дела не должно было или не могло их предвидеть.\n2. Деяние признается также совершенным невиновно, если лицо, его совершившее, хотя и предвидело возможность наступления общественно опасных последствий своих действий (бездействия), но не могло предотвратить эти последствия в силу несоответствия своих психофизиологических качеств требованиям экстремальных условий или нервно-психическим перегрузкам.\n\n\nГлава 4. Неоконченное преступление",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 3. Вина",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-19",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 19",
+    "title": "Оконченное и неоконченное преступления",
+    "text": "1. Преступление признается оконченным, если в совершенном лицом деянии содержатся все признаки состава преступления, предусмотренного настоящим Кодексом.\n2. Неоконченным преступлением признаются приготовление к преступлению и покушение на преступление.\n3. Уголовная ответственность за неоконченное преступление наступает по статье настоящего Кодекса, предусматривающей ответственность за оконченное преступление, со ссылкой на статью 20 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 4. Неоконченное преступление",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-20",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 20",
+    "title": "Приготовление к преступлению и покушение на преступление",
+    "text": "1. Приготовлением к преступлению признаются приискание, изготовление или приспособление лицом средств или орудий совершения преступления, приискание соучастников преступления, сговор на совершение преступления либо иное умышленное создание условий для совершения преступления, если при этом преступление не было доведено до конца по независящим от этого лица обстоятельствам.\n2. Покушением на преступление признаются умышленные действия (бездействие) лица, непосредственно направленные на совершение преступления, если при этом преступление не было доведено до конца по независящим от этого лица обстоятельствам.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 4. Неоконченное преступление",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-21",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 21",
+    "title": "Добровольный отказ от преступления",
+    "text": "1. Добровольным отказом от преступления признается прекращение лицом приготовления к преступлению либо прекращение действий (бездействия), непосредственно направленных на совершение преступления, если лицо осознавало возможность доведения преступления до конца.\n2. Лицо не подлежит уголовной ответственности за преступление, если оно добровольно и окончательно отказалось от доведения этого преступления до конца.\n3. Лицо, добровольно отказавшееся от доведения преступления до конца, подлежит уголовной ответственности в том случае, если фактически совершенное им деяние содержит иной состав преступления.\n4. Организатор преступления и подстрекатель к преступлению не подлежат уголовной ответственности, если эти лица своевременным сообщением органам власти или иными предпринятыми мерами предотвратили доведение преступления исполнителем до конца. Пособник преступления не подлежит уголовной ответственности, если он предпринял все зависящие от него меры, чтобы предотвратить совершение преступления.\n5. Если действия организатора или подстрекателя, предусмотренные частью четвертой настоящей статьи, не привели к предотвращению совершения преступления исполнителем, то предпринятые ими меры могут быть признаны смягчающими обстоятельствами при назначении наказания.\n\n\nГлава 5. Соучастие в преступлении",
+    "penalty": "5. Если действия организатора или подстрекателя, предусмотренные частью четвертой настоящей статьи, не привели к предотвращению совершения преступления исполнителем, то предпринятые ими меры могут быть признаны смягчающими обстоятельствами при назначении наказания.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 4. Неоконченное преступление",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-22",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 22",
+    "title": "Понятие соучастия в преступлении",
+    "text": "Соучастием в преступлении признается умышленное совместное участие двух или более лиц в совершении умышленного преступления.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 5. Соучастие в преступлении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-23",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 23",
+    "title": "Виды соучастников преступления",
+    "text": "1. Соучастниками преступления наряду с исполнителем признаются организатор, подстрекатель и пособник.\n2. Исполнителем признается лицо, непосредственно совершившее преступление либо непосредственно участвовавшее в его совершении совместно с другими лицами (соисполнителями), а также лицо, совершившее преступление посредством использования других лиц, не подлежащих уголовной ответственности в силу возраста, невменяемости или других обстоятельств, предусмотренных настоящим Кодексом.\n3. Организатором признается лицо, организовавшее совершение преступления или руководившее его исполнением, а равно лицо, создавшее организованную группу или преступное сообщество (преступную организацию) либо руководившее ими.\n4. Подстрекателем признается лицо, склонившее другое лицо к совершению преступления путем уговора, подкупа, угрозы или другим способом.\n5. Пособником признается лицо, содействовавшее совершению преступления советами, указаниями, предоставлением информации, средств или орудий совершения преступления либо устранением препятствий, а также лицо, заранее обещавшее скрыть преступника, средства или орудия совершения преступления, следы преступления либо предметы, добытые преступным путем, а равно лицо, заранее обещавшее приобрести или сбыть такие предметы.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 5. Соучастие в преступлении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-24",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 24",
+    "title": "Совершение преступления группой лиц, группой лиц по предварительному сговору, организованной группой или преступным сообществом (преступной организацией)",
+    "text": "1. Преступление признается совершенным группой лиц, если в его совершении совместно участвовали два или более исполнителя без предварительного сговора.\n2. Преступление признается совершенным группой лиц по предварительному сговору, если в нем участвовали лица, заранее договорившиеся о совместном совершении преступления.\n3. Преступление признается совершенным организованной группой, если оно совершено устойчивой группой лиц, заранее объединившихся для совершения одного или нескольких преступлений.\n4. Преступление признается совершенным преступным сообществом (преступной организацией), если оно совершено структурированной организованной группой или объединением организованных групп, действующих под единым руководством, члены которых объединены в целях совместного совершения одного или нескольких тяжких либо особо тяжких преступлений для получения прямо или косвенно финансовой или иной материальной выгоды.\n5. Создание организованной группы в случаях, не предусмотренных статьями Особенной части настоящего Кодекса, влечет уголовную ответственность за приготовление к тем преступлениям, для совершения которых она создана.\n6. Совершение преступления группой лиц, группой лиц по предварительному сговору, организованной группой или преступным сообществом (преступной организацией) влечет более строгое наказание на основании и в пределах, предусмотренных настоящим Кодексом.",
+    "penalty": "6. Совершение преступления группой лиц, группой лиц по предварительному сговору, организованной группой или преступным сообществом (преступной организацией) влечет более строгое наказание на основании и в пределах, предусмотренных настоящим Кодексом.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 5. Соучастие в преступлении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-25",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 25",
+    "title": "Эксцесс исполнителя преступления",
+    "text": "Эксцессом исполнителя признается совершение исполнителем преступления, не охватывающегося умыслом других соучастников. За эксцесс исполнителя другие соучастники преступления уголовной ответственности не подлежат.\n\n\nГлава 6. Обстоятельства, исключающие преступность деяния",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 5. Соучастие в преступлении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-26",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 26",
+    "title": "Необходимая оборона",
+    "text": "1. Не является преступлением причинение вреда посягающему лицу в состоянии необходимой обороны, то есть при защите личности и прав обороняющегося или других лиц, охраняемых законом интересов общества или государства от общественно опасного посягательства, если это посягательство было сопряжено с насилием, опасным для жизни обороняющегося или другого лица, либо с непосредственной угрозой применения такого насилия.\n2. Защита от посягательства, не сопряженного с насилием, опасным для жизни обороняющегося или другого лица, либо с непосредственной угрозой применения такого насилия, является правомерной, если при этом не было допущено превышения пределов необходимой обороны, то есть умышленных действий, явно не соответствующих характеру и опасности посягательства.\n3. Не являются превышением пределов необходимой обороны действия обороняющегося лица, если это лицо вследствие неожиданности посягательства не могло объективно оценить степень и характер опасности нападения.\n4. Не являются превышением пределов необходимой обороны действия лица, направленные на защиту себя и своей семьи от насилия или угрозы применения насилия либо на защиту своего имущества против лица, незаконно проникшего в его жилище.\n5. Положения настоящей статьи в равной мере распространяются на всех лиц независимо от их профессиональной или иной специальной подготовки и служебного положения, а также независимо от возможности избежать общественно опасного посягательства или обратиться за помощью к другим лицам или органам власти.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 6. Обстоятельства, исключающие преступность деяния",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-27",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 27",
+    "title": "Причинение вреда при задержании лица, совершившего преступление",
+    "text": "1. Не является преступлением причинение вреда лицу, совершившему преступление, при его задержании для доставления органам власти и пресечения возможности совершения им новых преступлений, если иными средствами задержать такое лицо не представлялось возможным и при этом не было допущено превышения необходимых для этого мер.\n2. Превышением мер, необходимых для задержания лица, совершившего преступление, признается их явное несоответствие характеру и степени общественной опасности совершенного задерживаемым лицом преступления и обстоятельствам задержания, когда лицу без необходимости причиняется явно чрезмерный, не вызываемый обстановкой вред. Такое превышение влечет за собой уголовную ответственность только в случаях умышленного причинения вреда.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 6. Обстоятельства, исключающие преступность деяния",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-28",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 28",
+    "title": "Крайняя необходимость",
+    "text": "1. Не является преступлением причинение вреда охраняемым уголовным законом интересам в состоянии крайней необходимости, то есть для устранения опасности, непосредственно угрожающей личности и правам данного лица или иных лиц, охраняемым законом интересам общества или государства, если эта опасность не могла быть устранена иными средствами и при этом не было допущено превышения пределов крайней необходимости.\n2. Превышением пределов крайней необходимости признается причинение вреда, явно не соответствующего характеру и степени угрожавшей опасности и обстоятельствам, при которых опасность устранялась, когда указанным интересам был причинен вред равный или более значительный, чем предотвращенный. Такое превышение влечет за собой уголовную ответственность только в случаях умышленного причинения вреда.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 6. Обстоятельства, исключающие преступность деяния",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-29",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 29",
+    "title": "Обоснованный риск",
+    "text": "1. Не является преступлением причинение вреда охраняемым уголовным законом интересам при обоснованном риске для достижения общественно полезной цели.\n2. Риск признается обоснованным, если указанная цель не могла быть достигнута не связанными с риском действиями (бездействием) и лицо, допустившее риск, предприняло достаточные меры для предотвращения вреда охраняемым уголовным законом интересам.\n3. Риск не признается обоснованным, если он заведомо был сопряжен с угрозой для жизни многих людей, с угрозой экологической катастрофы или общественного бедствия.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 6. Обстоятельства, исключающие преступность деяния",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-30",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 30",
+    "title": "Исполнение приказа или распоряжения",
+    "text": "1. Не является преступлением причинение вреда охраняемым уголовным законом интересам лицом, действующим во исполнение обязательных для него приказа или распоряжения. Уголовную ответственность за причинение такого вреда несет лицо, отдавшее незаконные приказ или распоряжение.\n2. Лицо, совершившее умышленное преступление во исполнение заведомо незаконных приказа или распоряжения, несет уголовную ответственность на общих основаниях. Неисполнение заведомо незаконных приказа или распоряжения исключает уголовную ответственность.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 6. Обстоятельства, исключающие преступность деяния",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-31",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 31",
+    "title": "Физическое или психическое принуждение",
+    "text": "1. Не является преступлением причинение вреда охраняемым уголовным законом интересам в результате физического принуждения, если вследствие такого принуждения лицо не могло руководить своими действиями (бездействием).\n2. Вопрос об уголовной ответственности за причинение вреда охраняемым уголовным законом интересам в результате психического принуждения, а также в результате физического принуждения, вследствие которого лицо сохранило возможность руководить своими действиями, решается с учетом положений настоящего Кодекса.\n\n\nРАЗДЕЛ III. НАКАЗАНИЕ\n\n\nГлава 7. Понятие и цели наказания. Виды наказаний",
+    "penalty": "РАЗДЕЛ III. НАКАЗАНИЕ Глава 7. Понятие и цели наказания. Виды наказаний",
+    "section": "РАЗДЕЛ II. ПРЕСТУПЛЕНИЕ",
+    "chapter": "Глава 6. Обстоятельства, исключающие преступность деяния",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-32",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 32",
+    "title": "Понятие и цели наказания",
+    "text": "1. Наказание есть мера государственного принуждения, назначаемая по решению уполномоченного лица. Наказание применяется к лицу, признанному виновным в совершении преступления, и заключается в предусмотренных настоящим Кодексом лишении или ограничении прав и свобод этого лица.\n2. Наказание применяется в целях восстановления социальной справедливости, а также в целях исправления осужденного и предупреждения совершения новых преступлений.",
+    "penalty": "Понятие и цели наказания 1. Наказание есть мера государственного принуждения, назначаемая по решению уполномоченного лица. Наказание применяется к лицу, признанному виновным в совершении преступления, и заключается в предусмотренных настоящим Кодексом лишении или ограничении прав и свобод этого лица. 2. Наказание применяется в целях восстановления социальной справедливости, а также в целях исправления осужденного и предупреждения совершения новых преступлений.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-33",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 33",
+    "title": "Виды наказаний",
+    "text": "1. Видами наказаний являются:\nа) штраф;\nб) лишение права занимать определенные должности или заниматься определенной деятельностью;\nв) увольнение с государственной или военной службы, в том числе с лишением всех званий, наград и привилегий;\nг) исправительные работы;\nд) принудительные работы;\nе) лишение свободы на определенный срок.\n2. Исправительные работы, принудительные работы, лишение свободы на определенный срок могут определяться только в качестве основного вида наказания.\n3. Уголовный штраф, лишение права занимать определенные должности или заниматься определенной деятельностью могут определяться как в качестве дополнительного, так и в качестве основного вида наказания.\n4. Увольнение с государственной или военной службы, в том числе с лишением всех званий, наград и привилегий может определяться только в качестве дополнительного вида наказания.\n5. Суд при назначении наказания за преступление может назначить в качестве дополнительного вида наказания увольнение с государственной или военной службы, в том числе с лишением всех званий, наград и привилегий и лишение права занимать определенные должности или заниматься определенной деятельностью даже если такое наказание не предусмотрено санкцией соответствующей статьи.",
+    "penalty": "Виды наказаний 1. Видами наказаний являются: а) штраф;",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-34",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 34",
+    "title": "Лица, уполномоченные на привлечение лица к уголовной ответственности и назначение наказания за совершение преступления",
+    "text": "1. Органы внутренних дел (полиция), Федеральной Службы Безопасности Российской Федерации, военной полиции Вооруженных Сил Российской Федерации, органы прокуратуры и Следственного комитета Российской Федерации правомочны признавать лицо виновным в совершении преступления и назначить ему за совершенное преступление наказание в виде штрафа или лишения свободы на определенный срок.\n2. Суд правомочен признать лицо виновным в совершении преступления и назначить ему за совершенное преступление любого наказания, предусмотренного ч. 1 ст. 33 настоящего Кодекса, с учетом правил назначения наказания, предусмотренных законом.\n3. Дополнительные виды наказания могут быть назначены только судом.",
+    "penalty": "Лица, уполномоченные на привлечение лица к уголовной ответственности и назначение наказания за совершение преступления 1. Органы внутренних дел (полиция), Федеральной Службы Безопасности Российской Федерации, военной полиции Вооруженных Сил Российской Федерации, органы прокуратуры и Следственного комитета Российской Федерации правомочны признавать лицо виновным в совершении преступления и назначить ему за совершенное преступление наказание в виде штрафа или лишения свободы на определенный срок. 2. Суд правомочен признать лицо виновным в совершении преступления и назначить ему за совершенное преступление любого наказания, предусмотренного ч. 1 ст. 33 настоящего Кодекса, с учетом правил назначения наказания, предусмотренных законом.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-35",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 35",
+    "title": "Штраф",
+    "text": "1. Штраф есть денежное взыскание, назначаемое в пределах, предусмотренных настоящим Кодексом.\n2. Штраф устанавливается в размере санкции соответствующей статьи. Суд при назначении штрафа в качестве основного вида наказания может выходить за рамки санкции соответствующей статьи и назначить штраф в размере не более 300.000 рублей.",
+    "penalty": "Штраф 1. Штраф есть денежное взыскание, назначаемое в пределах, предусмотренных настоящим Кодексом. 2. Штраф устанавливается в размере санкции соответствующей статьи. Суд при назначении штрафа в качестве основного вида наказания может выходить за рамки санкции соответствующей статьи и назначить штраф в размере не более 300.000 рублей.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-36",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 36",
+    "title": "Лишение права занимать определенные должности или заниматься определенной деятельностью",
+    "text": "1. Лишение права занимать определенные должности или заниматься определенной деятельностью состоит в запрещении занимать должности на государственной службе, в органах местного самоуправления либо заниматься определенной профессиональной или иной деятельностью.\n2. В случае если санкцией соответствующей статьи не предусмотрено иное, лишение права занимать определенные должности или заниматься определенной деятельностью устанавливается на срок от 1 до 7 лет.",
+    "penalty": "Лишение права занимать определенные должности или заниматься определенной деятельностью 1. Лишение права занимать определенные должности или заниматься определенной деятельностью состоит в запрещении занимать должности на государственной службе, в органах местного самоуправления либо заниматься определенной профессиональной или иной деятельностью. 2. В случае если санкцией соответствующей статьи не предусмотрено иное, лишение права занимать определенные должности или заниматься определенной деятельностью устанавливается на срок от 1 до 7 лет.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-37",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 37",
+    "title": "Исправительные работы",
+    "text": "1. Исправительные работы назначаются осужденному, имеющему основное место работы, а равно не имеющему его. Осужденный, имеющий основное место работы, отбывает исправительные работы по основному месту работы. Осужденный, не имеющий основного места работы, отбывает исправительные работы в местах, определяемых судом.\n2. Из заработной платы осужденного к исправительным работам производятся удержания в доход государства в размере, установленном приговором суда, в пределах от пяти до двадцати процентов.\n3. Если суд придет к выводу о том, что исправление подсудимого возможно без назначения наказания в виде реального лишения свободы за совершение преступления небольшой или средней тяжести, если такое наказание предусмотрено санкцией соответствующей статьи, суд может назначить вместо реального лишения свободы в качестве основного вида наказания назначить подсудимому наказание в виде исправительных работ на срок до 20 месяцев.\n4. В случае злостного уклонения осужденного от отбывания исправительных работ суд может заменить неотбытое наказание принудительными работами или лишением свободы.",
+    "penalty": "Исправительные работы 1. Исправительные работы назначаются осужденному, имеющему основное место работы, а равно не имеющему его. Осужденный, имеющий основное место работы, отбывает исправительные работы по основному месту работы. Осужденный, не имеющий основного места работы, отбывает исправительные работы в местах, определяемых судом. 2. Из заработной платы осужденного к исправительным работам производятся удержания в доход государства в размере, установленном приговором суда, в пределах от пяти до двадцати процентов.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-38",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 38",
+    "title": "Принудительные работы",
+    "text": "1. Принудительные работы заключаются в привлечении осужденного к труду в местах, определяемых судом.\n2. Места, порядок и иные условия отбывания принудительных работ определяется судом.\n3. Если суд придет к выводу о том, что исправление подсудимого возможно без назначения наказания в виде реального лишения свободы за совершение преступления небольшой или средней тяжести или тяжкого преступления, если такое наказание предусмотрено санкцией соответствующей статьи, суд может назначить вместо реального лишения свободы в качестве основного вида наказания назначить подсудимому наказание в виде принудительных работ на срок до 30 месяцев.",
+    "penalty": "Принудительные работы 1. Принудительные работы заключаются в привлечении осужденного к труду в местах, определяемых судом. 2. Места, порядок и иные условия отбывания принудительных работ определяется судом.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-39",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 39",
+    "title": "Лишение свободы на определенный срок",
+    "text": "1. Лишение свободы заключается в изоляции признанного в совершении преступления лица от общества путем направления его в исправительное учреждение. Лишение свободы на определенный срок устанавливается на срок от 5 до 50 месяцев.\n2. При частичном или полном сложении сроков лишения свободы при назначении наказаний по совокупности преступлений максимальный срок лишения свободы не может быть более 100 месяцев.\n\n\nГлава 8. Назначение наказания",
+    "penalty": "Лишение свободы на определенный срок 1. Лишение свободы заключается в изоляции признанного в совершении преступления лица от общества путем направления его в исправительное учреждение. Лишение свободы на определенный срок устанавливается на срок от 5 до 50 месяцев. 2. При частичном или полном сложении сроков лишения свободы при назначении наказаний по совокупности преступлений максимальный срок лишения свободы не может быть более 100 месяцев.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 7. Понятие и цели наказания. Виды наказаний",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-40",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 40",
+    "title": "Общие начала назначения наказания",
+    "text": "1. Лицу, признанному виновным в совершении преступления, назначается справедливое наказание в пределах, предусмотренных соответствующей статьей Особенной части настоящего Кодекса, и с учетом положений Общей части настоящего Кодекса.\n2. При назначении наказания учитываются характер и степень общественной опасности преступления и личность виновного, в том числе обстоятельства, смягчающие и отягчающие наказание.",
+    "penalty": "Общие начала назначения наказания 1. Лицу, признанному виновным в совершении преступления, назначается справедливое наказание в пределах, предусмотренных соответствующей статьей Особенной части настоящего Кодекса, и с учетом положений Общей части настоящего Кодекса. 2. При назначении наказания учитываются характер и степень общественной опасности преступления и личность виновного, в том числе обстоятельства, смягчающие и отягчающие наказание.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-41",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 41",
+    "title": "Правила назначения наказания по совокупности преступлений",
+    "text": "1. При совокупности преступлений наказание назначается отдельно за каждое совершенное преступление.\n2. В случае назначения наказания за совершение преступлений по совокупности, окончательное наказание назначается путем поглощения менее строгого наказания более строгим.\n3. В случае назначения наказания за совершение преступлений по совокупности судом, окончательное наказание может назначаться как по правилу поглощения менее строгого наказания более строгим, так и путем полного или частичного сложения назначенных наказаний.\n4. В случае назначения по совокупности преступлений наказания за совершение преступления, предусмотренного ст. 104 настоящего Кодекса, окончательное наказание может назначаться как по правилу, предусмотренному ч. 2 настоящей статьи, так и путем однократного полного или частичного сложения самого строгого назначенного наказания с наказанием за совершение преступления, предусмотренного ст. 104 настоящего Кодекса.",
+    "penalty": "Правила назначения наказания по совокупности преступлений 1. При совокупности преступлений наказание назначается отдельно за каждое совершенное преступление. 2. В случае назначения наказания за совершение преступлений по совокупности, окончательное наказание назначается путем поглощения менее строгого наказания более строгим.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-42",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 42",
+    "title": "Обстоятельства, смягчающие наказание",
+    "text": "Смягчающими обстоятельствами признаются:\nа) совершение преступления в результате физического или психического принуждения либо в силу материальной, служебной или иной зависимости;\nб) совершение преступления при нарушении условий правомерности необходимой обороны, задержания лица, совершившего преступление, крайней необходимости, обоснованного риска, исполнения приказа или распоряжения;\nв) противоправность или аморальность поведения потерпевшего, явившегося поводом для преступления;\nг) явка с повинной, активное способствование раскрытию и расследованию преступления, изобличению и уголовному преследованию других соучастников преступления;\nд) оказание медицинской и иной помощи потерпевшему после совершения преступления, добровольное возмещение имущественного ущерба и морального вреда, причиненных в результате преступления, иные действия, направленные на заглаживание вреда, причиненного потерпевшему;\nе) иные обстоятельства.",
+    "penalty": "Обстоятельства, смягчающие наказание",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-43",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 43",
+    "title": "Обстоятельства, отягчающие наказание",
+    "text": "1. Отягчающими обстоятельствами признаются:\nа) совершение преступления в составе группы лиц, группы лиц по предварительному сговору, организованной группы или преступного сообщества (преступной организации);\nб) совершение преступления по мотивам политической, идеологической, расовой, национальной или религиозной ненависти, или вражды либо по мотивам ненависти или вражды в отношении какой-либо социальной группы;\nв) совершение преступления из мести за правомерные действия других лиц, а также с целью скрыть другое преступление или облегчить его совершение;\nг) совершение преступления в отношении лица или его близких в связи с осуществлением данным лицом служебной деятельности или выполнением общественного долга;\nд) совершение преступления с особой жестокостью, садизмом, издевательством, а также мучениями для потерпевшего;\nе) совершение преступления с использованием доверия, оказанного виновному в силу его служебного положения или договора;\nё) совершение преступления с использованием форменной одежды или документов представителя власти;\nж) совершение преступления в состоянии алкогольного или наркотического опьянения;\nз) совершение преступления с использованием психического давления на потерпевшего;\nи) рецидив преступлений;\nй) совершение преступления в отношении потерпевшего, находящегося в отношении виновного в заведомо беспомощном положении;\nк) наступление тяжких последствий в результате совершения преступления.\n2. Не может признаваться отягчающим наказание такое обстоятельство, которое хотя и предусмотрено частью 1 настоящей статьи, однако является одним из квалифицирующих признаков преступления, за которое назначается наказание.",
+    "penalty": "Обстоятельства, отягчающие наказание 2. Не может признаваться отягчающим наказание такое обстоятельство, которое хотя и предусмотрено частью 1 настоящей статьи, однако является одним из квалифицирующих признаков преступления, за которое назначается наказание.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-44",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 44",
+    "title": "Назначение более мягкого наказания, чем предусмотрено за данное преступление",
+    "text": "При наличии исключительных обстоятельств, связанных с целями и мотивами преступления, ролью виновного, его поведением во время или после совершения преступления, и других обстоятельств, существенно уменьшающих степень общественной опасности преступления, а равно при активном содействии участника группового преступления раскрытию этого преступления, в том числе в случае заключения подозреваемым или обвиняемым досудебного соглашения о сотрудничестве, наказание может быть назначено ниже низшего предела, предусмотренного статьей Особенной части настоящего Кодекса, суд может назначить более мягкий вид наказания, чем предусмотрен санкцией соответствующей статьи.",
+    "penalty": "Назначение более мягкого наказания, чем предусмотрено за данное преступление При наличии исключительных обстоятельств, связанных с целями и мотивами преступления, ролью виновного, его поведением во время или после совершения преступления, и других обстоятельств, существенно уменьшающих степень общественной опасности преступления, а равно при активном содействии участника группового преступления раскрытию этого преступления, в том числе в случае заключения подозреваемым или обвиняемым досудебного соглашения о сотрудничестве, наказание может быть назначено ниже низшего предела, предусмотренного статьей Особенной части настоящего Кодекса, суд может назначить более мягкий вид наказания, чем предусмотрен санкцией соответствующей статьи.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-45",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 45",
+    "title": "Назначение наказания за неоконченное преступление",
+    "text": "1. При назначении наказания за неоконченное преступление учитываются обстоятельства, в силу которых преступление не было доведено до конца.\n2. Срок или размер наказания за приготовление к преступлению не может превышать половины максимального срока или размера наиболее строгого вида наказания, предусмотренного соответствующей статьей Особенной части настоящего Кодекса за оконченное преступление.\n3. Срок или размер наказания за покушение на преступление не может превышать трех четвертей максимального срока или размера наиболее строгого вида наказания, предусмотренного соответствующей статьей Особенной части настоящего Кодекса за оконченное преступление.",
+    "penalty": "Назначение наказания за неоконченное преступление 1. При назначении наказания за неоконченное преступление учитываются обстоятельства, в силу которых преступление не было доведено до конца. 2. Срок или размер наказания за приготовление к преступлению не может превышать половины максимального срока или размера наиболее строгого вида наказания, предусмотренного соответствующей статьей Особенной части настоящего Кодекса за оконченное преступление.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-criminal-46",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 46",
+    "title": "Освобождение от уголовной ответственности в связи с назначением судебного штрафа или исправительных работ",
+    "text": "1. Лицо, впервые совершившее преступление небольшой или средней тяжести, может быть освобождено судом от уголовной ответственности, с назначением судебного штрафа.\n2. Судебный штраф есть денежное взыскание, назначаемое судом при освобождении лица от уголовной ответственности в случаях, предусмотренных настоящей статьей.\n3. В случае неуплаты судебного штрафа в установленный судом срок, судебный штраф отменяется и лицо привлекается к уголовной ответственности по соответствующей статье Особенной части настоящего Кодекса.",
+    "penalty": "Освобождение от уголовной ответственности в связи с назначением судебного штрафа или исправительных работ 1. Лицо, впервые совершившее преступление небольшой или средней тяжести, может быть освобождено судом от уголовной ответственности, с назначением судебного штрафа. 2. Судебный штраф есть денежное взыскание, назначаемое судом при освобождении лица от уголовной ответственности в случаях, предусмотренных настоящей статьей.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-47",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 47",
+    "title": "Освобождение от уголовной ответственности в связи с истечением сроков давности уголовного преследования",
+    "text": "1. Лицо освобождается от уголовной ответственности, если со дня совершения преступления истекли следующие сроки:\nа) пятнадцать лет после совершения преступления небольшой тяжести;\nб) двадцать лет после совершения преступления средней тяжести;\nв) двадцать пять лет после совершения тяжкого преступления;\nг) тридцать пять лет после совершения особо тяжкого преступления.\n\n\nГлава 9. Амнистия. Помилование. Судимость. Залог",
+    "penalty": "Освобождение от уголовной ответственности в связи с истечением сроков давности уголовного преследования 1. Лицо освобождается от уголовной ответственности, если со дня совершения преступления истекли следующие сроки: Глава 9. Амнистия. Помилование. Судимость. Залог",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 8. Назначение наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "залог"
+    ]
+  },
+  {
+    "id": "ru-criminal-48",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 48",
+    "title": "Амнистия",
+    "text": "1. Амнистия объявляется Федеральным Собранием Российской Федерации в отношении индивидуально не определенного круга лиц.\n2. Актом об амнистии лица, совершившие преступления, могут быть освобождены от уголовной ответственности. Лица, осужденные за совершение преступлений, могут быть освобождены от наказания, либо назначенное им наказание может быть сокращено или заменено более мягким видом наказания, либо такие лица могут быть освобождены от дополнительного вида наказания. С лиц, отбывших наказание, актом об амнистии может быть снята судимость.",
+    "penalty": "2. Актом об амнистии лица, совершившие преступления, могут быть освобождены от уголовной ответственности. Лица, осужденные за совершение преступлений, могут быть освобождены от наказания, либо назначенное им наказание может быть сокращено или заменено более мягким видом наказания, либо такие лица могут быть освобождены от дополнительного вида наказания. С лиц, отбывших наказание, актом об амнистии может быть снята судимость.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 9. Амнистия. Помилование. Судимость. Залог",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-49",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 49",
+    "title": "Помилование",
+    "text": "1. Помилование осуществляется Президентом Российской Федерации в отношении индивидуально определенного лица.\n2. Актом помилования лицо, осужденное за преступление, может быть освобождено от дальнейшего отбывания наказания либо назначенное ему наказание может быть сокращено или заменено более мягким видом наказания. С лица, отбывшего наказание, актом помилования может быть снята судимость.",
+    "penalty": "2. Актом помилования лицо, осужденное за преступление, может быть освобождено от дальнейшего отбывания наказания либо назначенное ему наказание может быть сокращено или заменено более мягким видом наказания. С лица, отбывшего наказание, актом помилования может быть снята судимость.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 9. Амнистия. Помилование. Судимость. Залог",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-50",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 50",
+    "title": "Судимость",
+    "text": "1. Лицо, привлеченное к уголовной ответственности за совершение преступления, считается судимым со дня вступления в законную силу соответствующего решения должностного лица до момента погашения или снятия судимости. Судимость в соответствии с настоящим Кодексом учитывается при рецидиве преступлений, назначении наказания и влечет за собой иные правовые последствия в случаях и в порядке, которые установлены законом.\n2. Погашение или снятие судимости аннулирует все правовые последствия, предусмотренные настоящим Кодексом, связанные с судимостью.\n3. Судимость возникает лишь при назначении за совершение тяжкого или особо-тяжкого преступления наказания в виде лишения свободы на срок 30 месяцев и более.\n4. Процедура погашения судимости устанавливается законом и актами Председателя Верховного суда Российской Федерации.\n5. Судимость может быть погашена досрочно путем внесения компенсационного платежа в казну правительства в размере 130.000 рублей через сотрудников Министерства Юстиции, Прокуратуры, Судей всех инстанций, иных лиц установленных законодательством.",
+    "penalty": "1. Лицо, привлеченное к уголовной ответственности за совершение преступления, считается судимым со дня вступления в законную силу соответствующего решения должностного лица до момента погашения или снятия судимости. Судимость в соответствии с настоящим Кодексом учитывается при рецидиве преступлений, назначении наказания и влечет за собой иные правовые последствия в случаях и в порядке, которые установлены законом. 3. Судимость возникает лишь при назначении за совершение тяжкого или особо-тяжкого преступления наказания в виде лишения свободы на срок 30 месяцев и более.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 9. Амнистия. Помилование. Судимость. Залог",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-50-1",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 50.1",
+    "title": "Залог",
+    "text": "1. Лицо, которому за совершение небольшого или средней тяжести преступления назначено наказание в виде лишения свободы на определенный срок может быть освобождено от отбывания наказания в связи с внесением залога.\n2. Залог вносится либо лицом, привлеченным к уголовной ответственности лично, либо его представителем или законным представителем в учреждение органа государственной власти, где осужденный отбывает наказание.\n3. Залог за освобождение от наказания за совершение преступления небольшой тяжести составляет 50.000 рублей, а за совершение преступления средней тяжести - 75.000 рублей.\n4. В случае назначения наказания в виде лишения свободы лицу по совокупности преступлений, сумма залога рассчитывается из самого тяжкого совершенного преступления.\n5. Лицо не может быть освобождено от наказания в связи с внесением залога за совершение тяжких и особо-тяжких преступлений.\n\nОСОБЕННАЯ ЧАСТЬ\n\nРАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ\n\n\nГлава 10. Преступления против жизни и здоровья",
+    "penalty": "Залог 1. Лицо, которому за совершение небольшого или средней тяжести преступления назначено наказание в виде лишения свободы на определенный срок может быть освобождено от отбывания наказания в связи с внесением залога. 2. Залог вносится либо лицом, привлеченным к уголовной ответственности лично, либо его представителем или законным представителем в учреждение органа государственной власти, где осужденный отбывает наказание.",
+    "section": "РАЗДЕЛ III. НАКАЗАНИЕ",
+    "chapter": "Глава 9. Амнистия. Помилование. Судимость. Залог",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "залог"
+    ]
+  },
+  {
+    "id": "ru-criminal-51",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 51",
+    "title": "Убийство",
+    "text": "[Р/Ф] [★★★★★] 1. Убийство, то есть умышленное причинение смерти другому человеку, -\nнаказывается лишением свободы на срок от 30 до 45 месяцев.\n\n[★★★★★] 2. Убийство:\nа) двух или более лиц;\nб) лица или его близких в связи с осуществлением данным лицом служебной деятельности или выполнением общественного долга;\nв) лица, заведомо для виновного находящегося в беспомощном состоянии, а равно сопряженное с похищением человека;\nг) совершенное с особой жестокостью;\nд) совершенное общественно опасным способом;\nе) по мотиву кровной мести;\nж) совершенное группой лиц, группой лиц по предварительному сговору или организованной группой;\nз) из хулиганских побуждений, -\nнаказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "penalty": "наказывается лишением свободы на срок от 30 до 45 месяцев. наказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 10. Преступления против жизни и здоровья",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-52",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 52",
+    "title": "Убийство, совершенное при превышении пределов необходимой обороны либо при превышении мер, необходимых для задержания лица, совершившего преступление",
+    "text": "[Р/Ф] [★★★] Убийство, совершенное при превышении пределов необходимой обороны либо при превышении мер, необходимых для задержания лица, совершившего преступление, -\nнаказывается лишением свободы на срок до 25 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 25 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 10. Преступления против жизни и здоровья",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-53",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 53",
+    "title": "Причинение смерти по неосторожности",
+    "text": "[Р/Ф] [★★] Причинение смерти по неосторожности, -\nнаказывается лишением свободы на срок до 20 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 10. Преступления против жизни и здоровья",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-54",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 54",
+    "title": "Умышленное причинение тяжкого вреда здоровью",
+    "text": "[Р/Ф ★★★★] Умышленное причинение тяжкого вреда здоровью, опасного для жизни человека, или повлекшего за собой потерю зрения, речи, слуха либо какого-либо органа или утрату органом его функций, прерывание беременности, психическое расстройство, заболевание наркоманией либо токсикоманией, или выразившегося в неизгладимом обезображивании лица, или вызвавшего значительную стойкую утрату общей трудоспособности не менее чем на одну треть или заведомо для виновного полную утрату профессиональной трудоспособности, -\nнаказывается лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 10. Преступления против жизни и здоровья",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-55",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 55",
+    "title": "Причинение тяжкого или средней тяжести вреда здоровью при превышении пределов необходимой обороны либо при превышении мер, необходимых для задержания лица, совершившего преступление",
+    "text": "[Р/Ф] 1. [★★★] Умышленное причинение тяжкого вреда здоровью, совершенное при превышении пределов необходимой обороны, -\nнаказывается штрафом в размере от 35.000 до 60.000 рублей либо лишением свободы на срок до 25 месяцев.\n\n[Р/Ф] 2. [★★] Умышленное причинение тяжкого или средней тяжести вреда здоровью, совершенное при превышении мер, необходимых для задержания лица, совершившего преступление, -\nнаказывается штрафом в размере от 25.000 до 50.000 рублей либо лишением свободы на срок до 20 месяцев.",
+    "penalty": "наказывается штрафом в размере от 35.000 до 60.000 рублей либо лишением свободы на срок до 25 месяцев. наказывается штрафом в размере от 25.000 до 50.000 рублей либо лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 10. Преступления против жизни и здоровья",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-56",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 56",
+    "title": "Истязание",
+    "text": "[Р/Ф] 1. [★★] Причинение физических или психических страданий путем систематического нанесения побоев либо иными насильственными действиями, если это не повлекло последствий, указанных в статьях 53 и 54 настоящего Кодекса, -\nнаказывается лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★★] То же деяние, совершенное с особой жестокостью, издевательством или мучениями для потерпевшего, а равно совершенное группой лиц, группой лиц по предварительному сговору или организованной группой, -\nнаказывается лишением свободы на срок от 10 до 30 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 20 месяцев. наказывается лишением свободы на срок от 10 до 30 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 10. Преступления против жизни и здоровья",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-57",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 57",
+    "title": "Угроза убийством или причинением тяжкого вреда здоровью",
+    "text": "[Р] [★] Угроза убийством или причинением тяжкого вреда здоровью, если имелись основания опасаться осуществления этой угрозы, -\nнаказывается штрафом в размере от 25.000 до 100.000 рублей либо лишением свободы на срок до 10 месяцев.\n\n\nГлава 11. Преступления против свободы, чести и достоинства личности",
+    "penalty": "наказывается штрафом в размере от 25.000 до 100.000 рублей либо лишением свободы на срок до 10 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 10. Преступления против жизни и здоровья",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-58",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 58",
+    "title": "Похищение человека",
+    "text": "[Ф] [★★★★★] Похищение человека, -\nнаказывается лишением свободы на срок до 50 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 50 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 11. Преступления против свободы, чести и достоинства личности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-59",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 59",
+    "title": "Незаконное лишение свободы",
+    "text": "[Р/Ф] [★★] Незаконное лишение человека свободы, не связанное с его похищением, -\nнаказывается лишением свободы на срок до 20 месяцев.",
+    "penalty": "Незаконное лишение свободы [Р/Ф] [★★] Незаконное лишение человека свободы, не связанное с его похищением, - наказывается лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 11. Преступления против свободы, чести и достоинства личности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-60",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 60",
+    "title": "Клевета",
+    "text": "[Р] 1. Клевета, то есть распространение заведомо ложных сведений, порочащих честь и достоинство другого лица или подрывающих его репутацию, -\nнаказывается штрафом в размере от 5.000 до 30.000 рублей.\n\n[Р] 2. [★★] Клевета, совершенная с использованием своего служебного положения, а равно соединенная с обвинением лица в совершении преступления против половой неприкосновенности и половой свободы личности либо в совершении тяжкого или особо-тяжкого преступления, -\nнаказывается штрафом в размере от 20.000 до 100.000 рублей либо лишением свободы на срок до 20 месяцев.\n\n\nГлава 12. Преступления против половой неприкосновенности и половой свободы личности",
+    "penalty": "наказывается штрафом в размере от 5.000 до 30.000 рублей. наказывается штрафом в размере от 20.000 до 100.000 рублей либо лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 11. Преступления против свободы, чести и достоинства личности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-61",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 61",
+    "title": "Изнасилование",
+    "text": "[Р/Ф] 1. [★★★★] Изнасилование, то есть половое сношение с применением насилия или с угрозой его применения к потерпевшей или к другим лицам либо с использованием беспомощного состояния потерпевшей, -\nнаказывается лишением свободы на срок от 20 до 40 месяцев.\n\n[Р/Ф] 2. [★★★★★] Изнасилование:\nа) совершенное группой лиц, группой лиц по предварительному сговору или организованной группой;\nб) соединенное с угрозой убийством или причинением тяжкого вреда здоровью, а также совершенное с особой жестокостью по отношению к потерпевшей или к другим лицам;\nв) повлекшее по неосторожности смерть потерпевшего, -\nнаказывается лишением свободы на срок от 25 до 45 месяцев.",
+    "penalty": "наказывается лишением свободы на срок от 20 до 40 месяцев. наказывается лишением свободы на срок от 25 до 45 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 12. Преступления против половой неприкосновенности и половой свободы личности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-62",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 62",
+    "title": "Понуждение к действиям сексуального характера",
+    "text": "[Р] [★★★] Понуждение лица к половому сношению, мужеложству, лесбиянству или совершению иных действий сексуального характера путем шантажа, угрозы уничтожением, повреждением или изъятием имущества либо с использованием материальной или иной зависимости потерпевшего (потерпевшей), -\nнаказывается лишением свободы на срок до 25 месяцев.\n\n\nГлава 13. Преступления против конституционных прав и свобод человека и гражданина",
+    "penalty": "наказывается лишением свободы на срок до 25 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 12. Преступления против половой неприкосновенности и половой свободы личности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-63",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 63",
+    "title": "Нарушение равенства прав и свобод человека и гражданина",
+    "text": "[Р] [★★] Дискриминация, то есть нарушение прав, свобод и законных интересов человека и гражданина в зависимости от его пола, расы, национальности, языка, происхождения, имущественного и должностного положения, места жительства, отношения к религии, убеждений, принадлежности к общественным объединениям или каким-либо социальным группам, совершенное лицом с использованием своего служебного положения, -\nнаказывается штрафом в размере от 30.000 до 90.000 рублей, либо лишением свободы на срок до 20 месяцев.",
+    "penalty": "наказывается штрафом в размере от 30.000 до 90.000 рублей, либо лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 13. Преступления против конституционных прав и свобод человека и гражданина",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-64",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 64",
+    "title": "Нарушение неприкосновенности жилища",
+    "text": "[Р/Ф] 1. [★★] Незаконное проникновение в жилище, совершенное против воли проживающего в нем лица, -\nнаказывается штрафом в размере до 50.000 рублей, либо лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★★] То же деяние, совершенное с применением насилия или с угрозой его применения, а равно совершенные лицом с использованием своего служебного положения, -\nнаказывается штрафом в размере до 75.000 рублей, либо лишением свободы на срок до 30 месяцев.\n\n\nРАЗДЕЛ V. ПРЕСТУПЛЕНИЯ В СФЕРЕ ЭКОНОМИКИ\n\n\nГлава 14. Преступления против собственности",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей, либо лишением свободы на срок до 20 месяцев. наказывается штрафом в размере до 75.000 рублей, либо лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ IV. ПРЕСТУПЛЕНИЯ ПРОТИВ ЛИЧНОСТИ",
+    "chapter": "Глава 13. Преступления против конституционных прав и свобод человека и гражданина",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-65",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 65",
+    "title": "Кража",
+    "text": "[Р/Ф] 1. [★★] Кража, то есть тайное хищение чужого имущества, -\nнаказывается штрафом в размере до 50.000 рублей, либо лишением свободы на срок 20 месяцев.\n\n[Р/Ф] 2. [★★★★] Кража, совершенная:\nа) группой лиц по предварительному сговору или организованной группой;\nб) с незаконным проникновением в жилище, помещение либо иное хранилище, -\nнаказывается штрафом в размере до 90.000 рублей, либо лишением свободы на срок до 35 месяцев.\nПримечания. Под хищением в статьях настоящего Кодекса понимаются совершенные с корыстной целью противоправные безвозмездное изъятие и (или) обращение чужого имущества в пользу виновного или других лиц, причинившие ущерб собственнику или иному владельцу этого имущества.\nПод помещением в статьях настоящей главы понимаются строения и сооружения независимо от форм собственности, предназначенные для временного нахождения людей или размещения материальных ценностей в производственных или иных служебных целях.",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей, либо лишением свободы на срок 20 месяцев. наказывается штрафом в размере до 90.000 рублей, либо лишением свободы на срок до 35 месяцев.",
+    "section": "РАЗДЕЛ V. ПРЕСТУПЛЕНИЯ В СФЕРЕ ЭКОНОМИКИ",
+    "chapter": "Глава 14. Преступления против собственности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-66",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 66",
+    "title": "Грабеж и разбой",
+    "text": "[Р/Ф] 1. [★★★] Грабеж, то есть открытое хищение чужого имущества, -\nнаказывается лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] Грабеж, совершенный: а) группой лиц по предварительному сговору; б) с незаконным проникновением в жилище, помещение либо иное хранилище; в) с применением насилия, не опасного для жизни или здоровья, либо с угрозой применения такого насилия, -\nнаказывается лишением свободы на срок до 40 месяцев.\n\n[Р/Ф] 3. [★★★★]. Разбой, то есть нападение в целях хищения чужого имущества, совершенное с применением насилия, опасного для жизни или здоровья, либо с угрозой применения такого насилия, - наказывается лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 30 месяцев. наказывается лишением свободы на срок до 40 месяцев. [Р/Ф] 3. [★★★★]. Разбой, то есть нападение в целях хищения чужого имущества, совершенное с применением насилия, опасного для жизни или здоровья, либо с угрозой применения такого насилия, - наказывается лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ V. ПРЕСТУПЛЕНИЯ В СФЕРЕ ЭКОНОМИКИ",
+    "chapter": "Глава 14. Преступления против собственности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-67",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 67",
+    "title": "Неправомерное завладение транспортным средством, угон",
+    "text": "[Р/Ф] [★★★] Неправомерное завладение автомобилем или иным транспортным средством вне зависимости от цели такого завладения, -\nнаказывается лишением свободы на срок до 30 месяцев.\n\nПояснение: \"Неправомерное завладение\" означает, что виновный не только получил контроль над транспортом, но и сдвинул его — например, угнал машину с парковки или увел лодку от причала. Цель завладения (кража, временное использование или иная) не влияет на квалификацию. Если человек занял транспортное средство - например, проник в чужую машину, завёл её или использовал как укрытие, но не сдвинул с места, - не считается \"завладением\". Такие действия квалифицируются как мелкое хулиганство, поскольку не приводят к утрате владельцем фактического доступа к транспорту в полном объёме. Исключение для транспорта государственных служащих. Если транспортное средство принадлежит государственному служащему и используется в служебных целях, то занятие его без перемещения имеет особый статус. В этом случае гражданин обязан покинуть такое транспортное средство по первому требованию госслужащего. Невыполнение требования пресекается в соответствии с законодательством, но само занятие без перемещения остается вне рамок статьи 67. Транспортировка транспортного средства, числящегося в угоне, на ином воздушном/водном/железнодорожным и др. видах транспорта также является неправомерным завладением, в том числе если ТС было сдвинуто посредством косвенного вмешательства обвиняемого лица, либо нахождения в нём без сообщения в компетентные органы.",
+    "penalty": "наказывается лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ V. ПРЕСТУПЛЕНИЯ В СФЕРЕ ЭКОНОМИКИ",
+    "chapter": "Глава 14. Преступления против собственности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "лишение",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-criminal-68",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 68",
+    "title": "Умышленное уничтожение или повреждение имущества",
+    "text": "[Р] [★★] Умышленные уничтожение или повреждение чужого имущества, если эти деяния повлекли причинение значительного ущерба, -\nнаказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок 20 месяцев.\n\n\nГлава 14.1. Преступления в сфере экономической деятельности",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок 20 месяцев.",
+    "section": "РАЗДЕЛ V. ПРЕСТУПЛЕНИЯ В СФЕРЕ ЭКОНОМИКИ",
+    "chapter": "Глава 14. Преступления против собственности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-69",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 69",
+    "title": "Незаконное предпринимательство",
+    "text": "[Ф] Осуществление предпринимательской деятельности без регистрации или без лицензии, если это деяние причинило крупный ущерб гражданам, организациям или государству, -\nнаказывается штрафом в размере до 100.000 рублей.\n\n\nРАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА\n\n\nГлава 15. Преступления против общественной безопасности",
+    "penalty": "наказывается штрафом в размере до 100.000 рублей.",
+    "section": "РАЗДЕЛ V. ПРЕСТУПЛЕНИЯ В СФЕРЕ ЭКОНОМИКИ",
+    "chapter": "Глава 14.1. Преступления в сфере экономической деятельности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-70",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 70",
+    "title": "Террористический акт",
+    "text": "[Ф] [★★★★★] Совершение взрыва, поджога или иных действий, устрашающих население и создающих опасность гибели человека, причинения значительного имущественного ущерба либо наступления иных тяжких последствий, в целях дестабилизации деятельности органов власти или международных организаций либо воздействия на принятие ими решений, а также угроза совершения указанных действий в целях воздействия на принятие решений органами власти или международными организациями, -\nнаказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "penalty": "наказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 15. Преступления против общественной безопасности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-71",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 71",
+    "title": "Публичные призывы к осуществлению террористической деятельности, публичное оправдание терроризма или пропаганда терроризма",
+    "text": "[Р/Ф] [★★] Публичные призывы к осуществлению террористической деятельности, публичное оправдание терроризма или пропаганда терроризма, -\nнаказывается штрафом в размере до 70.000 рублей, либо лишением свободы на срок до 20 месяцев.",
+    "penalty": "наказывается штрафом в размере до 70.000 рублей, либо лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 15. Преступления против общественной безопасности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-72",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 72",
+    "title": "Бандитизм",
+    "text": "[Ф] 1. [★★★★★] Создание устойчивой вооруженной группы (банды) в целях нападения на граждан или организации, а равно руководство такой группой (бандой), -\nнаказываются лишением свободы на срок от 40 до 50 месяцев.\n\n[Ф] 2. [★★★★] Участие в устойчивой вооруженной группе (банде) или в совершаемых ею нападениях, -\nнаказываются лишением свободы на срок от 30 до 40 месяцев.",
+    "penalty": "наказываются лишением свободы на срок от 40 до 50 месяцев. наказываются лишением свободы на срок от 30 до 40 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 15. Преступления против общественной безопасности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-73",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 73",
+    "title": "Хулиганство",
+    "text": "[Р/Ф] 1. [★★★] Хулиганство, то есть грубое нарушение общественного порядка, выражающее явное неуважение к обществу, совершенное:\nа) с применением насилия к гражданам либо угрозой его применения;\nб) по мотивам политической, идеологической, расовой, национальной или религиозной ненависти или вражды либо по мотивам ненависти или вражды в отношении какой-либо социальной группы;\nв) на железнодорожном, морском, внутреннем водном или воздушном транспорте, а также на любом ином транспорте общего пользования;\nг) с применением оружия или предметов, используемых в качестве оружия;\nд) группой лиц, группой лиц по предварительному сговору или организованной группой;\nе) связанное с сопротивлением представителю власти либо иному лицу, исполняющему обязанности по охране общественного порядка или пресекающему нарушение общественного порядка;\nё) с применением взрывчатых веществ или взрывных устройств, -\nнаказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 30 месяцев.",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 15. Преступления против общественной безопасности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-criminal-73-1",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 73.1",
+    "title": "Незаконное проникновение на режимный объект",
+    "text": "[Р/Ф] [★★★★] Незаконное проникновение на режимный объект равно как и нахождение на таковом объекте, -\nнаказывается штрафом в размере от 80.000 до 150.000 рублей, либо лишением свободы на срок до 40 месяцев.\n\n\nГлава 16. Преступления против общественной нравственности и здоровья населения",
+    "penalty": "наказывается штрафом в размере от 80.000 до 150.000 рублей, либо лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 15. Преступления против общественной безопасности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-74",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 74",
+    "title": "Незаконные приобретение, передача, хранение, перевозка, пересылка, ношение, сбыт или изготовление огнестрельного оружия, его основных частей и боеприпасов к нему, а также специальных средств",
+    "text": "[Р/Ф] 1. [★★★] Незаконные приобретение, передача, хранение, перевозка, пересылка ношение огнестрельного оружия, его основных частей и боеприпасов к нему, а также специальных средств, -\nнаказывается штрафом в размере от 20.000 до 50.000 рублей, либо лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] Незаконный сбыт огнестрельного оружия, его основных частей, боеприпасов к нему, а также специальных средств, -\nнаказывается лишением свободы на срок до 40 месяцев.\n\n[Р/Ф] 3. [★★★★★] Незаконные изготовление, переделка или ремонт огнестрельного оружия, его основных частей, а равно незаконное изготовление боеприпасов к огнестрельному оружию -\nнаказывается лишением свободы на срок от 30 до 50 месяцев.",
+    "penalty": "наказывается штрафом в размере от 20.000 до 50.000 рублей, либо лишением свободы на срок до 30 месяцев. наказывается лишением свободы на срок до 40 месяцев. наказывается лишением свободы на срок от 30 до 50 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 16. Преступления против общественной нравственности и здоровья населения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-75",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 75",
+    "title": "Незаконные приобретение, хранение, перевозка, изготовление, переработка наркотических средств, психотропных веществ или их аналогов, а также незаконные приобретение, хранение, перевозка растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества",
+    "text": "[Р/Ф] 1. [★★] Незаконные приобретение, хранение, перевозка, изготовление, переработка без цели сбыта наркотических средств, психотропных веществ или их аналогов в значительном размере, а также незаконные приобретение, хранение, перевозка без цели сбыта растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества, в значительном размере -\nнаказывается штрафом в размере до 20.000 рублей, либо лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★★] Те же деяния, совершенные в крупном размере (свыше 5 грамм), -\nнаказываются лишением свободы на срок до 30 месяцев.\n\n[Ф] 3. [★★★★★] Те же деяния, совершенные в особо крупном размере (свыше 20 грамм), -\nнаказываются лишением свободы на срок от 30 до 50 месяцев.",
+    "penalty": "Незаконные приобретение, хранение, перевозка, изготовление, переработка наркотических средств, психотропных веществ или их аналогов, а также незаконные приобретение, хранение, перевозка растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества [Р/Ф] 1. [★★] Незаконные приобретение, хранение, перевозка, изготовление, переработка без цели сбыта наркотических средств, психотропных веществ или их аналогов в значительном размере, а также незаконные приобретение, хранение, перевозка без цели сбыта растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества, в значительном размере - наказывается штрафом в размере до 20.000 рублей, либо лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 16. Преступления против общественной нравственности и здоровья населения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-76",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 76",
+    "title": "Незаконные производство, сбыт или пересылка наркотических средств, психотропных веществ или их аналогов, а также незаконные сбыт или пересылка растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества",
+    "text": "[Ф] [★★★★★] Незаконные производство, сбыт или пересылка наркотических средств, психотропных веществ или их аналогов, а также незаконные сбыт или пересылка растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества, -\nнаказываются лишением свободы на срок от 40 до 50 месяцев.",
+    "penalty": "наказываются лишением свободы на срок от 40 до 50 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 16. Преступления против общественной нравственности и здоровья населения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-77",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 77",
+    "title": "Жестокое обращение с животными",
+    "text": "[Р] [★★] Жестокое обращение с животным в целях причинения ему боли и (или) страданий, а равно из хулиганских побуждений или из корыстных побуждений, повлекшее его гибель или увечье, -\nнаказывается штрафом в размере от 30.000 до 75.000 рублей либо лишением свободы на срок до 20 месяцев.\n\n\nГлава 17. Преступления против безопасности движения и эксплуатации транспорта",
+    "penalty": "наказывается штрафом в размере от 30.000 до 75.000 рублей либо лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 16. Преступления против общественной нравственности и здоровья населения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-criminal-78",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 78",
+    "title": "Нарушение правил дорожного движения и эксплуатации транспортных средств",
+    "text": "[Р] 1. [★★] Нарушение лицом, управляющим автомобилем, либо другим механическим транспортным средством, правил дорожного движения или эксплуатации транспортных средств, повлекшее по неосторожности причинение тяжкого вреда здоровью человека, -\nнаказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок 20 месяцев.\n\n[Р/Ф] 2. [★★★] То же деяние, повлекшее по неосторожности смерть человека, -\nнаказывается лишением свободы на срок до 30 месяцев.\n\n\nРАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ\n\n\nГлава 18. Преступления против основ конституционного строя и безопасности государства",
+    "penalty": "наказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок 20 месяцев. наказывается лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ VI. ПРЕСТУПЛЕНИЯ ПРОТИВ ОБЩЕСТВЕННОЙ БЕЗОПАСНОСТИ И ОБЩЕСТВЕННОГО ПОРЯДКА",
+    "chapter": "Глава 17. Преступления против безопасности движения и эксплуатации транспорта",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-criminal-79",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 79",
+    "title": "Государственная измена",
+    "text": "[Ф] [★★★★★] Государственная измена, то есть совершенные гражданином Российской Федерации шпионаж, выдача иностранному государству, международной либо иностранной организации или их представителям сведений, составляющих государственную тайну, доверенную лицу или ставшую известной ему по службе, работе, учебе или в иных случаях, предусмотренных законодательством Российской Федерации, переход на сторону противника либо оказание финансовой, материально-технической, консультационной или иной помощи иностранному государству, международной либо иностранной организации или их представителям в деятельности, направленной против безопасности Российской Федерации, -\nнаказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "penalty": "[Ф] [★★★★★] Государственная измена, то есть совершенные гражданином Российской Федерации шпионаж, выдача иностранному государству, международной либо иностранной организации или их представителям сведений, составляющих государственную тайну, доверенную лицу или ставшую известной ему по службе, работе, учебе или в иных случаях, предусмотренных законодательством Российской Федерации, переход на сторону противника либо оказание финансовой, материально-технической, консультационной или иной помощи иностранному государству, международной либо иностранной организации или их представителям в деятельности, направленной против безопасности Российской Федерации, - наказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 18. Преступления против основ конституционного строя и безопасности государства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-80",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 80",
+    "title": "Разглашение государственной тайны",
+    "text": "[Ф] [★★★★] Разглашение сведений, составляющих государственную тайну, лицом, которому она была доверена или стала известна по службе, работе, учебе или в иных случаях, предусмотренных законодательством Российской Федерации, если эти сведения стали достоянием других лиц, при отсутствии признаков преступления, предусмотренного статьей 79 настоящего Кодекса, -\nнаказывается лишением свободы на срок до 40 месяцев.",
+    "penalty": "[Ф] [★★★★] Разглашение сведений, составляющих государственную тайну, лицом, которому она была доверена или стала известна по службе, работе, учебе или в иных случаях, предусмотренных законодательством Российской Федерации, если эти сведения стали достоянием других лиц, при отсутствии признаков преступления, предусмотренного статьей 79 настоящего Кодекса, - наказывается лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 18. Преступления против основ конституционного строя и безопасности государства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-81",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 81",
+    "title": "Утрата документов, содержащих государственную тайну",
+    "text": "[Ф] [★★★] Нарушение лицом, имеющим допуск к государственной тайне, установленных правил обращения с содержащими государственную тайну документами, а равно с предметами, сведения о которых составляют государственную тайну, если это повлекло по неосторожности их утрату или наступление тяжких последствий, -\nнаказывается штрафом в размере от 30.000 до 70.000 рублей либо лишением свободы на срок до 25 месяцев.\n\n\nГлава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "penalty": "наказывается штрафом в размере от 30.000 до 70.000 рублей либо лишением свободы на срок до 25 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 18. Преступления против основ конституционного строя и безопасности государства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-82",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 82",
+    "title": "Злоупотребление должностными полномочиями",
+    "text": "[Р/Ф] 1. [★★★] Использование должностным лицом своих служебных полномочий вопреки интересам службы, если это деяние совершено из корыстной или иной личной заинтересованности и повлекло существенное нарушение прав и законных интересов граждан или организаций либо охраняемых законом интересов общества или государства, -\nнаказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] То же деяние, совершенное лицом, занимающим государственную должность Российской Федерации или главой Федерального органа исполнительной власти или его заместителем, -\nнаказывается штрафом в размере от 20.000 до 70.000 рублей либо лишением свободы на срок до 35 месяцев.\n\n[Р/Ф] 3. [★★★★] Деяния, предусмотренные частями первой или второй настоящей статьи, повлекшие тяжкие последствия, -\nнаказываются лишением свободы на срок от 20 до 40 месяцев.",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 30 месяцев. наказывается штрафом в размере от 20.000 до 70.000 рублей либо лишением свободы на срок до 35 месяцев. наказываются лишением свободы на срок от 20 до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-83",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 83",
+    "title": "Нецелевое расходование бюджетных средств",
+    "text": "[Ф] 1. [★★★] Расходование бюджетных средств должностным лицом получателя бюджетных средств на цели, не соответствующие условиям их получения, определенным утвержденными бюджетом, бюджетной росписью, уведомлением о бюджетных ассигнованиях, сметой доходов и расходов либо иным документом, являющимся основанием для получения бюджетных средств, совершенное в крупном размере -\nнаказывается штрафом в размере от 40.000 до 70.000 рублей, либо лишением свободы на срок до 30 месяцев.\n\n[Ф] 2. [★★★★] То же деяние, совершенное:\nа) группой лиц по предварительному сговору;\nб) в особо крупном размере, -\nнаказывается лишением свободы на срок до 40 месяцев.\nПримечание. Крупным размером в настоящей статье признается сумма бюджетных средств, превышающая пятьдесят тысяч рублей, а особо крупным размером - сто пятьдесят тысяч рублей.",
+    "penalty": "наказывается штрафом в размере от 40.000 до 70.000 рублей, либо лишением свободы на срок до 30 месяцев. наказывается лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-84",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 84",
+    "title": "Превышение должностных полномочий",
+    "text": "[Р/Ф] 1. [★★★] Совершение должностным лицом действий, явно выходящих за пределы его полномочий и повлекших существенное нарушение прав и законных интересов граждан или организаций либо охраняемых законом интересов общества или государства, -\nнаказывается штрафом в размере до 65.000 рублей либо лишением свободы на срок до 25 месяцев.\n\n[Р/Ф] 2. [★★★] То же деяние, совершенное лицом, занимающим государственную должность Российской Федерации или главой Федерального органа исполнительной власти или его заместителем, -\nнаказывается штрафом в размере от 40.000 до 80.000 рублей либо лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 3. [★★★★] Деяния, предусмотренные частями первой или второй настоящей статьи, если они совершены:\nа) с применением насилия или с угрозой его применения;\nб) с применением оружия или специальных средств;\nв) с причинением тяжких последствий;\nг) группой лиц, группой лиц по предварительному сговору или организованной группой;\nд) из корыстной или иной личной заинтересованности, -\nнаказываются лишением свободы на срок от 20 до 40 месяцев.",
+    "penalty": "наказывается штрафом в размере до 65.000 рублей либо лишением свободы на срок до 25 месяцев. наказывается штрафом в размере от 40.000 до 80.000 рублей либо лишением свободы на срок до 30 месяцев. наказываются лишением свободы на срок от 20 до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-85",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 85",
+    "title": "Неисполнение сотрудником органа внутренних дел приказа",
+    "text": "[Р/Ф] 1. [★★] Умышленное неисполнение сотрудником органа внутренних дел приказа начальника, отданного в установленном порядке и не противоречащего закону, причинившее существенный вред правам и законным интересам граждан или организаций либо охраняемым законом интересам общества или государства, -\nнаказывается штрафом в размере от 20.000 до 40.000 рублей, либо лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★★] То же деяние, совершенное группой лиц, группой лиц по предварительному сговору или организованной группой, а равно повлекшее тяжкие последствия, -\nнаказывается лишением свободы на срок до 30 месяцев.",
+    "penalty": "наказывается штрафом в размере от 20.000 до 40.000 рублей, либо лишением свободы на срок до 20 месяцев. наказывается лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-86",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 86",
+    "title": "Получение взятки",
+    "text": "[Р/Ф] 1. [★★★★] Получение должностным лицом, иностранным должностным лицом либо должностным лицом публичной международной организации лично или через посредника взятки в виде денег, ценных бумаг, иного имущества либо в виде незаконных оказания ему услуг имущественного характера, предоставления иных имущественных прав (в том числе когда взятка по указанию должностного лица передается иному физическому или юридическому лицу) за совершение действий (бездействие) в пользу взяткодателя или представляемых им лиц, если указанные действия (бездействие) входят в служебные полномочия должностного лица либо если оно в силу должностного положения может способствовать указанным действиям (бездействию), а равно за общее покровительство или попустительство по службе, -\nнаказывается штрафом в размере от 50.000 до 100.000 рублей либо лишением свободы на срок до 40 месяцев.\n\n[Р/Ф] 2. [★★★★] То же деяние, совершенное в значительном размере, -\nнаказывается лишением свободы на срок от 20 до 40 месяцев.\nПримечание. Значительным размером взятки в настоящей статье и статье 87 настоящего Кодекса признаются сумма денег, стоимость ценных бумаг, иного имущества, услуг имущественного характера, иных имущественных прав, превышающие пятьдесят тысяч рублей.",
+    "penalty": "наказывается штрафом в размере от 50.000 до 100.000 рублей либо лишением свободы на срок до 40 месяцев. наказывается лишением свободы на срок от 20 до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-87",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 87",
+    "title": "Дача взятки",
+    "text": "[Р/Ф] 1. [★★] Дача взятки должностному лицу, иностранному должностному лицу либо должностному лицу публичной международной организации лично или через посредника (в том числе когда взятка по указанию должностного лица передается иному физическому или юридическому лицу), -\nнаказывается штрафом в размере до 70.000 рублей либо лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★★] То же деяние, совершенное в значительном размере, -\nнаказывается штрафом в размере до 80.000 рублей либо лишением свободы на срок до 25 месяцев.\nПримечание. Лицо, давшее взятку, освобождается от уголовной ответственности, если оно активно способствовало раскрытию и (или) расследованию преступления и либо в отношении его имело место вымогательство взятки со стороны должностного лица, либо лицо после совершения преступления добровольно сообщило в орган, имеющий право возбудить уголовное дело, о даче взятки.",
+    "penalty": "наказывается штрафом в размере до 70.000 рублей либо лишением свободы на срок до 20 месяцев. наказывается штрафом в размере до 80.000 рублей либо лишением свободы на срок до 25 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-criminal-88",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 88",
+    "title": "Халатность",
+    "text": "[Ф] 1. [★★★] Халатность, то есть неисполнение или ненадлежащее исполнение должностным лицом своих обязанностей вследствие недобросовестного или небрежного отношения к службе либо обязанностей по должности, если это повлекло причинение крупного ущерба или существенное нарушение прав и законных интересов граждан или организаций либо охраняемых законом интересов общества или государства, -\nнаказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 30 месяцев.\n\n[Ф] 2. [★★★★] То же деяние, повлекшее по неосторожности причинение тяжкого вреда здоровью или смерти человеку, -\nнаказывается лишением свободы на срок от 20 до 40 месяцев.\n\n\nГлава 20. Преступления против правосудия",
+    "penalty": "наказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 30 месяцев. наказывается лишением свободы на срок от 20 до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 19. Преступления против государственной власти, интересов государственной службы и службы в органах местного самоуправления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-89",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 89",
+    "title": "Воспрепятствование осуществлению правосудия и производству предварительного расследования",
+    "text": "[Р/Ф] 1. [★★] Вмешательство в какой бы то ни было форме в деятельность суда в целях воспрепятствования осуществлению правосудия, -\nнаказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★] Вмешательство в какой бы то ни было форме в деятельность прокурора, следователя или лица, производящего дознание, в целях воспрепятствования всестороннему, полному и объективному расследованию дела, -\nнаказывается штрафом в размере до 30.000 рублей либо лишением свободы на срок до 15 месяцев.\n\n[Р/Ф] 3. [★★★] Деяния, предусмотренные частями первой или второй настоящей статьи, совершенные лицом с использованием своего служебного положения, -\nнаказываются штрафом в размере от 30.000 до 65.000 рублей либо лишением свободы на срок 30 месяцев.",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 20 месяцев. наказывается штрафом в размере до 30.000 рублей либо лишением свободы на срок до 15 месяцев. наказываются штрафом в размере от 30.000 до 65.000 рублей либо лишением свободы на срок 30 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "прокурор",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-90",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 90",
+    "title": "Посягательство на жизнь лица, осуществляющего правосудие или предварительное расследование",
+    "text": "[Р/Ф] [★★★★★] Посягательство на жизнь судьи, присяжного заседателя или иного лица, участвующего в отправлении правосудия, прокурора, следователя, лица, производящего дознание, защитника, эксперта, специалиста, сотрудника органов принудительного исполнения Российской Федерации, а равно их близких в связи с рассмотрением дел или материалов в суде, производством предварительного расследования либо исполнением приговора, решения суда или иного судебного акта, совершенное в целях воспрепятствования законной деятельности указанных лиц либо из мести за такую деятельность, -\nнаказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "penalty": "наказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-91",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 91",
+    "title": "Неуважение к суду",
+    "text": "[Р/Ф] 1. [★★★] Неуважение к суду, то есть совершение действий (бездействия), свидетельствующих о явном пренебрежении к установленным правилам или порядку проведения судебного заседания, либо неявка участника судебного заседания, вызванного на него надлежащим образом, без уважительной причины или разрешения суда, -\nнаказывается штрафом в размере до 60.000 рублей, либо лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] То же деяние, выразившееся в оскорблении судьи, присяжного заседателя или иного лица, участвующего в отправлении правосудия, -\nнаказывается штрафом в размере до 80.000 рублей, либо лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается штрафом в размере до 60.000 рублей, либо лишением свободы на срок до 30 месяцев. наказывается штрафом в размере до 80.000 рублей, либо лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-92",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 92",
+    "title": "Привлечение заведомо невиновного к уголовной ответственности или незаконное возбуждение уголовного дела",
+    "text": "[Ф] 1. [★★★★] Привлечение заведомо невиновного к уголовной ответственности -\nнаказывается лишением свободы на срок до 40 месяцев.\n\n[Ф] 2. [★★★★★] То же деяние, соединенное с обвинением лица в совершении тяжкого или особо тяжкого преступления либо повлекшее причинение крупного ущерба или иные тяжкие последствия, -\nнаказывается лишением свободы на срок до 50 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 40 месяцев. наказывается лишением свободы на срок до 50 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-93",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 93",
+    "title": "Незаконное освобождение от уголовной ответственности",
+    "text": "[Ф] [★★★★] Незаконное освобождение от уголовной ответственности лица, подозреваемого или обвиняемого в совершении преступления, прокурором, следователем или лицом, производящим дознание, -\nнаказывается лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-94",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 94",
+    "title": "Незаконные задержание, заключение под стражу или содержание под стражей",
+    "text": "[Р/Ф] 1. [★★★] Заведомо незаконное задержание -\nнаказывается лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] Заведомо незаконные заключение под стражу или содержание под стражей -\nнаказываются лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 30 месяцев. наказываются лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-95",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 95",
+    "title": "Принуждение к даче показаний",
+    "text": "[Ф] [★★★] Принуждение подозреваемого, обвиняемого, осужденного, оправданного, потерпевшего или свидетеля к даче показаний либо эксперта или специалиста к даче заключения или показаний путем применения угроз, шантажа или иных незаконных действий со стороны следователя, лица, производящего дознание, или иного сотрудника правоохранительного органа, а равно другого лица с ведома или молчаливого согласия следователя, лица, производящего дознание, или иного сотрудника правоохранительного органа, -\nнаказывается лишением свободы на срок до 30 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-95-1",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 95.1",
+    "title": "Разглашение данных предварительного расследования",
+    "text": "[Ф] [★★] Разглашение данных предварительного расследования лицом, предупрежденным в установленном законом порядке о недопустимости их разглашения, если оно совершено без согласия следователя или лица, производящего дознание, -\nнаказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 15 месяцев.",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 15 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-96",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 96",
+    "title": "Вынесение заведомо неправосудных приговора, решения или иного судебного акта",
+    "text": "[Ф] 1. [★★★] Вынесение судьей (судьями) заведомо неправосудных приговора, решения или иного судебного акта -\nнаказывается штрафом в размере до 100.000 рублей либо лишением свободы на срок до 30 месяцев.\n\n[Ф] 2. [★★★★] То же деяние, связанное с вынесением незаконного приговора суда к лишению свободы или повлекшее иные тяжкие последствия, -\nнаказывается лишением свободы на срок от 30 до 40 месяцев.",
+    "penalty": "наказывается штрафом в размере до 100.000 рублей либо лишением свободы на срок до 30 месяцев. [Ф] 2. [★★★★] То же деяние, связанное с вынесением незаконного приговора суда к лишению свободы или повлекшее иные тяжкие последствия, - наказывается лишением свободы на срок от 30 до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-97",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 97",
+    "title": "Заведомо ложный донос",
+    "text": "[Р/Ф] 1. [★★] Заведомо ложный донос о совершении преступления -\nнаказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★★] То же деяние, соединенное с обвинением лица в совершении тяжкого или особо тяжкого преступления, -\nнаказывается штрафом в размере до 75.000 рублей либо лишением свободы на срок до 30 месяцев.",
+    "penalty": "наказывается штрафом в размере до 50.000 рублей либо лишением свободы на срок до 20 месяцев. наказывается штрафом в размере до 75.000 рублей либо лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-98",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 98",
+    "title": "Заведомо ложные показание, заключение эксперта, специалиста",
+    "text": "[Ф] [★★★★] Заведомо ложные показание свидетеля, потерпевшего либо заключение или показание эксперта, показание специалиста, в суде либо в ходе досудебного производства, -\nнаказывается штрафом в размере до 45.000 рублей либо лишением свободы на срок до 40 месяцев.\nПримечание. Свидетель, потерпевший, эксперт, специалист или переводчик освобождаются от уголовной ответственности, если они добровольно в ходе досудебного производства или судебного разбирательства до вынесения приговора суда или решения суда заявили о ложности данных ими показаний, заключения или заведомо неправильном переводе.",
+    "penalty": "наказывается штрафом в размере до 45.000 рублей либо лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-99",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 99",
+    "title": "Отказ свидетеля или потерпевшего от дачи показаний",
+    "text": "[Р/Ф] Отказ свидетеля или потерпевшего от дачи показаний либо уклонение потерпевшего от прохождения освидетельствования, от производства в отношении его судебной экспертизы в случаях, когда не требуется его согласие, или от предоставления образцов почерка и иных образцов для сравнительного исследования, -\nнаказывается штрафом в размере до 40.000 тысяч рублей.\nПримечание. Лицо не подлежит уголовной ответственности за отказ от дачи показаний против себя самого, своего супруга или своих близких родственников.",
+    "penalty": "наказывается штрафом в размере до 40.000 тысяч рублей.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-criminal-100",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 100",
+    "title": "Побег из места лишения свободы, из-под ареста или из-под стражи",
+    "text": "[Р/Ф] [★★★★] Побег из места лишения свободы, из-под ареста или из-под стражи, совершенный лицом, отбывающим наказание или находящимся в предварительном заключении, -\nнаказывается лишением свободы на срок до 35 месяцев.",
+    "penalty": "Побег из места лишения свободы, из-под ареста или из-под стражи [Р/Ф] [★★★★] Побег из места лишения свободы, из-под ареста или из-под стражи, совершенный лицом, отбывающим наказание или находящимся в предварительном заключении, - наказывается лишением свободы на срок до 35 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-100-1",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 100.1",
+    "title": "Уклонение от отбывания наказания",
+    "text": "[Р/Ф] Уклонение от отбывания наказания в местах лишения свободы, проявляющиеся в неявке лица объявленного в розыск в органы правопорядка, -\nнаказывается лишением свободы на срок, предусмотренный приоритетом действующего розыска, где 1 приоритет равняется 10 месяцам лишения свободы.\nПримечание. Относится к лицам, объявленным в розыск автоматической диспетчерской системой. В данном случае приоритет розыска статичен и не обновляется, наказание следует исходя из фактического приоритета.",
+    "penalty": "Уклонение от отбывания наказания [Р/Ф] Уклонение от отбывания наказания в местах лишения свободы, проявляющиеся в неявке лица объявленного в розыск в органы правопорядка, - наказывается лишением свободы на срок, предусмотренный приоритетом действующего розыска, где 1 приоритет равняется 10 месяцам лишения свободы.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-101",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 101",
+    "title": "Неисполнение приговора суда, решения суда или иного судебного акта, постановления следователя или прокурора",
+    "text": "[Р/Ф] 1. [★★★] Злостное неисполнение вступивших в законную силу приговора суда, решения суда или иного судебного акта, постановления следователя или прокурора, а равно воспрепятствование их исполнению, -\nнаказывается штрафом в размере от 20.000 до 50.000 рублей, либо лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] То же деяние, совершенное представителем власти, государственным служащим или служащим государственного учреждения, -\nнаказывается штрафом в размере от 30.000 до 60.000 рублей, либо лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается штрафом в размере от 20.000 до 50.000 рублей, либо лишением свободы на срок до 30 месяцев. наказывается штрафом в размере от 30.000 до 60.000 рублей, либо лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "прокурор",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-102",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 102",
+    "title": "Посягательство на жизнь сотрудника правоохранительного органа",
+    "text": "[Р/Ф] [★★★★★] Посягательство на жизнь сотрудника правоохранительного органа, военнослужащего, а равно их близких в целях воспрепятствования законной деятельности указанных лиц по охране общественного порядка и обеспечению общественной безопасности либо из мести за такую деятельность, -\nнаказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "penalty": "наказывается лишением свободы на срок от 40 до 50 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-103",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 103",
+    "title": "Применение насилия в отношении представителя власти",
+    "text": "[Р/Ф] 1. [★★★] Применение насилия, не опасного для жизни или здоровья, либо угроза применения насилия в отношении представителя власти или его близких в связи с исполнением им своих должностных обязанностей, -\nнаказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] Применение насилия, опасного для жизни или здоровья, в отношении лиц, указанных в части первой настоящей статьи, -\nнаказывается лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок до 30 месяцев. наказывается лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-104",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 104",
+    "title": "Оскорбление представителя власти",
+    "text": "[Р/Ф] [★★★] Публичное оскорбление представителя власти при исполнении им своих должностных обязанностей или в связи с их исполнением -\nнаказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 30 месяцев.\nПримечание: Публичным признается оскорбление представителя власти, совершенное в СМИ, либо в группе трех и более человек, которые могли стать свидетелями данного нарушения.",
+    "penalty": "наказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 30 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-105",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 105",
+    "title": "Неповиновение законному требованию должностного лица правоохранительного органа",
+    "text": "[Р/Ф] 1. [★★] Неповиновение законному распоряжению или требованию сотрудника полиции, военнослужащего, иного правоохранительного служащего по охране общественного порядка и обеспечению общественной безопасности, а равно воспрепятствование исполнению ими служебных обязанностей, -\nнаказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 20 месяцев.\n\n[Р/Ф] 2. [★★★★] Неповиновение законному распоряжению или требованию прокурора, следователя, -\nнаказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок до 40 месяцев.",
+    "penalty": "наказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 20 месяцев. наказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "прокурор",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-106",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 106",
+    "title": "Самоуправство",
+    "text": "[Р/Ф] 1. [★★★] Самоуправство, то есть самовольное, вопреки установленному законом или иным нормативным правовым актом порядку совершение каких-либо действий, правомерность которых оспаривается организацией или гражданином, если такими действиями причинен существенный вред, -\nнаказывается штрафом в размере до 35.000 рублей либо лишением свободы на срок до 30 месяцев.\n\n[Р/Ф] 2. [★★★★] То же деяние, совершенное с применением насилия или с угрозой его применения, -\nнаказывается лишением свободы на срок до 35 месяцев.",
+    "penalty": "наказывается штрафом в размере до 35.000 рублей либо лишением свободы на срок до 30 месяцев. наказывается лишением свободы на срок до 35 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-107",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 107",
+    "title": "Незаконная помеха при задержании, аресте нарушителя, равно как содействие помехе задержанию, аресту нарушителя",
+    "text": "[Р/Ф] [★★★] Любые умышленные действия лица, направленные на физическое или иное воспрепятствование законным действиям представителя власти по ограничению свободы подозреваемого или обвиняемого в совершении правонарушения (преступления), -\nнаказывается лишением свободы на срок до 35 месяцев.\n\n\nРАЗДЕЛ VIII. ПРЕСТУПЛЕНИЯ ПРОТИВ ВОЕННОЙ СЛУЖБЫ\n\n\nГлава 21. Преступления против военной службы\n\nПонятие преступлений против военной службы\nПреступлениями против военной службы признаются предусмотренные настоящей главой преступления против установленного порядка прохождения военной службы, совершенные военнослужащими, проходящими военную службу по призыву либо по контракту, а также гражданами, пребывающими в запасе, во время прохождения ими военных сборов.",
+    "penalty": "Незаконная помеха при задержании, аресте нарушителя, равно как содействие помехе задержанию, аресту нарушителя [Р/Ф] [★★★] Любые умышленные действия лица, направленные на физическое или иное воспрепятствование законным действиям представителя власти по ограничению свободы подозреваемого или обвиняемого в совершении правонарушения (преступления), - наказывается лишением свободы на срок до 35 месяцев.",
+    "section": "РАЗДЕЛ VII. ПРЕСТУПЛЕНИЯ ПРОТИВ ГОСУДАРСТВЕННОЙ ВЛАСТИ",
+    "chapter": "Глава 20. Преступления против правосудия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-108",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 108",
+    "title": "Неисполнение приказа",
+    "text": "[В/Ф] [★★] Неисполнение подчиненным приказа начальника, отданного в установленном порядке, причинившее существенный вред интересам службы, -\nнаказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 20 месяцев.",
+    "penalty": "наказывается штрафом в размере до 40.000 рублей либо лишением свободы на срок до 20 месяцев.",
+    "section": "РАЗДЕЛ VIII. ПРЕСТУПЛЕНИЯ ПРОТИВ ВОЕННОЙ СЛУЖБЫ",
+    "chapter": "Глава 21. Преступления против военной службы",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-109",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 109",
+    "title": "Самовольное оставление части или места службы",
+    "text": "[В] [★★★] Самовольное оставление части или места службы, а равно неявка в срок без уважительных причин на службу при увольнении из части, -\nнаказывается лишением свободы на срок до 25 месяцев.",
+    "penalty": "[В] [★★★] Самовольное оставление части или места службы, а равно неявка в срок без уважительных причин на службу при увольнении из части, - наказывается лишением свободы на срок до 25 месяцев.",
+    "section": "РАЗДЕЛ VIII. ПРЕСТУПЛЕНИЯ ПРОТИВ ВОЕННОЙ СЛУЖБЫ",
+    "chapter": "Глава 21. Преступления против военной службы",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-110",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 110",
+    "title": "Дезертирство",
+    "text": "[В] [★★★★] Дезертирство, то есть самовольное оставление части или места службы в целях уклонения от прохождения военной службы, а равно неявка в тех же целях на службу, -\nнаказывается лишением свободы на срок до 35 месяцев.",
+    "penalty": "наказывается лишением свободы на срок до 35 месяцев.",
+    "section": "РАЗДЕЛ VIII. ПРЕСТУПЛЕНИЯ ПРОТИВ ВОЕННОЙ СЛУЖБЫ",
+    "chapter": "Глава 21. Преступления против военной службы",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-111",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 111",
+    "title": "Умышленные уничтожение или повреждение военного имущества",
+    "text": "[Р/Ф/В] [★★★★] Умышленные уничтожение или повреждение оружия, боеприпасов или предметов военной техники, -\nнаказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок до 40 месяцев.\n\n\nРАЗДЕЛ IX. ПРЕСТУПЛЕНИЯ ПРОТИВ МИРА И БЕЗОПАСНОСТИ ЧЕЛОВЕЧЕСТВА\n\n\nГлава 22. Преступления против мира и безопасности человечества",
+    "penalty": "наказывается штрафом в размере до 60.000 рублей либо лишением свободы на срок до 40 месяцев.",
+    "section": "РАЗДЕЛ VIII. ПРЕСТУПЛЕНИЯ ПРОТИВ ВОЕННОЙ СЛУЖБЫ",
+    "chapter": "Глава 21. Преступления против военной службы",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-criminal-112",
+    "project": "russia",
+    "category": "УК РФ",
+    "codeTitle": "Уголовный кодекс Российской Федерации",
+    "articleNumber": "Статья 112",
+    "title": "Реабилитация нацизма",
+    "text": "[Ф] [★★★★★] Отрицание фактов, установленных приговором Международного военного трибунала для суда и наказания главных военных преступников европейских стран оси, одобрение преступлений, установленных указанным приговором, отрицание факта геноцида советского народа или одобрение геноцида советского народа, а равно распространение заведомо ложных сведений о деятельности СССР в годы Второй мировой войны, о ветеранах Великой Отечественной войны, совершенные публично, -\nнаказываются штрафом в размере до 100.000 рублей либо лишением свободы на срок до 50 месяцев.",
+    "penalty": "[Ф] [★★★★★] Отрицание фактов, установленных приговором Международного военного трибунала для суда и наказания главных военных преступников европейских стран оси, одобрение преступлений, установленных указанным приговором, отрицание факта геноцида советского народа или одобрение геноцида советского народа, а равно распространение заведомо ложных сведений о деятельности СССР в годы Второй мировой войны, о ветеранах Великой Отечественной войны, совершенные публично, - наказываются штрафом в размере до 100.000 рублей либо лишением свободы на срок до 50 месяцев.",
+    "section": "РАЗДЕЛ IX. ПРЕСТУПЛЕНИЯ ПРОТИВ МИРА И БЕЗОПАСНОСТИ ЧЕЛОВЕЧЕСТВА",
+    "chapter": "Глава 22. Преступления против мира и безопасности человечества",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение"
+    ]
+  },
+  {
+    "id": "ru-procedure-1",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 1",
+    "title": "Законы, определяющие порядок уголовного судопроизводства",
+    "text": "ч. 1. Порядок уголовного процесса на территории Российской Федерации устанавливается настоящим Кодексом, основанным на Конституции Российской Федерации.\nч. 2. Порядок уголовного процесса, установленный настоящим Кодексом, является обязательным для судов, органов прокуратуры, органов предварительного следствия и органов дознания, а также иных участников уголовного судопроизводства.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 1. Уголовно-процессуальное законодательство",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-2",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 2",
+    "title": "Действие процессуального закона во времени",
+    "text": "При производстве по уголовному делу применяется процессуальный закон, действующий во время производства соответствующего процессуального действия или принятия процессуального решения, если иное не установлено настоящим Кодексом.\n\n\nГлава 2. Принципы уголовного процесса",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 1. Уголовно-процессуальное законодательство",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-3",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 3",
+    "title": "Назначение уголовного процесса",
+    "text": "ч. 1. Уголовный процесс имеет своим назначением:\n1) защиту прав и законных интересов лиц и организаций, потерпевших от преступлений;\n2) защиту личности от незаконного и необоснованного обвинения, осуждения, ограничения ее прав и свобод.\nч. 2. Уголовное преследование и назначение виновным справедливого наказания в той же мере отвечают назначению уголовного судопроизводства, что и отказ от уголовного преследования невиновных, освобождение их от наказания, реабилитация каждого, кто необоснованно подвергся уголовному преследованию.",
+    "penalty": "2) защиту личности от незаконного и необоснованного обвинения, осуждения, ограничения ее прав и свобод. ч. 2. Уголовное преследование и назначение виновным справедливого наказания в той же мере отвечают назначению уголовного судопроизводства, что и отказ от уголовного преследования невиновных, освобождение их от наказания, реабилитация каждого, кто необоснованно подвергся уголовному преследованию.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-4",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 4",
+    "title": "Разумный срок уголовного процесса",
+    "text": "ч. 1. Уголовный процесс осуществляется в разумный срок.\nч. 2. Уголовный процесс осуществляется в сроки, установленные настоящим Кодексом. Продление этих сроков допустимо в случаях и в порядке, которые предусмотрены настоящим Кодексом, но уголовное преследование, назначение наказания и прекращение уголовного преследования должны осуществляться в разумный срок.\nч. 3. Обстоятельства, связанные с организацией работы органов следствия, прокуратуры и суда, а также рассмотрение уголовного дела различными инстанциями не может приниматься во внимание в качестве оснований для превышения разумных сроков осуществления уголовного процесса.",
+    "penalty": "Разумный срок уголовного процесса ч. 1. Уголовный процесс осуществляется в разумный срок. ч. 2. Уголовный процесс осуществляется в сроки, установленные настоящим Кодексом. Продление этих сроков допустимо в случаях и в порядке, которые предусмотрены настоящим Кодексом, но уголовное преследование, назначение наказания и прекращение уголовного преследования должны осуществляться в разумный срок.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-5",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 5",
+    "title": "Законность при производстве по уголовному делу",
+    "text": "ч. 1. Суд, прокурор, следователь, дознаватель не вправе применять закон, противоречащий настоящему Кодексу.\nч. 2. Суд, прокурор, следователь, дознаватель, установив в ходе производства по уголовному делу несоответствие закона или иного нормативного правового акта настоящему Кодексу, принимает решение в соответствии с настоящим Кодексом.\nч. 3. Нарушение норм настоящего Кодекса судом, прокурором, следователем, дознавателем в ходе уголовного процесса влечет за собой признание недопустимыми полученных таким путем доказательств.\nч. 4. Определения суда, постановления судьи, прокурора, следователя, дознавателя должны быть законными, обоснованными и мотивированными.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-6",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 6",
+    "title": "Уважение чести и достоинства личности",
+    "text": "ч. 1. В ходе уголовного процесса запрещаются осуществление действий и принятие решений, унижающих честь участника уголовного процесса, а также обращение, унижающее его человеческое достоинство либо создающее опасность для его жизни и здоровья.\nч. 2. Никто из участников уголовного процесса не может подвергаться насилию, пыткам, другому жестокому или унижающему человеческое достоинство обращению.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-7",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 7",
+    "title": "Неприкосновенность личности",
+    "text": "ч. 1. Никто не может быть задержан по подозрению в совершении преступления или заключен под стражу при отсутствии на то законных оснований, предусмотренных настоящим Кодексом.\nч. 2. Суд, прокурор, следователь, дознаватель обязаны немедленно освободить всякого незаконно задержанного, или лишенного свободы, или содержащегося под стражей свыше срока, предусмотренного настоящим Кодексом.\nч. 3. Лицо, которое задержано по подозрению в совершении преступления, должно содержаться в условиях, исключающих угрозу его жизни и здоровью.",
+    "penalty": "ч. 2. Суд, прокурор, следователь, дознаватель обязаны немедленно освободить всякого незаконно задержанного, или лишенного свободы, или содержащегося под стражей свыше срока, предусмотренного настоящим Кодексом.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-8",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 8",
+    "title": "Охрана прав и свобод человека и гражданина в уголовном судопроизводстве",
+    "text": "ч. 1. Суд, прокурор, следователь, дознаватель обязаны разъяснять подозреваемому, обвиняемому, потерпевшему, гражданскому истцу, гражданскому ответчику, а также другим участникам уголовного судопроизводства их права, обязанности и ответственность и обеспечивать возможность осуществления этих прав.\nч. 2. В случае согласия лиц, обладающих свидетельским иммунитетом, дать показания дознаватель, следователь, прокурор и суд обязаны предупредить указанных лиц о том, что их показания могут использоваться в качестве доказательств в ходе дальнейшего производства по уголовному делу.\nч. 3. При наличии достаточных данных о том, что потерпевшему, свидетелю или иным участникам уголовного судопроизводства, а также их близким родственникам, родственникам или близким лицам угрожают убийством, применением насилия, уничтожением или повреждением их имущества либо иными опасными противоправными деяниями, суд, прокурор, руководитель следственного органа, следователь, орган дознания, начальник органа дознания, начальник подразделения дознания и дознаватель принимают в пределах своей компетенции в отношении указанных лиц меры безопасности, предусмотренные законодательством Российской Федерации.\nч. 4. Вред, причиненный лицу в результате нарушения его прав и свобод судом, а также должностными лицами, осуществляющими уголовное преследование, подлежит возмещению по основаниям и в порядке, которые установлены настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "водитель",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-9",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 9",
+    "title": "Неприкосновенность жилища",
+    "text": "Обыск, выемка в жилище, осмотр жилища производится только с согласия проживающих в нем лиц или на основании судебного решения, за исключением случаев, предусмотренных законом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "обыск",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-10",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 10",
+    "title": "Тайна переписки, телефонных и иных переговоров, почтовых, телеграфных и иных сообщений",
+    "text": "ч. 1. Ограничение права гражданина на тайну переписки, телефонных и иных переговоров, почтовых, телеграфных и иных сообщений допускается только на основании судебного решения.\nч. 2. Наложение ареста на почтовые и телеграфные отправления и их выемка в учреждениях связи, контроль и запись телефонных и иных переговоров, получение информации о соединениях между абонентами и (или) абонентскими устройствами могут производиться только на основании судебного решения.",
+    "penalty": "ч. 1. Ограничение права гражданина на тайну переписки, телефонных и иных переговоров, почтовых, телеграфных и иных сообщений допускается только на основании судебного решения. ч. 2. Наложение ареста на почтовые и телеграфные отправления и их выемка в учреждениях связи, контроль и запись телефонных и иных переговоров, получение информации о соединениях между абонентами и (или) абонентскими устройствами могут производиться только на основании судебного решения.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-11",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 11",
+    "title": "Презумпция невиновности",
+    "text": "ч. 1. Обвиняемый считается невиновным, пока его виновность в совершении преступления не будет доказана в предусмотренном настоящим Кодексом порядке и установлена вступившим в законную силу решением должностного лица или органа государственной власти.\nч. 2. Подозреваемый или обвиняемый не обязан доказывать свою невиновность. Бремя доказывания обвинения и опровержения доводов, приводимых в защиту подозреваемого или обвиняемого, лежит на стороне обвинения.\nч. 3. Все сомнения в виновности обвиняемого, которые не могут быть устранены в порядке, установленном настоящим Кодексом, толкуются в пользу обвиняемого.\nч. 4. Решение о признании лица виновным в совершении преступления не может быть основано на предположениях.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-12",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 12",
+    "title": "Состязательность сторон",
+    "text": "ч. 1. Уголовный процесс осуществляется на основе состязательности сторон.\nч. 2. Функции обвинения, защиты и разрешения уголовного дела отделены друг от друга и не могут быть возложены на один и тот же орган или одно и то же должностное лицо.\nч. 3. Суд не является органом уголовного преследования, не выступает на стороне обвинения или стороне защиты, за исключением случаев, предусмотренных законом. Суд создает необходимые условия для исполнения сторонами их процессуальных обязанностей и осуществления предоставленных им прав.\nч. 4. Стороны обвинения и защиты равноправны перед судом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-13",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 13",
+    "title": "Обеспечение подозреваемому и обвиняемому права на защиту",
+    "text": "ч. 1. Подозреваемому и обвиняемому обеспечивается право на защиту, которое они могут осуществлять лично либо с помощью защитника и (или) законного представителя.\nч. 2. Суд, прокурор, следователь и дознаватель разъясняют подозреваемому и обвиняемому их права и обеспечивают им возможность защищаться всеми не запрещенными настоящим Кодексом способами и средствами.\nч. 3. В случаях, предусмотренных настоящим Кодексом, обязательное участие защитника и (или) законного представителя подозреваемого или обвиняемого обеспечивается должностными лицами, осуществляющими производство по уголовному делу.\nч. 4. В случаях, предусмотренных настоящим Кодексом и иными федеральными законами, подозреваемый и обвиняемый могут пользоваться помощью защитника бесплатно.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-14",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 14",
+    "title": "Право на обжалование процессуальных действий и решений",
+    "text": "Действия (бездействие) и решения суда, прокурора, руководителя следственного органа, следователя, органа дознания, начальника органа дознания, начальника подразделения дознания и дознавателя могут быть обжалованы в порядке, установленном настоящим Кодексом.\n\n\nГлава 3. Уголовное преследование",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 2. Принципы уголовного процесса",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-15",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 15",
+    "title": "Виды уголовного преследования",
+    "text": "ч. 1. В зависимости от характера и тяжести совершенного преступления уголовное преследование, включая обвинение в суде, осуществляется в публичном, частно-публичном и частном порядке.\nч. 2. Уголовные дела о преступлениях, предусмотренных статьей 63 Уголовного кодекса Российской Федерации, считаются уголовными делами частного обвинения, возбуждаются не иначе как по заявлению потерпевшего, его законного представителя, за исключением случаев, предусмотренных частью четвертой настоящей статьи, и подлежат прекращению в связи с примирением потерпевшего с обвиняемым. Примирение допускается до вынесения решения по делу.\nч. 3. Уголовные дела частно-публичного обвинения возбуждаются не иначе как по заявлению потерпевшего или его законного представителя, но прекращению в связи с примирением потерпевшего с обвиняемым не подлежат. К уголовным делам частно-публичного обвинения относятся уголовные дела о преступлениях, предусмотренных статьями 64, 65, ч. 1 ст. 68, 69, ч. 1 ст. 70, 72 Уголовного кодекса Российской Федерации. К уголовным делам частно-публичного обвинения не могут быть отнесены уголовные дела о преступлениях, предусмотренных статьями ч. 1 ст. 68, 69, ч. 1 ст. 70, 72 Уголовного кодекса Российской Федерации, в случаях, если преступлением причинен вред интересам государственного унитарного предприятия, государственной корпорации, государственной компании либо если предметом преступления явилось государственное имущество.\nч. 4. Следователь, дознаватель возбуждает уголовное дело о любом преступлении, указанном в частях второй и третьей настоящей статьи, и при отсутствии заявления потерпевшего или его законного представителя, если данное преступление совершено в отношении лица, которое в силу зависимого или беспомощного состояния либо по иным причинам не может защищать свои права и законные интересы. К иным причинам относится также случай совершения преступления лицом, данные о котором не известны.\nч. 5. Уголовные дела, за исключением уголовных дел, указанных в частях второй и третьей настоящей статьи, считаются уголовными делами публичного обвинения.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 3. Уголовное преследование",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-16",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 16",
+    "title": "Обязанность осуществления уголовного преследования",
+    "text": "ч. 1. Уголовное преследование от имени государства по уголовным делам публичного и частно-публичного обвинения осуществляют прокурор, а также следователь и дознаватель.\nч. 2. В каждом случае обнаружения признаков преступления прокурор, следователь, орган дознания и дознаватель принимают предусмотренные настоящим Кодексом меры по установлению события преступления, изобличению лица или лиц, виновных в совершении преступления.\nч. 3. Требования, поручения и запросы прокурора, следователя, органа дознания и дознавателя, предъявленные в пределах их полномочий, установленных настоящим Кодексом, обязательны для исполнения всеми учреждениями, предприятиями, организациями, должностными лицами и гражданами.\nч. 4. Прокурор вправе после возбуждения уголовного дела заключить с подозреваемым или обвиняемым досудебное соглашение о сотрудничестве.\nч. 5. Прокурор, дознаватель, следователь обязаны хранить доказательства повода для возбуждения уголовного дела в течении 48 часов.\n\n\nГлава 4. Основания отказа в возбуждении уголовного дела, прекращения уголовного дела и уголовного преследования",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 3. Уголовное преследование",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-17",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 17",
+    "title": "Основания отказа в возбуждении уголовного дела или прекращения уголовного дела",
+    "text": "ч. 1. Уголовное дело не может быть возбуждено, а возбужденное уголовное дело подлежит прекращению по следующим основаниям:\n1) отсутствие события преступления;\n2) отсутствие в деянии состава преступления;\n3) истечение сроков давности уголовного преследования;\n4) отсутствие заявления потерпевшего, если уголовное дело может быть возбуждено не иначе как по его заявлению, за исключением случаев, предусмотренных частью четвертой статьи 20 настоящего Кодекса, либо неявка частного обвинителя в судебное заседание без уважительных причин;\n5) отсутствие заключения суда о наличии признаков преступления в действиях одного из лиц, указанных в части первой статьи 102 настоящего Кодекса.\nч. 2. Уголовное дело подлежит прекращению по основанию, предусмотренному пунктом 2 части первой настоящей статьи, в случае, когда до вступления приговора в законную силу преступность и наказуемость этого деяния были устранены новым уголовным законом.\nч. 3. Прекращение уголовного дела влечет за собой одновременно прекращение уголовного преследования.\nч. 4. Уголовное дело подлежит прекращению в случае прекращения уголовного преследования в отношении всех подозреваемых или обвиняемых.",
+    "penalty": "3) истечение сроков давности уголовного преследования;",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 4. Основания отказа в возбуждении уголовного дела, прекращения уголовного дела и уголовного преследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-18",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 18",
+    "title": "Основания прекращения уголовного преследования",
+    "text": "Уголовное преследование в отношении подозреваемого или обвиняемого прекращается по следующим основаниям:\n1) непричастность подозреваемого или обвиняемого к совершению преступления;\n2) прекращение уголовного дела по основаниям, предусмотренным пунктами части первой статьи 17 настоящего Кодекса;\n3) вследствие акта об амнистии;\n4) наличие в отношении подозреваемого или обвиняемого вступившего в законную силу решения по уголовному делу по тому же обвинению либо определения суда или постановления судьи о прекращении уголовного дела по тому же обвинению;\n5) наличие в отношении подозреваемого или обвиняемого неотмененного постановления дознавателя, следователя или прокурора о прекращении уголовного дела по тому же обвинению либо об отказе в возбуждении уголовного дела.\n\n\nРАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА\n\n\nГлава 5. Суд",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ I. ОСНОВНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 4. Основания отказа в возбуждении уголовного дела, прекращения уголовного дела и уголовного преследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-19",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 19",
+    "title": "Полномочия суда",
+    "text": "ч. 1. Только суд, в том числе в ходе досудебного производства, правомочен принимать решения:\n1) об избрании меры пресечения в виде запрета определенных действий;\n2) о возмещении имущественного вреда;\n3) о производстве осмотра жилища при отсутствии согласия проживающих в нем лиц;\n4) о производстве обыска и (или) выемки в жилище;\n5) о производстве выемки заложенной или сданной на хранение в ломбард вещи;\n6) о производстве личного обыска, за исключением случаев, предусмотренных настоящим Кодексом;\n7) о производстве выемки предметов и документов, содержащих государственную или иную охраняемую федеральным законом тайну, а также предметов и документов, содержащих информацию о вкладах и счетах граждан в банках и иных кредитных организациях;\n8) о контроле и записи телефонных и иных переговоров;\n9) о получении информации о соединениях между абонентами и (или) абонентскими устройствами.\nч. 2. Суд правомочен в ходе досудебного производства рассматривать жалобы на действия (бездействие) и решения прокурора, следователя и дознавателя в случаях и порядке, которые предусмотрены настоящим Кодексом.\nч. 3. Если при судебном рассмотрении уголовного дела будут выявлены обстоятельства, способствовавшие совершению преступления, нарушения прав и свобод граждан, а также другие нарушения закона, допущенные при производстве дознания, предварительного расследования или при рассмотрении уголовного дела нижестоящим судом, то суд вправе вынести частное определение или постановление, в котором обращается внимание соответствующих организаций и должностных лиц на данные обстоятельства и факты нарушений закона, требующие принятия необходимых мер. Суд вправе вынести частное определение или постановление и в других случаях, если признает это необходимым.\nч. 4. Только суд правомочен отменить или изменить решение, принятое нижестоящим судом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 5. Суд",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "обыск",
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-20",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 20",
+    "title": "Подсудность уголовных дел",
+    "text": "ч. 1. Районному или городскому суду (окружному) по месту совершения преступления подсудны уголовные дела о любых преступлениях, предусмотренных Уголовным кодексом Российской Федерации, за исключением случаев, предусмотренных частью второй настоящей статьи.\nч. 2. Верховному Суду Российской Федерации подсудны уголовные дела о любых преступлениях, предусмотренных Уголовным кодексом Российской Федерации, в отношении любого лица, указанного в статье части первой статьи 102 настоящего Кодекса.\nч. 3. Апелляционные жалобы (представления) на решения районных или городских судов рассматриваются апелляционным судом общей юрисдикции, а на решения Верховного Суда Российской Федерации - Федеральным Судом Российской Федерации.\nч. 4. Кассационные жалобы (представления) на решения районных или городских судов, апелляционных судов общей юрисдикции рассматриваются Верховным судом Российской Федерации, а на решения Верховного Суда Российской Федерации - Федеральным Судом Российской Федерации.\n\n\nГлава 6. Участники уголовного судопроизводства со стороны обвинения",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 5. Суд",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-21",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 21",
+    "title": "Прокурор",
+    "text": "ч. 1. Прокурор является должностным лицом, уполномоченным в пределах компетенции, предусмотренной настоящим Кодексом, осуществлять от имени государства уголовное преследование в ходе уголовного процесса, а также надзор за процессуальной деятельностью органов предварительного расследования.\nч. 2. В ходе досудебного производства по уголовному делу прокурор уполномочен:\n1) проверять исполнение требований закона при приеме, регистрации и разрешении сообщений, заявлений о преступлениях;\n2) выносить мотивированное постановление о направлении соответствующих материалов в следственный орган для решения вопроса об уголовном преследовании по фактам выявленных прокурором нарушений уголовного законодательства;\n3) требовать от следственных органов устранения нарушений законодательства, допущенных при приеме, регистрации и разрешении сообщений, заявлений о преступлениях, производстве предварительного расследования;\n4) давать письменные указания о направлении расследования, производстве процессуальных действий;\n5) давать согласие на возбуждение перед судом ходатайства о производстве процессуального действия, которое допускается на основании судебного решения;\n6) истребовать и проверять законность и обоснованность решений следователя, дознавателя об отказе в возбуждении, приостановлении или прекращении уголовного дела и принимать по ним решение в соответствии с настоящим Кодексом;\n7) отменять незаконные или необоснованные постановления нижестоящего прокурора, а также незаконные или необоснованные постановления следователя, дознавателя в порядке, установленном настоящим Кодексом;\n8) рассматривать представленную информацию следователя, дознавателя о несогласии с требованиями прокурора и принимать по ней решение;\n9) отстранять следователя, дознавателя от дальнейшего производства расследования, если им допущено нарушение требований настоящего Кодекса;\n10) утверждать обвинительное заключение по уголовному делу;\n11) осуществлять иные полномочия, предоставленные прокурору настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 6. Участники уголовного судопроизводства со стороны обвинения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-22",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 22",
+    "title": "Следователь",
+    "text": "ч. 1. Следователь является должностным лицом, уполномоченным в пределах компетенции, предусмотренной настоящим Кодексом, осуществлять предварительное следствие по уголовному делу.\nч. 2. Следователь уполномочен:\n1) возбуждать уголовное дело в порядке, установленном настоящим Кодексом;\n2) принимать уголовное дело к своему производству или передавать его по подследственности;\n3) самостоятельно направлять ход расследования, принимать решение о производстве следственных и иных процессуальных действий, за исключением случаев, когда в соответствии с настоящим Кодексом требуется получение судебного решения;\n4) самостоятельно производить оперативно-розыскные и неотложные процессуальные действия;\n4.1) давать обязательное для исполнения письменное поручение об организации участия в следственном действии лица, участие которого в данном следственном действии признано необходимым;\n5) обжаловать решение прокурора об отмене постановления о возбуждении уголовного дела, о возвращении уголовного дела следователю для производства дополнительного следствия, изменения объема обвинения либо квалификации действий обвиняемых или пересоставления обвинительного заключения и устранения выявленных недостатков;\n6) осуществлять иные полномочия, предусмотренные настоящим Кодексом.\nч. 3. В случае несогласия с требованиями прокурора об устранении нарушений законодательства, допущенных в ходе предварительного следствия, следователь обязан представить свои письменные возражения прокурору.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 6. Участники уголовного судопроизводства со стороны обвинения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-22-1",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 22.1",
+    "title": "Дознаватель",
+    "text": "ч. 1. Дознавателем является уполномоченное должностное лицо органов внутренних дел, ФСБ России, федеральной службы охраны, военной полиции Вооруженных Сил Российской Федерации.\nч. 2. Дознаватель уполномочен:\n1) возбуждать уголовное дело в порядке, установленном настоящим Кодексом;\n2) самостоятельно производить следственные и иные процессуальные действия и принимать процессуальные решения, за исключением случаев, когда в соответствии с настоящим Кодексом на это требуются согласие прокурора и (или) судебное решение;\n3) давать органу дознания в случаях и порядке, установленных настоящим Кодексом, обязательные для исполнения письменные поручения о проведении оперативно-розыскных мероприятий, о производстве отдельных следственных действий, об исполнении постановлений о задержании, приводе, заключении под стражу и о производстве иных процессуальных действий, а также получать содействие при их осуществлении;\n4) обжаловать в порядке, установленном настоящим Кодексом, решения прокурора о возвращении уголовного дела дознавателю для производства дополнительного дознания либо пересоставления обвинительного заключения;\n5) давать дознавателю или органу дознания обязательное для исполнения письменное поручение об организации участия в следственном действии лица, участие которого в данном следственном действии признано необходимым;\n6) осуществлять иные полномочия, предусмотренные настоящим Кодексом.\nч. 3. Указания прокурора, данные в соответствии с настоящим Кодексом, обязательны для дознавателя. При этом дознаватель вправе обжаловать указания прокурора вышестоящему прокурору. Обжалование данных указаний не приостанавливает их исполнения.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 6. Участники уголовного судопроизводства со стороны обвинения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-23",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 23",
+    "title": "Потерпевший",
+    "text": "ч. 1. Потерпевшим является физическое лицо, которому преступлением причинен физический, имущественный, моральный вред, а также юридическое лицо в случае причинения преступлением вреда его имуществу и деловой репутации. Решение о признании потерпевшим принимается незамедлительно с момента возбуждения уголовного дела и оформляется постановлением следователя, дознавателя, судьи или определением суда. Если на момент возбуждения уголовного дела отсутствуют сведения о лице, которому преступлением причинен вред, решение о признании потерпевшим принимается незамедлительно после получения данных об этом лице.\nч. 2. Потерпевший вправе:\n1) знать о предъявленном обвиняемому обвинении;\n2) давать показания;\n3) отказаться свидетельствовать против самого себя, своего супруга (своей супруги) и других близких родственников. При согласии потерпевшего дать показания он должен быть предупрежден о том, что его показания могут быть использованы в качестве доказательств по уголовному делу, в том числе и в случае его последующего отказа от этих показаний;\n4) представлять доказательства;\n5) заявлять ходатайства и отводы;\n6) давать показания на русском языке;\n7) иметь представителя;\n8) участвовать с разрешения следователя в следственных действиях, производимых по его ходатайству либо ходатайству его представителя;\n9) знакомиться с протоколами следственных действий, произведенных с его участием, и подавать на них замечания;\n10) знакомиться с постановлением о назначении судебной экспертизы и заключением эксперта;\n11) знакомиться по окончании предварительного расследования, в том числе в случае прекращения уголовного дела, со всеми материалами уголовного дела, выписывать из уголовного дела любые сведения и в любом объеме, снимать копии с материалов уголовного дела, в том числе с помощью технических средств. В случае, если в уголовном деле участвует несколько потерпевших, каждый из них вправе знакомиться с теми материалами уголовного дела, которые касаются вреда, причиненного данному потерпевшему;\n12) получать копии постановлений о возбуждении уголовного дела, о признании его потерпевшим, об отказе в избрании в отношении обвиняемого меры пресечения в виде заключения под стражу, о прекращении уголовного дела, о приостановлении производства по уголовному делу, о направлении уголовного дела по подсудности, о назначении предварительного слушания, судебного заседания, получать копии приговора суда первой инстанции, решений судов апелляционной и кассационной инстанций. Потерпевший по ходатайству вправе получать копии иных процессуальных документов, затрагивающих его интересы;\n13) участвовать в судебном разбирательстве уголовного дела в судах первой, второй, кассационной инстанций, возражать против постановления приговора без проведения судебного разбирательства в общем порядке, а также в предусмотренных настоящим Кодексом случаях участвовать в судебном заседании при рассмотрении судом вопросов, связанных с исполнением приговора;\n14) выступать в судебных прениях;\n15) поддерживать обвинение;\n16) знакомиться с протоколом и аудиозаписью судебного заседания и подавать замечания на них;\n17) приносить жалобы на действия (бездействие) и решения следователя, прокурора и суда;\n18) обжаловать приговор, определение, постановление суда;\n20) знать о принесенных по уголовному делу жалобах и представлениях и подавать на них возражения;\n21) ходатайствовать о применении мер безопасности;\n22) осуществлять иные полномочия, предусмотренные настоящим Кодексом.\nч. 3. Потерпевшему обеспечивается возмещение имущественного вреда, причиненного преступлением, а также расходов, понесенных в связи с его участием в ходе предварительного расследования и в суде, включая расходы на представителя.\nч. 4. По иску потерпевшего о возмещении в денежном выражении причиненного ему морального вреда размер возмещения определяется судом при рассмотрении уголовного дела или в порядке гражданского судопроизводства.\nч. 5. Потерпевший не вправе:\n1) уклоняться от явки по вызову следователя и в суд;\n2) давать заведомо ложные показания или отказываться от дачи показаний;\n3) разглашать данные предварительного расследования, если он был об этом заранее предупрежден в порядке следователем или дознавателем;\n4) уклоняться от прохождения освидетельствования, от производства в отношении его судебной экспертизы в случаях, когда не требуется его согласие, или от предоставления образцов почерка и иных образцов для сравнительного исследования.\nч. 6. При неявке потерпевшего по вызову без уважительных причин он может быть подвергнут приводу.\nч. 7. За дачу заведомо ложных показаний, отказ от дачи показаний, а также за уклонение от прохождения освидетельствования, от производства в отношении его судебной экспертизы в случаях, когда не требуется его согласие, или от предоставления образцов почерка и иных образцов для сравнительного исследования, за разглашение данных предварительного расследования потерпевший несет уголовную ответственность в соответствии с законом.\nч. 8. Участие в уголовном деле законного представителя и представителя потерпевшего не лишает его прав, предусмотренных настоящей статьей.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 6. Участники уголовного судопроизводства со стороны обвинения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-24",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 24",
+    "title": "Гражданский истец",
+    "text": "ч. 1. Гражданским истцом является физическое или юридическое лицо, предъявившее требование о возмещении имущественного вреда, при наличии оснований полагать, что данный вред причинен ему непосредственно преступлением. Решение о признании гражданским истцом оформляется определением суда или постановлением судьи, следователя, дознавателя. Гражданский истец может предъявить гражданский иск и для имущественной компенсации морального вреда.\nч. 2. Гражданский иск может быть предъявлен после возбуждения уголовного дела и до окончания судебного следствия при разбирательстве данного дела в суде первой инстанции. При предъявлении гражданского иска гражданский истец освобождается от уплаты государственной пошлины.\nч. 3. Гражданский истец вправе:\n1) поддерживать гражданский иск;\n2) представлять доказательства;\n3) давать объяснения по предъявленному иску;\n4) заявлять ходатайства и отводы;\n5) давать показания и объяснения на русском языке;\n6) отказаться свидетельствовать против самого себя, своего супруга (своей супруги) и других близких родственников. При согласии гражданского истца дать показания он должен быть предупрежден о том, что его показания могут быть использованы в качестве доказательств по уголовному делу, в том числе и в случае его последующего отказа от этих показаний;\n7) иметь представителя;\n8) знакомиться с протоколами следственных действий, произведенных с его участием;\n9) участвовать с разрешения следователя в следственных действиях, производимых по его ходатайству либо ходатайству его представителя;\n10) отказаться от предъявленного им гражданского иска. До принятия отказа от гражданского иска следователь, суд разъясняет гражданскому истцу последствия отказа от гражданского иска, предусмотренные частью пятой настоящей статьи;\n11) знакомиться по окончании расследования с материалами уголовного дела, относящимися к предъявленному им гражданскому иску, и выписывать из дела любые сведения и в любом объеме;\n12) знать о принятых решениях, затрагивающих его интересы, и получать копии процессуальных решений, относящихся к предъявленному им гражданскому иску;\n13) участвовать в судебном разбирательстве уголовного дела в судах первой, второй, кассационной и надзорной инстанций;\n14) выступать в судебных прениях для обоснования гражданского иска;\n15) знакомиться с протоколом и аудиозаписью судебного заседания и подавать замечания на них;\n16) приносить жалобы на действия (бездействие) и решения следователя, прокурора и суда;\n17) обжаловать приговор, определение и постановление суда в части, касающейся гражданского иска;\n18) знать о принесенных по делу жалобах и представлениях и подавать на них возражения;\n19) участвовать в судебном рассмотрении принесенных жалоб и представлений в порядке, установленном настоящим Кодексом.\nч. 4. Отказ от гражданского иска может быть заявлен гражданским истцом в любой момент производства по уголовному делу, но до удаления суда в совещательную комнату для постановления приговора. Отказ от гражданского иска влечет за собой прекращение производства по нему.\nч. 5. Гражданский истец не вправе разглашать данные предварительного расследования, если он был об этом заранее предупрежден в порядке, установленном законом. За разглашение данных предварительного расследования гражданский истец несет уголовную ответственность в соответствии с законом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 6. Участники уголовного судопроизводства со стороны обвинения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-25",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 25",
+    "title": "Представители потерпевшего, гражданского истца",
+    "text": "Представителями потерпевшего, гражданского истца могут быть адвокаты, а представителями гражданского истца, являющегося юридическим лицом, также иные лица, правомочные в соответствии с Гражданским кодексом Российской Федерации представлять его интересы. В качестве представителя потерпевшего или гражданского истца могут быть также допущены один из близких родственников потерпевшего или гражданского истца либо иное лицо, о допуске которого ходатайствует потерпевший или гражданский истец.\n\n\nГлава 7. Участники уголовного судопроизводства со стороны защиты",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 6. Участники уголовного судопроизводства со стороны обвинения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-26",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 26",
+    "title": "Подозреваемый",
+    "text": "ч. 1. Подозреваемым является лицо:\n1) либо в отношении которого возбуждено уголовное дело;\n2) либо которое задержано в соответствии со статьями 78 и 79 настоящего Кодекса;\n3) либо которое уведомлено о подозрении в совершении преступления дознавателем или следователем путем направления письменного уведомления, в котором должны быть указаны:\nа) дата и место его составления;\nб) фамилия, инициалы лица, его составившего;\nв) фамилия, имя и отчество подозреваемого, число, месяц, год и место его рождения;\nг) описание преступления с указанием места, времени и иных обстоятельств его совершения;\nд) пункт, часть, статья Уголовного кодекса Российской Федерации, предусматривающие ответственность за данное преступление.\nч. 2. Подозреваемый вправе:\n1) знать, в чем он подозревается, и получить копию постановления о возбуждении уголовного дела;\n2) давать объяснения и показания по поводу имеющегося в отношении его подозрения либо отказаться от дачи объяснений и показаний. При согласии подозреваемого дать показания он должен быть предупрежден о том, что его показания могут быть использованы в качестве доказательств по уголовному делу, в том числе и при его последующем отказе от этих показаний;\n3) пользоваться помощью защитника и иметь свидание с ним наедине и конфиденциально до первого допроса подозреваемого, но не более 10 минут;\n4) представлять доказательства;\n5) заявлять ходатайства и отводы;\n6) давать показания на русском языке;\n7) знакомиться с протоколами следственных действий, произведенных с его участием, и подавать на них замечания;\n8) участвовать с разрешения следователя в следственных действиях, производимых по его ходатайству, ходатайству его защитника либо законного представителя;\n9) приносить жалобы на действия (бездействие) и решения следователя, дознавателя, прокурора и суда;\n10) защищаться иными средствами и способами, не запрещенными настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-27",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 27",
+    "title": "Обвиняемый",
+    "text": "ч. 1. Обвиняемым признается лицо, в отношении которого вынесено постановление о привлечении его в качестве обвиняемого.\nч. 2. Обвиняемый, по уголовному делу которого назначено судебное разбирательство, именуется подсудимым. Обвиняемый, в отношении которого вынесено решение о признании виновным, именуется осужденным. Обвиняемый, в отношении которого вынесен оправдательный приговор, является оправданным.\nч. 3. Обвиняемый вправе защищать свои права и законные интересы и иметь достаточное время и возможность для подготовки к защите.\nч. 4. Обвиняемый вправе:\n1) знать, в чем он обвиняется, и получить копию постановления о возбуждении уголовного дела;\n2) получить копию обвинительного заключения;\n3) возражать против обвинения, давать показания по предъявленному ему обвинению либо отказаться от дачи показаний. При согласии обвиняемого дать показания он должен быть предупрежден о том, что его показания могут быть использованы в качестве доказательств по делу, в том числе и при его последующем отказе от этих показаний, за исключением случая, предусмотренного пунктом 1 части второй статьи 62 настоящего Кодекса;\n4) представлять доказательства;\n5) заявлять ходатайства и отводы;\n6) давать показания и объясняться на русском языке;\n7) пользоваться помощью защитника, в том числе бесплатно в случаях, предусмотренных настоящим Кодексом;\n8) иметь свидания с защитником наедине и конфиденциально, в том числе до первого допроса обвиняемого, без ограничения их числа и продолжительности;\n9) участвовать с разрешения следователя в следственных действиях, производимых по его ходатайству или ходатайству его защитника либо законного представителя, знакомиться с протоколами этих действий и подавать на них замечания;\n10) знакомиться с постановлением о назначении судебной экспертизы, ставить вопросы эксперту и знакомиться с заключением эксперта;\n11) знакомиться по окончании предварительного расследования со всеми материалами дела и выписывать из дела любые сведения и в любом объеме;\n12) приносить жалобы на действия (бездействие) и решения следователя, дознавателя, прокурора и суда и принимать участие в их рассмотрении судом;\n13) участвовать в судебном разбирательстве уголовного дела в судах первой, второй, кассационной инстанций;\n15) знакомиться с протоколом и аудиозаписью судебного заседания и подавать замечания на них;\n16) обжаловать приговор, определение, постановление суда и получать копии обжалуемых решений;\n17) получать копии принесенных по делу жалоб и представлений и подавать возражения на эти жалобы и представления;\n18) участвовать в рассмотрении вопросов, связанных с исполнением приговора;\n19) защищаться иными средствами и способами, не запрещенными настоящим Кодексом.\nч. 5. Участие в деле защитника или законного представителя обвиняемого не служит основанием для ограничения какого-либо права обвиняемого.\nч. 6. При допросе обвиняемого следователь разъясняет ему права, предусмотренные настоящей статьей.",
+    "penalty": "8) иметь свидания с защитником наедине и конфиденциально, в том числе до первого допроса обвиняемого, без ограничения их числа и продолжительности; ч. 5. Участие в деле защитника или законного представителя обвиняемого не служит основанием для ограничения какого-либо права обвиняемого.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-28",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 28",
+    "title": "Защитник",
+    "text": "ч. 1. Защитник - лицо, осуществляющее в установленном настоящим Кодексом порядке защиту прав и интересов подозреваемых и обвиняемых и оказывающее им юридическую помощь при производстве по уголовному делу.\nч. 2. В качестве защитников участвуют адвокаты.\nч. 3. Защитник участвует в уголовном деле:\n1) с момента вынесения постановления о привлечении лица в качестве обвиняемого, за исключением случаев, предусмотренных пунктами 2 - 5 настоящей части;\n2) с момента возбуждения уголовного дела в отношении конкретного лица;\n3) с момента фактического задержания лица, подозреваемого в совершении преступления;\n4) с момента начала осуществления иных мер процессуального принуждения или иных процессуальных действий, затрагивающих права и свободы лица, подозреваемого в совершении преступления;\n5) с момента начала осуществления процессуальных действий, затрагивающих права и свободы лица, в отношении которого проводится проверка сообщения о преступлении.\nч. 4. Адвокат вступает в уголовное дело в качестве защитника по предъявлении удостоверения адвоката.\nч. 5. С момента вступления в уголовное дело защитник вправе:\n1) иметь с подозреваемым, обвиняемым свидания;\n2) собирать и представлять доказательства, необходимые для оказания юридической помощи;\n3) привлекать специалиста в соответствии со статьей 51 настоящего Кодекса;\n4) присутствовать при предъявлении обвинения;\n5) участвовать в допросе подозреваемого, обвиняемого, а также в иных следственных действиях, производимых с участием подозреваемого, обвиняемого либо по его ходатайству или ходатайству самого защитника в порядке, установленном настоящим Кодексом;\n6) знакомиться с протоколом задержания, постановлением о применении меры пресечения, протоколами следственных действий, произведенных с участием подозреваемого, обвиняемого, иными документами, которые предъявлялись либо должны были предъявляться подозреваемому, обвиняемому;\n7) знакомиться по окончании предварительного расследования со всеми материалами уголовного дела и выписывать из уголовного дела любые сведения в любом объеме, снимать за свой счет копии с материалов дела, в том числе с помощью технических средств;\n8) заявлять ходатайства и отводы;\n9) участвовать в судебном разбирательстве уголовного дела в судах первой, второй, кассационной инстанций, а также в рассмотрении вопросов, связанных с исполнением приговора;\n10) приносить жалобы на действия (бездействие) и решения следователя, прокурора, суда и участвовать в их рассмотрении судом;\n11) использовать иные не запрещенные настоящим Кодексом средства и способы защиты.\nч. 6. Защитник, участвующий в производстве следственного действия, в рамках оказания юридической помощи своему подзащитному вправе давать ему в присутствии следователя, дознавателя краткие консультации, задавать с разрешения следователя вопросы допрашиваемым лицам, делать письменные замечания по поводу правильности и полноты записей в протоколе данного следственного действия.\nч. 7. Защитник не вправе разглашать данные предварительного расследования, ставшие ему известными в связи с осуществлением защиты, если он был об этом заранее предупрежден.\nч. 8. В случае, если защитник участвует в производстве по уголовному делу, в материалах которого содержатся сведения, составляющие государственную тайну, и не имеет соответствующего допуска к указанным сведениям, он обязан не разглашать их третьим лицам.\nч. 9. Одно и то же лицо не может быть защитником двух подозреваемых или обвиняемых, если интересы одного из них противоречат интересам другого.\nч. 10. Адвокат не вправе отказаться от принятой на себя защиты подозреваемого, обвиняемого.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-29",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 29",
+    "title": "Приглашение, назначение и замена защитника",
+    "text": "ч. 1. Защитник приглашается подозреваемым, обвиняемым, его законным представителем, а также другими лицами по поручению или с согласия подозреваемого, обвиняемого. Подозреваемый, обвиняемый вправе пригласить несколько защитников.\nч. 2. По просьбе подозреваемого, обвиняемого участие защитника обеспечивается следователем, дознавателем, прокурором или судом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-30",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 30",
+    "title": "Обязательное участие защитника",
+    "text": "Участие защитника в уголовном процессе обязательно в следующих случаях:\n1) подозреваемый или обвиняемый требует защитника;\n2) обвиняемый обвиняется в совершении тяжкого или особо-тяжкого преступления в порядке письменного производства по уголовному делу;\n3) подозреваемый, обвиняемый в силу физических или психических недостатков не может самостоятельно осуществлять свое право на защиту.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-31",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 31",
+    "title": "Отказ от защитника",
+    "text": "ч. 1. Подозреваемый, обвиняемый вправе в любой момент производства по уголовному делу отказаться от помощи защитника. Такой отказ допускается только по инициативе подозреваемого или обвиняемого.\nч. 2. Отказ от защитника не обязателен для следователя, дознавателя и суда.\nч. 3. Отказ от защитника не лишает подозреваемого, обвиняемого права в дальнейшем ходатайствовать о допуске защитника к участию в производстве по уголовному делу. Допуск защитника не влечет за собой повторения процессуальных действий, которые к этому моменту уже были произведены.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-32",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 32",
+    "title": "Гражданский ответчик",
+    "text": "ч. 1. В качестве гражданского ответчика может быть привлечено физическое или юридическое лицо, которое в соответствии с Гражданским кодексом Российской Федерации несет ответственность за вред, причиненный преступлением. О привлечении физического или юридического лица в качестве гражданского ответчика следователь, дознаватель или судья выносит постановление, а суд - определение.\nч. 2. Гражданский ответчик вправе:\n1) знать сущность исковых требований и обстоятельства, на которых они основаны;\n2) возражать против предъявленного гражданского иска;\n3) давать объяснения и показания по существу предъявленного иска;\n4) отказаться свидетельствовать против самого себя, своего супруга (своей супруги) и других близких родственников. При согласии гражданского ответчика дать показания он должен быть предупрежден о том, что его показания могут быть использованы в качестве доказательств по уголовному делу, в том числе и в случае его последующего отказа от этих показаний;\n5) давать показания на русском языке;\n6) иметь представителя;\n7) собирать и представлять доказательства;\n8) заявлять ходатайства и отводы;\n9) знакомиться по окончании предварительного расследования с материалами уголовного дела, относящимися к предъявленному гражданскому иску, и делать из уголовного дела соответствующие выписки, снимать за свой счет копии с тех материалов дела, которые касаются гражданского иска, в том числе с использованием технических средств;\n10) участвовать в судебном разбирательстве уголовного дела в судах первой, второй, кассационной инстанций;\n11) выступать в судебных прениях;\n12) приносить жалобы на действия (бездействие) и решения следователя, дознавателя, прокурора, суда в части, касающейся гражданского иска, и принимать участие в их рассмотрении судом;\n13) знакомиться с протоколом и аудиозаписью судебного заседания и подавать замечания на них;\n14) обжаловать приговор, определение или постановление суда в части, касающейся гражданского иска, и участвовать в рассмотрении жалобы вышестоящим судом;\n15) знать о принесенных по уголовному делу жалобах и представлениях и подавать на них возражения, если они затрагивают его интересы.\nч. 3. Гражданский ответчик не вправе:\n1) уклоняться от явки по вызовам следователя или в суд;\n2) разглашать данные предварительного расследования, ставшие ему известными в связи с участием в производстве по уголовному делу, если он был об этом заранее предупрежден. За разглашение данных предварительного расследования гражданский ответчик несет уголовную ответственность в соответствии с законом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-33",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 33",
+    "title": "Представитель гражданского ответчика",
+    "text": "ч. 1. Представителями гражданского ответчика могут быть адвокаты, а представителями гражданского ответчика, являющегося юридическим лицом, также иные лица, правомочные в соответствии с Гражданским кодексом Российской Федерации представлять его интересы.\nч. 2. Представитель гражданского ответчика имеет те же права, что и представляемое им лицо.\nч. 3. Личное участие в производстве по уголовному делу гражданского ответчика не лишает его права иметь представителя.\n\n\nГлава 8. Иные участники уголовного судопроизводства",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 7. Участники уголовного судопроизводства со стороны защиты",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-34",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 34",
+    "title": "Свидетель",
+    "text": "ч. 1. Свидетелем является лицо, которому могут быть известны какие-либо обстоятельства, имеющие значение для расследования и разрешения уголовного дела, и которое вызвано для дачи показаний, за исключением случаев, предусмотренных частью третьей настоящей статьи.\nч. 2. Вызов и допрос свидетелей осуществляются в порядке, установленном законом.\nч. 3. Не подлежат допросу в качестве свидетелей:\n1) судья, присяжный заседатель - об обстоятельствах уголовного дела, которые стали им известны в связи с участием в производстве по данному уголовному делу;\n2) адвокат, защитник подозреваемого, обвиняемого - об обстоятельствах, ставших ему известными в связи с обращением к нему за юридической помощью или в связи с ее оказанием, за исключением случаев, если о допросе в качестве свидетеля ходатайствует адвокат, защитник подозреваемого, обвиняемого с согласия и в интересах подозреваемого, обвиняемого;\n3) адвокат - об обстоятельствах, которые стали ему известны в связи с оказанием юридической помощи, за исключением случаев, если о допросе в качестве свидетеля ходатайствует адвокат с согласия лица, которому он оказывал юридическую помощь;\n5) Депутат Федерального Собрания - об обстоятельствах, которые стали им известны в связи с осуществлением ими своих полномочий.\nч. 4. Свидетель вправе:\n1) отказаться свидетельствовать против самого себя, своего супруга (своей супруги) и других близких родственников. При согласии свидетеля дать показания он должен быть предупрежден о том, что его показания могут быть использованы в качестве доказательств по уголовному делу, в том числе и в случае его последующего отказа от этих показаний;\n2) давать показания на родном языке или языке, которым он владеет;\n3) пользоваться помощью переводчика бесплатно;\n4) заявлять отвод переводчику, участвующему в его допросе;\n5) заявлять ходатайства и приносить жалобы на действия (бездействие) и решения следователя, прокурора и суда;\n6) являться на допрос с адвокатом;\n7) ходатайствовать о применении мер безопасности.\nч. 5. Свидетель не вправе:\n1) уклоняться от явки по вызовам следователя, дознавателя или в суд;\n2) давать заведомо ложные показания либо отказываться от дачи показаний;\n3) разглашать данные предварительного расследования, ставшие ему известными в связи с участием в производстве по уголовному делу, если он был об этом заранее предупрежден.\nч. 6. В случае уклонения от явки без уважительных причин свидетель может быть подвергнут приводу.\nч. 7. За дачу заведомо ложных показаний, необоснованный отказ от дачи показаний, разглашение данных предварительного расследования свидетель несет уголовную ответственность в соответствии с законом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 8. Иные участники уголовного судопроизводства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-35",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 35",
+    "title": "Эксперт",
+    "text": "ч. 1. Эксперт - лицо, обладающее специальными знаниями и назначенное в порядке, установленном настоящим Кодексом, для производства судебной экспертизы и дачи заключения.\nч. 2. Эксперт вправе:\n1) знакомиться с материалами уголовного дела, относящимися к предмету судебной экспертизы;\n2) ходатайствовать о предоставлении ему дополнительных материалов, необходимых для дачи заключения, либо привлечении к производству судебной экспертизы других экспертов;\n3) участвовать с разрешения следователя и суда в процессуальных действиях и задавать вопросы, относящиеся к предмету судебной экспертизы;\n4) давать заключение в пределах своей компетенции, в том числе по вопросам, хотя и не поставленным в постановлении о назначении судебной экспертизы, но имеющим отношение к предмету экспертного исследования;\n5) приносить жалобы на действия (бездействие) и решения следователя, дознавателя, прокурора и суда, ограничивающие его права;\n6) отказаться от дачи заключения по вопросам, выходящим за пределы специальных знаний, а также в случаях, если представленные ему материалы недостаточны для дачи заключения. Отказ от дачи заключения должен быть заявлен экспертом в письменном виде с изложением мотивов отказа.\nч. 4. Эксперт не вправе:\n1) без ведома следователя и суда вести переговоры с участниками уголовного судопроизводства по вопросам, связанным с производством судебной экспертизы;\n2) самостоятельно собирать материалы для экспертного исследования;\n3) проводить без разрешения следователя, прокурора, дознавателя, суда исследования, могущие повлечь полное или частичное уничтожение объектов либо изменение их внешнего вида или основных свойств;\n4) давать заведомо ложное заключение;\n5) разглашать данные предварительного расследования, ставшие известными ему в связи с участием в уголовном деле в качестве эксперта, если он был об этом заранее предупрежден;\n6) уклоняться от явки по вызовам следователя или в суд.\nч. 5. За дачу заведомо ложного заключения, разглашение данных предварительного расследования эксперт несет уголовную ответственность в соответствии с законом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 8. Иные участники уголовного судопроизводства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-36",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 36",
+    "title": "Специалист",
+    "text": "ч. 1. Специалист - лицо, обладающее специальными знаниями, привлекаемое к участию в процессуальных действиях в порядке, установленном настоящим Кодексом, для содействия в обнаружении, закреплении и изъятии предметов и документов, применении технических средств в исследовании материалов уголовного дела, для постановки вопросов эксперту, а также для разъяснения сторонам и суду вопросов, входящих в его профессиональную компетенцию.\nч. 2. Вызов специалиста и порядок его участия в следственных и иных процессуальных действиях, судебных заседаниях определяются законом.\nч. 3. Стороне защиты не может быть отказано в удовлетворении ходатайства о привлечении к участию в производстве по уголовному делу в порядке, установленном настоящим Кодексом, специалиста для разъяснения вопросов, входящих в его профессиональную компетенцию.\nч. 4. Специалист вправе:\n1) отказаться от участия в производстве по уголовному делу, если он не обладает соответствующими специальными знаниями;\n2) задавать вопросы участникам следственного действия с разрешения следователя и суда;\n3) знакомиться с протоколом следственного действия, в котором он участвовал, и делать заявления и замечания, которые подлежат занесению в протокол;\n4) приносить жалобы на действия (бездействие) и решения следователя, прокурора и суда, ограничивающие его права.\nч. 5. Специалист не вправе уклоняться от явки по вызовам следователя или в суд, а также разглашать данные предварительного расследования, ставшие ему известными в связи с участием в производстве по уголовному делу в качестве специалиста, если он был об этом заранее предупрежден. За разглашение данных предварительного расследования специалист несет уголовную ответственность в соответствии с законом.\n\n\nГлава 9. Обстоятельства, исключающие участие в уголовном судопроизводстве",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 8. Иные участники уголовного судопроизводства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-37",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 37",
+    "title": "Обстоятельства, исключающие участие в производстве по уголовному делу",
+    "text": "ч. 1. Прокурор, следователь, дознаватель, эксперт, специалист не может участвовать в производстве по уголовному делу, если он:\n1) является потерпевшим по делам частного и частно-публичного обвинения, гражданским истцом, гражданским ответчиком по данному делу;\n2) участвовал в качестве присяжного заседателя, эксперта, специалиста, переводчика, понятого, помощника судьи, секретаря судебного заседания, защитника, законного представителя подозреваемого, обвиняемого, представителя потерпевшего, гражданского истца или гражданского ответчика;\n3) является близким родственником или родственником любого из участников производства по данному уголовному делу.\nч. 2. Лица, указанные в части первой настоящей статьи, не могут участвовать в производстве по уголовному делу также в случаях, если имеются иные обстоятельства, дающие основание полагать, что они лично, прямо или косвенно, заинтересованы в исходе данного уголовного дела.\nч. 3. Наличие информации о внепроцессуальном обращении, поступившем прокурору, дознавателю или следователю по делу, находящемуся в его производстве, само по себе не может рассматриваться в качестве основания для отвода.\nч. 4. Эксперт не может участвовать в производстве по уголовному делу, если обнаружится его некомпетентность.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 9. Обстоятельства, исключающие участие в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-38",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 38",
+    "title": "Недопустимость участия в производстве по уголовному делу лиц, подлежащих отводу",
+    "text": "ч. 1. При наличии оснований для отвода, предусмотренных настоящей главой, прокурор, следователь, дознаватель, эксперт, специалист, защитник, а также представители потерпевшего, гражданского истца или гражданского ответчика обязаны устраниться от участия в производстве по уголовному делу.\nч. 2. В случае, если лица, указанные в части первой настоящей статьи, не устранились от участия в производстве по уголовному делу, отвод им может быть заявлен подозреваемым, обвиняемым, его законным представителем, защитником, а также государственным обвинителем, потерпевшим, гражданским истцом, гражданским ответчиком или их представителями.\nч. 3. В случае отказа в удовлетворении заявления об отводе подача повторного заявления об отводе тем же лицом и по тем же основаниям не допускается.\nч. 4. Решение об отказе в удовлетворении заявления об отводе, принятое в ходе досудебного производства по делу, не является препятствием для последующей подачи заявления об отводе тем же лицом в отношении того же лица и по тем же основаниям в ходе судебного производства по делу.\nч. 5. Вопрос об отводе следователя, дознавателя, прокурора разрешается вышестоящим должностным лицом (прокурором) в течение 12 часов после поступления соответствующего заявления. В случае несогласия сторон с решением об отказе в удовлетворении отвода, заявитель вправе обратиться с жалобой в суд либо прокурору для проверки законности и обоснованности принятого решения.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 9. Обстоятельства, исключающие участие в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-39",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 39",
+    "title": "Недопустимость повторного участия судьи в рассмотрении дела",
+    "text": "ч. 1. Судья, принимавший участие в рассмотрении уголовного дела в суде первой инстанции, не может участвовать в рассмотрении данного дела в суде второй инстанции, а равно участвовать в новом рассмотрении дела в суде первой или второй инстанции в случае отмены вынесенных с его участием приговора, а также определения, постановления о прекращении дела.\nч. 2. Судья, принимавший участие в рассмотрении дела в суде второй инстанции, не может участвовать в рассмотрении этого дела в суде первой инстанции, а равно в новом рассмотрении того же дела в суде второй инстанции после отмены приговора, определения, постановления, вынесенного с его участием.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 9. Обстоятельства, исключающие участие в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-40",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 40",
+    "title": "Заявление об отводе судьи",
+    "text": "ч. 1. При наличии обстоятельств, предусмотренных статьями 37 и 39 настоящего Кодекса, судье может быть заявлен отвод участниками процесса.\nч. 2. Отвод судье заявляется до начала судебного следствия, а в случае рассмотрения дела судом с участием присяжных заседателей - до формирования коллегии присяжных заседателей. В ходе дальнейшего судебного заседания заявление об отводе допускается лишь в случае, когда основание для него ранее не было известно стороне.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 9. Обстоятельства, исключающие участие в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-41",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 41",
+    "title": "Порядок рассмотрения заявлений об отводе",
+    "text": "ч. 1. Заявление об отводе судьи рассматривается этим же судьей, а в случае коллегиального рассмотрения уголовного дела - судебной коллегией без участия судьи, в отношении которого заявлен отвод. Отвод судебной коллегии рассматривается этой же коллегией.\nч. 2. Заявление об отводе прокурора рассматривается вышестоящим прокурором, а если отвод заявлен Генеральному прокурору Российской Федерации, то заявление об отводе рассматривается этим же должностным лицом. Заявление об отводе прокурора, заявленное на стадии судебного разбирательства, рассматривается судом.\nч. 3. Заявление об отводе следователя, дознавателя рассматривается прокурором.\nч. 4. Заявление об отводе эксперта, специалиста рассматривается прокурором, а на стадии судебного разбирательства - судом.\n\n\nРаздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ\n\n\nГлава 10. Доказательства в уголовном судопроизводстве",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ II. УЧАСТНИКИ УГОЛОВНОГО СУДОПРОИЗВОДСТВА",
+    "chapter": "Глава 9. Обстоятельства, исключающие участие в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-42",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 42",
+    "title": "Обстоятельства, подлежащие доказыванию",
+    "text": "ч. 1. При производстве по уголовному делу подлежат доказыванию:\n1) событие преступления (время, место, способ и другие обстоятельства совершения преступления);\n2) виновность лица в совершении преступления, форма его вины и мотивы;\n3) обстоятельства, характеризующие личность обвиняемого;\n4) характер и размер вреда, причиненного правонарушением;\n5) обстоятельства, исключающие противоправность и наказуемость деяния;\n6) обстоятельства, смягчающие и отягчающие наказание;\n7) обстоятельства, которые могут повлечь за собой освобождение от уголовной ответственности и наказания.\nч. 2. Подлежат выявлению также обстоятельства, способствовавшие совершению преступления.",
+    "penalty": "6) обстоятельства, смягчающие и отягчающие наказание; 7) обстоятельства, которые могут повлечь за собой освобождение от уголовной ответственности и наказания.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-43",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 43",
+    "title": "Доказательства",
+    "text": "ч. 1. Доказательствами по уголовному делу являются любые сведения, на основе которых суд, прокурор, следователь, дознаватель в порядке, определенном настоящим Кодексом, устанавливает наличие или отсутствие обстоятельств, подлежащих доказыванию при производстве по уголовному делу, а также иных обстоятельств, имеющих значение для дела.\nч. 2. В качестве доказательств допускаются:\n1) показания подозреваемого, обвиняемого;\n2) показания потерпевшего, свидетеля;\n3) заключение и показания эксперта;\n3.1) заключение и показания специалиста;\n4) вещественные доказательства;\n5) протоколы следственных и судебных действий;\n6) иные документы.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44",
+    "title": "Недопустимые доказательства",
+    "text": "ч. 1. Доказательства, полученные с нарушением требований настоящего Кодекса, являются недопустимыми. Недопустимые доказательства не имеют юридической силы и не могут быть положены в основу обвинения, а также использоваться для доказывания любого из обстоятельств, предусмотренных статьей 42 настоящего Кодекса.\nч. 2. К недопустимым доказательствам относятся:\n1) показания подозреваемого, обвиняемого, данные в ходе досудебного производства по уголовному делу или делу об административном правонарушении в отсутствие защитника, включая случаи отказа от защитника, и не подтвержденные подозреваемым, обвиняемым в суде;\n2) показания потерпевшего, свидетеля, основанные на догадке, предположении, слухе, а также показания свидетеля, который не может указать источник своей осведомленности;\n3) иные доказательства, полученные с нарушением требований настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-1",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.1",
+    "title": "Показания подозреваемого",
+    "text": "Показания подозреваемого - сведения, сообщенные им на допросе, проведенном в ходе досудебного производства в соответствии с требованиями статей 96 - 98 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-2",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.2",
+    "title": "Показания обвиняемого",
+    "text": "ч. 1. Показания обвиняемого - сведения, сообщенные им на допросе, проведенном в ходе досудебного производства или в суде.\nч. 2. Признание обвиняемым своей вины в совершении преступления может быть положено в основу обвинения лишь при подтверждении его виновности совокупностью имеющихся по уголовному делу доказательств.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-3",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.3",
+    "title": "Показания потерпевшего",
+    "text": "ч. 1. Показания потерпевшего - сведения, сообщенные им на допросе, проведенном в ходе досудебного производства или в суде.\nч. 2. Потерпевший может быть допрошен о любых обстоятельствах, подлежащих доказыванию при производстве по уголовному делу, в том числе о своих взаимоотношениях с подозреваемым, обвиняемым.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-4",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.4",
+    "title": "Показания свидетеля",
+    "text": "ч. 1. Показания свидетеля - сведения, сообщенные им на допросе, проведенном в ходе досудебного производства по уголовному делу или в суде.\nч. 2. Свидетель может быть допрошен о любых относящихся к уголовному делу обстоятельствах, в том числе о личности обвиняемого, потерпевшего и своих взаимоотношениях с ними и другими свидетелями.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-5",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.5",
+    "title": "Заключение и показания эксперта и специалиста",
+    "text": "ч. 1. Заключение эксперта - представленные в письменном виде содержание исследования и выводы по вопросам, поставленным перед экспертом лицом, ведущим производство по уголовному делу, или сторонами.\nч. 2. Показания эксперта - сведения, сообщенные им на допросе, проведенном после получения его заключения, в целях разъяснения или уточнения данного заключения.\nч. 3. Заключение специалиста - представленное в письменном виде суждение по вопросам, поставленным перед специалистом сторонами.\nч. 4. Показания специалиста - сведения, сообщенные им на допросе об обстоятельствах, требующих специальных познаний, а также разъяснения своего мнения.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-44-6",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.6",
+    "title": "Вещественные доказательства",
+    "text": "ч. 1. Вещественными доказательствами признаются любые предметы:\n1) которые служили орудиями, оборудованием или иными средствами совершения правонарушения или сохранили на себе следы преступления;\n2) на которые были направлены противоправные действия;\n2.1) деньги, ценности и иное имущество, полученные в результате совершения преступления;\n3) иные предметы и документы, которые могут служить средствами для обнаружения преступления и установления обстоятельств уголовного дела, в том числе записи с нательных видеорегистраторов.\nч. 2. Предметы, указанные в части первой настоящей статьи, осматриваются, признаются вещественными доказательствами и приобщаются к уголовному делу. Порядок хранения вещественных доказательств устанавливается настоящей статьей и статьей 44.7 настоящего Кодекса.\nч. 3. Изъятые в ходе досудебного производства, но не признанные вещественными доказательствами предметы, включая электронные носители информации, и документы подлежат возврату лицам, у которых они были изъяты.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-7",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.7",
+    "title": "Хранение и предоставление вещественных доказательств",
+    "text": "ч. 1. Вещественные доказательства по уголовному делу, ведущемуся в форме предварительного расследования без письменной отчетности, хранятся у дознавателя, следователя в течение 72 часов с момента вынесения итогового решения по уголовному делу в соответствии со статьей 82 настоящего Кодекса или освобождения лица от задержания в соответствии со статьей 53 настоящего Кодекса.\nч. 2. При поступлении жалобы на действия (бездействие), решения следователя, дознавателя при производстве по уголовному делу без письменной отчетности, срок хранения вещественных доказательств, указанный в части первой настоящей статьи, приостанавливается до окончания производства по жалобе.\nч. 3. Вещественные доказательства по уголовному делу, ведущемуся в форме предварительного расследования с письменной отчетностью, хранятся в материалах уголовного дела.\nч. 4. Судьба вещественных доказательств по уголовному делу, ведущемуся в форме предварительного расследования с письменной отчетностью, разрешается судом в приговоре или прокурором, рассматривающим уголовное дело по существу, в решении по уголовному делу. Решение о судьбе вещественных доказательств по уголовному делу исполняется по окончанию сроков апелляционного обжалования приговора суда или сроков обжалования решения прокурора, рассматривающего уголовное дело по существу.",
+    "penalty": "ч. 2. При поступлении жалобы на действия (бездействие), решения следователя, дознавателя при производстве по уголовному делу без письменной отчетности, срок хранения вещественных доказательств, указанный в части первой настоящей статьи, приостанавливается до окончания производства по жалобе. ч. 4. Судьба вещественных доказательств по уголовному делу, ведущемуся в форме предварительного расследования с письменной отчетностью, разрешается судом в приговоре или прокурором, рассматривающим уголовное дело по существу, в решении по уголовному делу. Решение о судьбе вещественных доказательств по уголовному делу исполняется по окончанию сроков апелляционного обжалования приговора суда или сроков обжалования решения прокурора, рассматривающего уголовное дело по существу.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-8",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.8",
+    "title": "Протоколы следственных действий и судебного заседания",
+    "text": "Протоколы следственных действий и протоколы судебных заседаний допускаются в качестве доказательств, если они соответствуют требованиям, установленным настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-44-9",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 44.9",
+    "title": "Иные документы",
+    "text": "ч. 1. Иные документы допускаются в качестве доказательств, если изложенные в них сведения имеют значение для установления обстоятельств, указанных в статье 42 настоящего Кодекса.\nч. 2. Документы могут содержать сведения, зафиксированные как в письменном, так и в ином виде. К ним могут относиться материалы фото- и киносъемки, аудио- и видеозаписи и иные носители информации, полученные, истребованные или представленные в порядке, установленном статьей 46 настоящего Кодекса.\nч. 3. Документы приобщаются к материалам уголовного дела и хранятся в течение всего срока его хранения. По ходатайству законного владельца изъятые и приобщенные к уголовному делу документы или их копии могут быть переданы ему.\nч. 4. Документы, обладающие признаками, указанными в части первой статьи 44.6 настоящего Кодекса, признаются вещественными доказательствами.\n\n\nГлава 11. Доказывание",
+    "penalty": "ч. 3. Документы приобщаются к материалам уголовного дела и хранятся в течение всего срока его хранения. По ходатайству законного владельца изъятые и приобщенные к уголовному делу документы или их копии могут быть переданы ему.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 10. Доказательства в уголовном судопроизводстве",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-45",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 45",
+    "title": "Доказывание",
+    "text": "Доказывание состоит в собирании, проверке и оценке доказательств в целях установления обстоятельств, предусмотренных статьей 60 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 11. Доказывание",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-46",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 46",
+    "title": "Собирание доказательств",
+    "text": "ч. 1. Собирание доказательств осуществляется в ходе уголовного процесса следователем, прокурором, дознавателем и судом путем производства следственных и иных процессуальных действий, предусмотренных настоящим Кодексом.\nч. 2. Подозреваемый, обвиняемый, а также потерпевший, гражданский истец, гражданский ответчик и их представители вправе собирать и представлять письменные документы и предметы для приобщения их к уголовному делу в качестве доказательств.\nч. 3. Защитник вправе собирать доказательства путем:\n1) получения предметов, документов и иных сведений;\n2) опроса лиц с их согласия;\n3) истребования справок, характеристик, иных документов от органов государственной власти, общественных объединений и организаций, которые обязаны предоставлять запрашиваемые документы или их копии.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 11. Доказывание",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-47",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 47",
+    "title": "Проверка доказательств",
+    "text": "Проверка доказательств производится следователем, прокурором, судом путем сопоставления их с другими доказательствами, имеющимися в уголовном деле, а также установления их источников, получения иных доказательств, подтверждающих или опровергающих проверяемое доказательство.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 11. Доказывание",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-48",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 48",
+    "title": "Правила оценки доказательств",
+    "text": "ч. 1. Каждое доказательство подлежит оценке с точки зрения относимости, допустимости, достоверности, а все собранные доказательства в совокупности - достаточности для разрешения уголовного дела.\nч. 2. В случаях, указанных в части второй статьи 44 настоящего Кодекса, суд, прокурор, следователь, дознаватель признает доказательство недопустимым.\nч. 3. Суд, прокурор, следователь, дознаватель вправе признать доказательство недопустимым по ходатайству подозреваемого, обвиняемого или по собственной инициативе. Доказательство, признанное недопустимым, не подлежит включению в обвинительное заключение.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 11. Доказывание",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-49",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 49",
+    "title": "Использование в доказывании результатов оперативно-розыскной деятельности",
+    "text": "В процессе доказывания запрещается использование результатов оперативно-розыскной деятельности, если они не отвечают требованиям, предъявляемым к доказательствам настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 11. Доказывание",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-50",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 50",
+    "title": "Преюдиция",
+    "text": "Обстоятельства, установленные приговором суда, либо иным вступившим в законную силу решением суда, принятым в рамках гражданского или административного судопроизводства, признаются судом, прокурором, следователем, дознавателем без дополнительной проверки. При этом такие приговор или решение не могут предрешать виновность лиц, не участвовавших ранее в рассматриваемом уголовном деле.\n\n\nРаздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ\n\n\nГлава 12. Задержание подозреваемого",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. ДОКАЗАТЕЛЬСТВА И ДОКАЗЫВАНИЕ",
+    "chapter": "Глава 11. Доказывание",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-51",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 51",
+    "title": "Основания задержания подозреваемого",
+    "text": "ч. 1. Дознаватель, следователь вправе задержать лицо по подозрению в совершении преступления, за которое может быть назначено наказание в виде лишения свободы, при наличии одного из следующих оснований:\n1) когда это лицо застигнуто при совершении преступления или непосредственно после его совершения;\n2) когда потерпевшие или очевидцы укажут на данное лицо как на совершившее преступление;\n3) когда на этом лице или его одежде, при нем или в его жилище будут обнаружены явные следы преступления;\n4) когда это лицо находится в ориентировке;\n5) когда имеются иные данные, дающие основание подозревать лицо в совершении преступления.\nч. 2. Генеральный прокурор Российской Федерации или его заместители вправе давать поручения в устной и письменной форме о производстве задержания при наличии оснований, установленных частью первой настоящей статьи.\nч. 3. Лицо не может быть задержано по подозрению в совершении преступления, по которому истекли сроки давности уголовного преследования.",
+    "penalty": "ч. 1. Дознаватель, следователь вправе задержать лицо по подозрению в совершении преступления, за которое может быть назначено наказание в виде лишения свободы, при наличии одного из следующих оснований: ч. 3. Лицо не может быть задержано по подозрению в совершении преступления, по которому истекли сроки давности уголовного преследования.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 12. Задержание подозреваемого",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-procedure-52",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 52",
+    "title": "Порядок задержания подозреваемого",
+    "text": "Задержание лица производится в следующей последовательности:\nа) применить специальные средства с целью ограничить свободу лица;\nб) предъявить свое служебное удостоверение или иной идентификационный знак, подтверждающий принадлежность к органам государственной власти;\nв) на усмотрение сотрудника, проводящего задержание, провести обыск;\nг) разъяснить основания задержания и права, установленные пунктами 2, 3, 10 части 2 статьи 26 настоящего Кодекса;\nПояснение: Рекомендуемая форма оглашения прав гражданина изложенная в данных пунктах: \"Вы можете давать показания и объяснения по поводу подозрений в нарушении уголовного кодекса, осознавая их использование в деле, либо отказаться от дачи объяснений и показаний. Вы можете воспользоваться помощью защитника и иметь свидание с ним наедине, воспользоваться телефонным звонком длительностью которого не должна превышать 2-х минут.\". Допустимо использовать иную формулировку, если она отражает в полной мере права, которые должны быть разъяснены согласно данному этапу задержания.\n\nд) доставить подозреваемого в территориальный орган власти, отдел внутренних дел или иное место для дознания или следствия;\nд.1) в случае, если должностное лицо, производящее задержание, не уполномочено вести предварительное расследование по уголовному делу, связанному с задержанием - передать задержание и материалы дела уполномоченному на это лицу;\nе) провести идентификацию личности задержанного и проверку на принадлежность задержанного к государственным органам;\nж) реализовать права задержанного, ожидая ответа адвоката не более 3 минут, его приезд после ответа - не более 7;\nз) в случаях если выяснилось, что задержанное лицо госслужащий, то вызвать прокурора и руководство задержанного.\nи) произвести следственные действия, если в этом есть необходимость (допрос, обыск, экспертиза и т.д.).",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 12. Задержание подозреваемого",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "обыск",
+      "адвокат",
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-53",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 53",
+    "title": "Основания освобождения подозреваемого",
+    "text": "ч. 1. Подозреваемый и обвиняемый подлежит освобождению, если:\n1) не подтвердилось подозрение в совершении преступления;\n2) задержание было произведено с нарушением требований статьи 51 настоящего Кодекса;\n3) общая продолжительность задержания превышает 60 минут, а в случае задержания лица, являющегося служащим органов государственной власти, - 90 минут;\n4) дальнейшее ограничение свободы невозможно в соответствии с требованиями настоящего Кодекса.\nч. 2. При освобождении подозреваемый и обвиняемый вправе требовать разъяснить ему дату, время, место и основания задержания, дату, время и основания освобождения, осведомить его о том, какое должностное лицо произвело задержание.\nч. 3. При задержании лица, являющегося служащим органов государственной власти, факт наличия оснований для освобождения подозреваемого, предусмотренных пунктами 1, 2, 4 части первой настоящей статьи, может быть установлен только прокурором, прибывшим на задержание для рассмотрения его материалов.",
+    "penalty": "4) дальнейшее ограничение свободы невозможно в соответствии с требованиями настоящего Кодекса.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 12. Задержание подозреваемого",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-54",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 54",
+    "title": "Субъекты задержания",
+    "text": "ч. 1. В процессе задержания участвуют:\nа) должностное лицо, которое осуществляет задержание;\nб) дознаватели или следователи, осуществляющие предварительное расследование по делу;\nв) задержанный, в отношении которого проводится задержание;\nг) адвокат;\nд) руководство задержанного, вызванное в порядке статьи 83 настоящего Кодекса;\nе) работники Генеральной прокуратуры Российской Федерации, один сотрудник Следственного Комитета;\nё) прокурор, вызванный в порядке статьи 83 настоящего Кодекса;\nж) сотрудник ПС ФСБ.\nч. 2. Присутствие иных лиц в процессе задержания не допускается. Субъекты задержания вправе потребовать посторонних граждан отойти от места задержания на 5 метров, а также покинуть помещение, если задержание проводится в закрытом помещении.\n\n\nГлава 13. Запрет определенных действий",
+    "penalty": "е) работники Генеральной прокуратуры Российской Федерации, один сотрудник Следственного Комитета;",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 12. Задержание подозреваемого",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "адвокат",
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-procedure-55",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 55",
+    "title": "Запрет определенных действий",
+    "text": "ч. 1. Запрет определенных действий в качестве меры пресечения избирается по судебному решению в отношении подозреваемого или обвиняемого и заключается в возложении на подозреваемого или обвиняемого обязанностей своевременно являться по вызовам следователя или в суд, соблюдать один или несколько запретов, установленных судом, а также в осуществлении контроля за соблюдением возложенных на него запретов. Запрет определенных действий может быть избран в любой момент производства по уголовному делу для обеспечения исполнения приговора суда или при наличии достаточных оснований полагать, что обвиняемый, подозреваемый:\n1) скроется от предварительного расследования или суда;\n2) может продолжать заниматься преступной деятельностью;\n3) может угрожать свидетелю, иным участникам уголовного судопроизводства, уничтожить доказательства либо иным путем воспрепятствовать производству по уголовному делу.\nч. 2. При решении вопроса о необходимости избрания меры пресечения в виде запрета определенных действий в отношении подозреваемого или обвиняемого в совершении преступления должны учитываться также тяжесть преступления, его совершение с применением насилия либо с угрозой его применения, сведения о личности подозреваемого или обвиняемого, его возраст, состояние здоровья, семейное положение, род занятий и другие обстоятельства.\nч. 3. Мера пресечения отменяется соответствующим решением суда, когда в ней отпадает необходимость.\n\n\nГлава 14. Иные меры процессуального принуждения",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 13. Запрет определенных действий",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-56",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 56",
+    "title": "Основания применения иных мер процессуального принуждения",
+    "text": "В целях обеспечения установленного настоящим Кодексом порядка уголовного процесса, надлежащего исполнения приговора, дознаватель, следователь, прокурор, суд вправе применить к подозреваемому или обвиняемому следующие меры процессуального принуждения:\n1) обязательство о явке;\n2) привод;\n3) временное отстранение от должности.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 14. Иные меры процессуального принуждения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-57",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 57",
+    "title": "Обязательство о явке",
+    "text": "ч. 1. При необходимости у подозреваемого, обвиняемого, а также потерпевшего или свидетеля может быть взято обязательство о явке.\nч. 2. Обязательство о явке состоит в письменном обязательстве лица, указанного в части первой настоящей статьи, своевременно являться по вызовам прокурора, следователя, дознавателя или в суд. Лицу разъясняются последствия нарушения обязательства, о чем делается соответствующая отметка в обязательстве.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 14. Иные меры процессуального принуждения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-58",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 58",
+    "title": "Привод",
+    "text": "ч. 1. В случае неявки по вызову без уважительных причин подозреваемый, обвиняемый, а также потерпевший, свидетель могут быть подвергнуты приводу. Приводу подлежит также осужденный.\nч. 2. Привод состоит в принудительном доставлении лица к следователю, дознавателю, прокурору или в суд, а также на обязательные или исправительные работы.\nч. 3. При наличии причин, препятствующих явке по вызову в назначенный срок, лица, указанные в части первой настоящей статьи, незамедлительно уведомляют орган, которым они вызывались.",
+    "penalty": "ч. 2. Привод состоит в принудительном доставлении лица к следователю, дознавателю, прокурору или в суд, а также на обязательные или исправительные работы. ч. 3. При наличии причин, препятствующих явке по вызову в назначенный срок, лица, указанные в части первой настоящей статьи, незамедлительно уведомляют орган, которым они вызывались.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 14. Иные меры процессуального принуждения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-59",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 59",
+    "title": "Временное отстранение от должности",
+    "text": "ч. 1. Временное отстранение от должности в качестве меры процессуального принуждения может быть назначено только судом. При необходимости временного отстранения от должности подозреваемого или обвиняемого следователь, дознаватель возбуждает перед судом соответствующее ходатайство. Суд может применить данную меру пресечения и по собственной инициативе.\nч. 2. В течение 24 часов с момента поступления ходатайства судья выносит постановление, а суд - определение о временном отстранении подозреваемого или обвиняемого от должности либо об отказе в удовлетворении ходатайства.\nч. 3. Постановление о временном отстранении подозреваемого или обвиняемого от должности направляется по месту его работы.\nч. 4. Временное отстранение подозреваемого или обвиняемого от должности отменяется на основании постановления судьи, определения суда, когда в применении этой меры отпадает необходимость.\n\n\nРАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ\n\n\nГлава 15. Ходатайства",
+    "penalty": "ч. 3. Постановление о временном отстранении подозреваемого или обвиняемого от должности направляется по месту его работы.",
+    "section": "Раздел IV. МЕРЫ ПРОЦЕССУАЛЬНОГО ПРИНУЖДЕНИЯ",
+    "chapter": "Глава 14. Иные меры процессуального принуждения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-60",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 60",
+    "title": "Лица, имеющие право заявить ходатайство",
+    "text": "ч. 1. Подозреваемый, обвиняемый, его защитник, потерпевший, его законный представитель и представитель, эксперт, гражданский истец, гражданский ответчик, их представители, и иное лицо, права и законные интересы которых затронуты в ходе досудебного или судебного производства, вправе заявить ходатайство о производстве процессуальных действий или принятии процессуальных решений для установления обстоятельств, имеющих значение для уголовного дела, обеспечения прав и законных интересов лица, заявившего ходатайство, либо представляемых им лица или организации.\nч. 2. Ходатайство заявляется следователю, дознавателю, прокурору либо в суд.\nч. 3. Правом заявлять ходатайство в ходе судебного разбирательства обладает также государственный обвинитель.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 15. Ходатайства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-61",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 61",
+    "title": "Заявление ходатайства",
+    "text": "ч. 1. Ходатайство может быть заявлено в любой момент производства по уголовному делу. Письменное ходатайство приобщается к уголовному делу, устное - фиксируется на видеозаписи следственного действия или судебного заседания.\nч. 2. Отклонение ходатайства не лишает заявителя права вновь заявить ходатайство.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 15. Ходатайства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-62",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 62",
+    "title": "Сроки рассмотрения ходатайства",
+    "text": "Ходатайство подлежит рассмотрению и разрешению непосредственно после его заявления. В случаях, когда немедленное принятие решения по ходатайству, заявленному в ходе предварительного расследования, невозможно, оно должно быть разрешено не позднее суток со дня его заявления.",
+    "penalty": "Сроки рассмотрения ходатайства",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 15. Ходатайства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-63",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 63",
+    "title": "Разрешение ходатайства",
+    "text": "Об удовлетворении ходатайства либо о полном или частичном отказе в его удовлетворении следователь, дознаватель, прокурор, судья выносят постановление, а суд - определение, которое доводится до сведения лица, заявившего ходатайство. Решение по ходатайству может быть обжаловано в порядке, установленном главой 16 настоящего Кодекса.\n\n\nГлава 16. Обжалование действий и решений суда и должностных лиц, осуществляющих уголовный процесс",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 15. Ходатайства",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-64",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 64",
+    "title": "Право обжалования",
+    "text": "ч. 1. Действия (бездействие) и решения следователя, дознавателя, прокурора и суда могут быть обжалованы в установленном настоящим Кодексом порядке участниками уголовного процесса, а также иными лицами в той части, в которой производимые процессуальные действия и принимаемые процессуальные решения затрагивают их интересы.\nч. 2. При нарушении разумных сроков уголовного процесса в ходе досудебного производства по уголовному делу участники таковых, а также иные лица, интересы которых затрагиваются, могут обратиться к прокурору с жалобой, которая должна быть рассмотрена в порядке и в сроки, установленные статьей 65 настоящего Кодекса.",
+    "penalty": "ч. 2. При нарушении разумных сроков уголовного процесса в ходе досудебного производства по уголовному делу участники таковых, а также иные лица, интересы которых затрагиваются, могут обратиться к прокурору с жалобой, которая должна быть рассмотрена в порядке и в сроки, установленные статьей 65 настоящего Кодекса.",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 16. Обжалование действий и решений суда и должностных лиц, осуществляющих уголовный процесс",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-65",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 65",
+    "title": "Порядок рассмотрения жалобы прокурором",
+    "text": "ч. 1. Прокурор рассматривает жалобу в течение трех суток со дня ее получения. В исключительных случаях, когда для проверки жалобы необходимо истребовать дополнительные материалы либо принять иные меры, допускается рассмотрение жалобы в срок до четырех суток, о чем извещается заявитель.\nч. 2. По результатам рассмотрения жалобы прокурор выносит постановление о полном или частичном удовлетворении жалобы либо об отказе в ее удовлетворении.\nч. 3. В случае удовлетворения жалобы, поданной в соответствии с частью второй статьи 64 настоящего Кодекса, в постановлении должны быть указаны процессуальные действия, осуществляемые для ускорения рассмотрения дела, и сроки их осуществления.\nч. 4. Заявитель должен быть незамедлительно уведомлен о решении, принятом по жалобе, и дальнейшем порядке его обжалования.\nч. 5. В случаях, предусмотренных настоящим Кодексом, следователь, дознаватель вправе обжаловать действия (бездействие) и решения прокурора вышестоящему прокурору.",
+    "penalty": "ч. 1. Прокурор рассматривает жалобу в течение трех суток со дня ее получения. В исключительных случаях, когда для проверки жалобы необходимо истребовать дополнительные материалы либо принять иные меры, допускается рассмотрение жалобы в срок до четырех суток, о чем извещается заявитель. ч. 3. В случае удовлетворения жалобы, поданной в соответствии с частью второй статьи 64 настоящего Кодекса, в постановлении должны быть указаны процессуальные действия, осуществляемые для ускорения рассмотрения дела, и сроки их осуществления.",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 16. Обжалование действий и решений суда и должностных лиц, осуществляющих уголовный процесс",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-procedure-66",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 66",
+    "title": "Судебный порядок рассмотрения жалоб",
+    "text": "ч. 1. Постановления следователя, дознавателя об отказе в возбуждении уголовного дела, о прекращении уголовного дела, а равно иные действия (бездействие) и решения следователя, дознавателя и прокурора, которые способны причинить ущерб конституционным правам и свободам участников уголовного процесса либо затруднить доступ граждан к правосудию, могут быть обжалованы в суд.\nч. 2. Жалоба может быть подана в суд заявителем, его защитником, законным представителем или представителем непосредственно.\nч. 3. Судья проверяет законность и обоснованность действий (бездействия) и решений следователя, дознавателя, прокурора не позднее чем через 3 суток со дня поступления жалобы в судебном заседании с участием заявителя и его защитника, законного представителя или представителя, если они участвуют в уголовном деле, иных лиц, чьи интересы непосредственно затрагиваются обжалуемыми действием (бездействием) или решением, а также с участием прокурора, следователя, дознавателя. Неявка лиц, своевременно извещенных о времени рассмотрения жалобы и не настаивающих на ее рассмотрении с их участием, не является препятствием для рассмотрения жалобы судом.\nч. 4. В начале судебного заседания судья объявляет, какая жалоба подлежит рассмотрению, представляется явившимся в судебное заседание лицам, разъясняет их права и обязанности. Затем заявитель, если он участвует в судебном заседании, обосновывает жалобу, после чего заслушиваются другие явившиеся в судебное заседание лица. Заявителю предоставляется возможность выступить с репликой.\nч. 5. По результатам рассмотрения жалобы судья в форме постановления, а суд в форме определения выносит одно из следующих решений:\n1) о признании действия (бездействия) или решения соответствующего должностного лица незаконным или необоснованным и о его обязанности устранить допущенное нарушение;\n2) об оставлении жалобы без удовлетворения.\nч. 6. Копии письменного решения судьи направляются заявителю, прокурору, должностному лицу, чьи действия (бездействие) обжалованы.\nч. 7. Принесение жалобы не приостанавливает производство обжалуемого действия и исполнение обжалуемого решения, если это не найдет нужным сделать следователь, прокурор, дознаватель или судья.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 16. Обжалование действий и решений суда и должностных лиц, осуществляющих уголовный процесс",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-67",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 67",
+    "title": "Жалоба и представление на приговор, определение, постановление суда",
+    "text": "Жалобы и представления на приговоры, определения, постановления судов первой и апелляционной инстанций, а также жалобы и представления на судебные решения, принимаемые в ходе досудебного производства по уголовному делу, приносятся в порядке, установленном настоящим Кодексом и Федеральным законом.\n\n\nРАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ\n\n\nГлава 17. Процессуальные издержки",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ V. ХОДАТАЙСТВА И ЖАЛОБЫ",
+    "chapter": "Глава 16. Обжалование действий и решений суда и должностных лиц, осуществляющих уголовный процесс",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-68",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 68",
+    "title": "Процессуальные издержки",
+    "text": "ч. 1. Процессуальными издержками являются связанные с уголовным судопроизводством расходы, которые возмещаются за счет средств бюджета либо средств участников уголовного процесса.\nч. 2. К процессуальным издержкам относятся:\n1) суммы, выплачиваемые потерпевшему на покрытие расходов, связанных с выплатой вознаграждения представителю потерпевшего;\n2) вознаграждение, выплачиваемое эксперту, специалисту за исполнение ими своих обязанностей в ходе уголовного процесса, за исключением случаев, когда эти обязанности исполнялись ими в порядке служебного задания;\n3) суммы, выплачиваемые адвокату за оказание им юридической помощи в случае участия адвоката в уголовном процессе по назначению;\n4) суммы, израсходованные на производство судебной экспертизы в экспертных учреждениях;\n5) иные расходы, понесенные в ходе уголовного судопроизводства и предусмотренные настоящим Кодексом.\nч. 3. Суммы, указанные в части второй настоящей статьи, выплачиваются по постановлению следователя, прокурора или судьи либо по определению суда.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 17. Процессуальные издержки",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-69",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 69",
+    "title": "Взыскание процессуальных издержек",
+    "text": "ч. 1. Процессуальные издержки взыскиваются с осужденных, а также с лиц, уголовное дело или уголовное преследование в отношении которых прекращено по основаниям, не дающим права на реабилитацию, или возмещаются за счет средств бюджета.\nч. 2. В случае реабилитации лица процессуальные издержки возмещаются за счет средств бюджета.\n\n\nГлава 18. Реабилитация",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 17. Процессуальные издержки",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-70",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 70",
+    "title": "Основания возникновения права на реабилитацию",
+    "text": "ч. 1. Право на реабилитацию включает в себя право на возмещение имущественного вреда, устранение последствий морального вреда и восстановление в трудовых, пенсионных, жилищных и иных правах. Вред, причиненный гражданину в результате уголовного преследования, возмещается государством в полном объеме независимо от вины следователя, дознавателя, прокурора и суда.\nч. 2. Право на реабилитацию, в том числе право на возмещение вреда, связанного с уголовным преследованием, имеют:\n1) подсудимый, в отношении которого вынесен оправдательный приговор;\n2) подсудимый, уголовное преследование в отношении которого прекращено в связи с отказом государственного обвинителя от обвинения;\n3) подозреваемый или обвиняемый, уголовное преследование в отношении которого прекращено по основаниям, предусмотренным пунктами 1, 2, 4 и 5 части первой статьи 17 и пунктом 1 статьи 18 настоящего Кодекса;\n4) осужденный - в случаях полной или частичной отмены вступившего в законную силу обвинительного приговора суда и прекращения уголовного дела по основаниям, предусмотренным пунктами 1 и 2 части первой статьи 27 настоящего Кодекса.\nч. 3. Право на возмещение вреда в порядке, установленном настоящей главой, имеет также любое лицо, незаконно подвергнутое мерам процессуального принуждения в ходе производства по уголовному делу.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 18. Реабилитация",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-71",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 71",
+    "title": "Признание права на реабилитацию",
+    "text": "Суд в приговоре, определении, постановлении, а следователь, дознаватель в постановлении признают за оправданным либо лицом, в отношении которого прекращено уголовное преследование, право на реабилитацию.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 18. Реабилитация",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-72",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 72",
+    "title": "Возмещение имущественного вреда",
+    "text": "Возмещение реабилитированному имущественного вреда включает в себя возмещение:\n1) заработной платы, пенсии, пособия, других средств, которых он лишился в результате уголовного преследования;\n2) конфискованного или обращенного в доход государства на основании приговора или решения суда его имущества;\n3) штрафов и процессуальных издержек, взысканных с него во исполнение приговора суда;\n4) сумм, выплаченных им за оказание юридической помощи;\n5) иных расходов.",
+    "penalty": "1) заработной платы, пенсии, пособия, других средств, которых он лишился в результате уголовного преследования; 3) штрафов и процессуальных издержек, взысканных с него во исполнение приговора суда;",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 18. Реабилитация",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-73",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 73",
+    "title": "Возмещение морального вреда",
+    "text": "ч. 1. Прокурор от имени государства приносит официальное извинение реабилитированному за причиненный ему вред.\nч. 2. Иски о компенсации за причиненный моральный вред в денежном выражении предъявляются в порядке гражданского судопроизводства.\nч. 3. По требованию реабилитированного суд, прокурор, следователь, дознаватель обязаны в срок не позднее двух суток направить письменные сообщения о принятых решениях, оправдывающих гражданина, по месту его работы, учебы или месту жительства.",
+    "penalty": "ч. 3. По требованию реабилитированного суд, прокурор, следователь, дознаватель обязаны в срок не позднее двух суток направить письменные сообщения о принятых решениях, оправдывающих гражданина, по месту его работы, учебы или месту жительства.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 18. Реабилитация",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-74",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 74",
+    "title": "Обжалование решения о производстве выплат",
+    "text": "Постановление судьи о производстве выплат, возврате имущества может быть обжаловано в порядке, установленном законодательством Российской Федерации.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 18. Реабилитация",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-75",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 75",
+    "title": "Восстановление иных прав реабилитированного",
+    "text": "ч. 1. Восстановление трудовых, пенсионных, жилищных и иных прав реабилитированного производится в порядке, определяемом законодательством Российской Федерации. Если требование о возмещении вреда судом не удовлетворено или реабилитированный не согласен с принятым судебным решением, то он вправе обратиться в суд в порядке гражданского судопроизводства.\nч. 2. Реабилитированным, которые были лишены на основании судебного решения специальных, воинских и почетных званий, классных чинов, а также государственных наград, восстанавливаются соответствующие звания, классные чины и возвращаются государственные награды.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 18. Реабилитация",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-76",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 76",
+    "title": "Возмещение вреда юридическим лицам",
+    "text": "Вред, причиненный юридическим лицам незаконными действиями (бездействием) и решениями суда, прокурора, следователя, дознавателя, возмещается государством в полном объеме в порядке и сроки, которые установлены настоящей главой.\n\n\nЧАСТЬ ВТОРАЯ. ДОСУДЕБНОЕ ПРОИЗВОДСТВО\n\n\nРАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ\n\n\nГлава 20. Возбуждение уголовного дела",
+    "penalty": "Вред, причиненный юридическим лицам незаконными действиями (бездействием) и решениями суда, прокурора, следователя, дознавателя, возмещается государством в полном объеме в порядке и сроки, которые установлены настоящей главой.",
+    "section": "РАЗДЕЛ VI. ИНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 18. Реабилитация",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-77",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 77",
+    "title": "Поводы и основания к возбуждению уголовного дела",
+    "text": "ч. 1. Поводами к возбуждению уголовного дела являются:\n1) заявление о преступлении;\n2) явка с повинной;\n3) сообщение о совершенном или готовящемся преступлении, полученное из иных источников;\n4) непосредственное обнаружение органом уголовного преследования, должностными лицами таких органов сведений, указывающих на признаки преступления;\n5) постановление прокурора о направлении соответствующих материалов в орган предварительного расследования для решения вопроса об уголовном преследовании.\nч. 2. Основанием для возбуждения уголовного дела является наличие достаточных данных, указывающих на признаки правонарушения.\nч. 3. Производство по уголовному делу ведется с письменной отчетностью или без нее.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 20. Возбуждение уголовного дела",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-procedure-78",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 78",
+    "title": "Возбуждение уголовного дела",
+    "text": "Уголовное дело считается возбужденным:\n1) с момента вынесения дознавателем, следователем постановления о возбуждении уголовного дела, в котором должны быть указаны:\nа) дата, время и место его вынесения;\nб) кем оно вынесено;\nв) повод и основание для возбуждения уголовного дела;\nг) пункт, часть, статья Уголовного кодекса Российской Федерации, на основании которых возбуждается дело;\n2) при задержании лица дознавателем, следователем в порядке главы 12 настоящего Кодекса за совершение преступления публичного обвинения с момента фиксации преступления публичного обвинения, а по делам частного и частно-публичного обвинения - с момента поступления заявления о преступлении при его фиксации, за исключением случаев, предусмотренных п. 1 настоящей статьи.\nВ случаях возбуждения уголовного дела в порядке пункта 2 части 1 настоящей статьи, сотрудник, ведущий уголовное дело, обязан хранить доказательства оснований для возбуждения уголовного дела в течение 48 часов, запись должна быть цельная, со звуком, без элементов монтажа.\n\n\nГлава 21. Общие правила предварительного расследования",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 20. Возбуждение уголовного дела",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-79",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 79",
+    "title": "Предварительное расследование",
+    "text": "ч. 1. Предварительное расследование производится в форме предварительного следствия либо в форме дознания.\nч. 2. Предварительное расследование начинается с момента возбуждения уголовного дела.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 21. Общие правила предварительного расследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-80",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80",
+    "title": "Подследственность",
+    "text": "ч. 1. Предварительное расследование производится следователями и дознавателями.\nч. 2. Предварительное следствие производится:\n1) следователями Следственного комитета Российской Федерации - по уголовным делам о любых преступлениях;\n2) следователями органов федеральной службы безопасности - по уголовным делам о любых преступлениях, не ведущихся с письменной отчетностью и относящихся к федеральной юрисдикции (Ф), за исключением уголовных дел, предусмотренных статьями 91, 101 Уголовного кодекса Российской Федерации.\nч. 3. Дознание производится:\n1) дознавателями органов внутренних дел (полиции) - по уголовным делам о любых преступлениях, относящихся к региональной юрисдикции (Р), за исключением уголовных дел, подследственных органам, предусмотренным пунктами 2, 3 настоящей статьи, а также уголовных дел, предусмотренных статьями 91, 101 Уголовного кодекса Российской Федерации;\n2) дознавателями органов Федеральной Службы Охраны Российской Федерации - по уголовным делам о любых преступлениях, не ведущихся с письменной отчетностью и относящихся к федеральной юрисдикции (Ф), за исключением уголовных дел, предусмотренных статьями 91, 101 Уголовного кодекса Российской Федерации;\n3) дознавателями органов военной полиции Вооруженных Сил Российской Федерации - по уголовным делам о любых преступлениях, предусмотренных главой 21 Уголовного кодекса Российской Федерации (В) или о любых преступлениях, совершенных военнослужащими Вооруженных Сил Российской Федерации, по отношению к военнослужащим ВС РФ, за исключением уголовных дел, предусмотренных статьями 91, 101 Уголовного кодекса Российской Федерации.\nч. 4. Споры о подследственности уголовного дела разрешает прокурор. Прокурор вправе перераспределить дело к производству органа вопреки общим правилам подследственности, если в этом есть необходимость для объективного расследования.\nч. 5. Следователь, установив, что уголовное дело ему не подследственно, производит неотложные следственные действия, после чего следователь передает уголовное дело по подследственности.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 21. Общие правила предварительного расследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-80-1",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.1",
+    "title": "Соединение уголовных дел",
+    "text": "ч. 1. В одном производстве могут быть соединены уголовные дела в отношении:\n1) нескольких лиц, совершивших одно или несколько преступлений в соучастии;\n2) одного лица, совершившего несколько преступлений;\n3) лица, обвиняемого в заранее не обещанном укрывательстве преступлений, расследуемых по этим уголовным делам.\nч. 2. Соединение уголовных дел допускается также в случаях, когда лицо, подлежащее привлечению в качестве обвиняемого, не установлено, но имеются достаточные основания полагать, что несколько преступлений совершены одним лицом или группой лиц.\nч. 3. Соединение уголовных дел, находящихся в производстве следователя, дознавателя, производится на основании его постановления. Решение о соединении уголовных дел о преступлениях, подследственных в соответствии со статьей 80 настоящего Кодекса разным органам предварительного расследования, принимается на основании решения прокурора об определении подследственности.\nч. 4. При соединении уголовных дел срок производства по ним определяется по уголовному делу, имеющему наиболее длительный срок предварительного расследования. При этом срок производства по остальным уголовным делам поглощается наиболее длительным сроком и дополнительно не учитывается.",
+    "penalty": "ч. 4. При соединении уголовных дел срок производства по ним определяется по уголовному делу, имеющему наиболее длительный срок предварительного расследования. При этом срок производства по остальным уголовным делам поглощается наиболее длительным сроком и дополнительно не учитывается.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 21. Общие правила предварительного расследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-procedure-80-2",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.2",
+    "title": "Возбуждение и соединение уголовных дел при выявлении нового преступления в ходе предварительного расследования",
+    "text": "В случае, если в ходе предварительного расследования становится известно о совершении нового преступления, отнесенного к подследственности того же органа предварительного расследования, и при наличии оснований для соединения уголовных дел, предусмотренных частями первой и второй статьи 80.1 настоящего Кодекса, следователь, дознаватель вправе без выделения в отдельное производство материалов возбудить уголовное дело, которое соединяется с расследуемым уголовным делом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 21. Общие правила предварительного расследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-80-3",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.3",
+    "title": "Выделение уголовного дела",
+    "text": "Следователь, дознаватель вправе выделить из уголовного дела в отдельное производство другое уголовное дело.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 21. Общие правила предварительного расследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-80-4",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.4",
+    "title": "Недопустимость разглашения данных предварительного расследования",
+    "text": "ч. 1. Данные предварительного расследования не подлежат разглашению, за исключением случаев, предусмотренных частями второй, четвертой и шестой настоящей статьи.\nч. 2. Данные предварительного расследования могут быть преданы гласности лишь с разрешения следователя, дознавателя и только в том объеме, в каком ими будет признано это допустимым, если разглашение не противоречит интересам предварительного расследования и не связано с нарушением прав, свобод и законных интересов участников уголовного судопроизводства.\nч. 3. Следователь предупреждает участников уголовного судопроизводства о недопустимости разглашения без соответствующего разрешения данных предварительного расследования, о чем у них берется подписка с предупреждением об ответственности в соответствии со статьей 95.1 Уголовного кодекса Российской Федерации.\nч. 4. Запрет на предание гласности данных предварительного расследования не распространяется на сведения:\n1) о нарушении закона органами государственной власти и их должностными лицами;\n2) распространенные следователем или прокурором в средствах массовой информации, информационно-телекоммуникационной сети \"Интернет\" или иным публичным способом;\n3) оглашенные в открытом судебном заседании.\nч. 5. Разглашение данных о частной жизни участников уголовного судопроизводства без их согласия не допускается.\nч. 6. Не является разглашением данных предварительного расследования:\n1) изложение сведений по уголовному делу в ходатайствах, заявлениях, жалобах и иных процессуальных документах по этому делу, а также в заявлениях и иных документах, подаваемых в государственные и межгосударственные органы по защите прав и свобод человека;\n2) предоставление сведений по уголовному делу лицу, привлекаемому к участию в этом деле в качестве специалиста, при условии дачи им письменного обязательства о неразглашении указанных сведений без согласия следователя.\n\n\nГЛАВА 21.1. Приостановление и возобновление предварительного расследования. Розыск",
+    "penalty": "ч. 3. Следователь предупреждает участников уголовного судопроизводства о недопустимости разглашения без соответствующего разрешения данных предварительного расследования, о чем у них берется подписка с предупреждением об ответственности в соответствии со статьей 95.1 Уголовного кодекса Российской Федерации.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 21. Общие правила предварительного расследования",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-80-5",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.5",
+    "title": "Основания, порядок и сроки приостановления предварительного расследования",
+    "text": "ч. 1. Предварительное расследование приостанавливается при наличии одного из следующих оснований:\n1) лицо, подлежащее привлечению в качестве обвиняемого, не установлено;\n2) подозреваемый или обвиняемый скрылся от следствия либо место его нахождения не установлено по иным причинам;\n3) место нахождения подозреваемого или обвиняемого известно, однако реальная возможность его участия в уголовном деле отсутствует.\nч. 2. О приостановлении предварительного расследования следователь выносит постановление, копию которого направляет прокурору.\nч. 3. Если по уголовному делу привлечено два или более обвиняемых, а основания для приостановления относятся не ко всем обвиняемым, то следователь вправе выделить в отдельное производство и приостановить уголовное дело в отношении отдельных обвиняемых.\nч. 4. По основаниям, предусмотренным пунктами 1 и 2 части первой настоящей статьи, предварительное расследование приостанавливается лишь по истечении его срока. По основаниям, предусмотренным пунктом 3 части первой настоящей статьи, предварительное расследование может быть приостановлено и до окончания его срока.",
+    "penalty": "Основания, порядок и сроки приостановления предварительного расследования ч. 4. По основаниям, предусмотренным пунктами 1 и 2 части первой настоящей статьи, предварительное расследование приостанавливается лишь по истечении его срока. По основаниям, предусмотренным пунктом 3 части первой настоящей статьи, предварительное расследование может быть приостановлено и до окончания его срока.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "ГЛАВА 21.1. Приостановление и возобновление предварительного расследования. Розыск",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-80-6",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.6",
+    "title": "Действия следователя после приостановления предварительного расследования",
+    "text": "ч. 1. Приостановив предварительное расследование, следователь уведомляет об этом потерпевшего, его представителя, гражданского истца, гражданского ответчика или их представителей и одновременно разъясняет им порядок обжалования данного решения.\nч. 2. После приостановления предварительного расследования следователь:\n1) принимает меры по установлению лица, подлежащего привлечению в качестве подозреваемого или обвиняемого;\n2) устанавливает место нахождения подозреваемого или обвиняемого, а если он скрылся, принимает меры по его розыску.\nч. 3. После приостановления предварительного расследования производство следственных действий не допускается.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "ГЛАВА 21.1. Приостановление и возобновление предварительного расследования. Розыск",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-80-7",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.7",
+    "title": "Возобновление приостановленного предварительного расследования",
+    "text": "ч. 1. Предварительное расследование возобновляется на основании решения следователя после того, как:\n1) отпали основания его приостановления;\n2) возникла необходимость производства следственных действий, которые могут быть осуществлены без участия подозреваемого, обвиняемого;\n3) прокурором отменено постановление о приостановлении предварительного расследования.\nч. 2. О возобновлении предварительного расследования сообщается подозреваемому, обвиняемому, его защитнику, потерпевшему, его представителю, гражданскому истцу, гражданскому ответчику или их представителям, а также прокурору.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "ГЛАВА 21.1. Приостановление и возобновление предварительного расследования. Розыск",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-procedure-80-8",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 80.8",
+    "title": "Розыск подозреваемого, обвиняемого, осужденного",
+    "text": "ч. 1. Если место нахождения подозреваемого, обвиняемого неизвестно, то следователь поручает его розыск.\nч. 2. Розыск подозреваемого, обвиняемого может быть объявлен как во время производства предварительного расследования, так и одновременно с его приостановлением.\nч. 3. В розыск могут быть объявлены лица, признанные виновными в совершении преступления вступившим в законную силу решением должностного лица, за которое им назначено наказание в виде реального лишения свободы или более строгое наказание в случае, если указанное наказание не приведено в исполнение.\n\n\nГлава 22. Предварительное расследование по уголовному делу без письменной отчетности",
+    "penalty": "ч. 3. В розыск могут быть объявлены лица, признанные виновными в совершении преступления вступившим в законную силу решением должностного лица, за которое им назначено наказание в виде реального лишения свободы или более строгое наказание в случае, если указанное наказание не приведено в исполнение.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "ГЛАВА 21.1. Приостановление и возобновление предварительного расследования. Розыск",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-81",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 81",
+    "title": "Основания для ведения предварительного расследования без письменной отчетности",
+    "text": "В случае, если уголовное дело в отношении лица возбуждено в связи с задержанием лица в порядке главы 12 настоящего Кодекса в порядке п. 2 ст. 78 настоящего Кодекса, то предварительное расследование по уголовному делу ведется без письменной отчетности в рамках этого задержания.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 22. Предварительное расследование по уголовному делу без письменной отчетности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-82",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 82",
+    "title": "Окончание предварительного расследования без письменной отчетности",
+    "text": "Установив, что по уголовному делу собраны достаточные материалы для окончания предварительного расследования без письменной отчетности, следователь, дознаватель выносит по уголовному делу следующее решение:\n1) о признании лица виновным в совершении преступления и назначении ему наказания в соответствии с разделом III Уголовного кодекса Российской Федерации;\n2) о признании лица невиновным в совершении преступления.",
+    "penalty": "1) о признании лица виновным в совершении преступления и назначении ему наказания в соответствии с разделом III Уголовного кодекса Российской Федерации;",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 22. Предварительное расследование по уголовному делу без письменной отчетности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-83",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 83",
+    "title": "Особый порядок предварительного расследования без письменной отчетности",
+    "text": "ч. 1. При задержании подозреваемого, являющегося служащим органов государственной власти, об этом через рацию департамента и (или) горячую линию правительства уведомляется прокурор, руководство задержанного, а в случае задержания адвоката - председатель палаты адвокатов Российской Федерации. На время ожидания ответа указанных лиц задержание приостанавливается, но не более чем на 10 минут. В случае ответа прокурора время задержания приостанавливается до его приезда, но не более чем на 10 минут.\nч. 2. В случае невозможности прибытия прокурора задержанный государственный служащий подлежит освобождению.\nч. 3. Дознаватель, следователь передает материалы уголовного дела прокурору. Прокурор выслушивает позиции сторон, рассматривает материалы дела, после чего дает оценку законности задержания и самостоятельно выносит решение по уголовному делу в порядке ст. 82 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 22. Предварительное расследование по уголовному делу без письменной отчетности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "адвокат",
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-83-1",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 83.1",
+    "title": "Судебный контроль при проведении предварительного расследования по уголовному делу без письменной отчетности",
+    "text": "ч. 1. При проведении предварительного расследования по уголовному делу без письменной отчетности подозреваемый, обвиняемый вправе требовать осуществления судебного контроля за действиями (бездействием), решениями дознавателя, следователя и иных лиц, участвующих в производстве по уголовному делу. Подозреваемый и обвиняемый должен объяснить следователю, дознавателю, какие действия (бездействие), решения должны быть проверены на законность судьей, осуществляющим судебный контроль.\nч. 2. В случае заявления подозреваемым, обвиняемым требования, указанного в части первой настоящей статьи, дознаватель, следователь, прокурор вызывает в место проведения предварительного расследования судью. Дознаватель, следователь ожидают ответ судьи в течение 10 минут, в случае ответа судьи о принятии вызова для проведения судебного контроля дознаватель, следователь ожидают прибытие судьи в течение 10 минут. В случае отсутствия ответа или неприбытия судьи в указанный срок проведение судебного контроля при проведении предварительного расследования необязательно.\nч. 3. Судья, осуществляющий судебный контроль, проверяет законность действий (бездействия), решений следователя, дознавателя, прокурора, если о таковой проверке требует подозреваемый или обвиняемый. Судья, осуществляющий судебный контроль, присутствует при проведении предварительного расследования по уголовному делу без письменной отчетности до его окончания и рассматривает требования подозреваемого или обвиняемого о проверке законности действий (бездействия), решений дознавателя, следователя, прокурора.\nч. 4. Проверив в рамках судебного контроля законность действий (бездействия), решений следователя, дознавателя, прокурора, судья выносит одно из следующих решений:\n1) о признании соответствующих действий (бездействия), решений следователя, дознавателя, прокурора законными;\n2) о признании соответствующих действий (бездействия) следователя, дознавателя, прокурора незаконными;\n3) о признании соответствующего решения следователя, дознавателя, прокурора незаконным и отмене его действия.\nч. 5. По принятому судьей в рамках осуществления судебного контроля решению, предусмотренному частью четвертой настоящей статьи, следователь, дознаватель, прокурор, обвиняемый, подозреваемый, иные лица, чьи права, свободы и (или) законные интересы затрагиваются указанным решением, имеют право в течение 24 часов с момента вынесения соответствующего решения подать заявление о составлении мотивированного решения. Судья, вынесший указанное решение, составляет соответствующее мотивированное решение в течение 48 часов с момента подачи заявления, которое направляет следователю, дознавателю, прокурору, обвиняемому, подозреваемому, иным лицам, чьи права, свободы и (или) законные интересы затрагиваются указанным решением.\nч. 6. К решениям, указанным в части четвертой настоящей статьи, применяются правила апелляционного обжалования, предусмотренные главой 31 настоящего Кодекса. В случае подачи заявления о составлении мотивированного решения срок апелляционного обжалования, указанный в статье 118 настоящего Кодекса, приостанавливается до составления соответствующего мотивированного решения.\n\n\nГлава 23. Предварительное расследование по уголовному делу с письменной отчетностью",
+    "penalty": "ч. 2. В случае заявления подозреваемым, обвиняемым требования, указанного в части первой настоящей статьи, дознаватель, следователь, прокурор вызывает в место проведения предварительного расследования судью. Дознаватель, следователь ожидают ответ судьи в течение 10 минут, в случае ответа судьи о принятии вызова для проведения судебного контроля дознаватель, следователь ожидают прибытие судьи в течение 10 минут. В случае отсутствия ответа или неприбытия судьи в указанный срок проведение судебного контроля при проведении предварительного расследования необязательно. ч. 6. К решениям, указанным в части четвертой настоящей статьи, применяются правила апелляционного обжалования, предусмотренные главой 31 настоящего Кодекса. В случае подачи заявления о составлении мотивированного решения срок апелляционного обжалования, указанный в статье 118 настоящего Кодекса, приостанавливается до составления соответствующего мотивированного решения.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 22. Предварительное расследование по уголовному делу без письменной отчетности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-84",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 84",
+    "title": "Ведение предварительного расследования с письменной отчетностью",
+    "text": "ч. 1. За исключением случаев, предусмотренных статьей 81 настоящего Кодекса, уголовное дело ведется с обязательной письменной отчетностью в порядке, установленном настоящей главой.\nч. 2. Процессуальные документы могут быть выполнены типографским, электронным способами. В случае отсутствия бланков процессуальных документов, выполненных типографским, электронным, они могут быть написаны от руки.\nч. 3. Предварительное расследование с письменной отчетностью ведется только в форме предварительного следствия.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 23. Предварительное расследование по уголовному делу с письменной отчетностью",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-85",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 85",
+    "title": "Сроки предварительного расследования с письменной отчетностью",
+    "text": "Предварительное расследование по уголовному делу с письменной отчетностью должно быть закончено в срок, не превышающий недели со дня возбуждения уголовного дела. В срок предварительного расследования включается время со дня возбуждения уголовного дела и до дня его направления прокурору с обвинительным заключением.",
+    "penalty": "Сроки предварительного расследования с письменной отчетностью Предварительное расследование по уголовному делу с письменной отчетностью должно быть закончено в срок, не превышающий недели со дня возбуждения уголовного дела. В срок предварительного расследования включается время со дня возбуждения уголовного дела и до дня его направления прокурору с обвинительным заключением.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 23. Предварительное расследование по уголовному делу с письменной отчетностью",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-procedure-86",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 86",
+    "title": "Порядок привлечения в качестве обвиняемого",
+    "text": "ч. 1. Если при предварительном расследовании по уголовному делу с письменной отчетностью следователь установит наличие достаточных доказательств, дающих основания для обвинения лица в совершении преступления, следователь выносит постановление о привлечении данного лица в качестве обвиняемого.\nч. 2. В постановлении должны быть указаны:\n1) дата и место его составления;\n2) кем составлено постановление;\n3) фамилия, имя и отчество лица, привлекаемого в качестве обвиняемого, число, месяц, год и место его рождения;\n4) описание правонарушения с указанием времени, места его совершения, а также иных обстоятельств;\n5) пункт, часть, статья Уголовного кодекса Российской Федерации, предусматривающие ответственность за данное преступление;\n6) решение о привлечении лица в качестве обвиняемого по расследуемому уголовному делу.\nч. 3. При обвинении лица в совершении нескольких преступлений в постановлении о привлечении его в качестве обвиняемого должно быть указано, какие деяния вменяются ему по каждой из этих норм закона.\nч. 4. При привлечении по одному уголовному делу в качестве обвиняемых нескольких лиц постановление о привлечении в качестве обвиняемого выносится в отношении каждого из них.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 23. Предварительное расследование по уголовному делу с письменной отчетностью",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-87",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 87",
+    "title": "Окончание предварительного расследования с письменной отчетностью",
+    "text": "ч. 1. Признав, что все следственные действия по уголовному делу произведены, а собранные доказательства достаточны для составления обвинительного заключения, следователь или дознаватель уведомляет об этом обвиняемого и разъясняет ему право на ознакомление со всеми материалами уголовного дела как лично, так и с помощью защитника, законного представителя, после чего составляет обвинительное заключение и передает уголовное дело с обвинительным заключением на рассмотрение прокурору.\nч. 2. В обвинительном заключении должны содержаться:\n1) фамилии и имена обвиняемого или обвиняемых;\n2) данные о личности каждого из них;\n3) существо обвинения, место и время совершения преступления, его способы, мотивы, цели, последствия и другие обстоятельства, имеющие значение для данного уголовного дела;\n4) формулировку предъявленного обвинения с указанием пункта, части, статьи Уголовного кодекса Российской Федерации, предусматривающих ответственность за данное преступление;\n5) перечень доказательств, подтверждающих обвинение, и краткое изложение их содержания;\n6) перечень доказательств, на которые ссылается сторона защиты, и краткое изложение их содержания;\n7) обстоятельства, смягчающие и отягчающие наказание;\n8) данные о потерпевшем, характере и размере вреда, причиненного ему преступлением;\n9) данные о гражданском истце и гражданском ответчике;\n10) ссылки на тома и листы уголовного дела;\n11) список подлежащих вызову в судебное заседание лиц со стороны обвинения и защиты;\n12) дату и место составления обвинительного заключения, подпись следователя (следователей).\nч. 3. Прокурор в течение суток рассматривает поступившее от следователя уголовное дело и выносит по нему одно из следующих решений:\n1) о направлении уголовного дела в суд;\n2) о рассмотрении уголовного дела по существу;\n3) о возвращении уголовного дела следователю для производства дополнительного следствия, изменения объема обвинения либо квалификации действий обвиняемых или пересоставления обвинительного заключения и устранения выявленных недостатков со своими письменными указаниями.\nч. 4. В случае, предусмотренном пунктом 3 части второй настоящей статьи, прокурор, рассматривающий уголовное дело, выносит мотивированное постановление.\n\n\nРАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ\n\n\nГлава 24. Общие правила производства следственных действий",
+    "penalty": "7) обстоятельства, смягчающие и отягчающие наказание;",
+    "section": "РАЗДЕЛ VII. ПРЕДВАРИТЕЛЬНОЕ РАССЛЕДОВАНИЕ",
+    "chapter": "Глава 23. Предварительное расследование по уголовному делу с письменной отчетностью",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-88",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 88",
+    "title": "Общие правила производства следственных действий",
+    "text": "ч. 1. Следственные действия, предусмотренные статьями 89, 91, 92, главой 26 настоящего Кодекса, производятся на основании решения следователя, дознавателя, прокурора.\nч. 2. Следственные действия, предусмотренные статьями 93 - 95 настоящего Кодекса, производятся на основании судебного решения.\nч. 3. Производство следственного действия в ночное время не допускается, за исключением случаев, не терпящих отлагательства.\nч. 4. При производстве следственных действий недопустимо применение насилия, угроз и иных незаконных мер, а равно создание опасности для жизни и здоровья участвующих в них лиц.\nч. 5. Для производства следственных действий, которые могут быть произведены только на основании судебного решения, в соответствии с частью второй настоящей статьи, дознаватель, следователь, прокурор возбуждают перед судом соответствующее ходатайство, которое суд рассматривает в порядке, установленном законом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 24. Общие правила производства следственных действий",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-88-1",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 88.1",
+    "title": "Протоколирование следственного действия",
+    "text": "ч. 1. При проведении следственных действий, предусмотренных статьями 89 - 94, главой 26 настоящего Кодекса, следователь, дознаватель обязаны осуществлять видеопротоколирование хода указанных следственных действий. Видеоматериалы, полученные в ходе видеопротоколирования следственных действий, хранятся в материалах уголовного дела в качестве вещественных доказательств в соответствии с требованиями настоящего Кодекса.\nч. 2. При проведении следственного действия, предусмотренного статьей 95 настоящего Кодекса, следователь, дознаватель составляет письменный протокол следственного действия, в котором указывает:\nдату и место составления протокола, проведения следственного действия;\nимя, фамилию, должность следователя, дознавателя, составляющего протокол;\nоснования для проведения следственного действия;\nподробное описание результатов проведения следственного действия.\n\n\nГлава 25. Следственные действия",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 24. Общие правила производства следственных действий",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-89",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 89",
+    "title": "Осмотр",
+    "text": "ч. 1. Осмотр места происшествия, местности, жилища, иного помещения, предметов и документов производится в целях обнаружения следов правонарушения, выяснения других обстоятельств, имеющих значение для уголовного дела.\nч. 2. Осмотр места происшествия, документов и предметов может быть произведен до возбуждения уголовного дела.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 25. Следственные действия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-90",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 90",
+    "title": "Задержание",
+    "text": "Основания и порядок производства задержания регулируется главой 12 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 25. Следственные действия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание"
+    ]
+  },
+  {
+    "id": "ru-procedure-91",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 91",
+    "title": "Освидетельствование",
+    "text": "ч. 1. Для обнаружения на теле человека особых примет, следов правонарушения, телесных повреждений, выявления состояния опьянения или иных свойств и признаков, имеющих значение для уголовного дела или дела об административном правонарушении, если для этого не требуется производство судебной экспертизы, может быть произведено освидетельствование подозреваемого, обвиняемого, потерпевшего, а также свидетеля с его согласия, за исключением случаев, когда освидетельствование необходимо для оценки достоверности его показаний. В случаях, не терпящих отлагательства, освидетельствование может быть произведено до возбуждения уголовного дела или дела об административном правонарушении.\nч. 2. Освидетельствование производится следователем. При необходимости следователь привлекает к участию в производстве освидетельствования врача или другого специалиста.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 25. Следственные действия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-92",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 92",
+    "title": "Следственный эксперимент",
+    "text": "В целях проверки и уточнения данных, имеющих значение для уголовного дела или дела об административном правонарушении, следователь вправе произвести следственный эксперимент путем воспроизведения действий, а также обстановки или иных обстоятельств определенного события. При этом проверяется возможность восприятия каких-либо фактов, совершения определенных действий, наступления какого-либо события, а также выявляются последовательность происшедшего события и механизм образования следов. Производство следственного эксперимента допускается, если не создается опасность для здоровья участвующих в нем лиц.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 25. Следственные действия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-93",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 93",
+    "title": "Личный обыск и обыск жилища",
+    "text": "ч. 1. Личный обыск допускается либо на основании судебного решения, либо при задержании подозреваемого в порядке главы 12 настоящего Кодекса.\nч. 2. Обыск в жилище производится на основании судебного решения.\nч. 3. До начала обыска следователь или дознаватель предъявляет судебное решение, разрешающее его производство, если оно обязательно для осуществления обыска.\nч. 4. До начала обыска следователь или дознаватель предлагает добровольно выдать подлежащие изъятию предметы, документы и ценности, которые могут иметь значение для уголовного дела. Если они выданы добровольно и нет оснований опасаться их сокрытия, то следователь вправе не производить обыск.\nч. 5. При производстве обыска могут вскрываться любые помещения, если владелец отказывается добровольно их открыть. При этом не должно допускаться не вызываемое необходимостью повреждение имущества.\nч. 6. Следователь, дознаватель принимает меры к тому, чтобы не были оглашены выявленные в ходе обыска обстоятельства частной жизни лица, в помещении которого был произведен обыск, его личная и (или) семейная тайна, а также обстоятельства частной жизни других лиц.\nч. 7. Следователь, дознаватель вправе запретить лицам, присутствующим в месте, где производится обыск, покидать его, а также общаться друг с другом или иными лицами до окончания обыска.\nч. 8. При производстве обыска во всяком случае изымаются предметы и документы, изъятые из оборота.\nч. 9. Изъятые предметы, документы и ценности предъявляются другим лицам, присутствующим при обыске, и в случае необходимости упаковываются и опечатываются на месте обыска.\nч. 10. При производстве обыска участвует лицо, в помещении которого производится обыск. При производстве обыска вправе присутствовать защитник, а также адвокат того лица, в помещении которого производится обыск.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 25. Следственные действия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "обыск",
+      "адвокат",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-94",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 94",
+    "title": "Выемка",
+    "text": "ч. 1. Выемка производится для изъятия определенных предметов и документов, имеющих значение для уголовного дела, если точно известно, где и у кого они находятся.\nч. 2. Выемка производится только на основании судебного решения.\nч. 3. До начала выемки следователь или дознаватель предлагает выдать предметы и документы, подлежащие изъятию, а в случае отказа производит выемку принудительно.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 25. Следственные действия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-95",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 95",
+    "title": "Контроль и запись переговоров",
+    "text": "ч. 1. При наличии достаточных оснований полагать, что телефонные и иные переговоры подозреваемого, обвиняемого и других лиц могут содержать сведения, имеющие значение для уголовного дела, их контроль и запись допускаются при производстве по уголовным делам о преступлениях средней тяжести, тяжких и особо тяжких преступлениях на основании судебного решения.\nч. 2. При наличии угрозы совершения насилия, вымогательства и других преступных действий в отношении потерпевшего, свидетеля или их близких родственников, родственников, близких лиц контроль и запись телефонных и иных переговоров допускаются по письменному заявлению указанных лиц, а при отсутствии такого заявления - на основании судебного решения.\n\n\nГлава 26. Допрос. Очная ставка. Предъявление для опознания. Проверка показаний на месте",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 25. Следственные действия",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-96",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 96",
+    "title": "Место и время допроса",
+    "text": "ч. 1. Допрос проводится по месту производства предварительного расследования. Следователь, дознаватель вправе, если признает это необходимым, провести допрос в месте нахождения допрашиваемого.\nч. 2. Допрос не может длиться непрерывно более часа.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 26. Допрос. Очная ставка. Предъявление для опознания. Проверка показаний на месте",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-97",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 97",
+    "title": "Порядок вызова на допрос",
+    "text": "ч. 1. Свидетель, потерпевший вызывается на допрос повесткой, в которой указываются, кто и в каком качестве вызывается, к кому и по какому адресу, дата и время явки на допрос, а также последствия неявки без уважительных причин.\nч. 2. Повестка вручается лицу, вызываемому на допрос, под расписку либо передается с помощью средств связи. В случае временного отсутствия лица, вызываемого на допрос, повестка передается администрации по месту его работы или по поручению следователя иным лицам и организациям, которые обязаны передать повестку лицу, вызываемому на допрос.\nч. 3. Лицо, вызываемое на допрос, обязано явиться в назначенный срок либо заранее уведомить следователя о причинах неявки. В случае неявки без уважительных причин лицо, вызываемое на допрос, может быть подвергнуто приводу либо к нему могут быть применены иные меры процессуального принуждения, предусмотренные настоящим Кодексом.\nч. 4. Лицо может быть допрошено на месте, если оно задержано в порядке главы 12 настоящего Кодекса.",
+    "penalty": "ч. 2. Повестка вручается лицу, вызываемому на допрос, под расписку либо передается с помощью средств связи. В случае временного отсутствия лица, вызываемого на допрос, повестка передается администрации по месту его работы или по поручению следователя иным лицам и организациям, которые обязаны передать повестку лицу, вызываемому на допрос. ч. 3. Лицо, вызываемое на допрос, обязано явиться в назначенный срок либо заранее уведомить следователя о причинах неявки. В случае неявки без уважительных причин лицо, вызываемое на допрос, может быть подвергнуто приводу либо к нему могут быть применены иные меры процессуального принуждения, предусмотренные настоящим Кодексом.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 26. Допрос. Очная ставка. Предъявление для опознания. Проверка показаний на месте",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-98",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 98",
+    "title": "Общие правила проведения допроса",
+    "text": "ч. 1. Задавать наводящие вопросы запрещается. В остальном следователь свободен при выборе тактики допроса.\nч. 2. Допрашиваемое лицо вправе пользоваться документами и записями.\nч. 3. Ход проведения допроса должен быть в полном объеме зафиксирован на аудио- и (или) видеозапись. Указанная аудио- и (или) видеозапись хранится при уголовном деле.\nч. 4. Если свидетель явился на допрос с адвокатом, приглашенным им для оказания юридической помощи, то адвокат присутствует при допросе и пользуется правами, предусмотренными настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 26. Допрос. Очная ставка. Предъявление для опознания. Проверка показаний на месте",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат"
+    ]
+  },
+  {
+    "id": "ru-procedure-99",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 99",
+    "title": "Очная ставка",
+    "text": "ч. 1. Если в показаниях ранее допрошенных лиц имеются существенные противоречия, то следователь вправе провести очную ставку.\nч. 2. Следователь выясняет у лиц, между которыми проводится очная ставка, знают ли они друг друга и в каких отношениях находятся между собой. Допрашиваемым лицам поочередно предлагается дать показания по тем обстоятельствам, для выяснения которых проводится очная ставка. После дачи показаний следователь может задавать вопросы каждому из допрашиваемых лиц. Лица, между которыми проводится очная ставка, могут с разрешения следователя задавать вопросы друг другу.\nч. 3. В ходе очной ставки следователь вправе предъявить вещественные доказательства и документы.\nч. 4. Оглашение показаний допрашиваемых лиц, содержащихся в протоколах предыдущих допросов, а также воспроизведение аудио- и (или) видеозаписи этих показаний допускаются лишь после дачи показаний указанными лицами или их отказа от дачи показаний на очной ставке.\nч. 5. В протоколе очной ставки показания допрашиваемых лиц записываются в той очередности, в какой они давались. Каждое из допрашиваемых лиц подписывает свои показания, каждую страницу протокола и протокол в целом.\nч. 6. Если свидетель явился на очную ставку с адвокатом, приглашенным им для оказания юридической помощи, то адвокат участвует в очной ставке и пользуется правами, предусмотренными настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 26. Допрос. Очная ставка. Предъявление для опознания. Проверка показаний на месте",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат"
+    ]
+  },
+  {
+    "id": "ru-procedure-100",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 100",
+    "title": "Предъявление для опознания",
+    "text": "ч. 1. Следователь может предъявить для опознания лицо или предмет свидетелю, потерпевшему, подозреваемому или обвиняемому.\nч. 2. Опознающие предварительно допрашиваются об обстоятельствах, при которых они видели предъявленные для опознания лицо или предмет, а также о приметах и особенностях, по которым они могут его опознать.\nч. 3. Не может проводиться повторное опознание лица или предмета тем же опознающим и по тем же признакам.\nч. 4. Лицо предъявляется для опознания вместе с другими лицами, по возможности внешне сходными с ним. Общее число лиц, предъявляемых для опознания, должно быть не менее трех. Это правило не распространяется на опознание трупа. Перед началом опознания опознаваемому предлагается занять любое место среди предъявляемых лиц, о чем в протоколе опознания делается соответствующая запись.\nч. 5. При невозможности предъявления лица опознание может быть проведено по его фотографии, предъявляемой одновременно с фотографиями других лиц, внешне сходных с опознаваемым лицом. Количество фотографий должно быть не менее трех.\nч. 6. Предмет предъявляется для опознания в группе однородных предметов в количестве не менее трех. При невозможности предъявления предмета его опознание проводится в порядке, установленном частью пятой настоящей статьи.\nч. 7. Если опознающий указал на одно из предъявленных ему лиц или один из предметов, то опознающему предлагается объяснить, по каким приметам или особенностям он опознал данные лицо или предмет. Наводящие вопросы недопустимы.\nч. 8. В целях обеспечения безопасности опознающего предъявление лица для опознания по решению следователя может быть проведено в условиях, исключающих визуальное наблюдение опознающего опознаваемым. В этом случае понятые находятся в месте нахождения опознающего.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 26. Допрос. Очная ставка. Предъявление для опознания. Проверка показаний на месте",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-procedure-101",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 101",
+    "title": "Проверка показаний на месте",
+    "text": "ч. 1. В целях установления новых обстоятельств, имеющих значение для уголовного дела, показания, ранее данные подозреваемым или обвиняемым, а также потерпевшим или свидетелем, могут быть проверены или уточнены на месте, связанном с исследуемым событием.\nч. 2. Проверка показаний на месте заключается в том, что ранее допрошенное лицо воспроизводит на месте обстановку и обстоятельства исследуемого события, указывает на предметы, документы, следы, имеющие значение для уголовного дела, определенные действия. Какое-либо постороннее вмешательство в ход проверки и наводящие вопросы недопустимы.\nч. 3. Не допускается одновременная проверка на месте показаний нескольких лиц.\nч. 4. Проверка показаний начинается с предложения лицу указать место, где его показания будут проверяться. Лицу, показания которого проверяются, после свободного рассказа и демонстрации действий могут быть заданы вопросы.\n\n\nГлава 26.1. Арест",
+    "penalty": "Глава 26.1. Арест",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 26. Допрос. Очная ставка. Предъявление для опознания. Проверка показаний на месте",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-procedure-101-1",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 101.1",
+    "title": "Арест",
+    "text": "Арест - процедура заключения под стражу и помещения в учреждение для отбывания наказания лица, признанного виновным в совершении преступления, за которое ему было назначено наказание в виде реального лишения свободы. Процедура ареста проходит в следующем порядке:\n1) в отношении арестовываемого лица проводится личный обыск и изымаются предметы, которые могут представлять опасность;\n2) должностное лицо, производящее арест, разъясняет арестовываемому лицу основания для ареста, включая пункт, часть, статью Уголовного кодекса Российской Федерации, предусматривающие уголовную ответственность за преступление, за совершение которого ему назначено наказание в виде лишения свободы;\n3) должностное лицо, производящее арест, заполняет бланк, где указывает данные арестовываемого, пункт, часть, статью Уголовного кодекса Российской Федерации, предусматривающие уголовную ответственность за преступление, за совершение которого ему назначено наказание в виде лишения свободы, срок лишения свободы, иные данные, после чего помещает арестовываемого под стражу.\n\n\nГлава 27. Особенности производства по уголовным делам в отношении отдельных категорий лиц",
+    "penalty": "Арест Арест - процедура заключения под стражу и помещения в учреждение для отбывания наказания лица, признанного виновным в совершении преступления, за которое ему было назначено наказание в виде реального лишения свободы. Процедура ареста проходит в следующем порядке: 1) в отношении арестовываемого лица проводится личный обыск и изымаются предметы, которые могут представлять опасность;",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 26.1. Арест",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "обыск"
+    ]
+  },
+  {
+    "id": "ru-procedure-102",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 102",
+    "title": "Категории лиц, в отношении которых применяется особый порядок производства по уголовным делам",
+    "text": "ч. 1. Требования настоящей главы применяются при производстве по уголовным делам в отношении:\n1) сенатора Федерального Собрания Российской Федерации;\n2) судьи;\n3) руководителя органа государственной власти и его заместителя, в том числе министра и его заместителя;\n4) Президента Российской Федерации, его советников;\n6) Генерального Прокурора Российской Федерации и его заместителей.\nч. 2. Порядок производства по уголовным делам в отношении лиц, указанных в части первой настоящей статьи, устанавливается настоящим Кодексом с изъятиями, предусмотренными настоящей главой.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 27. Особенности производства по уголовным делам в отношении отдельных категорий лиц",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-103",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 103",
+    "title": "Возбуждение уголовного дела",
+    "text": "ч. 1. Решение о возбуждении уголовного дела в отношении лица, указанного в части первой статьи 102 настоящего Кодекса, либо о привлечении его в качестве обвиняемого, если уголовное дело было возбуждено в отношении других лиц или по факту совершения деяния, содержащего признаки правонарушения, принимается органами следствия с согласия Верховного Суда Российской Федерации.\nч. 2. Не допускается возбуждение в отношении судьи уголовного дела по признакам преступления, предусмотренного статьей 96 Уголовного кодекса Российской Федерации, в случае, если соответствующий судебный акт, вынесенный этим судьей или с его участием, вступил в законную силу и не отменен в установленном процессуальным законом порядке как неправосудный.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 27. Особенности производства по уголовным делам в отношении отдельных категорий лиц",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-104",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 104",
+    "title": "Задержание",
+    "text": "ч. 1. Депутат Федерального Собрания Российской Федерации, судья, Генеральный прокурор Российской Федерации и его заместители, руководители органов государственной власти, в том числе министры, их заместители, Президент Российской Федерации, его советники, задержанные по подозрению в совершении правонарушения в порядке главы 12 настоящего Кодекса, должны быть освобождены немедленно после установления их личности, за исключением случаев, когда они были застигнуты в момент совершения тяжкого или особо-тяжкого преступления против личности, против общественной безопасности и общественного порядка или посягающего на жизнь и здоровье человека или гражданина.\nч. 2. В случае задержания лица, указанного в части первой настоящей статьи, за совершение тяжкого или особо-тяжкого преступления против личности, против общественной безопасности и общественного порядка или посягающего на жизнь и здоровье человека или гражданина, уголовное дело в отношении такого лица считается возбужденным в порядке п. 2 ст. 78 настоящего Кодекса и не подлежит прекращению на основании п. 5 ч. 1 ст. 17 настоящего Кодекса. Производство по такому уголовному делу происходит в порядке статьи 83 настоящего Кодекса, а в качестве прокурора, рассматривающего материалы уголовного дела по существу, может быть привлечен только Генеральный прокурор Российской Федерации или его заместитель.\n\n\nЧАСТЬ ТРЕТЬЯ. СУДЕБНОЕ ПРОИЗВОДСТВО\n\n\nРаздел IX. Производство в суде первой инстанции\n\n\nГлава 28. Общий порядок подготовки к судебному заседанию",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ VIII. СЛЕДСТВЕННЫЕ ДЕЙСТВИЯ",
+    "chapter": "Глава 27. Особенности производства по уголовным делам в отношении отдельных категорий лиц",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-105",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 105",
+    "title": "Полномочия судьи по поступившему в суд уголовному делу",
+    "text": "ч. 1. По поступившему уголовному делу судья принимает одно из следующих решений:\n1) о направлении уголовного дела по подсудности;\n2) о назначении судебного заседания;\n3) о возвращении уголовного дела прокурору.\nч. 2. Решение судьи оформляется постановлением, в котором указываются:\n1) дата и место вынесения постановления;\n2) наименование суда, фамилия и инициалы судьи, вынесшего постановление;\n3) основания принятого решения.\nч. 3. Решение принимается в срок не позднее 2 суток со дня поступления уголовного дела в суд. По просьбе стороны суд вправе предоставить ей возможность для дополнительного ознакомления с материалами уголовного дела.\nч. 4. Копия постановления судьи направляется обвиняемому, потерпевшему и прокурору.",
+    "penalty": "ч. 3. Решение принимается в срок не позднее 2 суток со дня поступления уголовного дела в суд. По просьбе стороны суд вправе предоставить ей возможность для дополнительного ознакомления с материалами уголовного дела.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 28. Общий порядок подготовки к судебному заседанию",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-106",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 106",
+    "title": "Вопросы, подлежащие выяснению по поступившему в суд уголовному делу",
+    "text": "По поступившему в суд уголовному делу судья должен выяснить в отношении каждого из обвиняемых следующее:\n1) подсудно ли уголовное дело данному суду;\n2) подлежит ли избранию, отмене или изменению мера пресечения;\n3) подлежат ли удовлетворению заявленные ходатайства и поданные жалобы;\n4) имеются ли основания возвращения уголовного дела прокурору настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 28. Общий порядок подготовки к судебному заседанию",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-107",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 107",
+    "title": "Назначение судебного заседания",
+    "text": "ч. 1. При отсутствии оснований для принятия решений, предусмотренных пунктами 1 и 3 части первой статьи 105 настоящего Кодекса, судья выносит постановление о назначении судебного заседания.\nч. 2. В постановлении помимо вопросов, предусмотренных частью второй статьи 105 настоящего Кодекса, разрешаются следующие вопросы:\n1) о месте, дате и времени судебного заседания;\n2) о рассмотрении уголовного дела судьей единолично или судом коллегиально;\n3) о назначении защитника;\n4) о вызове в судебное заседание лиц по спискам, представленным сторонами либо по инициативе суда;\n5) о рассмотрении уголовного дела в закрытом судебном заседании;\n6) о мере пресечения.\nч. 3. В постановлении также должны содержаться решения о назначении судебного заседания с указанием фамилии, имени каждого обвиняемого и квалификации вменяемого ему в вину преступления, а также о мере пресечения.\nч. 4. Стороны должны быть извещены о месте, дате и времени судебного заседания не менее чем за сутки до его начала.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 28. Общий порядок подготовки к судебному заседанию",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-109",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 109",
+    "title": "Возвращение уголовного дела прокурору",
+    "text": "ч. 1. Судья по ходатайству стороны или по собственной инициативе возвращает уголовное дело прокурору для устранения препятствий его рассмотрения судом в случае, если обвинительное заключение составлено с нарушением требований настоящего Кодекса, что исключает возможность постановления судом приговора или вынесения иного решения на основе данного заключения.\nч. 2. Судья по ходатайству стороны возвращает уголовное дело прокурору для устранения препятствий к его рассмотрению судом в случаях, если после направления уголовного дела в суд наступили новые общественно опасные последствия инкриминируемого обвиняемому деяния, являющиеся основанием для предъявления ему обвинения в совершении более тяжкого преступления.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 28. Общий порядок подготовки к судебному заседанию",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-110",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 110",
+    "title": "Вызовы в судебное заседание",
+    "text": "Судья дает распоряжение о вызове в судебное заседание лиц, указанных в его постановлении, а также принимает иные меры по подготовке судебного заседания.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 28. Общий порядок подготовки к судебному заседанию",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-111",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 111",
+    "title": "Срок начала разбирательства в судебном заседании",
+    "text": "Рассмотрение уголовного дела в судебном заседании должно быть начато не позднее 2 суток со дня вынесения судьей постановления о назначении судебного заседания.\n\n\nГлава 29. Судебное разбирательство",
+    "penalty": "Срок начала разбирательства в судебном заседании",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 28. Общий порядок подготовки к судебному заседанию",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-112",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 112",
+    "title": "Подготовительная часть судебного заседания",
+    "text": "Подготовка к судебному следствию в судебном заседании происходит в следующем порядке:\nв назначенное время председательствующий открывает судебное заседание, объявляет, какое уголовное дело подлежит разбирательству;\nпредседательствующий, помощник судьи или секретарь судебного заседания докладывает о явке лиц, которые должны участвовать в судебном заседании, и сообщает о причинах неявки отсутствующих;\nявившиеся свидетели и лица, в отношении которых уголовные дела выделены в отдельное производство в связи с заключением с ними досудебного соглашения о сотрудничестве, до начала их допроса удаляются из зала судебного заседания;\nпредседательствующий устанавливает личность подсудимого, выясняя его фамилию, имя, отчество, год, месяц, день и место рождения, выясняет, владеет ли он языком, на котором ведется уголовное судопроизводство, место жительства подсудимого, место работы, род занятий, образование, семейное положение и другие данные, касающиеся его личности. Затем председательствующий выясняет, вручена ли подсудимому и когда именно копия обвинительного заключения, постановления прокурора об изменении обвинения;\nпредседательствующий объявляет состав суда, сообщает, кто является обвинителем, защитником, потерпевшим, гражданским истцом, гражданским ответчиком или их представителями, а также секретарем судебного заседания, экспертом, специалистом и переводчиком;\nпредседательствующий разъясняет подсудимому, потерпевшему, гражданскому истцу, гражданскому ответчику, эксперту, специалисту их права в судебном заседании, предусмотренные настоящим Кодексом и Федеральным законом;\nпредседательствующий опрашивает стороны, имеются ли у них ходатайства о вызове новых свидетелей, экспертов и специалистов, об истребовании вещественных доказательств и документов или об исключении доказательств, полученных с нарушением требований настоящего Кодекса. Лицо, заявившее ходатайство, должно его обосновать. Суд, выслушав мнения участников судебного разбирательства, рассматривает каждое заявленное ходатайство и удовлетворяет его либо выносит определение или постановление об отказе в удовлетворении ходатайства. Лицо, которому судом отказано в удовлетворении ходатайства, вправе заявить его вновь в ходе дальнейшего судебного разбирательства;\nпри неявке кого-либо из участников уголовного судопроизводства суд выслушивает мнения сторон о возможности судебного разбирательства в его отсутствие и выносит определение или постановление об отложении судебного разбирательства или о его продолжении, а также о вызове или приводе неявившегося участника.",
+    "penalty": "председательствующий устанавливает личность подсудимого, выясняя его фамилию, имя, отчество, год, месяц, день и место рождения, выясняет, владеет ли он языком, на котором ведется уголовное судопроизводство, место жительства подсудимого, место работы, род занятий, образование, семейное положение и другие данные, касающиеся его личности. Затем председательствующий выясняет, вручена ли подсудимому и когда именно копия обвинительного заключения, постановления прокурора об изменении обвинения;",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 29. Судебное разбирательство",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-113",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 113",
+    "title": "Судебное следствие",
+    "text": "ч. 1. Судебное следствие проходит в следующем порядке:\n1) государственный обвинитель излагает предъявленное подсудимому обвинение;\n2) председательствующий опрашивает подсудимого, понятно ли ему обвинение, признает ли он себя виновным и желает ли он или его защитник выразить свое отношение к предъявленному обвинению;\n3) судом исследуются доказательства по делу. Очередность исследования доказательств определяется стороной, представляющей доказательства суду. Первой представляет доказательства сторона обвинения. После исследования доказательств, представленных стороной обвинения, исследуются доказательства, представленные стороной защиты;\n4) сторонами по делу допрашиваются поочередно подсудимый, потерпевший, свидетели, эксперт. После допроса подсудимого, потерпевшего, свидетелей, эксперта сторонами суд вправе задавать им свои вопросы.\nч. 2. При допросе подсудимого, потерпевшего, свидетелей, эксперта не допускаются вопросы, не имеющие отношение к делу, наводящие вопросы и вопросы, на которые допрашиваемым стороне уже давался ответ по существу. Такие вопросы подлежат снятию судом, а данные на них ответы не заносятся в протокол судебного заседания и не учитываются при постановлении приговора.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 29. Судебное разбирательство",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-114",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 114",
+    "title": "Прения сторон",
+    "text": "ч. 1. Прения сторон состоят из речей обвинителя и защитника. При отсутствии защитника в прениях сторон участвует подсудимый.\nч. 2. В прениях сторон могут также участвовать потерпевший и его представитель. Гражданский истец, гражданский ответчик, их представители, подсудимый вправе ходатайствовать об участии в прениях сторон.\nч. 3. Последовательность выступлений участников прений сторон устанавливается судом. При этом первым во всех случаях выступает обвинитель, а последними - подсудимый и его защитник. Гражданский ответчик и его представитель выступают в прениях сторон после гражданского истца и его представителя.\nч. 4. Участник прений сторон не вправе ссылаться на доказательства, которые не рассматривались в судебном заседании или признаны судом недопустимыми.\nч. 5. Суд не вправе ограничивать продолжительность прений сторон. При этом председательствующий вправе останавливать участвующих в прениях лиц, если они касаются обстоятельств, не имеющих отношения к рассматриваемому уголовному делу, а также доказательств, признанных недопустимыми.\nч. 6. После произнесения речей всеми участниками прений сторон каждый из них может выступить еще один раз с репликой. Право последней реплики принадлежит подсудимому или его защитнику.\nч. 7. После окончания прений сторон председательствующий предоставляет подсудимому последнее слово. Никакие вопросы к подсудимому во время его последнего слова не допускаются.\nч. 8. Если участники прений сторон или подсудимый в последнем слове сообщат о новых обстоятельствах, имеющих значение для уголовного дела, или заявят о необходимости предъявить суду для исследования новые доказательства, то суд вправе возобновить судебное следствие. По окончании возобновленного судебного следствия суд вновь открывает прения сторон и предоставляет подсудимому последнее слово.\nч. 9. Заслушав последнее слово подсудимого, суд удаляется в совещательную комнату для постановления приговора, о чем председательствующий объявляет присутствующим в зале судебного заседания. Перед удалением суда в совещательную комнату участникам судебного разбирательства должна быть объявлена дата и время оглашения приговора.\n\n\nГлава 30. Постановление приговора",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 29. Судебное разбирательство",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-115",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 115",
+    "title": "Требования к приговору",
+    "text": "ч. 1. Приговор постановляется именем Российской Федерации.\nч. 2. Приговор суда должен быть законным, обоснованным и справедливым и признается таковым, если он постановлен в соответствии с требованиями настоящего Кодекса и основан на правильном применении уголовного закона.\nч. 3. Приговор постановляется судом в совещательной комнате. Во время постановления приговора в этой комнате могут находиться лишь судьи, входящие в состав суда по данному уголовному делу. По окончании рабочего времени, а также в течение рабочего дня суд вправе сделать перерыв для отдыха с выходом из совещательной комнаты. Судьи не вправе разглашать суждения, имевшие место при обсуждении и постановлении приговора, или иным способом раскрывать тайну совещания судей.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 30. Постановление приговора",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-116",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 116",
+    "title": "Содержание приговора",
+    "text": "ч. 1. Приговор суда по уголовному делу может быть оправдательным или обвинительным. Приговор по уголовному делу всегда должен быть составлен в полном объеме.\nч. 2. Приговор состоит из вводной, описательно-мотивировочной и резолютивной частей.\nч. 3. В вводной части приговора указываются следующие сведения:\nа) о постановлении приговора именем Российской Федерации;\nб) дата и место постановления приговора;\nв) наименование суда, постановившего приговор, состав суда, данные о помощнике судьи, секретаре судебного заседания, об обвинителе, о защитнике, потерпевшем, гражданском истце, гражданском ответчике и об их представителях;\nг) фамилия, имя подсудимого и иные данные о личности подсудимого, имеющие значение для уголовного дела;\nд) пункт, часть, статья Уголовного кодекса Российской Федерации, предусматривающие ответственность за преступление, в совершении которого обвиняется подсудимый.\nч. 4. В описательно-мотивировочной части оправдательного приговора излагаются:\nа) существо предъявленного обвинения;\nб) обстоятельства уголовного дела, установленные судом;\nв) основания оправдания подсудимого и доказательства, их подтверждающие;\nг) мотивы, по которым суд отвергает доказательства, представленные стороной обвинения;\nд) мотивы решения в отношении гражданского иска.\nПримечание: не допускается включение в оправдательный приговор формулировок, ставящих под сомнение невиновность оправданного.\nч. 5. Резолютивная часть оправдательного приговора должна содержать:\nа) фамилию, имя подсудимого;\nб) решение о признании подсудимого невиновным и основания его оправдания;\nв) решение об отмене меры пресечения, если она была избрана;\nг) разъяснение порядка возмещения вреда, связанного с уголовным преследованием;\nд) порядок обжалования приговора.\nч. 6. Описательно-мотивировочная часть обвинительного приговора должна содержать:\nа) описание преступного деяния, признанного судом доказанным, с указанием места, времени, способа его совершения, формы вины, мотивов, целей и последствий преступления;\nб) доказательства, на которых основаны выводы суда в отношении подсудимого, и мотивы, по которым суд отверг другие доказательства;\nв) указание на обстоятельства, смягчающие и отягчающие наказание, а в случае признания обвинения в какой-либо части необоснованным или установления неправильной квалификации преступления - основания и мотивы изменения обвинения;\nг) мотивы решения всех вопросов, относящихся к назначению уголовного наказания, освобождению от него или его отбывания, применению иных мер воздействия;\nд) обоснование принятых решений по другим вопросам.\nч. 7. В резолютивной части обвинительного приговора должны быть указаны:\nа) фамилия, имя подсудимого;\nб) решение о признании подсудимого виновным в совершении преступления;\nв) пункт, часть, статья Уголовного кодекса Российской Федерации, предусматривающие ответственность за преступление, в совершении которого подсудимый признан виновным;\nг) вид, размер, порядок отбывания наказания, назначенного подсудимому за каждое преступление, в совершении которого он признан виновным;\nд) решение суда по иным вопросам по делу;\nе) порядок обжалования приговора.",
+    "penalty": "в) указание на обстоятельства, смягчающие и отягчающие наказание, а в случае признания обвинения в какой-либо части необоснованным или установления неправильной квалификации преступления - основания и мотивы изменения обвинения; г) мотивы решения всех вопросов, относящихся к назначению уголовного наказания, освобождению от него или его отбывания, применению иных мер воздействия; г) вид, размер, порядок отбывания наказания, назначенного подсудимому за каждое преступление, в совершении которого он признан виновным;",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 30. Постановление приговора",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-117",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 117",
+    "title": "Оглашение приговора",
+    "text": "ч. 1. После составления приговора суд в назначенное время оглашает его.\nч. 2. В случае назначения подсудимому наказания в виде лишения свободы его берут под стражу в зале суда немедленно с последующим арестом.\n\n\nРАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ\n\n\nГлава 31. Производство в суде апелляционной инстанции",
+    "penalty": "ч. 2. В случае назначения подсудимому наказания в виде лишения свободы его берут под стражу в зале суда немедленно с последующим арестом.",
+    "section": "Раздел IX. Производство в суде первой инстанции",
+    "chapter": "Глава 30. Постановление приговора",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-118",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 118",
+    "title": "Судебные акты, которые могут быть обжалованы в апелляционном порядке",
+    "text": "В апелляционном порядке могут быть оспорены только судебные акты первой инстанции в течение 48 часов с момента их вынесения.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-119",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 119",
+    "title": "Право на апелляционное обжалование",
+    "text": "ч. 1. Апелляционную жалобу имеют право подать:\nа) подозреваемый, обвиняемый, гражданский ответчик, их законный представитель или защитник;\nб) гражданский истец, потерпевший, их законный представитель - в части, которая касается их интересов и в рамках требований, заявленных таковыми в суде первой инстанции;\nв) иные лица в случаях, предусмотренных этим Законом, а также в части, которая касается их интересов.\nч. 2. Апелляционное представление имеет право подать прокурор.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-120",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 120",
+    "title": "Особенности апелляционного обжалования отдельных судебных решений",
+    "text": "ч. 1. Апелляционная жалоба (представление) обязана содержать в себе мотивированные и обоснованные действующим законодательством аргументы. Апелляционная жалоба (представление) не считается мотивированной, если ее подает лицо, которое было должным образом уведомлено о судебном заседании, но не явилось на таковое, а затем ссылается на то, что суд не учел его аргументы или аргументы его стороны. Апелляционная жалоба (представление) не считается мотивированной, если ее подает представитель лица, привлеченный после заседания, при этом само лицо не явилось на судебное заседание и впоследствии утверждает, что суд не учел его аргументы или аргументы его стороны.\nч. 2. Акт суда первой инстанции, принятый по результатам заочного производства, не может быть обжалован в апелляционном порядке на основании рассмотрения производства с отсутствием участника или участников судебного производства.\nч. 3. Судебный акт суда первой инстанции не может быть обжалован в апелляционном порядке на основании отрицания либо возражения обстоятельств, которые никем не оспаривались во время судебного рассмотрения и изучение которых было признано судом нецелесообразным.\nч. 4. В случае жалобы на приговор в суд апелляционной инстанции в подтверждение или опровержение доводов, приведенных в апелляционной жалобе (представлению), дополнительных материалов (новых доказательств) стороны вправе ходатайствовать об их приобщении к делу и исследовании либо высказать возражения по таким ходатайствам. С апелляционной жалобой (представлением) на приговор суд апелляционной инстанции после выступления сторон разрешает заявленные сторонами ходатайства, в том числе об исследовании (проверке) доказательств, получивших оценку суда первой инстанции, а также об исследовании доказательств, которые не были исследованы судом первой инстанции (новых доказательств), как имеющихся в деле, так и представленных сторонами непосредственно в суд апелляционной инстанции.\nч. 5. Доказательства, которые не были исследованы судом первой инстанции (новые доказательства), принимаются судом, если лицо, заявившее ходатайство об их исследовании, обосновало невозможность их представления в суд первой инстанции по причинам, не зависящим от него, и суд признает эти причины уважительными.\nч. 6. Обжалование удовлетворенных судом соглашений о сотрудничестве с правосудием происходит в апелляционном порядке и с процедурами, установленными законом.\nч. 7. В случае, если апелляционные жалобы (представления) поданы разными лицами на один судебный акт, таковые апелляционные жалобы (представления) объединяются в одно производство.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-121",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 121",
+    "title": "Порядок и сроки апелляционного обжалования",
+    "text": "ч. 1. Апелляционная жалоба (представление), если иное не предусмотрено настоящим Законом, может быть подана на приговор либо иной судебный акт.\nч. 2. Сроки подачи апелляционной жалобы (представления) устанавливаются в 48 часов с момента вступления судебного акта в юридическую силу.\nч. 3. Сроки подачи апелляционного заявления в рамках соглашения с правосудием устанавливаются действующим законодательством и нормами соглашения.\nч. 4. После поступления апелляционной жалобы (представления) в канцелярию суд рассматривает вопрос о её принятии в срок до 48 часов, а в случае принятия принимает дальнейшее решение.",
+    "penalty": "Порядок и сроки апелляционного обжалования ч. 2. Сроки подачи апелляционной жалобы (представления) устанавливаются в 48 часов с момента вступления судебного акта в юридическую силу. ч. 3. Сроки подачи апелляционного заявления в рамках соглашения с правосудием устанавливаются действующим законодательством и нормами соглашения.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-122",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 122",
+    "title": "Требования к апелляционной жалобе, представлению",
+    "text": "ч. 1. Апелляционная жалоба (представление) подается в письменном виде и по установленной форме и в соответствии с указанными в форме требованиями. Заявитель обязан в полном объеме обоснованно и аргументировано указать, в чем заключается незаконность или необоснованность судебного решения.\nч. 2. Если в апелляционной жалобе (представлении) указываются обстоятельства, которые не были изучены в суде первой инстанции, либо доказательства, которые не подавались суду первой инстанции, то в ней указываются таковые причины.\nч. 3. Апелляционная жалоба (представление) подписывается лицом, которое ее подает. Если апелляционную жалобу подает защитник, адвокат или законный представитель любой из сторон, то к ней добавляется договор об оказании юридических услуг либо иной документ, необходимый для подтверждения законности и полномочий представителя.\nч. 4. Апелляционная жалоба (представление) в административном или гражданском производстве может содержать ходатайство лица о рассмотрении дела с его участием. При отсутствии такого ходатайства считается, что лицо не желает участвовать в судебном заседании апелляционной инстанции.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-123",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 123",
+    "title": "Оставление апелляционной жалобы, представления без движения, отказ в принятии жалобы (представления) к производству или продолжении производства",
+    "text": "ч. 1. Судья, установив, что апелляционная жалоба (представление) на приговор или иной акт суда первой инстанции подана без соответствия требованиям, предусмотренным настоящим Кодексом, принимает решение об отказе в принятии таковой жалобы (представления) к производству.\nч. 2. Апелляционная жалоба (представление) не принимается к производству:\nа) в случаях, предусмотренных частью 1 настоящей статьи;\nб) апелляционную жалобу (представление) подало лицо, которое не имеет права подавать таковую;\nв) апелляционная жалоба (представление) не подлежит рассмотрению в суде апелляционной инстанции;\nг) апелляционная жалоба (представление) подана после окончания срока апелляционного обжалования.\nч. 3. Судья отказывает в принятии жалобы (представления) к производству, если апелляционная жалоба (представление) подана на судебный акт, который не подлежит обжалованию в апелляционном порядке, или судебное решение оспорено исключительно на основаниях, по которым оно не может быть обжаловано в соответствии с положениями настоящего Закона.\nч. 4. Оставление апелляционной жалобы (представления) без движения или отказ в принятии к производству может быть обжалован в кассационном порядке.\nч. 5. Оставление апелляционной жалобы (представления) без движения или отказ в принятии к производству не лишают права повторного обращения в суд апелляционной инстанции в порядке, предусмотренном законом, в рамках сроков на апелляционное обжалование.",
+    "penalty": "г) апелляционная жалоба (представление) подана после окончания срока апелляционного обжалования. ч. 5. Оставление апелляционной жалобы (представления) без движения или отказ в принятии к производству не лишают права повторного обращения в суд апелляционной инстанции в порядке, предусмотренном законом, в рамках сроков на апелляционное обжалование.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-124",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 124",
+    "title": "Последствия подачи апелляционной жалобы, представления",
+    "text": "ч. 1. Подача апелляционной жалобы, представления на приговор или иной судебный акт не останавливает вступление такового в законную силу и исполнение такового, за исключением случаев, предусмотренных частью 2 текущей статьи.\nч. 2. В случае, если заявлено ходатайство о приостановлении действия силы решения или иного акта суда первой инстанции, то суд при наличии весомых оснований приостанавливает действие такового.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-125",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 125",
+    "title": "Подготовление к апелляционному рассмотрению",
+    "text": "ч. 1. Судья в течение 48 часов после принятия апелляционной жалобы, представления к производству:\nа) устанавливает дату судебного заседания;\nб) рассматривает возражения, поданные сторонами против апелляционного заявления;\nв) рассматривает иные ходатайства, в том числе ходатайства о проведении заочного судебного заседания;\nг) рассматривает иные вопросы, обстоятельства, необходимые для апелляционного рассмотрения.\nч. 2. Обвиняемый подлежит обязательному вызову на судебное заседание для участия в апелляционном рассмотрении, если в апелляционной жалобе (представлении) затрагивается вопрос про ухудшение его положения или если суд признает обязательным участие такового.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-126",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 126",
+    "title": "Границы пересмотра судом апелляционной инстанции",
+    "text": "ч. 1. Суд апелляционной инстанции пересматривает судебные решения суда первой инстанции в рамках апелляционной жалобы, представления.\nч. 2. Суд апелляционной инстанции вправе выйти за границы апелляционных требований, если таковым не ухудшается положение обвиняемого, ответчика либо лица, в отношении которого разрешается вопрос про применение мер государственного принуждения, ограничения либо лишения свободы. Если рассмотрение апелляционной жалобы (представления) дает основания для принятия решения в пользу лиц, в интересах которых апелляционные жалобы не поступили, суд апелляционной инстанции обязан принять таковое решение.\nч. 3. По ходатайству участников судебного производства суд апелляционной инстанции обязан повторно изучить обстоятельства, установленные во время производства, при условии, что таковые изучены судом первой инстанции не полностью либо с нарушениями, а также может изучить доказательства, которые не изучались судом первой инстанции, либо если доказательства стали известны после вынесения судебного решения, которое обжалуется.\nч. 4. Суд апелляционной инстанции не вправе рассматривать обвинения, которые не были предъявлены в суде первой инстанции.",
+    "penalty": "ч. 2. Суд апелляционной инстанции вправе выйти за границы апелляционных требований, если таковым не ухудшается положение обвиняемого, ответчика либо лица, в отношении которого разрешается вопрос про применение мер государственного принуждения, ограничения либо лишения свободы. Если рассмотрение апелляционной жалобы (представления) дает основания для принятия решения в пользу лиц, в интересах которых апелляционные жалобы не поступили, суд апелляционной инстанции обязан принять таковое решение.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-127",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 127",
+    "title": "Особенности рассмотрения в апелляционном порядке гражданских и административных дел",
+    "text": "ч. 1. Апелляционные жалобы на акты суда по административным или гражданским делам рассматриваются судом апелляционной инстанции без уведомления (вызова) участников дела в следующих случаях:\nа) отсутствие ходатайств от всех участников дела о рассмотрении дела с их участием;\nб) неприбытие ни одного из участников дела в судебное заседание, хотя они были должным образом уведомлены о дате, времени и месте судебного заседания;\nв) апелляционная жалоба (представление) на акт суда первой инстанции, проведенного в порядке заочного производства.\nч. 2. С учетом конкретных обстоятельств дела суд апелляционной инстанции может рассмотреть апелляционные жалобы по делам, указанным в части первой настоящей статьи, в судебном заседании с обязательным вызовом участников дела.\nч. 3. В случае рассмотрения жалобы с вызовом участников на слушание процесс проведения устанавливается в соответствии со статьей 110 настоящего Закона.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-128",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 128",
+    "title": "Апелляционное рассмотрение в уголовном процессе",
+    "text": "ч. 1. Апелляционное рассмотрение проводится в соответствии с правилами и процессами судебного рассмотрения в суде первой инстанции с учетом особенностей, предусмотренных этой главой и иными правовыми нормами действующего законодательства.\nч. 2. Председательствующий судья в необходимом таковому объеме докладывает содержание обжалуемого судебного решения, аргументы участников судебного решения, изложенные в апелляционных жалобах и возражениях, а также выясняет, поддерживают ли свои апелляционные жалобы и возражения лица, которые их подали.\nч. 3. Для изложения аргументов, а также в прениях сторон первенство в выступлении предоставляется лицу, которое подало апелляционную жалобу. Если апелляционные жалобы подали обе стороны предыдущего разбирательства, первым излагает свои аргументы обвиняемый либо представитель такового. После этого слово предоставляется другим участникам судебного производства.\nч. 4. Неприбытие на заседание сторон или иных участников производства не препятствует проведению заседания. В случае, если участник процесса не уведомил суд о своем отсутствии по весомой причине, таковой может быть привлечен к ответственности, предусмотренной законом.\nч. 5. Перед уходом суда в совещательную комнату для вынесения решения касаемо законности и обоснованности решения суда первой инстанции обвиняемому или его представителю предоставляется последнее слово. Во время последнего слова ответчика не допускается заявление возражений, протестов в сторону речи такового.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-129",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 129",
+    "title": "Полномочия суда апелляционной инстанции впоследствии рассмотрения апелляционной жалобы",
+    "text": "ч. 1. Впоследствии апелляционного рассмотрения по жалобе на приговор, решение или акт суда первой инстанции суд апелляционной инстанции вправе:\nа) об оставлении приговора, определения, постановления без изменения, а жалобы или представления без удовлетворения;\nб) об отмене обвинительного приговора и о вынесении оправдательного приговора;\nв) об отмене обвинительного приговора и о вынесении обвинительного приговора;\nг) об отмене приговора, определения, постановления суда первой инстанции и о передаче дела на новое судебное разбирательство в суд первой инстанции со стадии подготовки к судебному заседанию или судебного разбирательства;\nд) об отмене оправдательного приговора и о вынесении оправдательного приговора;\nе) об отмене определения или постановления и о вынесении оправдательного приговора либо иного судебного решения;\nж) об отмене приговора, определения, постановления или иного акта и о возвращении уголовного дела прокурору;\nз) об отмене приговора, определения, постановления, решения или иного акта и о прекращении уголовного дела;\nи) об изменении приговора или иного обжалуемого судебного решения;\nк) о прекращении апелляционного производства.\nч. 2. Указания суда апелляционной инстанции обязательны для суда первой инстанции и для прокурора, если уголовное дело возвращено для устранения обстоятельств, препятствующих вынесению законного и обоснованного решения.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-130",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 130",
+    "title": "Изменение приговора или решения суда судом апелляционной инстанции",
+    "text": "ч. 1. Суд апелляционной инстанции изменяет приговор в случае:\nа) смягчения назначенного наказания, если признает, что наказание по своей строгости не соответствует тяжести нарушения и личности обвиняемого, ответчика;\nб) изменения правовой квалификации нарушения;\nв) изменения штрафных сумм;\nг) изменения правовой квалификации деяния, которое предусматривает ответственность за менее тяжкое деяние;\nд) применения дополнительных санкций, предусмотренных законом, в случае, если на усмотрение суда предыдущее решение суда вынесло менее строгое наказание;\nе) увеличения срока отбытия наказания, если признает, по своей строгости не соответствует тяжести нарушения и личности обвиняемого, ответчика;\nё) в иных случаях по усмотрению суда.",
+    "penalty": "а) смягчения назначенного наказания, если признает, что наказание по своей строгости не соответствует тяжести нарушения и личности обвиняемого, ответчика; в) изменения штрафных сумм; д) применения дополнительных санкций, предусмотренных законом, в случае, если на усмотрение суда предыдущее решение суда вынесло менее строгое наказание;",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-131",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 131",
+    "title": "Основания для отмены или изменения судебного акта судом апелляционной инстанции",
+    "text": "ч. 1. Основанием для отмены или изменения судебного решения при рассмотрении дела в суде апелляционной инстанции являются:\nа) неполное выяснение обстоятельств, имеющих значение для дела, или их недоказанность;\nб) несоответствие выводов суда, изложенных в судебном решении, фактическим обстоятельствам дела;\nв) существенное нарушение требований действующего законодательства судом первой инстанции;\nг) нарушение или неправильное применение судом норм закона;\nд) рассмотрение дела в отсутствие кого-либо из участвующих в деле лиц, не извещенных надлежащим образом о времени и месте судебного заседания;\nе) принятие дела к производству в нарушение норм, установленных настоящим Законом;\nё) судебный акт вынесен незаконным составом суда;\nж) нарушены правила подсудности;\nз) не выполнено требований о ведении фиксации судебного заседания, только в случае надобности и по решению апелляционной инстанции.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-132",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 132",
+    "title": "Неполнота судебного рассмотрения",
+    "text": "ч. 1. Неполным признается судебное разбирательство, в ходе которого остались неисследованными обстоятельства, выяснение которых может иметь важное значение для принятия законного, обоснованного и справедливого судебного решения, в частности, в случае если:\nа) судом были отклонены ходатайства участников судебного производства о допросе определенных лиц, исследовании доказательств или совершении других процессуальных действий для подтверждения или опровержения обстоятельств, выяснение которых может иметь существенное значение для принятия законного, обоснованного и справедливого судебного решения;\nб) необходимость исследования того или иного основания вытекает из новых данных, установленных при рассмотрении дела в суде апелляционной инстанции.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-133",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 133",
+    "title": "Несоответствие выводов суда первой инстанции фактическим обстоятельствам производства",
+    "text": "ч. 1. Судебное решение считается таким, которое не соответствует фактическим обстоятельствам, если:\nа) выводы суда не подтверждаются доказательствами, изученными во время судебного рассмотрения;\nб) суд не взял во внимание доказательства, которые могли существенно повлиять на его выводы;\nв) при наличии спорных доказательств, которые имеют существенное значение для решений суда, в судебном решении не указано, почему суд взял во внимание одни доказательства и признал ничтожность других;\nг) выводы суда, изложенные в судебном решении, содержат существенные противоречия.\nч. 2. Приговор подлежит отмене или изменению по указанным основаниям только тогда, когда несоответствие выводов суда фактическим обстоятельствам производства повлияло или могло повлиять на решение вопроса о виновности или невиновности обвиняемого, на правильность применения закона.\n\n\nРАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ\n\n\nГлава 32. Производство в суде кассационной инстанции",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ X. ПРОИЗВОДСТВО В СУДЕ АПЕЛЛЯЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 31. Производство в суде апелляционной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-134",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 134",
+    "title": "Судебные решения, которые могут быть обжалованы в кассационном порядке",
+    "text": "ч. 1. В кассационном порядке могут быть обжалованы приговоры, решения и акты суда первой инстанции, если такой акт вступил в законную силу и с момента его вынесения прошло 48 часов. В случае, если с момента вступления в законную силу акта суда первой инстанции прошло 168 часов, то таковой акт не может быть обжалован в кассационном порядке.\nч. 2. Решение (определение, постановление, приговор) суда апелляционной инстанции может быть обжаловано в кассационном порядке лицами, имеющими право на подачу апелляционной жалобы, в течение 168 часов с момента оглашения решения судом апелляционной инстанции.\nч. 3. Кассационная жалоба (представление) обязана содержать в себе мотивированные и обоснованные действующим законодательством аргументы. Кассационная жалоба (представление) не считается мотивированной, если ее подает лицо, которое было должным образом уведомлено о судебном заседании в суде первой инстанции, но не явилось на таковое, а затем ссылается на то, что суд не учел его аргументы или аргументы его стороны. Кассационная жалоба (представление) не считается мотивированной, если ее подает представитель лица, привлеченный после заседания, при этом само лицо не явилось на судебное заседание суда первой инстанции и впоследствии утверждает, что суд не учел его аргументы или аргументы его стороны.\nч. 4. На подачу кассационной жалобы имеют право лица, указанные в части первой статьи 119 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-135",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 135",
+    "title": "Требования к кассационной жалобе, представлению",
+    "text": "ч. 1. Кассационная жалоба подается в письменном виде и по установленной форме. Заявитель обязан в полном объеме обоснованно и аргументировано указать, в чем заключается незаконность или необоснованность судебного решения.\nч. 2. Если в кассационной жалобе (представлении) указываются обстоятельства, которые не были изучены во время апелляции, либо доказательства, которые не подавались суду в предыдущих инстанциях, то в ней указываются таковые причины.\nч. 3. Кассационная жалоба подписывается лицом, которое ее подает. Если кассационную жалобу подает защитник, адвокат или законный представитель любой из сторон, то к ней добавляется договор об оказании юридических услуг либо иной документ, необходимый для подтверждения законности и полномочий представителя.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "адвокат",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-136",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 136",
+    "title": "Принятие, оставление кассационной жалобы без движения, отказ в принятии к производству или продолжении производства",
+    "text": "ч. 1. Суд кассационной инстанции начинает кассационное производство в течение 48 часов со дня поступления кассационной жалобы, если нет оснований для оставления кассационной жалобы без движения, отказа в принятии таковой жалобы к производству или продолжении производства. Вопрос о начале кассационного производства суд кассационной инстанции решает без вызова сторон.\nч. 2. Судья, установив, что кассационная жалоба на приговор или иной акт суда апелляционной инстанции подана без соответствия требованиям, предусмотренным настоящим Кодексом, принимает решение об отказе в принятии таковой жалобы (представления) к производству.\nч. 3. Кассационная жалоба не принимается к производству:\nа) в случаях, предусмотренных частью 2 настоящей статьи;\nб) кассационную жалобу подало лицо, которое не имеет права подавать таковую;\nв) кассационная жалоба подана на судебный акт, который не подлежит обжалованию в кассационном порядке;\nг) из кассационной жалобы, поданных к ней судебных решений и иных документов предвидится, что оснований для удовлетворения жалобы нет;\nд) кассационная жалоба подана после окончания срока кассационного обжалования.\nч. 4. Судья отказывает в принятии жалобы (представления) к производству, если кассационная жалоба подана на судебное решение, которое не подлежит обжалованию в кассационном порядке, или судебное решение оспорено исключительно на основаниях, по которым оно не может быть обжаловано в соответствии с положениями настоящего Закона.\nч. 5. Оставление кассационной жалобы без движения или отказ в принятии к производству не лишают права повторного обращения в суд кассационной инстанции в порядке, предусмотренном законодательством, в рамках сроков на кассационное обжалование.",
+    "penalty": "д) кассационная жалоба подана после окончания срока кассационного обжалования. ч. 5. Оставление кассационной жалобы без движения или отказ в принятии к производству не лишают права повторного обращения в суд кассационной инстанции в порядке, предусмотренном законодательством, в рамках сроков на кассационное обжалование.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-138",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 138",
+    "title": "Последствия подачи кассационной жалобы",
+    "text": "ч. 1. Подача кассационной жалобы на приговор или иной судебный акт не останавливает вступление такового в законную силу и исполнение такового, за исключением случаев, предусмотренных частью 2 настоящей статьи.\nч. 2. В случае, если заявлено ходатайство о приостановлении действия силы решения или иного судебного акта предыдущей инстанции, то суд при наличии весомых оснований приостанавливает действие такового.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-139",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 139",
+    "title": "Подготовление к кассационному рассмотрению",
+    "text": "ч. 1. Судья в течение 48 часов после принятия кассационной жалобы к производству:\nа) устанавливает дату судебного заседания;\nб) рассматривает возражения, поданные сторонами против кассационного заявления;\nв) рассматривает иные ходатайства, в том числе ходатайства о проведении заочного судебного заседания;\nг) рассматривает иные вопросы, обстоятельства, необходимые для кассационного рассмотрения.\nч. 2. Обвиняемый подлежит обязательному вызову в судебное заседание для участия в кассационном рассмотрении, если в кассационной жалобе затрагивается вопрос про ухудшение его положения или если суд признает обязательным участие такового.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-140",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 140",
+    "title": "Границы пересмотра судом кассационной инстанции",
+    "text": "ч. 1. Суд кассационной инстанции проверяет правильность применения судами первой и апелляционной инстанции норм материального и процессуального права, правовой оценки обстоятельств и не имеет права исследовать доказательства, устанавливать и признавать доказанными обстоятельства, которые не были установлены в обжалуемом судебном решении, рассматривать вопрос про достоверность того или иного доказательства.\nч. 2. Суд кассационной инстанции пересматривает судебные акты судов первой и апелляционной инстанций в рамках кассационной жалобы. Суд кассационной инстанции вправе выйти за границы кассационных требований, если таковым не ухудшается положение обвиняемого. Если рассмотрение кассационной жалобы дает основания для принятия решения в пользу лиц, в интересах которых жалобы не поступили, суд кассационной инстанции обязан принять таковое решение.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-141",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 141",
+    "title": "Кассационное рассмотрение",
+    "text": "ч. 1. Кассационное рассмотрение проводится в соответствии с правилами и процессами судебного рассмотрения в суде апелляционной инстанции с учетом особенностей, предусмотренных настоящей главой и законом.\nч. 2. Председательствующий судья в необходимом таковому объеме докладывает содержание обжалуемого судебного решения, аргументы участников судебного решения, изложенные в кассационных жалобах и возражениях, а также выясняет, поддерживают ли свои кассационные жалобы и возражения лица, которые их подали.\nч. 3. Для изложения аргументов первенство в выступлении предоставляется лицу, которое подало кассационную жалобу. Если кассационные жалобы подали обе стороны предыдущего разбирательства, первым излагает свои аргументы обвиняемый либо представитель такового. После этого слово предоставляется другим участникам судебного производства.\nч. 4. После окончания кассационного рассмотрения суд удаляется в совещательную комнату для вынесения судебного решения.\nч. 5. Суд кассационной инстанции не связан доводами кассационных жалобы или представления и вправе проверить производство по уголовному делу в полном объеме.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-142",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 142",
+    "title": "Полномочия суда кассационной инстанции впоследствии рассмотрения кассационной жалобы",
+    "text": "ч. 1. Суд кассационной инстанции впоследствии рассмотрения кассационной жалобы вправе:\nа) оставить кассационные жалобу или представление без удовлетворения;\nб) отменить приговор, определение или постановление суда и все последующие судебные решения и передать уголовное дело на новое судебное рассмотрение либо возвратить дело прокурору;\nв) отменить приговор суда апелляционной инстанции и передать уголовное дело на новое апелляционное рассмотрение;\nг) отменить решение суда кассационной инстанции и передать уголовное дело на новое кассационное рассмотрение;\nд) отменить решение суда кассационной инстанции и оставить без изменения либо изменить приговор, определение или постановление суда и (или) последующие судебные решения;\nе) оставить кассационные жалобу без рассмотрения по существу при наличии оснований, предусмотренных Законом, или прекратить производство по кассационным жалобе, если после принятия кассационных жалобы к производству суда от лица, их подавшего, поступило заявление об отказе от кассационных жалобы и отказ принят судом.\nч. 2. Кассационная инстанция не вправе устанавливать или считать доказанными обстоятельства, которые не были установлены либо были отвергнуты судом первой или апелляционной инстанции, предрешать вопросы о достоверности или недостоверности того или иного доказательства, преимуществе одних доказательств перед другими и определять, какое судебное постановление должно быть принято при новом рассмотрении дела. Дополнительные доказательства судом кассационной инстанции не принимаются.\nч. 3. Указания вышестоящего суда о толковании закона являются обязательными для суда, вновь рассматривающего дело.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-procedure-143",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 143",
+    "title": "Основания для отмены или изменения судебного решения судом кассационной инстанции",
+    "text": "ч. 1. Основанием для отмены или изменения судебного акта при рассмотрении дела в суде кассационной инстанции являются:\nа) неполнота судебного рассмотрения;\nб) несоответствие выводов суда, изложенных в судебном решении, фактическим обстоятельствам дела;\nв) существенное нарушение требований действующего законодательства судом;\nг) нарушение или неправильное применение закона.\nч. 2. Дополнительные обстоятельства, позволяющие отменить судебное решение:\nа) судебное решение вынесено незаконным составом суда;\nб) нарушены правила подсудности;\nв) не выполнено требований о ведении фиксации судебного заседания, только в случае надобности и по решению апелляционной инстанции.\n\n\nЧАСТЬ ЧЕТВЕРТАЯ. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ\n\n\nРАЗДЕЛ XI. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ\n\n\nГлава 33. Основные понятия, термины, используемые в настоящем Кодексе",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "РАЗДЕЛ XI. ПРОИЗВОДСТВО В СУДЕ КАССАЦИОННОЙ ИНСТАНЦИИ",
+    "chapter": "Глава 32. Производство в суде кассационной инстанции",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-procedure-144",
+    "project": "russia",
+    "category": "УПК РФ",
+    "codeTitle": "Уголовно-процессуальный кодекс Российской Федерации",
+    "articleNumber": "Статья 144",
+    "title": "Основные понятия, используемые в настоящем Кодексе",
+    "text": "Если не оговорено иное, основные понятия, используемые в настоящем Кодексе, имеют следующие значения:\n1) алиби - нахождение подозреваемого или обвиняемого в момент совершения преступления в другом месте;\n2) апелляционная инстанция - суд, рассматривающий в апелляционном порядке уголовные дела по жалобам и представлениям на приговоры, определения и постановления суда;\n3) близкие лица - иные, за исключением близких родственников и родственников, лица, состоящие в свойстве с потерпевшим, свидетелем, а также лица, жизнь, здоровье и благополучие которых дороги потерпевшему, свидетелю в силу сложившихся личных отношений;\n4) близкие родственники - супруг, супруга, родители, дети, усыновители, усыновленные, родные братья и родные сестры, дедушка, бабушка, внуки;\n5) вердикт - решение о виновности или невиновности подсудимого, вынесенное коллегией присяжных заседателей;\n6) государственный обвинитель - поддерживающее от имени государства обвинение в суде по уголовному делу должностное лицо органа прокуратуры;\n7) дознаватель - должностное лицо органа дознания, правомочное либо уполномоченное осуществлять предварительное расследование в форме дознания, а также иные полномочия, предусмотренные настоящим Кодексом;\n8) дознание - форма предварительного расследования, осуществляемого дознавателем, по уголовному делу, по которому производство предварительного следствия необязательно;\n9) досудебное производство - уголовное судопроизводство с момента получения сообщения о преступлении до направления прокурором уголовного дела в суд для рассмотрения его по существу;\n10) жилище - индивидуальный жилой дом с входящими в него жилыми и нежилыми помещениями, жилое помещение независимо от формы собственности, входящее в жилищный фонд и используемое для постоянного или временного проживания, а равно иное помещение или строение, не входящее в жилищный фонд, но используемое для временного проживания;\n11) задержание подозреваемого - мера процессуального принуждения, применяемая органом дознания, дознавателем, следователем по подозрению в совершении преступления;\n12) заключение суда - вывод о наличии или об отсутствии в действиях лица, в отношении которого применяется особый порядок производства по уголовному делу, признаков преступления;\n13) законные представители - родители, усыновители, опекуны или попечители несовершеннолетнего подозреваемого, обвиняемого либо потерпевшего, представители учреждений или организаций, на попечении которых находится несовершеннолетний подозреваемый, обвиняемый либо потерпевший, органы опеки и попечительства;\n14) избрание меры пресечения - принятие судом решения о мере пресечения в отношении подозреваемого, обвиняемого;\n15) имущество - любые вещи, включая наличные денежные средства и документарные ценные бумаги; безналичные денежные средства, находящиеся на счетах и во вкладах в банках и иных кредитных организациях; бездокументарные ценные бумаги, права на которые учитываются в реестре владельцев бездокументарных ценных бумаг или депозитарии; имущественные права, включая права требования и исключительные права; цифровая валюта;\n16) кассационная инстанция - суд, рассматривающий в кассационном порядке уголовные дела по жалобам и представлениям на приговоры, определения и постановления судов;\n17) контроль телефонных и иных переговоров - прослушивание и запись переговоров путем использования любых средств коммуникации, осмотр и прослушивание фонограмм;\n18) момент фактического задержания - момент производимого в порядке, установленном настоящим Кодексом, фактического лишения свободы передвижения лица, подозреваемого в совершении преступления;\n19) начальник органа дознания - должностное лицо, возглавляющее соответствующий орган дознания, а также его заместитель;\n20) неотложные следственные действия - действия, осуществляемые органом дознания после возбуждения уголовного дела, по которому производство предварительного следствия обязательно, в целях обнаружения и фиксации следов преступления, а также доказательств, требующих незамедлительного закрепления, изъятия и исследования;\n21) непричастность - неустановленная причастность либо установленная непричастность лица к совершению преступления;\n22) ночное время - промежуток времени с 22 до 6 часов по местному времени;\n23) обвинение - утверждение о совершении определенным лицом деяния, запрещенного уголовным законом, выдвинутое в порядке, установленном настоящим Кодексом;\n24) определение - любое решение, вынесенное коллегиально судами первой, апелляционной и кассационной инстанций, за исключением приговора и кассационного определения;\n25) органы дознания - государственные органы и должностные лица, уполномоченные в соответствии с настоящим Кодексом осуществлять дознание и другие процессуальные полномочия;\n26) постановление - любое решение, за исключением приговора, вынесенное судьей единолично; решение прокурора, следователя, дознавателя, вынесенное в ходе досудебного производства, за исключением обвинительного заключения;\n27) председательствующий - судья, который руководит судебным заседанием при коллегиальном рассмотрении уголовного дела, а также судья, рассматривающий уголовное дело единолично;\n28) представление - акт реагирования прокурора на судебное решение, вносимый в порядке, установленном настоящим Кодексом;\n29) приговор - решение о невиновности или виновности подсудимого и назначении ему наказания либо об освобождении его от наказания, вынесенное судом первой или апелляционной инстанции;\n30) применение меры пресечения - процессуальные действия, осуществляемые с момента принятия решения об избрании меры пресечения до ее отмены или изменения;\n31) присяжный заседатель - лицо, привлеченное в установленном настоящим Кодексом порядке для участия в судебном разбирательстве и вынесения вердикта;\n32) прокурор - Генеральный прокурор Российской Федерации и подчиненные ему прокуроры, их заместители и иные должностные лица органов прокуратуры, участвующие в уголовном судопроизводстве и наделенные соответствующими полномочиями федеральным законом о прокуратуре;\n33) процессуальное действие - следственное, судебное или иное действие, предусмотренное настоящим Кодексом;\n34) процессуальное решение - решение, принимаемое судом, прокурором, следователем, органом дознания, начальником органа дознания, начальником подразделения дознания, дознавателем в порядке, установленном настоящим Кодексом;\n35) реабилитация - порядок восстановления прав и свобод лица, незаконно или необоснованно подвергнутого уголовному преследованию, и возмещения причиненного ему вреда;\n36) реабилитированный - лицо, имеющее в соответствии с настоящим Кодексом право на возмещение вреда, причиненного ему в связи с незаконным или необоснованным уголовным преследованием;\n37) реплика - замечание участника прений сторон относительно сказанного в речах других участников;\n38) результаты оперативно-розыскной деятельности - сведения, полученные в соответствии с федеральным законом об оперативно-розыскной деятельности, о признаках подготавливаемого, совершаемого или совершенного преступления, лицах, подготавливающих, совершающих или совершивших преступление и скрывшихся от органов дознания, следствия или суда;\n39) родственники - все иные лица, за исключением близких родственников, состоящие в родстве;\n40) розыскные меры - меры, принимаемые дознавателем, следователем, а также органом дознания по поручению дознавателя или следователя для установления лица, подозреваемого в совершении преступления;\n41) руководитель следственного органа - должностное лицо, возглавляющее соответствующее следственное подразделение, а также его заместитель;\n42) свидетельский иммунитет - право лица не давать показания против себя и своих близких родственников, а также в иных случаях, предусмотренных настоящим Кодексом;\n43) следователь-криминалист - должностное лицо, уполномоченное осуществлять предварительное следствие по уголовному делу, а также участвовать по поручению руководителя следственного органа в производстве отдельных следственных и иных процессуальных действий или производить отдельные следственные и иные процессуальные действия без принятия уголовного дела к своему производству;\n44) следователь - должностное лицо, уполномоченное осуществлять предварительное следствие по уголовному делу, а также иные полномочия, предусмотренные настоящим Кодексом;\n45) сообщение о преступлении - заявление о преступлении, явка с повинной, рапорт об обнаружении преступления, постановление прокурора о направлении соответствующих материалов в орган предварительного расследования для решения вопроса об уголовном преследовании;\n46) стороны - участники уголовного судопроизводства, выполняющие на основе состязательности функцию обвинения (уголовного преследования) или защиты от обвинения;\n47) сторона защиты - обвиняемый, а также его законный представитель, защитник, гражданский ответчик, его законный представитель и представитель;\n48) сторона обвинения - прокурор, а также следователь, руководитель следственного органа, дознаватель, начальник подразделения дознания, начальник органа дознания, орган дознания, потерпевший, его законный представитель и представитель, гражданский истец и его представитель;\n49) суд - любой суд общей юрисдикции, рассматривающий уголовное дело по существу и выносящий решения, предусмотренные настоящим Кодексом;\n50) судебная экспертиза - экспертиза, производимая в порядке, установленном настоящим Кодексом;\n51) судебное заседание - процессуальная форма осуществления правосудия в ходе досудебного и судебного производства по уголовному делу;\n52) судебное разбирательство - судебное заседание судов первой, второй, кассационной инстанций;\n53) суд первой инстанции - суд, рассматривающий уголовное дело по существу и правомочный выносить приговор, а также принимать решения в ходе досудебного производства по уголовному делу;\n54) суд второй инстанции - суд апелляционной инстанции;\n55) судебное решение - приговор, определение, постановление, вынесенные при производстве по уголовному делу в судах первой и второй инстанций; определение и постановление, вынесенные при производстве по уголовному делу в суде кассационной инстанции;\n56) итоговое судебное решение - приговор, иное решение суда, вынесенное в ходе судебного разбирательства, которым уголовное дело разрешается по существу;\n57) промежуточное судебное решение - все определения и постановления суда, за исключением итогового судебного решения;\n58) судья - должностное лицо, уполномоченное осуществлять правосудие;\n59) уголовное преследование - процессуальная деятельность, осуществляемая стороной обвинения в целях изобличения подозреваемого, обвиняемого в совершении преступления;\n60) уголовное судопроизводство - досудебное и судебное производство по уголовному делу;\n61) уголовный закон - Уголовный кодекс Российской Федерации;\n62) участники уголовного судопроизводства - лица, принимающие участие в уголовном процессе;\n63) досудебное соглашение о сотрудничестве - соглашение между сторонами обвинения и защиты, в котором указанные стороны согласовывают условия ответственности подозреваемого или обвиняемого в зависимости от его действий после возбуждения уголовного дела или предъявления обвинения.",
+    "penalty": "18) момент фактического задержания - момент производимого в порядке, установленном настоящим Кодексом, фактического лишения свободы передвижения лица, подозреваемого в совершении преступления; 29) приговор - решение о невиновности или виновности подсудимого и назначении ему наказания либо об освобождении его от наказания, вынесенное судом первой или апелляционной инстанции;",
+    "section": "РАЗДЕЛ XI. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ",
+    "chapter": "Глава 33. Основные понятия, термины, используемые в настоящем Кодексе",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "прокурор",
+      "суд",
+      "водитель",
+      "уголовное"
+    ]
+  },
+  {
+    "id": "ru-admin-1-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 1.1",
+    "title": "Законодательство об административных правонарушениях",
+    "text": "1. Законодательство об административных правонарушениях состоит из настоящего Кодекса. Законодательство об административных правонарушениях может также дополняться иными законами, устанавливающими перечень административных правонарушений и(или) порядок производства по ним.\n2. Основным источником законодательства об административных правонарушениях признается настоящий Кодекс. В случае установления противоречия между законом, дополняющим законодательство об административных правонарушениях, и настоящим Кодексом, суд, прокурор, иное должностное лицо применяет положения настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 1. Задачи и принципы законодательства об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-1-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 1.2",
+    "title": "Задачи законодательства об административных правонарушениях",
+    "text": "Задачами законодательства об административных правонарушениях являются защита личности, охрана прав и свобод человека и гражданина, охрана здоровья граждан, санитарно-эпидемиологического благополучия населения, защита общественной нравственности, охрана окружающей среды, установленного порядка осуществления государственной власти, общественного порядка и общественной безопасности, собственности, защита законных экономических интересов физических и юридических лиц, общества и государства от административных правонарушений, а также предупреждение административных правонарушений.",
+    "penalty": "Задачами законодательства об административных правонарушениях являются защита личности, охрана прав и свобод человека и гражданина, охрана здоровья граждан, санитарно-эпидемиологического благополучия населения, защита общественной нравственности, охрана окружающей среды, установленного порядка осуществления государственной власти, общественного порядка и общественной безопасности, собственности, защита законных экономических интересов физических и юридических лиц, общества и государства от административных правонарушений, а также предупреждение административных правонарушений.",
+    "section": "",
+    "chapter": "Глава 1. Задачи и принципы законодательства об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-1-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 1.3",
+    "title": "Принцип равенства перед законом",
+    "text": "1. Лица, совершившие административные правонарушения, равны перед законом. Физические лица подлежат административной ответственности независимо от пола, расы, национальности, языка, происхождения, имущественного и должностного положения, места жительства, отношения к религии, убеждений, принадлежности к общественным объединениям, а также других обстоятельств. Юридические лица подлежат административной ответственности независимо от места нахождения, организационно-правовых форм, подчиненности, а также других обстоятельств.\n2. Особые условия применения мер обеспечения производства по делу об административном правонарушении и привлечения к административной ответственности должностных лиц, выполняющих определенные государственные функции (депутатов, судей, прокуроров, сотрудников Следственного комитета Российской Федерации и иных лиц), устанавливаются Конституцией Российской Федерации и федеральными законами.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 1. Задачи и принципы законодательства об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-1-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 1.4",
+    "title": "Презумпция невиновности",
+    "text": "1. Лицо подлежит административной ответственности только за те административные правонарушения, в отношении которых установлена его вина.\n2. Лицо, в отношении которого ведется производство по делу об административном правонарушении, считается невиновным, пока его вина не будет доказана в порядке, предусмотренном настоящим Кодексом, и установлена вступившим в законную силу постановлением (решением) судьи, органа, должностного лица, рассмотревших дело.\n3. Лицо, привлекаемое к административной ответственности, не обязано доказывать свою невиновность, за исключением случаев, предусмотренных примечанием к настоящей статье.\n4. Неустранимые сомнения в виновности лица, привлекаемого к административной ответственности, толкуются в пользу этого лица.\nПримечание. Положения части 3 настоящей статьи не распространяются на должностное лицо, совершившее административное правонарушение.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 1. Задачи и принципы законодательства об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-1-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 1.5",
+    "title": "Обеспечение законности при применении мер административного принуждения в связи с административным правонарушением",
+    "text": "1. Лицо, привлекаемое к административной ответственности, не может быть подвергнуто административному наказанию и мерам обеспечения производства по делу об административном правонарушении иначе как на основаниях и в порядке, установленных законом.\n2. Применение уполномоченными на то органом или должностным лицом административного наказания и мер обеспечения производства по делу об административном правонарушении в связи с административным правонарушением осуществляется в пределах компетенции указанных органа или должностного лица в соответствии с законом.\n3. При применении мер административного принуждения не допускаются решения и действия (бездействие), унижающие человеческое достоинство.",
+    "penalty": "1. Лицо, привлекаемое к административной ответственности, не может быть подвергнуто административному наказанию и мерам обеспечения производства по делу об административном правонарушении иначе как на основаниях и в порядке, установленных законом. 2. Применение уполномоченными на то органом или должностным лицом административного наказания и мер обеспечения производства по делу об административном правонарушении в связи с административным правонарушением осуществляется в пределах компетенции указанных органа или должностного лица в соответствии с законом.",
+    "section": "",
+    "chapter": "Глава 1. Задачи и принципы законодательства об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-1-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 1.6",
+    "title": "Действие законодательства об административных правонарушениях во времени",
+    "text": "1. Лицо, совершившее административное правонарушение, подлежит ответственности на основании закона, действовавшего во время совершения административного правонарушения.\n2. Закон, смягчающий или отменяющий административную ответственность за административное правонарушение либо иным образом улучшающий положение лица, совершившего административное правонарушение, имеет обратную силу, то есть распространяется и на лицо, которое совершило административное правонарушение до вступления такого закона в силу и в отношении которого постановление о назначении административного наказания не исполнено. Закон, устанавливающий или отягчающий административную ответственность за административное правонарушение либо иным образом ухудшающий положение лица, обратной силы не имеет.\n3. В случае одновременного вступления в силу положений закона, отменяющих административную ответственность за содеянное и устанавливающих за то же деяние уголовную ответственность, лицо подлежит административной ответственности на основании закона, действовавшего во время совершения административного правонарушения.\n4. Производство по делу об административном правонарушении осуществляется на основании закона, действующего во время производства по указанному делу.\n\n\nГлава 2. Административное правонарушение и административная ответственность",
+    "penalty": "2. Закон, смягчающий или отменяющий административную ответственность за административное правонарушение либо иным образом улучшающий положение лица, совершившего административное правонарушение, имеет обратную силу, то есть распространяется и на лицо, которое совершило административное правонарушение до вступления такого закона в силу и в отношении которого постановление о назначении административного наказания не исполнено. Закон, устанавливающий или отягчающий административную ответственность за административное правонарушение либо иным образом ухудшающий положение лица, обратной силы не имеет.",
+    "section": "",
+    "chapter": "Глава 1. Задачи и принципы законодательства об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-2-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 2.1",
+    "title": "Административное правонарушение",
+    "text": "1. Административным правонарушением признается противоправное, виновное действие (бездействие) физического или юридического лица, за которое настоящим Кодексом или иными Федеральными законами об административных правонарушениях установлена административная ответственность.\n2. Юридическое лицо признается виновным в совершении административного правонарушения, если будет установлено, что у него имелась возможность для соблюдения правил и норм, за нарушение которых настоящим Кодексом или Федеральным законом предусмотрена административная ответственность, но данным лицом не были приняты все зависящие от него меры по их соблюдению.\n3. Назначение административного наказания юридическому лицу не освобождает от административной ответственности за данное правонарушение виновное физическое лицо, равно как и привлечение к административной или уголовной ответственности физического лица не освобождает от административной ответственности за данное правонарушение юридическое лицо.",
+    "penalty": "3. Назначение административного наказания юридическому лицу не освобождает от административной ответственности за данное правонарушение виновное физическое лицо, равно как и привлечение к административной или уголовной ответственности физического лица не освобождает от административной ответственности за данное правонарушение юридическое лицо.",
+    "section": "",
+    "chapter": "Глава 2. Административное правонарушение и административная ответственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-2-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 2.2",
+    "title": "Формы вины",
+    "text": "1. Административное правонарушение признается совершенным умышленно, если лицо, его совершившее, осознавало противоправный характер своего действия (бездействия), предвидело его вредные последствия и желало наступления таких последствий или сознательно их допускало либо относилось к ним безразлично.\n2. Административное правонарушение признается совершенным по неосторожности, если лицо, его совершившее, предвидело возможность наступления вредных последствий своего действия (бездействия), но без достаточных к тому оснований самонадеянно рассчитывало на предотвращение таких последствий либо не предвидело возможности наступления таких последствий, хотя должно было и могло их предвидеть.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 2. Административное правонарушение и административная ответственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-2-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 2.3",
+    "title": "Административная ответственность должностных лиц",
+    "text": "Административной ответственности подлежит должностное лицо в случае совершения им административного правонарушения в связи с неисполнением либо ненадлежащим исполнением своих служебных обязанностей.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 2. Административное правонарушение и административная ответственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-2-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 2.4",
+    "title": "Крайняя необходимость",
+    "text": "Не является административным правонарушением причинение лицом вреда охраняемым законом интересам в состоянии крайней необходимости, то есть для устранения опасности, непосредственно угрожающей личности и правам данного лица или других лиц, а также охраняемым законом интересам общества или государства, если эта опасность не могла быть устранена иными средствами и если причиненный вред является менее значительным, чем предотвращенный вред.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 2. Административное правонарушение и административная ответственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-2-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 2.5",
+    "title": "Возможность освобождения от административной ответственности при малозначительности административного правонарушения",
+    "text": "При малозначительности совершенного административного правонарушения судья, орган, должностное лицо, уполномоченные решить дело об административном правонарушении, могут освободить лицо, совершившее административное правонарушение, от административной ответственности и ограничиться устным замечанием.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 2. Административное правонарушение и административная ответственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-2-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 2.6",
+    "title": "Административная ответственность юридических лиц",
+    "text": "1. Юридические лица подлежат административной ответственности за совершение административных правонарушений в случаях, предусмотренных статьями раздела II настоящего Кодекса или иными Федеральными законами.\n2. В случае, если в статьях разделов настоящего Кодекса не указано, что установленные статьями нормы применяются только к физическому лицу или только к юридическому лицу, данные нормы в равной мере действуют в отношении и физического, и юридического лица, за исключением случаев, если по смыслу данные нормы относятся и могут быть применены только к физическому лицу.\n\n\nГлава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "penalty": "Глава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "section": "",
+    "chapter": "Глава 2. Административное правонарушение и административная ответственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-3-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 3.1",
+    "title": "Цели административного наказания",
+    "text": "1. Административное наказание является установленной государством мерой ответственности за совершение административного правонарушения и применяется в целях предупреждения совершения новых правонарушений как самим правонарушителем, так и другими лицами.\n2. Административное наказание не может иметь своей целью унижение человеческого достоинства физического лица, совершившего административное правонарушение, или причинение ему физических страданий, а также нанесение вреда деловой репутации юридического лица.",
+    "penalty": "Цели административного наказания 1. Административное наказание является установленной государством мерой ответственности за совершение административного правонарушения и применяется в целях предупреждения совершения новых правонарушений как самим правонарушителем, так и другими лицами. 2. Административное наказание не может иметь своей целью унижение человеческого достоинства физического лица, совершившего административное правонарушение, или причинение ему физических страданий, а также нанесение вреда деловой репутации юридического лица.",
+    "section": "",
+    "chapter": "Глава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-3-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 3.2",
+    "title": "Виды административных наказаний",
+    "text": "1. За совершение административных правонарушений могут устанавливаться и применяться следующие административные наказания:\nа) предупреждение;\nб) административный штраф;\nв) конфискация орудия совершения или предмета административного правонарушения;\nг) лишение специального права, предоставленного физическому лицу;\nд) административный арест;\nе) административное приостановление деятельности.\n2. В отношении юридического лица могут применяться административные наказания, перечисленные в пунктах 1 - 3, 6 части 1 настоящей статьи.",
+    "penalty": "Виды административных наказаний 1. За совершение административных правонарушений могут устанавливаться и применяться следующие административные наказания: а) предупреждение;",
+    "section": "",
+    "chapter": "Глава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "лишение",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-3-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 3.3",
+    "title": "Основные и дополнительные административные наказания",
+    "text": "1. Предупреждение, административный штраф, административный арест, административное приостановление деятельности могут устанавливаться и применяться только в качестве основных административных наказаний.\n2. Конфискация орудия совершения или предмета административного правонарушения, лишение специального права могут устанавливаться и применяться в качестве как основного, так и дополнительного административного наказания.\n3. За одно административное правонарушение может быть назначено основное либо основное и дополнительное административное наказание из наказаний, указанных в санкции применяемой статьи Особенной части настоящего Кодекса. Если санкция применяемой статьи предусматривает обязательное назначение основного и дополнительного административных наказаний, но при этом одно из них не может быть назначено лицу, в отношении которого ведется производство по делу об административном правонарушении, назначается только то из административных наказаний, которое может быть назначено указанному лицу.",
+    "penalty": "Основные и дополнительные административные наказания 1. Предупреждение, административный штраф, административный арест, административное приостановление деятельности могут устанавливаться и применяться только в качестве основных административных наказаний. 2. Конфискация орудия совершения или предмета административного правонарушения, лишение специального права могут устанавливаться и применяться в качестве как основного, так и дополнительного административного наказания.",
+    "section": "",
+    "chapter": "Глава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "лишение",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-3-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 3.4",
+    "title": "Предупреждение",
+    "text": "1. Предупреждение - мера административного наказания, выраженная в официальном порицании физического или юридического лица. Предупреждение выносится в письменной форме.\n2. Предупреждение устанавливается за впервые совершенные административные правонарушения при отсутствии причинения вреда или возникновения угрозы причинения вреда жизни и здоровью людей, объектам животного и растительного мира, окружающей среде, безопасности государства, угрозы чрезвычайных ситуаций природного и техногенного характера, а также при отсутствии имущественного ущерба.",
+    "penalty": "Предупреждение 1. Предупреждение - мера административного наказания, выраженная в официальном порицании физического или юридического лица. Предупреждение выносится в письменной форме. 2. Предупреждение устанавливается за впервые совершенные административные правонарушения при отсутствии причинения вреда или возникновения угрозы причинения вреда жизни и здоровью людей, объектам животного и растительного мира, окружающей среде, безопасности государства, угрозы чрезвычайных ситуаций природного и техногенного характера, а также при отсутствии имущественного ущерба.",
+    "section": "",
+    "chapter": "Глава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-3-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 3.5",
+    "title": "Административный штраф",
+    "text": "1. Административный штраф является денежным взысканием, выражается в твердой денежной сумме и устанавливается для граждан в размере, не превышающем 100.000 рублей, для должностных лиц в размере, не превышающем 150.000 рублей, для юридических лиц не превышающем 1.000.000 рублей.\n2. Размер административного штрафа не может быть менее пятисот рублей.",
+    "penalty": "Административный штраф 1. Административный штраф является денежным взысканием, выражается в твердой денежной сумме и устанавливается для граждан в размере, не превышающем 100.000 рублей, для должностных лиц в размере, не превышающем 150.000 рублей, для юридических лиц не превышающем 1.000.000 рублей. 2. Размер административного штрафа не может быть менее пятисот рублей.",
+    "section": "",
+    "chapter": "Глава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-3-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 3.6",
+    "title": "Административный арест",
+    "text": "Административный арест заключается в содержании нарушителя в условиях изоляции от общества и устанавливается на срок до 24 суток. Административный арест назначается судьей, должностным лицом.\n\n\nГлава 4. Назначение административного наказания",
+    "penalty": "Административный арест Административный арест заключается в содержании нарушителя в условиях изоляции от общества и устанавливается на срок до 24 суток. Административный арест назначается судьей, должностным лицом. Глава 4. Назначение административного наказания",
+    "section": "",
+    "chapter": "Глава 3. АДМИНИСТРАТИВНОЕ НАКАЗАНИЕ",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-4-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.1",
+    "title": "Общие правила назначения административного наказания",
+    "text": "1. Административное наказание за совершение административного правонарушения назначается в пределах, установленных законом, предусматривающим ответственность за данное административное правонарушение, в соответствии с настоящим Кодексом.\n2. При назначении административного наказания физическому лицу учитываются характер совершенного им административного правонарушения, личность виновного, его имущественное положение, обстоятельства, смягчающие административную ответственность, и обстоятельства, отягчающие административную ответственность.\n3. Назначение административного наказания не освобождает лицо от исполнения обязанности, за неисполнение которой административное наказание было назначено.\n4. Никто не может нести административную ответственность дважды за одно и то же административное правонарушение.",
+    "penalty": "Общие правила назначения административного наказания 1. Административное наказание за совершение административного правонарушения назначается в пределах, установленных законом, предусматривающим ответственность за данное административное правонарушение, в соответствии с настоящим Кодексом. 2. При назначении административного наказания физическому лицу учитываются характер совершенного им административного правонарушения, личность виновного, его имущественное положение, обстоятельства, смягчающие административную ответственность, и обстоятельства, отягчающие административную ответственность.",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-4-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.2",
+    "title": "Замена административного наказания устным предупреждением",
+    "text": "1. За впервые совершенное административное правонарушение, выявленное должностным лицом (органом), административное наказание, подлежащее применению, по решению указанных лиц может быть заменено на предупреждение, при отсутствии причинения вреда или возникновения угрозы причинения вреда жизни и здоровью людей, объектам животного и растительного мира, окружающей среде, объектам безопасности государства, угрозы чрезвычайных ситуаций природного и техногенного характера, а также при отсутствии имущественного ущерба.\n2. В случае замены административного наказания на предупреждение дополнительное административное наказание, предусмотренное соответствующей статьей Особенной части настоящего Кодекса, не применяется.",
+    "penalty": "Замена административного наказания устным предупреждением 1. За впервые совершенное административное правонарушение, выявленное должностным лицом (органом), административное наказание, подлежащее применению, по решению указанных лиц может быть заменено на предупреждение, при отсутствии причинения вреда или возникновения угрозы причинения вреда жизни и здоровью людей, объектам животного и растительного мира, окружающей среде, объектам безопасности государства, угрозы чрезвычайных ситуаций природного и техногенного характера, а также при отсутствии имущественного ущерба. 2. В случае замены административного наказания на предупреждение дополнительное административное наказание, предусмотренное соответствующей статьей Особенной части настоящего Кодекса, не применяется.",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-4-2-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.2.1",
+    "title": "Освобождение от наказания в виде административного ареста в связи с внесением залога",
+    "text": "1. Лицо, которому за совершение административного правонарушения назначено наказание в виде административного ареста, может быть освобождено от отбывания наказания в связи с внесением залога.\n2. Залог вносится либо лицом, привлеченным к административной ответственности лично, либо его представителем или законным представителем в учреждение органа государственной власти, где привлеченный отбывает наказание.\n3. Залог за освобождение от наказания рассчитывается по следующему правилу: за каждые сутки административного ареста, неотбытые лицом, привлеченным к административной ответственности, залог составляет 4.000 рублей.",
+    "penalty": "Освобождение от наказания в виде административного ареста в связи с внесением залога 1. Лицо, которому за совершение административного правонарушения назначено наказание в виде административного ареста, может быть освобождено от отбывания наказания в связи с внесением залога. 2. Залог вносится либо лицом, привлеченным к административной ответственности лично, либо его представителем или законным представителем в учреждение органа государственной власти, где привлеченный отбывает наказание.",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "суд",
+      "залог"
+    ]
+  },
+  {
+    "id": "ru-admin-4-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.3",
+    "title": "Обстоятельства, смягчающие административную ответственность",
+    "text": "1. Обстоятельствами, смягчающими административную ответственность, признаются:\nа) раскаяние лица, совершившего административное правонарушение;\nб) добровольное прекращение противоправного поведения лицом, совершившим административное правонарушение;\nв) добровольное сообщение лицом, совершившим административное правонарушение, в орган, уполномоченный осуществлять производство по делу об административном правонарушении, о совершенном административном правонарушении;\nг) оказание лицом, совершившим административное правонарушение, содействия органу, уполномоченному осуществлять производство по делу об административном правонарушении;\nд) предотвращение лицом, совершившим административное правонарушение, вредных последствий административного правонарушения;\nе) добровольное возмещение лицом, совершившим административное правонарушение, причиненного ущерба или добровольное устранение причиненного вреда потерпевшему.\n2. Суд, орган, должностное лицо, рассматривающие дело об административном правонарушении, могут признать смягчающими обстоятельства, не указанные в настоящем Кодексе об административных правонарушениях.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-4-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.4",
+    "title": "Обстоятельства, отягчающие административную ответственность",
+    "text": "1. Обстоятельствами, отягчающими административную ответственность, признаются:\nа) продолжение противоправного поведения, несмотря на требование уполномоченных на то лиц прекратить его;\nб) повторное совершение однородного административного правонарушения, то есть совершение административного правонарушения в период, когда лицо считается подвергнутым административному наказанию;\nв) совершение административного правонарушения в составе группы лиц;\nг) совершение административного правонарушения в условиях чрезвычайного или военного положений, а также контр-террористической операции.\n2. Обстоятельства, предусмотренные частью 1 настоящей статьи, не могут учитываться как отягчающие в случае, если указанные обстоятельства предусмотрены в качестве квалифицирующего признака административного правонарушения соответствующими нормами об административной ответственности за совершение административного правонарушения.",
+    "penalty": "б) повторное совершение однородного административного правонарушения, то есть совершение административного правонарушения в период, когда лицо считается подвергнутым административному наказанию;",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-4-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.5",
+    "title": "Назначение административных наказаний за совершение нескольких административных правонарушений",
+    "text": "При совершении лицом двух и более административных правонарушений административное наказание назначается за каждое совершенное административное правонарушение.",
+    "penalty": "Назначение административных наказаний за совершение нескольких административных правонарушений При совершении лицом двух и более административных правонарушений административное наказание назначается за каждое совершенное административное правонарушение.",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-4-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.6",
+    "title": "Давность привлечения к административной ответственности",
+    "text": "1. Срок давности привлечения к административной ответственности устанавливается в 15 месяцев и исчисляется со дня совершения административного правонарушения.\n2. При ведущемся производстве по административному правонарушению срок давности привлечения к административной ответственности за совершенное административное правонарушение может быть продлен на основании постановления должностного лица, прокурора или суда.",
+    "penalty": "1. Срок давности привлечения к административной ответственности устанавливается в 15 месяцев и исчисляется со дня совершения административного правонарушения. 2. При ведущемся производстве по административному правонарушению срок давности привлечения к административной ответственности за совершенное административное правонарушение может быть продлен на основании постановления должностного лица, прокурора или суда.",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-4-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 4.7",
+    "title": "Возмещение имущественного ущерба и морального вреда, причиненных административным правонарушением",
+    "text": "1. Судья, рассматривая дело об административном правонарушении, вправе при отсутствии спора о возмещении имущественного ущерба одновременно с назначением административного наказания решить вопрос о возмещении имущественного ущерба.\nСпоры о возмещении имущественного ущерба разрешаются судом в порядке гражданского судопроизводства.\n2. По делу об административном правонарушении, рассматриваемому иными уполномоченными органом или должностным лицом, спор о возмещении имущественного ущерба разрешается судом в порядке гражданского судопроизводства.\n3. Споры о возмещении морального вреда, причиненного административным правонарушением, рассматриваются судом в порядке гражданского судопроизводства.\n\n\nРаздел II. ОСОБЕННАЯ ЧАСТЬ\n\n\nГлава 5. АДМИНИСТРАТИВНЫЕ ПРАВОНАРУШЕНИЯ, ПОСЯГАЮЩИЕ НА ПРАВА ГРАЖДАН",
+    "penalty": "1. Судья, рассматривая дело об административном правонарушении, вправе при отсутствии спора о возмещении имущественного ущерба одновременно с назначением административного наказания решить вопрос о возмещении имущественного ущерба.",
+    "section": "",
+    "chapter": "Глава 4. Назначение административного наказания",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-5-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 5.1",
+    "title": "Нарушение трудового законодательства и иных нормативных правовых актов, содержащих нормы трудового права",
+    "text": "1. Нарушение трудового законодательства и иных нормативных правовых актов, содержащих нормы трудового права, -\nвлечет предупреждение или наложение административного штрафа на должностных лиц в размере от 25.000 до 75.000 рублей; на юридических лиц - от 50.000 до 200.000 рублей.\n2. Совершение административного правонарушения, предусмотренного частью 1 настоящей статьи, лицом, ранее подвергнутым административному наказанию за аналогичное административное правонарушение, -\nвлечет наложение административного штрафа на должностных лиц в размере от 50.000 до 120.000 рублей; на юридических лиц - от 100.000 до 250.000 рублей.",
+    "penalty": "влечет предупреждение или наложение административного штрафа на должностных лиц в размере от 25.000 до 75.000 рублей; на юридических лиц - от 50.000 до 200.000 рублей. 2. Совершение административного правонарушения, предусмотренного частью 1 настоящей статьи, лицом, ранее подвергнутым административному наказанию за аналогичное административное правонарушение, - влечет наложение административного штрафа на должностных лиц в размере от 50.000 до 120.000 рублей; на юридических лиц - от 100.000 до 250.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 5. АДМИНИСТРАТИВНЫЕ ПРАВОНАРУШЕНИЯ, ПОСЯГАЮЩИЕ НА ПРАВА ГРАЖДАН",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-5-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 5.2",
+    "title": "Нарушение законодательства о собраниях, митингах, демонстрациях, шествиях и пикетировании",
+    "text": "Воспрепятствование организации или проведению собрания, митинга, демонстрации, шествия или пикетирования, проводимых в соответствии с законодательством Российской Федерации, либо участию в них, а равно принуждение к участию в них -\nвлечет наложение административного штрафа на граждан в размере от 30.000 до 50.000 рублей; на должностных лиц - от 50.000 до 150.000 рублей.",
+    "penalty": "влечет наложение административного штрафа на граждан в размере от 30.000 до 50.000 рублей; на должностных лиц - от 50.000 до 150.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 5. АДМИНИСТРАТИВНЫЕ ПРАВОНАРУШЕНИЯ, ПОСЯГАЮЩИЕ НА ПРАВА ГРАЖДАН",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-5-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 5.3",
+    "title": "Нарушение порядка рассмотрения обращений граждан",
+    "text": "Нарушение установленного законодательством Российской Федерации порядка рассмотрения обращений граждан, объединений граждан, в том числе юридических лиц, должностными лицами государственных органов, государственных учреждений и иных организаций, на которые возложено осуществление публично значимых функций, -\nвлечет наложение административного штрафа в размере от 10.000 до 50.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 10.000 до 50.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 5. АДМИНИСТРАТИВНЫЕ ПРАВОНАРУШЕНИЯ, ПОСЯГАЮЩИЕ НА ПРАВА ГРАЖДАН",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-5-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 5.4",
+    "title": "Оскорбление",
+    "text": "1. [★★] Оскорбление, то есть унижение чести и достоинства другого лица, выраженное в неприличной или иной противоречащей общепринятым нормам морали и нравственности форме, -\nвлечет наложение административного штрафа на граждан в размере от 10.000 до 25.000 рублей или административный арест на срок до 20 суток; на должностных лиц - от 30.000 до 50.000 рублей или административный арест на срок до 20 суток; на юридических лиц - от 25.000 до 100.000 рублей.\n2. [★★] Оскорбление, содержащееся в публичном выступлении, публично демонстрирующемся произведении или средствах массовой информации либо совершенное публично с использованием информационно-телекоммуникационных сетей, включая сеть \"Интернет\", или в отношении нескольких лиц, в том числе индивидуально не определенных, -\nвлечет наложение административного штрафа на граждан в размере от 12.000 до 28.000 рублей или административный арест на срок до 20 суток; на должностных лиц - от 50.000 до 100.000 рублей или административный арест на срок до 20 суток; на юридических лиц - от 85.000 до 130.000 рублей.\n3. [★★] Оскорбление, совершенное лицом, замещающим государственную должность в связи с осуществлением своих полномочий (должностных обязанностей), -\nвлечет наложение административного штрафа в размере от 90.000 до 130.000 рублей или административный арест на срок до 20 суток.",
+    "penalty": "влечет наложение административного штрафа на граждан в размере от 10.000 до 25.000 рублей или административный арест на срок до 20 суток; на должностных лиц - от 30.000 до 50.000 рублей или административный арест на срок до 20 суток; на юридических лиц - от 25.000 до 100.000 рублей. влечет наложение административного штрафа на граждан в размере от 12.000 до 28.000 рублей или административный арест на срок до 20 суток; на должностных лиц - от 50.000 до 100.000 рублей или административный арест на срок до 20 суток; на юридических лиц - от 85.000 до 130.000 рублей. влечет наложение административного штрафа в размере от 90.000 до 130.000 рублей или административный арест на срок до 20 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 5. АДМИНИСТРАТИВНЫЕ ПРАВОНАРУШЕНИЯ, ПОСЯГАЮЩИЕ НА ПРАВА ГРАЖДАН",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-5-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 5.5",
+    "title": "Клевета",
+    "text": "Клевета, то есть распространение заведомо ложных сведений, порочащих честь и достоинство другого лица или подрывающих его репутацию, -\nвлечет наложение административного штрафа на юридических лиц в размере от 100.000 до 200.000 рублей.\n\n\nГлава 6. Административные правонарушения, посягающие на здоровье, санитарно-эпидемиологическое благополучие населения и общественную нравственность",
+    "penalty": "влечет наложение административного штрафа на юридических лиц в размере от 100.000 до 200.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 5. АДМИНИСТРАТИВНЫЕ ПРАВОНАРУШЕНИЯ, ПОСЯГАЮЩИЕ НА ПРАВА ГРАЖДАН",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-6-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 6.1",
+    "title": "Побои",
+    "text": "[★★] Нанесение побоев или совершение иных насильственных действий, причинивших физическую боль, если эти действия не содержат уголовно наказуемого деяния, -\nвлечет наложение административного штрафа в размере от 20.000 до 50.000 рублей, либо административный арест на срок до 20 суток.",
+    "penalty": "влечет наложение административного штрафа в размере от 20.000 до 50.000 рублей, либо административный арест на срок до 20 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 6. Административные правонарушения, посягающие на здоровье, санитарно-эпидемиологическое благополучие населения и общественную нравственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-6-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 6.2",
+    "title": "Занятие проституцией",
+    "text": "[★★] Занятие проституцией -\nвлечет наложение административного штрафа в размере от 1.000 до 10.000 рублей или административный арест на срок до 15 суток.",
+    "penalty": "влечет наложение административного штрафа в размере от 1.000 до 10.000 рублей или административный арест на срок до 15 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 6. Административные правонарушения, посягающие на здоровье, санитарно-эпидемиологическое благополучие населения и общественную нравственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-6-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 6.3",
+    "title": "Пропаганда нетрадиционных сексуальных отношений и (или) предпочтений, смены пола, отказа от деторождения",
+    "text": "[★★] Пропаганда нетрадиционных сексуальных отношений и (или) предпочтений, смены пола либо отказа от деторождения, выразившаяся в распространении информации и (или) совершении публичных действий, направленных на формирование нетрадиционных сексуальных установок, привлекательности нетрадиционных сексуальных отношений и (или) предпочтений, смены пола либо отказа от деторождения или искаженного представления о социальной равноценности традиционных и нетрадиционных сексуальных отношений и (или) предпочтений либо социальной равноценности рождения детей и отказа от деторождения, либо навязывание информации о нетрадиционных сексуальных отношениях и (или) предпочтениях, смене пола либо об отказе от деторождения, вызывающей интерес к таким отношениям и (или) предпочтениям, смене пола либо отказу от деторождения -\nвлечет наложение административного штрафа на граждан в размере от 25.000 до 100.000 рублей или административный арест на срок до 20 суток; на должностных лиц - от 50.000 до 150.000 рублей.",
+    "penalty": "влечет наложение административного штрафа на граждан в размере от 25.000 до 100.000 рублей или административный арест на срок до 20 суток; на должностных лиц - от 50.000 до 150.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 6. Административные правонарушения, посягающие на здоровье, санитарно-эпидемиологическое благополучие населения и общественную нравственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-6-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 6.4",
+    "title": "Курение в общественных местах",
+    "text": "Курение, то есть использование специальных устройств или предметов (сигарет, кальянов, вейпов и пр.) в общественных местах -\nвлечет наложение административного штрафа в размере от 5.000 до 15.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 5.000 до 15.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 6. Административные правонарушения, посягающие на здоровье, санитарно-эпидемиологическое благополучие населения и общественную нравственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-6-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 6.7",
+    "title": "Воспрепятствование оказанию медицинской помощи",
+    "text": "Воспрепятствование в какой бы то ни было форме законной деятельности медицинского работника по оказанию медицинской помощи, если это действие не содержит признаков уголовно наказуемого деяния, -\nвлечет наложение административного штрафа в размере от 10.000 до 30.000 рублей.\n\n\nГлава 7. Административные правонарушения в области охраны собственности",
+    "penalty": "Воспрепятствование в какой бы то ни было форме законной деятельности медицинского работника по оказанию медицинской помощи, если это действие не содержит признаков уголовно наказуемого деяния, - влечет наложение административного штрафа в размере от 10.000 до 30.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 6. Административные правонарушения, посягающие на здоровье, санитарно-эпидемиологическое благополучие населения и общественную нравственность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-7-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 7.1",
+    "title": "Уничтожение или повреждение чужого имущества",
+    "text": "[★] Умышленное уничтожение или повреждение чужого имущества, если эти действия не повлекли причинение значительного ущерба, -\nвлечет наложение административного штрафа в размере от 3.000 до 15.000 рублей или административный арест на срок до 10 суток.\n\n\nГлава 8. Административные правонарушения в области дорожного движения",
+    "penalty": "влечет наложение административного штрафа в размере от 3.000 до 15.000 рублей или административный арест на срок до 10 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 7. Административные правонарушения в области охраны собственности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-8-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.1",
+    "title": "Управление транспортным средством, не зарегистрированным в установленном порядке",
+    "text": "Управление транспортным средством, не зарегистрированным в установленном порядке, -\nвлечет наложение административного штрафа в размере от 3.000 до 7.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 3.000 до 7.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.2",
+    "title": "Управление транспортным средством с нарушением правил установки на нем государственных регистрационных знаков",
+    "text": "1. Управление транспортным средством с нечитаемыми, нестандартными или установленными с нарушением требований государственного стандарта государственными регистрационными знаками, за исключением случаев, предусмотренных частью 2 настоящей статьи, -\nвлечет предупреждение или наложение административного штрафа в размере до 5.000 рублей.\n2. Управление транспортным средством без государственных регистрационных знаков, а равно управление транспортным средством без установленных на предусмотренных для этого местах государственных регистрационных знаков либо управление транспортным средством с государственными регистрационными знаками, видоизмененными или оборудованными с применением материалов, препятствующих идентификации государственных регистрационных знаков либо позволяющих их видоизменить или скрыть, -\nвлечет наложение административного штрафа в размере от 5.000 до 18.000 рублей или лишение права управления транспортными средствами.\n3. Управление транспортным средством с государственными регистрационными знаками, оборудованными с применением устройств, препятствующих идентификации государственных регистрационных знаков либо позволяющих их видоизменить или скрыть, -\nвлечет лишение права управления транспортными средствами.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере до 5.000 рублей. влечет наложение административного штрафа в размере от 5.000 до 18.000 рублей или лишение права управления транспортными средствами. влечет лишение права управления транспортными средствами.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "лишение",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.3",
+    "title": "Управление транспортным средством водителем, не имеющим при себе документов",
+    "text": "1. Управление транспортным средством водителем, не имеющим при себе регистрационных документов на транспортное средство -\nвлечет предупреждение или наложение административного штрафа в размере до 3.000 рублей.\n2. Управление транспортным средством водителем, не имеющим при себе документов на право управления им -\nвлечет предупреждение или наложение административного штрафа в размере до 7.000 рублей.\n3. Передача управления транспортным средством лицу, не имеющему при себе документов на право управления им, -\nвлечет наложение административного штрафа в размере до 25.000 рублей.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере до 3.000 рублей. влечет предупреждение или наложение административного штрафа в размере до 7.000 рублей. влечет наложение административного штрафа в размере до 25.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.4",
+    "title": "Нарушение правил применения ремней безопасности или мотошлемов",
+    "text": "Управление транспортным средством водителем, не пристегнутым ремнем безопасности, перевозка пассажиров, не пристегнутых ремнями безопасности, если конструкцией транспортного средства предусмотрены ремни безопасности, а равно управление мотоциклом или мопедом либо перевозка на мотоцикле пассажиров без мотошлемов или в незастегнутых мотошлемах -\nвлечет предупреждение либо наложение административного штрафа в размере до 5.000 рублей.",
+    "penalty": "влечет предупреждение либо наложение административного штрафа в размере до 5.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.5",
+    "title": "Управление транспортным средством водителем, не имеющим права управления транспортным средством",
+    "text": "1. Управление транспортным средством водителем, не имеющим права управления транспортным средством (за исключением учебной езды), -\nвлечет наложение административного штрафа в размере от 15.000 до 25.000 рублей.\n[★★] 2. Управление транспортным средством водителем, лишенным права управления транспортными средствами, -\nвлечет наложение административного штрафа в размере от 30.000 до 50.000 рублей, либо административный арест на срок до пятнадцати суток.\n3. Передача управления транспортным средством лицу, заведомо не имеющему права управления транспортным средством (за исключением учебной езды) или лишенному такого права, -\nвлечет наложение административного штрафа в размере 50.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 15.000 до 25.000 рублей. влечет наложение административного штрафа в размере от 30.000 до 50.000 рублей, либо административный арест на срок до пятнадцати суток. влечет наложение административного штрафа в размере 50.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.6",
+    "title": "Превышение установленной скорости движения",
+    "text": "1. Превышение установленной скорости движения транспортного средства на величину более 15 км/ч -\nвлечет наложение административного штрафа в размере до 10.000 рублей.\n2. Превышение установленной скорости движения транспортного средства на величину более 40 км/ч -\nвлечет наложение административного штрафа в размере до 25.000 рублей.\n3. Превышение установленной скорости движения транспортного средства на величину более 60 км/ч -\nвлечет наложение административного штрафа в размере до 35.000 рублей или лишение права управления транспортными средствами.",
+    "penalty": "влечет наложение административного штрафа в размере до 10.000 рублей. влечет наложение административного штрафа в размере до 25.000 рублей. влечет наложение административного штрафа в размере до 35.000 рублей или лишение права управления транспортными средствами.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.7",
+    "title": "Нарушение правил движения через железнодорожные пути",
+    "text": "Пересечение железнодорожного пути вне железнодорожного переезда, выезд на железнодорожный переезд при закрытом или закрывающемся шлагбауме либо остановка или стоянка на железнодорожном переезде либо проезд через нерегулируемый железнодорожный переезд, если к переезду в пределах видимости приближается поезд, -\nвлечет наложение административного штрафа в размере 15.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере 15.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-8-8",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.8",
+    "title": "Проезд на запрещающий жест регулировщика",
+    "text": "Проезд на запрещающий жест регулировщика, -\nвлечет наложение административного штрафа в размере 2.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере 2.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-8-9",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.9",
+    "title": "Нарушение правил проезда перекрестков",
+    "text": "Выезд на перекресток или пересечение проезжей части дороги в случае образовавшегося затора, который вынудил водителя остановиться, создав препятствие для движения транспортных средств в поперечном направлении, -\nвлечет наложение административного штрафа в размере до 2.500 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере до 2.500 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-10",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.10",
+    "title": "Нарушение правил расположения транспортного средства на проезжей части дороги, встречного разъезда или обгона",
+    "text": "1. Нарушение правил расположения транспортного средства на проезжей части дороги, встречного разъезда, а равно движение по обочинам или пересечение организованной транспортной или пешей колонны либо занятие места в ней -\nвлечет наложение административного штрафа в размере до 3.500 рублей.\n2. Движение по велосипедным или пешеходным дорожкам либо тротуарам -\nвлечет наложение административного штрафа в размере до 4.750 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере до 3.500 рублей. влечет наложение административного штрафа в размере до 4.750 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-11",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.11",
+    "title": "Несоблюдение требований, предписанных дорожными знаками или разметкой проезжей части дороги",
+    "text": "1. Несоблюдение требований, предписанных дорожными знаками или разметкой проезжей части дороги -\nвлечет предупреждение или наложение административного штрафа в размере до 2.500 рублей.\n2. Движение во встречном направлении по дороге с односторонним движением -\nвлечет наложение административного штрафа в размере до 3.000 рублей.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере до 2.500 рублей. влечет наложение административного штрафа в размере до 3.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-8-12",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.12",
+    "title": "Нарушение правил остановки или стоянки транспортных средств",
+    "text": "1. Нарушение правил остановки или стоянки транспортных средств -\nвлечет предупреждение или наложение административного штрафа в размере до 5.000 рублей.\n2. Нарушение правил остановки или стоянки транспортных средств в местах, отведенных для остановки, -\nвлечет наложение административного штрафа в размере до 7.000 рублей.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере до 5.000 рублей. влечет наложение административного штрафа в размере до 7.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-13",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.13",
+    "title": "Нарушение правил пользования внешними световыми приборами, звуковыми сигналами, аварийной сигнализацией или знаком аварийной остановки",
+    "text": "Нарушение правил пользования внешними световыми приборами, звуковыми сигналами, аварийной сигнализацией или знаком аварийной остановки -\nвлечет предупреждение или наложение административного штрафа в размере до 2.500 рублей.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере до 2.500 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-8-14",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.14",
+    "title": "Нарушение Правил дорожного движения или правил эксплуатации транспортного средства, повлекшее причинение легкого или средней тяжести вреда здоровью потерпевшего",
+    "text": "1. Нарушение Правил дорожного движения или правил эксплуатации транспортного средства, повлекшее причинение легкого вреда здоровью потерпевшего, -\nвлечет наложение административного штрафа в размере от 15.000 до 25.000 рублей или лишение права управления транспортными средствами.\n2. Нарушение Правил дорожного движения или правил эксплуатации транспортного средства, повлекшее причинение средней тяжести вреда здоровью потерпевшего, -\nвлечет наложение административного штрафа в размере от 20.000 до 37.000 рублей или лишение права управления транспортными средствами.",
+    "penalty": "влечет наложение административного штрафа в размере от 15.000 до 25.000 рублей или лишение права управления транспортными средствами. влечет наложение административного штрафа в размере от 20.000 до 37.000 рублей или лишение права управления транспортными средствами.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "лишение",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-15",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.15",
+    "title": "Невыполнение требования об остановке транспортного средства",
+    "text": "[★★] Невыполнение законного требования сотрудника полиции или должностного лица федерального органа исполнительной власти, осуществляющего функции по контролю и надзору в сфере транспорта, об остановке транспортного средства, -\nвлечет наложение административного штрафа в размере от 10.000 до 30.000 рублей или административный арест на срок до 20 суток.",
+    "penalty": "влечет наложение административного штрафа в размере от 10.000 до 30.000 рублей или административный арест на срок до 20 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-16",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.16",
+    "title": "Нарушение Правил дорожного движения пешеходом или иным лицом, участвующим в процессе дорожного движения",
+    "text": "Нарушение пешеходом или пассажиром транспортного средства Правил дорожного движения -\nвлечет предупреждение или наложение административного штрафа в размере до 3.000 рублей.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере до 3.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-8-17",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 8.17",
+    "title": "Неуплата штрафов, выданных на автотранспортное средство",
+    "text": "Запрещается передвижение, использование, стоянка транспортного средства, имеющего 10 и более активных (неоплаченных) штрафов -\nвлечет эвакуацию транспортного средства на спецстоянку (штрафстоянку) и оплату повышенного административного штрафа по тарифам спецстоянки\n\n\nГлава 9. Административные правонарушения, посягающие на институты государственной власти",
+    "penalty": "Неуплата штрафов, выданных на автотранспортное средство Запрещается передвижение, использование, стоянка транспортного средства, имеющего 10 и более активных (неоплаченных) штрафов - влечет эвакуацию транспортного средства на спецстоянку (штрафстоянку) и оплату повышенного административного штрафа по тарифам спецстоянки",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 8. Административные правонарушения в области дорожного движения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-9-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 9.1",
+    "title": "Невыполнение законных требований депутата Федерального Собрания Российской Федерации",
+    "text": "1. [★★] Невыполнение должностным лицом государственного органа, организации или общественного объединения законных требований депутата Федерального Собрания Российской Федерации либо создание препятствий в осуществлении их деятельности -\nвлечет наложение административного штрафа в размере от 35.000 до 55.000 рублей либо административный арест на срок до 15 суток.\n2. Несоблюдение должностным лицом установленных сроков предоставления информации (документов, материалов, ответов на обращения) депутату Федерального Собрания Российской Федерации -\nвлечет наложение административного штрафа в размере от 30.000 до 70.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 35.000 до 55.000 рублей либо административный арест на срок до 15 суток. 2. Несоблюдение должностным лицом установленных сроков предоставления информации (документов, материалов, ответов на обращения) депутату Федерального Собрания Российской Федерации - влечет наложение административного штрафа в размере от 30.000 до 70.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 9. Административные правонарушения, посягающие на институты государственной власти",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-9-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 9.2",
+    "title": "Неисполнение распоряжения судьи",
+    "text": "1. [★★] Неисполнение законного распоряжения судьи о прекращении действий, нарушающих установленные в суде правила, -\nвлечет наложение административного штрафа в размере от 10.000 до 25.000 рублей или административный арест на срок до пятнадцати суток.\n2. Неисполнение законного распоряжения судебного пристава по обеспечению установленного порядка деятельности судов о прекращении действий, нарушающих установленные в суде правила, -\nвлечет наложение административного штрафа в размере от 10.000 до 25.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 10.000 до 25.000 рублей или административный арест на срок до пятнадцати суток. влечет наложение административного штрафа в размере от 10.000 до 25.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 9. Административные правонарушения, посягающие на институты государственной власти",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-9-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 9.3",
+    "title": "Непринятие мер по частному определению или постановлению суда, представлению судьи",
+    "text": "1. Оставление должностным лицом без рассмотрения частного определения или постановления суда, представления судьи либо непринятие мер по устранению указанных в определении, постановлении или представлении нарушений закона -\nвлечет наложение административного штрафа в размере от 30.000 до 50.000 рублей.\n2. Неисполнение или ненадлежащее рассмотрение должностным лицом частного определения или постановления суда, представления судьи -\nвлечет наложение административного штрафа в размере от 35.000 до 55.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 30.000 до 50.000 рублей. влечет наложение административного штрафа в размере от 35.000 до 55.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 9. Административные правонарушения, посягающие на институты государственной власти",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-9-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 9.4",
+    "title": "Неуважение к Федеральному Собранию",
+    "text": "[★★] Неуважение к Федеральному Собранию Российской Федерации, то есть нарушение установленного порядка проведения заседаний Федерального Собрания или оскорбление депутата Федерального Собрания или неисполнение законного распоряжения Председателя Федерального Собрания или иных должностных лиц, обеспечивающих безопасность заседания, если эти деяния не содержат признаков уголовно-наказуемого деяния, -\nвлечет наложение административного штрафа в размере от 25.000 до 50.000 рублей или административный арест на срок до 20 суток.",
+    "penalty": "влечет наложение административного штрафа в размере от 25.000 до 50.000 рублей или административный арест на срок до 20 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 9. Административные правонарушения, посягающие на институты государственной власти",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-9-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 9.5",
+    "title": "Неявка депутата на заседания Федерального Собрания",
+    "text": "1. Неявка депутата Федерального Собрания на пленарное или экстренное заседание Федерального Собрания, надлежащим образом уведомленного о таковом заседании, -\nвлечет наложение административного штрафа в размере от 35.000 до 50.000 рублей.\n2. Неявка всех заявленных депутатов от органа государственной власти или политической партии Российской Федерации на экстренное или пленарное заседание Федерального Собрания Российской Федерации, уведомленных надлежащим образом о таковом заседании -\nвлечет наложение административного штрафа для юридических лиц в размере от 80.000 до 150.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 35.000 до 50.000 рублей. влечет наложение административного штрафа для юридических лиц в размере от 80.000 до 150.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 9. Административные правонарушения, посягающие на институты государственной власти",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-9-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 9.6",
+    "title": "Умышленное совершение государственным служащим деяния, запрещенного нормами служебного поведения",
+    "text": "1. Оскорбительное, пренебрежительное или унижающее честь и достоинство гражданина обращение со стороны государственного служащего при исполнении им должностных обязанностей, а равно использование нецензурных слов, кличек, прозвищ или фамильярного обращения -\nвлечет наложение административного штрафа в размере от 20.000 до 200.000 рублей.\n2. Несоблюдение государственным служащим требований к внешнему виду, установленных нормативными правовыми актами Российской Федерации -\nвлечет наложение административного штрафа в размере от 10.000 до 100.000 рублей.\n\n\nГлава 10. Административные правонарушения против порядка управления",
+    "penalty": "влечет наложение административного штрафа в размере от 20.000 до 200.000 рублей. влечет наложение административного штрафа в размере от 10.000 до 100.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 9. Административные правонарушения, посягающие на институты государственной власти",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-10-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 10.1",
+    "title": "Оскорбление представителя государственной власти",
+    "text": "[★★] Оскорбление лица, состоящего на государственной службе, в связи с исполнением им должностных обязанностей, -\nвлечет наложение административного штрафа в размере от 10.000 до 25.000 рублей или административный арест на срок 15 суток.",
+    "penalty": "влечет наложение административного штрафа в размере от 10.000 до 25.000 рублей или административный арест на срок 15 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 10. Административные правонарушения против порядка управления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-10-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 10.2",
+    "title": "Отказ от уплаты административного штрафа",
+    "text": "[★★] Отказ от уплаты административного штрафа, то есть передача штрафного тикета обратно без уплаты штрафа или устный или письменный отказ лица от уплаты штрафа или игнорирование штрафного тикета, -\nвлечет наложение административного штрафа в двукратном размере суммы неуплаченного административного штрафа, но не менее 3.000 рублей, либо административный арест на срок до 20 суток.",
+    "penalty": "Отказ от уплаты административного штрафа [★★] Отказ от уплаты административного штрафа, то есть передача штрафного тикета обратно без уплаты штрафа или устный или письменный отказ лица от уплаты штрафа или игнорирование штрафного тикета, - влечет наложение административного штрафа в двукратном размере суммы неуплаченного административного штрафа, но не менее 3.000 рублей, либо административный арест на срок до 20 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 10. Административные правонарушения против порядка управления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-10-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 10.3",
+    "title": "Не рассмотрение или ненадлежащее рассмотрение акта прокурорского реагирования",
+    "text": "Не рассмотрение, а равно рассмотрение протеста прокурора, представления прокурора в нарушение установленного законом срока -\nвлечет наложение административного штрафа в размере от 20.000 до 40.000 рублей.",
+    "penalty": "Не рассмотрение, а равно рассмотрение протеста прокурора, представления прокурора в нарушение установленного законом срока - влечет наложение административного штрафа в размере от 20.000 до 40.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 10. Административные правонарушения против порядка управления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-admin-10-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 10.4",
+    "title": "Заведомо ложный вызов специализированных служб",
+    "text": "Заведомо ложный вызов пожарной охраны, полиции, скорой медицинской помощи или иных специализированных служб -\nвлечет наложение административного штрафа в размере от 3.000 до 8.000 рублей.",
+    "penalty": "влечет наложение административного штрафа в размере от 3.000 до 8.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 10. Административные правонарушения против порядка управления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-10-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 10.5",
+    "title": "Нарушение порядка деятельности иностранного агента",
+    "text": "1. Несообщение лицом, не включенным в реестр иностранных агентов, об осуществлении им деятельности в качестве иностранного агента -\nвлечет наложение административного штрафа на граждан в размере от 30.000 до 50.000 рублей; на должностных лиц - в размере от 60.000 до 120.000 рублей.\n2. То же деяние, совершенное юридическим лицом, -\nвлечет наложение административного штрафа в размере от 40.000 до 110.000 рублей с административным приостановлением деятельности данного юридического лица на срок до трех месяцев.\n3. Неисполнение иностранным агентом обязанности или ограничения, предусмотренного законодательством Российской Федерации об иностранных агентах, если эти действия (бездействие) не содержат признаков уголовно-наказуемого деяния -\nвлечет наложение административного штрафа на граждан в размере от 35.000 до 55.000 рублей; на должностных лиц - в размере от 60.000 до 120.000 рублей; на юридических лиц - от 100.000 до 200.000 рублей.",
+    "penalty": "влечет наложение административного штрафа на граждан в размере от 30.000 до 50.000 рублей; на должностных лиц - в размере от 60.000 до 120.000 рублей. влечет наложение административного штрафа в размере от 40.000 до 110.000 рублей с административным приостановлением деятельности данного юридического лица на срок до трех месяцев. 3. Неисполнение иностранным агентом обязанности или ограничения, предусмотренного законодательством Российской Федерации об иностранных агентах, если эти действия (бездействие) не содержат признаков уголовно-наказуемого деяния -",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 10. Административные правонарушения против порядка управления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф"
+    ]
+  },
+  {
+    "id": "ru-admin-10-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 10.6",
+    "title": "Отказ от прохождения либо неудовлетворительное прохождение государственной проверки",
+    "text": "1. Отказ организации либо ее должностных лиц от прохождения предусмотренной законом государственной проверки, выражающийся в непредставлении необходимых документов, сведений и материалов, иные действия (бездействия), повлекшие нарушение установленной процедуры государственной проверки, -\nвлечет наложение административного штрафа от 20.000 до 40.000 рублей; на юридических лиц - от 50.000 до 500.000 рублей.\n2. Неудовлетворительное прохождение государственной проверки вследствие допущенных нарушений, препятствующих признанию ее результатов соответствующими установленным требованиям, -\nвлечет наложение административного штрафа до 500.000 рублей юридическим лицам.",
+    "penalty": "влечет наложение административного штрафа от 20.000 до 40.000 рублей; на юридических лиц - от 50.000 до 500.000 рублей. влечет наложение административного штрафа до 500.000 рублей юридическим лицам.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 10. Административные правонарушения против порядка управления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-10-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 10.7",
+    "title": "Незаконный отказ в доступе должностному лицу органа исполнительной власти, осуществляющего федеральный государственный контроль (надзор) в сфере здравоохранения, к осмотру территорий, помещений организации, в отношении которой проводится государственная проверка",
+    "text": "Незаконный отказ в доступе, а равно незаконное воспрепятствование доступу должностного лица Федерального органа исполнительной власти, осуществляющего федеральный государственный контроль (надзор) в сфере здравоохранения, проводящего государственную проверку в соответствии с законодательством Российской Федерации, к осмотру производственных, складских, служебных и иных помещений и территорий, находящихся в пользовании проверяемой организации -\nвлечет наложение административного штрафа на должностных лиц в размере 25.000 рублей; на юридических лиц - от 50.000 до 100.000 рублей.\n\n\nГлава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "penalty": "влечет наложение административного штрафа на должностных лиц в размере 25.000 рублей; на юридических лиц - от 50.000 до 100.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 10. Административные правонарушения против порядка управления",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-11-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.1",
+    "title": "Мелкое хулиганство",
+    "text": "[★★] Мелкое хулиганство, то есть нарушение общественного порядка, выражающее явное неуважение к обществу, сопровождающееся нецензурной бранью в общественных местах, оскорбительным приставанием к гражданам, а равно уничтожением или повреждением чужого имущества, -\nвлечет наложение административного штрафа в размере от 5.000 до 20.000 рублей или административный арест на срок до пятнадцати суток.",
+    "penalty": "влечет наложение административного штрафа в размере от 5.000 до 20.000 рублей или административный арест на срок до пятнадцати суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-11-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.2",
+    "title": "Нарушение установленного порядка организации либо проведения собрания, митинга, демонстрации, шествия или пикетирования",
+    "text": "1. Нарушение организатором публичного мероприятия установленного порядка организации либо проведения собрания, митинга, демонстрации, шествия или пикетирования, за исключением случаев, предусмотренных настоящей статьей, -\nвлечет наложение административного штрафа в размере от 25.000 до 50.000 рублей.\n2. Организация либо проведение публичного мероприятия без подачи в установленном порядке уведомления о проведении публичного мероприятия, -\nвлечет наложение административного штрафа в размере от 30.000 до 70.000 рублей.\n3. [★★] Нарушение участником публичного мероприятия установленного порядка проведения собрания, митинга, демонстрации, шествия или пикетирования -\nвлечет наложение административного штрафа в размере от 20.000 до 35.000 рублей или административный арест на срок до 20 суток.",
+    "penalty": "влечет наложение административного штрафа в размере от 25.000 до 50.000 рублей. влечет наложение административного штрафа в размере от 30.000 до 70.000 рублей. влечет наложение административного штрафа в размере от 20.000 до 35.000 рублей или административный арест на срок до 20 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-11-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.3",
+    "title": "Публичные действия, направленные на дискредитацию использования Вооруженных Сил Российской Федерации",
+    "text": "1. Публичные действия, направленные на дискредитацию использования Вооруженных Сил Российской Федерации в целях защиты интересов Российской Федерации и ее граждан, поддержания международного мира и безопасности, в том числе публичные призывы к воспрепятствованию использования Вооруженных Сил Российской Федерации в указанных целях, либо на дискредитацию исполнения государственными органами Российской Федерации своих полномочий за пределами территории Российской Федерации в указанных целях, а равно на дискредитацию оказания добровольческими формированиями, организациями или лицами содействия в выполнении задач, возложенных на Вооруженные Силы Российской Федерации или войска национальной гвардии Российской Федерации, если эти действия не содержат признаков уголовно наказуемого деяния, -\nвлекут наложение административного штрафа в размере от 40.000 до 55.000 рублей; на юридических лиц - от 100.000 до 250.000 рублей.\n2. Те же действия, сопровождающиеся призывами к проведению несанкционированных публичных мероприятий, а равно создающие угрозу причинения вреда жизни и (или) здоровью граждан, имуществу, угрозу массового нарушения общественного порядка и (или) общественной безопасности либо угрозу создания помех функционированию или прекращения функционирования объектов жизнеобеспечения, транспортной или социальной инфраструктуры, кредитных организаций, объектов энергетики, промышленности или связи, если эти действия не содержат признаков уголовно наказуемого деяния, -\nвлекут наложение административного штрафа в размере от 50.000 до 70.000 рублей; на юридических лиц - от 200.000 до 300.000 рублей.",
+    "penalty": "влекут наложение административного штрафа в размере от 40.000 до 55.000 рублей; на юридических лиц - от 100.000 до 250.000 рублей. влекут наложение административного штрафа в размере от 50.000 до 70.000 рублей; на юридических лиц - от 200.000 до 300.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-11-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.4",
+    "title": "Нарушение порядка, установленного в период действия чрезвычайного или военного положения",
+    "text": "1. [★★] Нарушение установленного режима комендантского часа, действующего в период чрезвычайного или военного положения, -\nвлечет административный арест на срок до 20 суток или наложение административного штрафа в размере до 20.000 рублей.\n2. [★★] Организация, проведение либо активное участие в публичном мероприятии (включая собрание, митинг, демонстрацию, шествие или пикетирование) в период действия чрезвычайного или военного положения -\nвлечет административный арест на срок до 20 суток или наложение административного штрафа в размере до 35.000 рублей.\n3. [★★] Отказ гражданина предъявить по требованию уполномоченного лица удостоверение личности в зоне действия чрезвычайного или военного положения -\nвлечет административный арест на срок до 15 суток или наложение административного штрафа в размере до 15.000 рублей.",
+    "penalty": "влечет административный арест на срок до 20 суток или наложение административного штрафа в размере до 20.000 рублей. влечет административный арест на срок до 20 суток или наложение административного штрафа в размере до 35.000 рублей. влечет административный арест на срок до 15 суток или наложение административного штрафа в размере до 15.000 рублей.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-11-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.5",
+    "title": "Распитие в общественных местах алкогольных напитков",
+    "text": "[★] Распитие в общественных местах алкогольной продукции, а равно нахождение в общественном месте в состоянии алкогольного опьянения -\nвлечет наложение административного штрафа в размере от 4.000 до 12.000 рублей или административный арест на срок до 10 суток.\nПримечание 1. Для целей настоящего Кодекса под общественным местом понимается любая территория или объект, предназначенные (используемые) для свободного доступа неопределенного круга лиц, включая (но не ограничиваясь): улицы, парки, скверы, пляжи, транспорт общего пользования, а также здания, строения, сооружения (в том числе административные, торговые, культурно-развлекательные, спортивные, медицинские и иные учреждения) и непосредственно прилегающие к ним территории.",
+    "penalty": "влечет наложение административного штрафа в размере от 4.000 до 12.000 рублей или административный арест на срок до 10 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-11-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.6",
+    "title": "Нахождение в общественном месте в неприемлемом виде",
+    "text": "[★] Нахождение в общественном месте без любого из элементов верхней одежды, то есть с оголенным торсом и(или) низом, -\nвлечет предупреждение или наложение административного штрафа в размере от 5.000 до 15.000 рублей или административный арест на срок 10 суток.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере от 5.000 до 15.000 рублей или административный арест на срок 10 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест"
+    ]
+  },
+  {
+    "id": "ru-admin-11-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.7",
+    "title": "Обнажение оружия в общественных местах",
+    "text": "[★★] Обнажение огнестрельного и (или) холодного вида оружия, специальных средств или спортивного инвентаря в общественном месте, лицом не состоящим на государственной службе в правоохранительных органах Российской Федерации или не исполняющим на тот момент должностные обязанности, без обоснованной необходимости, -\nвлечет предупреждение или наложение административного штрафа в размере от 10.000 до 20.000 рублей или административный арест на срок до 15 суток.",
+    "penalty": "влечет предупреждение или наложение административного штрафа в размере от 10.000 до 20.000 рублей или административный арест на срок до 15 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-11-8",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 11.8",
+    "title": "Нарушение режима посещения закрытых территорий",
+    "text": "[★★★] Незаконное проникновение на закрытую, в соответствии с законодательством Российской Федерации, территорию, равно как и нахождение на такой территории -\nвлечет наложение административного штрафа на граждан в размере от 50.000 до 80.000 рублей либо административный арест на срок до 24 суток.\n\n\nРаздел III. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях\n\n\nГлава 12. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "penalty": "влечет наложение административного штрафа на граждан в размере от 50.000 до 80.000 рублей либо административный арест на срок до 24 суток.",
+    "section": "Раздел II. ОСОБЕННАЯ ЧАСТЬ",
+    "chapter": "Глава 11. Административные правонарушения, посягающие на общественный порядок и общественную безопасность",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-12-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 12.1",
+    "title": "Судьи и органы, уполномоченные рассматривать дела об административных правонарушениях",
+    "text": "Дела об административных правонарушениях, предусмотренных настоящим Кодексом, рассматриваются в пределах компетенции, установленной настоящим Кодексом:\n1) судьями;\n2) федеральными органами исполнительной власти, их структурными подразделениями, территориальными органами и структурными подразделениями территориальных органов, а также иными государственными органами в соответствии с задачами и функциями, возложенными на них федеральными законами либо нормативными правовыми актами Президента Российской Федерации или Правительства Российской Федерации;\n3) органами прокуратуры Российской Федерации, прокурорами;\n4) председателем Федерального Собрания Российской Федерации.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "chapter": "Глава 12. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-12-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 12.2",
+    "title": "Судьи",
+    "text": "Судьи уполномочены рассматривать дело о любом административном правонарушении, предусмотренном настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "chapter": "Глава 12. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-12-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 12.3",
+    "title": "Органы внутренних дел (полиция)",
+    "text": "Органы внутренних дел (полиция) рассматривают дела об административных правонарушениях при непосредственном обнаружении должностными лицами органов внутренних дел (полиции) признаков административных правонарушений, за исключением правонарушений предусмотренных ст. 5.1, 5.3, 5.5, 9.1 - 9.6, 10.3, 10.5, 10.6, 10.7, 11.3 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "chapter": "Глава 12. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-12-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 12.4",
+    "title": "Органы прокуратуры (прокуроры)",
+    "text": "Органы прокуратуры Российской Федерации (прокуроры) уполномочены рассматривать дело о любом административном правонарушении, предусмотренном настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "chapter": "Глава 12. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-admin-12-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 12.5",
+    "title": "Председатель Федерального Собрания Российской Федерации",
+    "text": "Председатель Федерального Собрания (Государственной Думы) Российской Федерации рассматривает дела об административных правонарушениях при непосредственном обнаружении им признаков административных правонарушений, предусмотренных ст. 9.1, 9.4, 9.5 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "chapter": "Глава 12. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-12-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 12.6",
+    "title": "Органы военной полиции Вооруженных Сил Российской Федерации",
+    "text": "Органы военной полиции Вооруженных Сил Российской Федерации рассматривают дела об административных правонарушениях при непосредственном обнаружении ими признаков административных правонарушений в отношении военнослужащих Вооруженных Сил Российской Федерации.\n\n\nРаздел IV. Производство по делам об административных правонарушениях\n\n\nГлава 13. Общие положения",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел III. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "chapter": "Глава 12. Судьи, органы, должностные лица, уполномоченные рассматривать дела об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-13-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 13.1",
+    "title": "Задачи производства по делам об административных правонарушениях",
+    "text": "Задачами производства по делам об административных правонарушениях являются всестороннее, полное, объективное и своевременное выяснение обстоятельств каждого дела, разрешение его в соответствии с законом, обеспечение исполнения вынесенного постановления, а также выявление причин и условий, способствовавших совершению административных правонарушений.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 13. Общие положения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-13-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 13.2",
+    "title": "Доведение до сведения участников производства по делу об административном правонарушении информации о поступивших судье внепроцессуальных обращениях",
+    "text": "1. Не допускается внепроцессуальное обращение к судье, в производстве которого находится дело об административном правонарушении, либо к председателю суда, его заместителю, председателю судебного состава или председателю судебной коллегии по делам об административных правонарушениях, находящимся в производстве суда.\n2. Информация о внепроцессуальных обращениях государственных органов, иных органов, организаций, должностных лиц или граждан, поступивших судье, в производстве которого находится дело об административном правонарушении, либо председателю суда, его заместителю, председателю судебного состава или председателю судебной коллегии по делам об административных правонарушениях, находящимся в производстве суда, подлежит преданию гласности и доведению до сведения участников производства по делу и не является основанием для проведения процессуальных действий или принятия процессуальных решений по делам об административных правонарушениях.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 13. Общие положения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-13-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 13.3",
+    "title": "Ходатайства",
+    "text": "1. Лица, участвующие в производстве по делу об административном правонарушении, имеют право заявлять ходатайства, подлежащие обязательному рассмотрению судьей, органом, должностным лицом, в производстве которых находится данное дело.\n2. Ходатайство заявляется в письменной форме и подлежит немедленному рассмотрению. Решение об отказе в удовлетворении ходатайства выносится судьей, органом, должностным лицом, в производстве которых находится дело об административном правонарушении, в виде определения или решения на месте.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 13. Общие положения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-13-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 13.4",
+    "title": "Обстоятельства, исключающие производство по делу об административном правонарушении",
+    "text": "1. Производство по делу об административном правонарушении не может быть начато, а начатое производство подлежит прекращению при наличии хотя бы одного из следующих обстоятельств:\n1) отсутствие события административного правонарушения;\n2) отсутствие состава административного правонарушения;\n3) действия лица в состоянии крайней необходимости;\n4) издание акта амнистии, если такой акт устраняет применение административного наказания;\n5) признание утратившими силу закона или его положения, устанавливающих административную ответственность за содеянное, за исключением случая одновременного вступления в силу положений закона, отменяющих административную ответственность за содеянное и устанавливающих за то же деяние уголовную ответственность;\n6) истечение сроков давности привлечения к административной ответственности;\n7) смерть физического лица, в отношении которого ведется производство по делу об административном правонарушении;\n8) иные предусмотренные настоящим Кодексом обстоятельства, при наличии которых лицо, совершившее действия (бездействие), содержащие признаки состава административного правонарушения, освобождается от административной ответственности.",
+    "penalty": "4) издание акта амнистии, если такой акт устраняет применение административного наказания; 6) истечение сроков давности привлечения к административной ответственности;",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 13. Общие положения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-13-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 13.5",
+    "title": "Прокурорский надзор",
+    "text": "Генеральный прокурор Российской Федерации и назначаемые им прокуроры осуществляют в пределах своей компетенции надзор за соблюдением Конституции Российской Федерации и исполнением действующих на территории Российской Федерации законов при производстве по делам об административных правонарушениях, за исключением дел, находящихся в производстве суда.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 13. Общие положения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-13-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 13.6",
+    "title": "Подача процессуальных документов участниками производства по делу об административном правонарушении",
+    "text": "Заявление, ходатайство, жалоба, протест и иные документы подаются участниками производства по делу об административном правонарушении в электронном виде, в том числе в форме электронного документа. Ходатайства могут быть заявлены в простой устной форме при рассмотрении дела об административном правонарушении на месте. В случае подачи заявления, ходатайства, жалобы, протеста и иных документов в электронном виде, в том числе в форме электронного документа, прилагаемые к ним документы должны быть представлены также в электронном виде, в том числе в форме электронного документа.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 13. Общие положения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-13-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 13.7",
+    "title": "Истребование материалов дела об административном правонарушении",
+    "text": "1. При подготовке к рассмотрению жалобы на постановление (решение) по делу об административном правонарушении судья выносит определение об истребовании материалов дела об административном правонарушении, если для рассмотрения жалобы необходимо получение указанных материалов.\n2. В определении об истребовании материалов дела указываются наименование суда, сведения о деле, постановление (решение) по которому обжалуется, сведения о лице, в отношении которого вынесено постановление, статья настоящего Кодекса, предусматривающая административную ответственность за совершенное административное правонарушение, а также орган, должностное лицо или судья, в распоряжении которых находятся материалы дела.\n3. Материалы дела об административном правонарушении направляются в суд, вынесший определение об их истребовании, не позднее суток со дня получения определения, если иной срок не установлен в самом определении.\n4. Орган, должностное лицо или судья, в распоряжении которых находятся материалы дела об административном правонарушении, обязаны направить в суд материалы дела в полном объеме.\n\n\nГлава 14. Участники производства по делам об административных правонарушениях, их права и обязанности",
+    "penalty": "3. Материалы дела об административном правонарушении направляются в суд, вынесший определение об их истребовании, не позднее суток со дня получения определения, если иной срок не установлен в самом определении.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 13. Общие положения",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-14-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 14.1",
+    "title": "Лицо, в отношении которого ведется производство по делу об административном правонарушении",
+    "text": "1. Лицо, в отношении которого ведется производство по делу об административном правонарушении, вправе знакомиться со всеми материалами дела, с аудио- и видеозаписями, делать выписки из материалов дела об административном правонарушении, давать объяснения, представлять доказательства, заявлять ходатайства и отводы, пользоваться юридической помощью защитника, а также иными процессуальными правами в соответствии с настоящим Кодексом.\n2. Дело об административном правонарушении рассматривается с участием лица, в отношении которого ведется производство по делу об административном правонарушении. В отсутствие указанного лица дело может быть рассмотрено, если имеются данные о надлежащем извещении лица о месте и времени рассмотрения дела и если от лица не поступило ходатайство об отложении рассмотрения дела либо если такое ходатайство оставлено без удовлетворения.\n3. Судья, орган, должностное лицо, рассматривающие дело об административном правонарушении, вправе признать обязательным присутствие при рассмотрении дела лица, в отношении которого ведется производство по делу об административном правонарушении.\n4. Сотрудник, ведущий дело об административном правонарушении, обязан хранить доказательства оснований для возбуждения дела об административном правонарушении в течение 48 часов, запись должна быть цельная, со звуком, без элементов монтажа.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 14. Участники производства по делам об административных правонарушениях, их права и обязанности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-14-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 14.2",
+    "title": "Потерпевший",
+    "text": "1. Потерпевшим является физическое лицо или юридическое лицо, которым административным правонарушением причинен физический, имущественный или моральный вред.\n2. Потерпевший вправе знакомиться со всеми материалами дела об административном правонарушении, с аудио- и видеозаписями, делать выписки из материалов дела об административном правонарушении, давать объяснения, представлять доказательства, заявлять ходатайства и отводы, пользоваться юридической помощью представителя, обжаловать постановление (решение) по данному делу, пользоваться иными процессуальными правами в соответствии с настоящим Кодексом.\n3. Потерпевший может быть опрошен.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 14. Участники производства по делам об административных правонарушениях, их права и обязанности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-14-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 14.3",
+    "title": "Законные представители юридического лица",
+    "text": "1. Защиту прав и законных интересов юридического лица, в отношении которого ведется производство по делу об административном правонарушении, или юридического лица, являющегося потерпевшим, осуществляют его законные представители.\n2. Законными представителями юридического лица в соответствии с настоящим Кодексом являются его руководитель, а также иное лицо, признанное в соответствии с законом или учредительными документами органом юридического лица. Полномочия законного представителя юридического лица подтверждаются документами, удостоверяющими его служебное положение.\n3. Дело об административном правонарушении, совершенном юридическим лицом, рассматривается судьей с участием его законного представителя или защитника. В отсутствие указанных лиц дело может быть рассмотрено лишь в случаях, если имеются данные о надлежащем извещении лиц о месте и времени рассмотрения дела и если от них не поступило ходатайство об отложении рассмотрения дела либо если такое ходатайство оставлено без удовлетворения.\n4. При рассмотрении дела об административном правонарушении, совершенном юридическим лицом, судья, орган, должностное лицо, в производстве которых находится дело об административном правонарушении, вправе признать обязательным присутствие законного представителя юридического лица.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 14. Участники производства по делам об административных правонарушениях, их права и обязанности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "водитель"
+    ]
+  },
+  {
+    "id": "ru-admin-14-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 14.4",
+    "title": "Защитник и представитель",
+    "text": "1. Для оказания юридической помощи лицу, в отношении которого ведется производство по делу об административном правонарушении, в производстве по делу об административном правонарушении может участвовать защитник, а для оказания юридической помощи потерпевшему - представитель.\n2. В качестве защитника или представителя к участию в производстве по делу об административном правонарушении допускается адвокат или иное лицо.\n3. Полномочия адвоката удостоверяются ордером. Полномочия иного лица, оказывающего юридическую помощь, удостоверяются доверенностью, оформленной в соответствии с законом.\n4. Защитник и представитель, допущенные к участию в производстве по делу об административном правонарушении, вправе знакомиться со всеми материалами дела, с аудио- и видеозаписями, делать выписки из материалов дела об административном правонарушении, представлять доказательства, заявлять ходатайства и отводы, участвовать в рассмотрении дела, обжаловать применение мер обеспечения производства по делу, постановление (решение) по делу, пользоваться иными процессуальными правами в соответствии с настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 14. Участники производства по делам об административных правонарушениях, их права и обязанности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "ордер",
+      "адвокат"
+    ]
+  },
+  {
+    "id": "ru-admin-14-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 14.5",
+    "title": "Свидетель",
+    "text": "1. В качестве свидетеля по делу об административном правонарушении может быть вызвано лицо, которому могут быть известны обстоятельства дела, подлежащие установлению.\n2. Свидетель обязан явиться по вызову судьи, органа, должностного лица, в производстве которых находится дело об административном правонарушении, и дать правдивые показания: сообщить все известное ему по делу, ответить на поставленные вопросы.\n3. Свидетель вправе не свидетельствовать против себя самого, своего супруга.\n4. Свидетель предупреждается об ответственности за дачу заведомо ложных показаний.\n5. За отказ или за уклонение от исполнения обязанностей, предусмотренных частью 2 настоящей статьи, свидетель несет ответственность, предусмотренную законом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 14. Участники производства по делам об административных правонарушениях, их права и обязанности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-14-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 14.6",
+    "title": "Прокурор",
+    "text": "1. Прокурор в пределах своих полномочий вправе:\n1) возбуждать производство по делу об административном правонарушении;\n2) участвовать в рассмотрении дела об административном правонарушении, представлять доказательства, заявлять ходатайства, давать заключения по вопросам, возникающим во время рассмотрения дела;\n3) приносить протест на постановление (решение) по делу об административном правонарушении независимо от участия в деле, а также совершать иные предусмотренные федеральным законом действия.\n2. Прокурор извещается о месте и времени рассмотрения дела об административном правонарушении, возбужденного по инициативе прокурора.\n\n\nГлава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 14. Участники производства по делам об административных правонарушениях, их права и обязанности",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-admin-15-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.1",
+    "title": "Обстоятельства, подлежащие выяснению по делу об административном правонарушении",
+    "text": "По делу об административном правонарушении выяснению подлежат:\n1) наличие события административного правонарушения;\n2) лицо, совершившее противоправные действия (бездействие), за которые настоящим Кодексом или федеральным законом предусмотрена административная ответственность;\n3) виновность лица в совершении административного правонарушения;\n4) обстоятельства, смягчающие административную ответственность, и обстоятельства, отягчающие административную ответственность;\n5) характер и размер ущерба, причиненного административным правонарушением;\n6) обстоятельства, исключающие производство по делу об административном правонарушении;\n7) иные обстоятельства, имеющие значение для правильного разрешения дела, а также причины и условия совершения административного правонарушения.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-15-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.2",
+    "title": "Доказательства",
+    "text": "1. Доказательствами по делу об административном правонарушении являются любые фактические данные, на основании которых судья, орган, должностное лицо, в производстве которых находится дело, устанавливают наличие или отсутствие события административного правонарушения, виновность лица, привлекаемого к административной ответственности, а также иные обстоятельства, имеющие значение для правильного разрешения дела.\n2. Эти данные устанавливаются объяснениями лица, в отношении которого ведется производство по делу об административном правонарушении, показаниями потерпевшего, свидетелей, иными документами, а также показаниями специальных технических средств, вещественными доказательствами.\n3. Не допускается использование доказательств по делу об административном правонарушении, если указанные доказательства получены с нарушением закона.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-15-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.3",
+    "title": "Объяснения лица, в отношении которого ведется производство по делу об административном правонарушении, показания потерпевшего и свидетелей",
+    "text": "1. Объяснения лица, в отношении которого ведется производство по делу об административном правонарушении, показания потерпевшего и свидетелей представляют собой сведения, имеющие отношение к делу и сообщенные указанными лицами в устной или письменной форме.\n2. Объяснения лица, в отношении которого ведется производство по делу об административном правонарушении, показания потерпевшего и свидетелей отражаются в аудио (видео) протоколе, постановлении по делу об административном правонарушении.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-15-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.4",
+    "title": "Вещественные доказательства",
+    "text": "1. Под вещественными доказательствами по делу об административном правонарушении понимаются орудия совершения или предметы административного правонарушения, в том числе орудия совершения или предметы административного правонарушения, сохранившие на себе его следы.\n2. Вещественные доказательства в случае необходимости фотографируются или фиксируются иным установленным способом и приобщаются к делу об административном правонарушении. О наличии вещественных доказательств делается запись в протоколе об административном правонарушении или в ином протоколе, предусмотренном настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-15-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.5",
+    "title": "Документы",
+    "text": "1. Документы признаются доказательствами, если сведения, изложенные или удостоверенные в них организациями, их объединениями, должностными лицами и гражданами, имеют значение для производства по делу об административном правонарушении.\n2. Документы могут содержать сведения, зафиксированные как в письменной, так и в иной форме. К документам относятся материалы фото- и киносъемки, звуко- и видеозаписи, информационных баз и банков данных и иные носители информации.\n3. Судья, орган, должностное лицо, в производстве которых находится дело об административном правонарушении, обязаны принять необходимые меры по обеспечению сохранности документов до разрешения дела по существу, а также принять решение о них по окончании рассмотрения дела.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-15-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.6",
+    "title": "Поручения и запросы по делу об административном правонарушении",
+    "text": "1. Для получения доказательств по делу об административном правонарушении должностное лицо, осуществляющее производство по делу об административном правонарушении, вправе направлять запросы в органы исполнительной власти и подведомственные ему учреждения, иные органы исполнительной власти либо поручения о совершении отдельных действий, предусмотренных настоящим Кодексом, должностному лицу указанного органа или учреждения.\n2. Поручение либо запрос по делу об административном правонарушении подлежит исполнению не позднее чем в двухдневный срок со дня получения указанного поручения либо запроса.",
+    "penalty": "2. Поручение либо запрос по делу об административном правонарушении подлежит исполнению не позднее чем в двухдневный срок со дня получения указанного поручения либо запроса.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-15-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.7",
+    "title": "Истребование сведений",
+    "text": "Судья, орган, должностное лицо, в производстве которых находится дело об административном правонарушении, вправе вынести определение об истребовании сведений, необходимых для разрешения дела, в том числе сведений (информации), необходимых для расчета размера административного штрафа. Истребуемые сведения должны быть направлены в двухдневный срок со дня получения определения. При невозможности представления указанных сведений организация обязана в однодневный срок уведомить об этом в письменной форме судью, орган, должностное лицо, вынесших определение.",
+    "penalty": "Судья, орган, должностное лицо, в производстве которых находится дело об административном правонарушении, вправе вынести определение об истребовании сведений, необходимых для разрешения дела, в том числе сведений (информации), необходимых для расчета размера административного штрафа. Истребуемые сведения должны быть направлены в двухдневный срок со дня получения определения. При невозможности представления указанных сведений организация обязана в однодневный срок уведомить об этом в письменной форме судью, орган, должностное лицо, вынесших определение.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-15-8",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 15.8",
+    "title": "Оценка доказательств",
+    "text": "Судья, члены коллегиального органа, должностное лицо, осуществляющие производство по делу об административном правонарушении, оценивают доказательства по своему внутреннему убеждению, основанному на всестороннем, полном и объективном исследовании всех обстоятельств дела в их совокупности. Никакие доказательства не могут иметь заранее установленную силу.\n\n\nГлава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 15. Предмет доказывания. Доказательства. Оценка доказательств",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-16-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.1",
+    "title": "Меры обеспечения производства по делу об административном правонарушении",
+    "text": "1. В целях пресечения административного правонарушения, установления личности нарушителя, составления протокола об административном правонарушении при невозможности его составления на месте выявления административного правонарушения, обеспечения своевременного и правильного рассмотрения дела об административном правонарушении и исполнения принятого по делу постановления уполномоченное лицо вправе в пределах своих полномочий применять следующие меры обеспечения производства по делу об административном правонарушении:\n1) административное задержание;\n2) личный досмотр, досмотр вещей, досмотр транспортного средства, находящихся при физическом лице; осмотр принадлежащих юридическому лицу помещений, территорий, находящихся там вещей и документов;\n3) освидетельствование на состояние алкогольного опьянения;\n4) медицинское освидетельствование на состояние алкогольного опьянения;\n5) задержание транспортного средства;\n6) привод;\n7) отстранение от управления транспортным средством.\n2. При применении мер обеспечения производства по делу об административном правонарушении, рассмотрении дела об административном правонарушении, производстве предусмотренных настоящим Кодексом процессуальных действий, а равно судья, или по его поручению секретарь судебного заседания, должностное лицо, представитель коллегиального органа, рассматривающие дело, обязаны вести полную непрерывную видеозапись фактических обстоятельств происходящего и иных сведений, имеющих значение для производства по делу и любых других процессуальных действий.\nВидеозапись осуществляется техническими средствами, обеспечивающими возможность последующего воспроизведения изображения и звука, а также установления последовательности действий и лиц, участвующих в событии.\n3. Должностное лицо, ведущее видеозапись в соответствии с частью 2 настоящей статьи, обязано обеспечить хранение указанных видеоматериалов в течение 72 часов с момента окончания ведения видеозаписи.\n4. С момента надлежащего уведомления должностного лица о возбуждении в отношении него производства по делу, связанному с оспариванием совершенных им деяний, должностному лицу запрещается уничтожать, изменять, скрывать или повреждать доказательства, относящиеся к указанному производству, вне зависимости от сроков их хранения.",
+    "penalty": "4. С момента надлежащего уведомления должностного лица о возбуждении в отношении него производства по делу, связанному с оспариванием совершенных им деяний, должностному лицу запрещается уничтожать, изменять, скрывать или повреждать доказательства, относящиеся к указанному производству, вне зависимости от сроков их хранения.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "суд",
+      "транспорт",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-16-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.2",
+    "title": "Административное задержание",
+    "text": "1. Административное задержание - кратковременное ограничение свободы физического лица, применяемое в целях пресечения административного правонарушения, установления личности правонарушителя, составления протокола об административном правонарушении, назначения административного наказания либо обеспечения исполнения постановления по делу об административном правонарушении, если иное не установлено настоящим Кодексом.\n2. Применением административного задержания признается также кратковременное ограничение свободы физического лица, выраженное в обязательном требовании следовать за должностным лицом, оставаться в определенном месте либо не покидать место совершения административного правонарушения на время производства необходимых процессуальных действий, предусмотренных настоящим Кодексом.\n3. Административное задержание вправе осуществлять должностные лица органов внутренних дел (полиции), органов Федеральной Службы Безопасности Российской Федерации, органов военной полиции Вооруженных Сил Российской Федерации.",
+    "penalty": "1. Административное задержание - кратковременное ограничение свободы физического лица, применяемое в целях пресечения административного правонарушения, установления личности правонарушителя, составления протокола об административном правонарушении, назначения административного наказания либо обеспечения исполнения постановления по делу об административном правонарушении, если иное не установлено настоящим Кодексом. 2. Применением административного задержания признается также кратковременное ограничение свободы физического лица, выраженное в обязательном требовании следовать за должностным лицом, оставаться в определенном месте либо не покидать место совершения административного правонарушения на время производства необходимых процессуальных действий, предусмотренных настоящим Кодексом.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-16-2-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.2.1",
+    "title": "Порядок административного задержания подозреваемого",
+    "text": "1. Задержание лица производится в следующей последовательности:\nа) применить специальные средства с целью ограничить свободу лица;\nб) предъявить свое служебное удостоверение или иной идентификационный знак, подтверждающий принадлежность к органам государственной власти;\nв) на усмотрение сотрудника, проводящего задержание, провести обыск;\nг) разъяснить основания задержания и права, установленные частью 2 статьи 16.2.1 настоящего Кодекса;\nд) доставить подозреваемого в территориальный орган власти, отдел внутренних дел или иное место для дознания или следствия;\nе) провести идентификацию личности задержанного и проверку на принадлежность задержанного к государственным органам;\nж) реализовать права задержанного (на ожидание ответа адвоката отводится 3 минуты, на его приезд - 7. Задержанный вправе выбрать между государственным и частным защитником. На звонок и разговор по телефону отводится 2 минуты);\nз) в случае, если задержанный является государственным служащим, уведомить уполномоченные органы о задержании согласно ст. 16.2.2 настоящего Кодекса;\nз) произвести следственные действия, если в этом есть необходимость.\n2. В рамках административного задержания лицо имеет право хранить молчание и не свидетельствовать против себя и своего супруга, знакомиться с материалами дела, пользоваться юридической помощью защитника (адвоката), право запросить бесплатного защитника, осуществлять телефонный звонок и разговор длительностью до 2 минут, заявлять ходатайства и отводы.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "обыск",
+      "адвокат",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-16-2-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.2.2",
+    "title": "Особый порядок административного задержания",
+    "text": "1. В случае, если задержанное лицо состоит на государственной службе Российской Федерации и (или) является должностным лицом органа государственной власти, государственного органа, после доставления задержанного лица в место рассмотрения дела незамедлительно вызывается прокурор и вышестоящее должностное лицо (руководитель) задержанного лица.\n2. На время ожидания ответа указанных лиц процессуальный срок, установленный ч. 1 ст. 16.2.2 настоящего Кодекса, приостанавливается, но не более чем на 10 минут.\n3. При прибытии прокурора должностное лицо, осуществляющее административное задержание, передает прокурору все материалы дела об административном правонарушении. Прокурор заслушивает объяснения сторон по делу, знакомится с материалами дела, после чего дает оценку правомерности задержания, устанавливает наличие или отсутствие состава административного правонарушения в действиях (бездействии) задержанного лица и выносит одно из следующих решений:\n1) о назначении административного наказания, определяя вид и размер наказания;\n2) об освобождении лица, подвергнутого административному задержанию.\n4. В случае невозможности прибытия прокурора в 10-минутный срок с момента его вызова задержанное лицо подлежит освобождению, а все имеющиеся материалы дела об административном правонарушении - передаче в прокуратуру Российской Федерации.",
+    "penalty": "2. На время ожидания ответа указанных лиц процессуальный срок, установленный ч. 1 ст. 16.2.2 настоящего Кодекса, приостанавливается, но не более чем на 10 минут. 1) о назначении административного наказания, определяя вид и размер наказания; 4. В случае невозможности прибытия прокурора в 10-минутный срок с момента его вызова задержанное лицо подлежит освобождению, а все имеющиеся материалы дела об административном правонарушении - передаче в прокуратуру Российской Федерации.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "задержание",
+      "прокурор",
+      "суд",
+      "водитель",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-16-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.3",
+    "title": "Личный досмотр, досмотр вещей, досмотр транспортного средства, находящихся при физическом лице, осмотр принадлежащих юридическому лицу помещений, территорий, находящихся там вещей и документов",
+    "text": "Личный досмотр, досмотр вещей, находящихся при физическом лице, то есть обследование вещей, проводимое без нарушения их конструктивной целостности, осмотр принадлежащих юридическому лицу или индивидуальному предпринимателю используемых для осуществления предпринимательской деятельности помещений, территорий и находящихся там вещей и документов производится должностными лицами, производящими производство по делу об административном правонарушении, за совершение которого предусмотрено наказание в виде административного ареста.",
+    "penalty": "Личный досмотр, досмотр вещей, находящихся при физическом лице, то есть обследование вещей, проводимое без нарушения их конструктивной целостности, осмотр принадлежащих юридическому лицу или индивидуальному предпринимателю используемых для осуществления предпринимательской деятельности помещений, территорий и находящихся там вещей и документов производится должностными лицами, производящими производство по делу об административном правонарушении, за совершение которого предусмотрено наказание в виде административного ареста.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "арест",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-16-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.4",
+    "title": "Отстранение от управления транспортным средством, освидетельствование на состояние алкогольного опьянения и медицинское освидетельствование на состояние опьянения",
+    "text": "1. Лицо, которое управляет транспортным средством соответствующего вида и в отношении которого имеются достаточные основания полагать, что это лицо находится в состоянии опьянения, подлежит отстранению от управления транспортным средством до устранения причины отстранения.\n2. Отстранение от управления транспортным средством соответствующего вида, освидетельствование на состояние алкогольного опьянения, направление на медицинское освидетельствование на состояние опьянения осуществляются должностными лицами, которым предоставлено право государственного надзора и контроля за безопасностью движения и эксплуатации транспортного средства соответствующего вида, с применением видеозаписи.\n3. Критерии, при наличии которых имеются достаточные основания полагать, что лицо находится в состоянии опьянения и подлежит направлению на медицинское освидетельствование, и порядок проведения медицинского освидетельствования на состояние опьянения устанавливаются федеральным органом исполнительной власти, осуществляющим функции по выработке и реализации государственной политики и нормативно-правовому регулированию в сфере здравоохранения.",
+    "penalty": "3. Критерии, при наличии которых имеются достаточные основания полагать, что лицо находится в состоянии опьянения и подлежит направлению на медицинское освидетельствование, и порядок проведения медицинского освидетельствования на состояние опьянения устанавливаются федеральным органом исполнительной власти, осуществляющим функции по выработке и реализации государственной политики и нормативно-правовому регулированию в сфере здравоохранения.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-16-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.5",
+    "title": "Задержание транспортного средства",
+    "text": "1. В целях пресечения нарушений правил дорожного движения, в том числе нарушений, предусмотренных в части несоблюдения требований, предписанных дорожными знаками или разметкой, запрещающими остановку или стоянку транспортных средств, правил эксплуатации, использования транспортного средства и управления транспортным средством соответствующего вида, применяется задержание (эвакуация) транспортного средства, то есть исключение транспортного средства из процесса перевозки людей и грузов путем перемещения его при помощи другого транспортного средства и помещения на свободную парковку общего пользования.\n2. Задержание транспортного средства прекращается непосредственно на месте задержания транспортного средства в присутствии лица, которое может управлять данным транспортным средством, если причина задержания транспортного средства устранена до начала движения транспортного средства и (или) уплачен административный штраф.",
+    "penalty": "2. Задержание транспортного средства прекращается непосредственно на месте задержания транспортного средства в присутствии лица, которое может управлять данным транспортным средством, если причина задержания транспортного средства устранена до начала движения транспортного средства и (или) уплачен административный штраф.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "задержание",
+      "транспорт"
+    ]
+  },
+  {
+    "id": "ru-admin-16-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 16.6",
+    "title": "Привод",
+    "text": "1. В случаях неявки лица на рассмотрение дела об административном правонарушении, при условии что его явка признана судьей, органом, должностным лицом обязательной, применяется привод физического лица либо законного представителя юридического лица, в отношении которых ведется производство по делу об административном правонарушении, привлекаемого к административной ответственности, а также свидетеля.\n2. Привод осуществляется органом внутренних дел (полицией), органом федеральной службы безопасности на основании определения указанного органа, иного органа, должностного лица, рассматривающих дело об административном правонарушении, в порядке, установленном федеральным органом исполнительной власти в области внутренних дел.\n\n\nГлава 17. Возбуждение дела об административном правонарушении",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 16. Применение мер обеспечения производства по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-17-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.1",
+    "title": "Возбуждение дела об административном правонарушении",
+    "text": "1. Поводами к возбуждению дела об административном правонарушении являются:\n1) непосредственное обнаружение должностными лицами, уполномоченными составлять протоколы об административных правонарушениях, достаточных данных, указывающих на наличие события административного правонарушения;\n2) поступившие из правоохранительных органов, а также из других государственных органов, от общественных объединений материалы, содержащие данные, указывающие на наличие события административного правонарушения;\n3) сообщения и заявления физических и юридических лиц, а также сообщения в средствах массовой информации, содержащие данные, указывающие на наличие события административного правонарушения;\n4) фиксация административного правонарушения в области дорожного движения работающими в автоматическом режиме специальными техническими средствами, имеющими функции фото- и киносъемки, видеозаписи, или средствами фото- и киносъемки, видеозаписи.\n2. Указанные в части 1 настоящей статьи материалы, сообщения, заявления подлежат рассмотрению должностными лицами, уполномоченными составлять протоколы об административных правонарушениях.\n3. Дело об административном правонарушении может быть возбуждено должностным лицом, уполномоченным составлять протоколы об административных правонарушениях, только при наличии хотя бы одного из поводов, предусмотренных частью 1 настоящей статьи, и достаточных данных, указывающих на наличие события административного правонарушения.\n4. Дело об административном правонарушении считается возбужденным с момента:\n1) применения мер обеспечения производства по делу об административном правонарушении;\n2) составления протокола об административном правонарушении или вынесения прокурором постановления о возбуждении дела об административном правонарушении;\n3) вынесения определения о возбуждении дела об административном правонарушении при необходимости проведения административного расследования.\n5. В случае отказа в возбуждении дела об административном правонарушении при наличии материалов, сообщений, заявлений, указанных в пунктах 2 и 3 части 1 настоящей статьи, должностным лицом, рассмотревшим указанные материалы, сообщения, заявления, выносится мотивированное определение (решение на месте) об отказе в возбуждении дела об административном правонарушении.",
+    "penalty": "4) фиксация административного правонарушения в области дорожного движения работающими в автоматическом режиме специальными техническими средствами, имеющими функции фото- и киносъемки, видеозаписи, или средствами фото- и киносъемки, видеозаписи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-17-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.2",
+    "title": "Протокол об административном правонарушении",
+    "text": "1. О совершении административного правонарушения составляется протокол, за исключением случаев, предусмотренных статьями 17.6, 18.6 настоящего Кодекса.\n2. В протоколе об административном правонарушении указываются дата и место его составления, должность, имя и фамилия лица, составившего протокол, сведения о лице, в отношении которого возбуждено дело об административном правонарушении, фамилии, имена, адреса места жительства свидетелей и потерпевших, если имеются свидетели и потерпевшие, место, время совершения и событие административного правонарушения, статья настоящего Кодекса или Федерального закона, предусматривающая административную ответственность за данное административное правонарушение, объяснение физического лица или законного представителя юридического лица (при наличии), в отношении которых возбуждено дело, иные сведения, необходимые для разрешения дела.\n3. При составлении протокола об административном правонарушении физическому лицу или законному представителю юридического лица, в отношении которых возбуждено дело об административном правонарушении, а также иным участникам производства по делу разъясняются их права и обязанности, предусмотренные настоящим Кодексом.\n4. Физическому лицу или законному представителю юридического лица, в отношении которых возбуждено дело об административном правонарушении, по их ходатайству должна быть предоставлена возможность ознакомления с протоколом об административном правонарушении.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-17-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.3",
+    "title": "Должностные лица, уполномоченные составлять протоколы об административных правонарушениях",
+    "text": "1. Протоколы об административных правонарушениях, предусмотренных настоящим Кодексом, составляются должностными лицами органов, уполномоченных рассматривать дела об административных правонарушениях в соответствии с главой 12 настоящего Кодекса, в пределах компетенции соответствующего органа.\n2. Помимо случаев, предусмотренных частью 1 настоящей статьи, протоколы об административных правонарушениях вправе составлять должностные лица федеральных органов исполнительной власти, их структурных подразделений и территориальных органов, должностные лица иных государственных органов в соответствии с задачами и функциями, возложенными на них федеральными законами либо нормативными правовыми актами Президента Российской Федерации или Правительства Российской Федерации:\n1) Федеральный орган исполнительной власти, осуществляющий федеральный государственный контроль (надзор) в сфере юстиции, об административных правонарушениях, предусмотренных ст. 5.1, 5.3, 6.4, 9.1, 9.2, 9.3, 9.4, 9.5, 10.1, 10.2, 10.4, 10.7, 10.8, 11.2, 11.3, 11.9 настоящего Кодекса;\n2) Федеральный орган исполнительной власти, осуществляющий федеральный государственный контроль (надзор) в сфере здравоохранения, об административных правонарушениях, предусмотренных ст. ст. 6.2, 6.5, 6.7, 10.9 настоящего Кодекса.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-17-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.4",
+    "title": "Возбуждение дел об административных правонарушениях прокурором",
+    "text": "1. При осуществлении надзора за соблюдением Конституции Российской Федерации и исполнением законов, действующих на территории Российской Федерации, прокурор вправе возбудить дело о любом административном правонарушении, ответственность за которое предусмотрена настоящим Кодексом или Федеральным законом.\n2. О возбуждении дела об административном правонарушении прокурором выносится постановление, которое должно содержать сведения, предусмотренные статьей 17.2 настоящего Кодекса. Указанное постановление выносится в сроки, установленные статьей 17.5 настоящего Кодекса.",
+    "penalty": "2. О возбуждении дела об административном правонарушении прокурором выносится постановление, которое должно содержать сведения, предусмотренные статьей 17.2 настоящего Кодекса. Указанное постановление выносится в сроки, установленные статьей 17.5 настоящего Кодекса.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор"
+    ]
+  },
+  {
+    "id": "ru-admin-17-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.5",
+    "title": "Сроки составления протокола об административном правонарушении",
+    "text": "1. Протокол об административном правонарушении составляется немедленно после выявления совершения административного правонарушения, за исключением случаев, предусмотренных частями 2 и 3 настоящей статьи, ст. 17.6 настоящего Кодекса.\n2. В случае, если требуется дополнительное выяснение обстоятельств дела либо данных о физическом лице или сведений о юридическом лице, в отношении которых возбуждается дело об административном правонарушении, протокол об административном правонарушении составляется в течение суток с момента выявления административного правонарушения.\n3. В случае проведения административного расследования протокол об административном правонарушении составляется по окончании расследования в сроки, предусмотренные законодательством.",
+    "penalty": "Сроки составления протокола об административном правонарушении 3. В случае проведения административного расследования протокол об административном правонарушении составляется по окончании расследования в сроки, предусмотренные законодательством.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-17-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.6",
+    "title": "Назначение административного наказания без составления протокола",
+    "text": "В случае, если непосредственно после совершения физическим лицом административного правонарушения уполномоченным на то должностным лицом назначается административное наказание в виде предупреждения, административного штрафа или административного ареста, протокол об административном правонарушении не составляется, а выносится решение по делу об административном правонарушении в порядке ст. 18.6 настоящего Кодекса.",
+    "penalty": "Назначение административного наказания без составления протокола В случае, если непосредственно после совершения физическим лицом административного правонарушения уполномоченным на то должностным лицом назначается административное наказание в виде предупреждения, административного штрафа или административного ареста, протокол об административном правонарушении не составляется, а выносится решение по делу об административном правонарушении в порядке ст. 18.6 настоящего Кодекса.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "штраф",
+      "арест",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-17-7",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.7",
+    "title": "Административное расследование",
+    "text": "1. При необходимости проведения административного расследования осуществляются экспертиза и иные процессуальные действия, требующие значительных временных затрат. Под административным расследованием понимается комплекс требующих значительных временных затрат процессуальных действий, направленных на выяснение всех обстоятельств административного правонарушения, их фиксирование, юридическую квалификацию и процессуальное оформление. Проведение административного расследования должно состоять из реальных действий, направленных на получение необходимых сведений, в том числе путем проведения экспертизы, установления потерпевших, свидетелей, допроса лиц, проживающих в другой местности.\n2. Решение о возбуждении дела об административном правонарушении и проведении административного расследования принимается должностным лицом, уполномоченным в соответствии со статьей 17.3 настоящего Кодекса составлять протокол об административном правонарушении, в виде определения, а прокурором - в виде постановления немедленно после выявления факта совершения административного правонарушения.\n3. В определении о возбуждении дела об административном правонарушении и проведении административного расследования указываются дата и место составления определения, должность, фамилия и инициалы лица, составившего определение, повод для возбуждения дела об административном правонарушении, данные, указывающие на наличие события административного правонарушения, статья настоящего Кодекса либо Федерального закона, предусматривающая административную ответственность за данное административное правонарушение. При вынесении определения о возбуждении дела об административном правонарушении и проведении административного расследования физическому лицу или законному представителю юридического лица, в отношении которых оно вынесено, а также иным участникам производства по делу об административном правонарушении разъясняются их права и обязанности, предусмотренные настоящим Кодексом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-17-8",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 17.8",
+    "title": "Направление протокола (постановления прокурора) об административном правонарушении для рассмотрения дела об административном правонарушении",
+    "text": "1. Протокол (постановление прокурора) об административном правонарушении и другие материалы дела об административном правонарушении направляются судье, в орган, должностному лицу, уполномоченным рассматривать дело об административном правонарушении, незамедлительно с момента составления протокола (вынесения постановления) об административном правонарушении.\n2. В случае, если протокол об административном правонарушении составлен неправомочным лицом, а также в иных случаях, предусмотренных настоящим Кодексом, недостатки протокола и других материалов дела об административном правонарушении устраняются в срок не более суток со дня их поступления (получения) от судьи, органа, должностного лица, рассматривающих дело об административном правонарушении. Материалы дела об административном правонарушении с внесенными в них изменениями и дополнениями возвращаются указанным судье, органу, должностному лицу в течение суток со дня устранения соответствующих недостатков.\n\n\nГлава 18. Рассмотрение дела об административном правонарушении",
+    "penalty": "2. В случае, если протокол об административном правонарушении составлен неправомочным лицом, а также в иных случаях, предусмотренных настоящим Кодексом, недостатки протокола и других материалов дела об административном правонарушении устраняются в срок не более суток со дня их поступления (получения) от судьи, органа, должностного лица, рассматривающих дело об административном правонарушении. Материалы дела об административном правонарушении с внесенными в них изменениями и дополнениями возвращаются указанным судье, органу, должностному лицу в течение суток со дня устранения соответствующих недостатков.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 17. Возбуждение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-18-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 18.1",
+    "title": "Подготовка к рассмотрению дела об административном правонарушении",
+    "text": "Судья, орган, должностное лицо при подготовке к рассмотрению дела об административном правонарушении выясняют следующие вопросы:\n1) относится ли к их компетенции рассмотрение данного дела;\n2) имеются ли обстоятельства, исключающие возможность рассмотрения данного дела судьей, членом коллегиального органа, должностным лицом;\n3) правильно ли составлены протокол об административном правонарушении и другие протоколы, предусмотренные настоящим Кодексом, а также правильно ли оформлены иные материалы дела;\n4) имеются ли обстоятельства, исключающие производство по делу;\n5) достаточно ли имеющихся по делу материалов для его рассмотрения по существу;\n6) имеются ли ходатайства и отводы.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 18. Рассмотрение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-18-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 18.2",
+    "title": "Отвод судьи, члена коллегиального органа, должностного лица",
+    "text": "1. Судья, член коллегиального органа, должностное лицо, на рассмотрение которых передано дело об административном правонарушении, не могут рассматривать данное дело в случае, если это лицо:\n1) является родственником лица, в отношении которого ведется производство по делу об административном правонарушении, потерпевшего, законного представителя физического или юридического лица, защитника или представителя;\n2) лично, прямо или косвенно заинтересовано в разрешении дела.\n2. При наличии обстоятельств, предусмотренных частью 1 настоящей статьи, судья, член коллегиального органа, должностное лицо обязаны заявить самоотвод. Заявление о самоотводе подается председателю соответствующего суда, руководителю коллегиального органа, вышестоящему должностному лицу.\n3. При наличии обстоятельств, предусмотренных частью 1 настоящей статьи, лицо, в отношении которого ведется производство по делу об административном правонарушении, потерпевший, законный представитель физического или юридического лица, защитник, представитель, прокурор вправе заявить отвод судье, члену коллегиального органа, должностному лицу, который разрешается этим же лицом.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 18. Рассмотрение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "прокурор",
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-18-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 18.3",
+    "title": "Назначение дела об административном правонарушении к рассмотрению",
+    "text": "1. Судья, орган, должностное лицо, производящее производство по делу об административном правонарушении, установив в порядке письменного производства, что дело достаточно подготовлено для его рассмотрения по существу, выносит определение о назначении дела к рассмотрению, в котором указывает:\nдату и место вынесения определения;\nдолжностное лицо, вынесшее определение;\nместо рассмотрения дела об административном правонарушении;\nдату и время рассмотрения дела об административном правонарушении;\nлица, вызванные на рассмотрение дела об административном правонарушении.\n2. Определение о назначении дела об административном правонарушении к рассмотрению выносится не позднее чем за 20 часов до времени рассмотрения дела, о чем лица, вызванные на рассмотрение дела, уведомляются не позднее чем за 12 часов до времени рассмотрения дела.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 18. Рассмотрение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-18-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 18.4",
+    "title": "Рассмотрение дела об административном правонарушении",
+    "text": "1. Дело об административном правонарушении рассматривается в следующем порядке:\n1) объявляется, кто рассматривает дело, какое дело подлежит рассмотрению, кто и на основании какого закона привлекается к административной ответственности;\n2) устанавливается факт явки лиц, вызванных на рассмотрение дела;\n3) проверяются полномочия законных представителей физического или юридического лица, защитника и представителя;\n4) выясняется, извещены ли участники производства по делу в установленном порядке, выясняются причины неявки участников производства по делу и принимается решение о рассмотрении дела в отсутствие указанных лиц либо об отложении рассмотрения дела;\n5) разъясняются лицам, участвующим в рассмотрении дела, их права и обязанности;\n6) рассматриваются заявленные отводы и ходатайства;\n7) стороны по делу озвучивают вступительное слово;\n8) опрашиваются свидетели, потерпевшие по делу, лицо, в отношении которого ведется производство по делу;\n9) стороны по делу выступают в прениях.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 18. Рассмотрение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": []
+  },
+  {
+    "id": "ru-admin-18-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 18.5",
+    "title": "Решение по делу об административном правонарушении",
+    "text": "1. По результатам рассмотрения дела об административном правонарушении судья, орган, должностное лицо выносит одно из следующих решений:\nпостановление по делу об административном правонарушении, которое должно содержать:\nа) должность, фамилию, имя судьи, должностного лица, наименование и состав коллегиального органа, вынесших постановление, их адрес;\nб) дату и место рассмотрения дела;\nв) сведения о лице, в отношении которого рассмотрено дело;\nг) обстоятельства, установленные при рассмотрении дела;\nд) статью настоящего Кодекса или Федерального закона, предусматривающую административную ответственность за совершение административного правонарушения, либо основания прекращения производства по делу;\nе) мотивированное решение по делу;\nё) срок и порядок обжалования постановления;\nпостановление о прекращении производства по делу об административном правонарушении в случае:\nа) наличия хотя бы одного из основаций, предусмотренных ч. 1 ст. 13.4 настоящего Кодекса;\nб) объявления устного замечания в соответствии со статьей 2.5 настоящего Кодекса.\n2. Если при решении вопроса о назначении судьей административного наказания за административное правонарушение одновременно решается вопрос о возмещении имущественного ущерба, то в постановлении по делу об административном правонарушении указываются размер ущерба, подлежащего возмещению, сроки и порядок его возмещения.\n3. Постановление по делу об административном правонарушении, вынесенное коллегиальным органом, принимается простым большинством голосов членов коллегиального органа, присутствующих на заседании.\n4. Постановление по делу об административном правонарушении подписывается судьей, председательствующим в заседании коллегиального органа, или должностным лицом, вынесшим постановление.\n5. Постановление по делу об административном правонарушении вступает в законную силу немедленно с момента вынесения.",
+    "penalty": "ё) срок и порядок обжалования постановления; 2. Если при решении вопроса о назначении судьей административного наказания за административное правонарушение одновременно решается вопрос о возмещении имущественного ущерба, то в постановлении по делу об административном правонарушении указываются размер ущерба, подлежащего возмещению, сроки и порядок его возмещения.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 18. Рассмотрение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-18-6",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 18.6",
+    "title": "Особый порядок рассмотрения дела об административном правонарушении",
+    "text": "1. В случае, предусмотренном статьей 17.6 настоящего Кодекса, должностное лицо на месте либо в помещении органа государственной власти, если лицо, в отношении которого ведется производство по делу об административном правонарушении, задержано в порядке ст. ст. 16.2, 16.2.1 настоящего Кодекса, заслушивает объяснения сторон, после чего в устной форме выносит одно из следующих решений:\n1) о признании лица, в отношении которого ведется производство по делу об административном правонарушении, виновным в совершении административного правонарушения и назначении ему наказания;\n2) о прекращении дела об административном правонарушении и объявлении устного замечания на основании ст. 2.5 настоящего Кодекса;\n3) о прекращении дела об административном правонарушении по одному или нескольким основаниям, предусмотренным ч. 1 ст. 13.4 настоящего Кодекса.\n2. В случае, предусмотренном статьей 17.6 настоящего Кодекса, если лицо, в отношении которого ведется производство по делу об административном правонарушении, задержано и состоит на государственной службе Российской Федерации и (или) является должностным лицом органа государственной власти, государственного органа, то дело об административном правонарушении рассматривается в порядке ст. 16.2.2 настоящего Кодекса.\n\n\nГлава 19. Пересмотр постановлений и решений по делам об административных правонарушениях",
+    "penalty": "1) о признании лица, в отношении которого ведется производство по делу об административном правонарушении, виновным в совершении административного правонарушения и назначении ему наказания;",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 18. Рассмотрение дела об административном правонарушении",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-19-1",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 19.1",
+    "title": "Право на обжалование постановления или решения по делу об административном правонарушении",
+    "text": "1. Постановление или решение по делу об административном правонарушении может быть обжаловано лицами, указанными в статьях 14.1 - 14.6 настоящего Кодекса:\n1) вынесенное судьей - в вышестоящий суд;\n2) вынесенное коллегиальным органом - в городской (окружной) суд по месту нахождения коллегиального органа;\n3) вынесенное должностным лицом - в вышестоящий орган, вышестоящему должностному лицу, в прокуратуру либо в суд по месту рассмотрения дела.\n2. Постановление или решение по делу об административном правонарушении, вынесенное судьей, может быть также обжаловано в вышестоящий суд органом, должностным лицом, которое составило протокол об административном правонарушении настоящего Кодекса.\n3. В случае, если жалоба на постановление или решение по делу об административном правонарушении поступила в суд и в вышестоящий орган, вышестоящему должностному лицу, жалобу рассматривает суд. По результатам рассмотрения жалобы выносится решение.\n4. Определение об отказе в возбуждении дела об административном правонарушении обжалуется в соответствии с правилами, установленными настоящей главой.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 19. Пересмотр постановлений и решений по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-19-2",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 19.2",
+    "title": "Порядок подачи жалобы на постановление по делу об административном правонарушении",
+    "text": "1. Жалоба на решение по делу об административном правонарушении подается непосредственно в соответствующий суд, вышестоящий орган, вышестоящему должностному лицу в течение 48 часов с момента вынесения решения.\n2. В случае, если рассмотрение жалобы не относится к компетенции судьи, должностного лица, которым обжаловано постановление по делу об административном правонарушении, жалоба направляется на рассмотрение по подведомственности в течение суток.\n3. Жалоба на постановление по делу об административном правонарушении государственной пошлиной не облагается.",
+    "penalty": "Наказание не указано в тексте статьи.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 19. Пересмотр постановлений и решений по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-19-3",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 19.3",
+    "title": "Решение по жалобе на постановление по делу об административном правонарушении",
+    "text": "По результатам рассмотрения жалобы на постановление по делу об административном правонарушении выносится одно из следующих решений:\n1) об оставлении постановления без изменения, а жалобы без удовлетворения;\n2) об изменении постановления, если при этом не усиливается административное наказание или иным образом не ухудшается положение лица, в отношении которого вынесено постановление;\n3) об отмене постановления и о прекращении производства по делу при наличии оснований, предусмотренных п. 2 ч. 1 ст. 18.5 настоящего Кодекса, а также при недоказанности обстоятельств, на основании которых было вынесено постановление;\n4) об отмене постановления и о возвращении дела на новое рассмотрение судье, в орган, должностному лицу, правомочным рассмотреть дело, в случаях существенного нарушения процессуальных требований, предусмотренных настоящим Кодексом, если это не позволило всесторонне, полно и объективно рассмотреть дело, а также в связи с необходимостью применения закона об административном правонарушении, влекущем назначение более строгого административного наказания, если потерпевшим по делу подана жалоба на мягкость примененного административного наказания;\n5) об отмене постановления и о направлении дела на рассмотрение по подведомственности, если при рассмотрении жалобы установлено, что постановление было вынесено неправомочными судьей, органом, должностным лицом.",
+    "penalty": "2) об изменении постановления, если при этом не усиливается административное наказание или иным образом не ухудшается положение лица, в отношении которого вынесено постановление; 4) об отмене постановления и о возвращении дела на новое рассмотрение судье, в орган, должностному лицу, правомочным рассмотреть дело, в случаях существенного нарушения процессуальных требований, предусмотренных настоящим Кодексом, если это не позволило всесторонне, полно и объективно рассмотреть дело, а также в связи с необходимостью применения закона об административном правонарушении, влекущем назначение более строгого административного наказания, если потерпевшим по делу подана жалоба на мягкость примененного административного наказания;",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 19. Пересмотр постановлений и решений по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд",
+      "административное"
+    ]
+  },
+  {
+    "id": "ru-admin-19-4",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 19.4",
+    "title": "Пересмотр решения, вынесенного по жалобе на постановление по делу об административном правонарушении",
+    "text": "1. Постановление по делу об административном правонарушении, вынесенное должностным лицом, и (или) решение вышестоящего должностного лица по жалобе на это постановление могут быть обжалованы в суд по месту рассмотрения жалобы, а затем в вышестоящий суд.\n2. Постановление по делу об административном правонарушении, вынесенное коллегиальным органом, и (или) решение судьи по жалобе на это постановление могут быть обжалованы в вышестоящий суд.\n3. Подача последующих жалоб на постановление по делу об административном правонарушении и (или) решения по жалобе на это постановление, их рассмотрение и разрешение осуществляются в порядке и в сроки, установленные статьями 19.2 - 19.3 настоящего Кодекса.\n4. Решение суда по жалобе на вынесенное должностным лицом постановление по делу об административном правонарушении может быть обжаловано помимо участника производства органом, должностным лицом, которое вынесло такое постановление.",
+    "penalty": "3. Подача последующих жалоб на постановление по делу об административном правонарушении и (или) решения по жалобе на это постановление, их рассмотрение и разрешение осуществляются в порядке и в сроки, установленные статьями 19.2 - 19.3 настоящего Кодекса.",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 19. Пересмотр постановлений и решений по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "суд"
+    ]
+  },
+  {
+    "id": "ru-admin-19-5",
+    "project": "russia",
+    "category": "КоАП РФ",
+    "codeTitle": "Кодекс Российской Федерации об административных правонарушениях",
+    "articleNumber": "Статья 19.5",
+    "title": "Решение по жалобе на решение по жалобе на постановление по делу об административном правонарушении",
+    "text": "По результатам рассмотрения жалобы на решение по жалобе на постановление по делу об административном правонарушении выносится одно из следующих решений:\n1) об оставлении постановления и решения без изменения, а жалобы без удовлетворения;\n2) об изменении постановления или решения, если при этом не усиливается административное наказание или иным образом не ухудшается положение лица, в отношении которого вынесено постановление;\n3) об отмене решения и направлении жалобы на постановление по делу на новое рассмотрение уполномоченному на это лицу;\n4) об отмене решения и постановления и направлении дела об административном правонарушении на рассмотрение уполномоченному на это лицу.",
+    "penalty": "2) об изменении постановления или решения, если при этом не усиливается административное наказание или иным образом не ухудшается положение лица, в отношении которого вынесено постановление;",
+    "section": "Раздел IV. Производство по делам об административных правонарушениях",
+    "chapter": "Глава 19. Пересмотр постановлений и решений по делам об административных правонарушениях",
+    "source": "",
+    "updatedAt": "2026-08-23",
+    "tags": [
+      "административное"
     ]
   }
 ];
 
-window.BOSTON_SOURCES = [
+window.LAW_SOURCES = [
   {
-    "id": "constitution",
+    "id": "boston-konstituciya-shtata-san-andreas",
+    "project": "boston",
     "title": "Конституция штата San Andreas",
-    "category": "Конституция",
+    "category": "Boston",
     "url": "",
-    "note": "Импортировано из текста форума: bab7a95b-dfdd-4dbb-b64f-c01e30461433"
+    "note": "Импортировано из ранее собранной базы Boston."
   },
   {
-    "id": "criminal",
+    "id": "boston-ugolovnyy-kodeks-shtata-san-andreas",
+    "project": "boston",
     "title": "Уголовный кодекс штата San-Andreas",
-    "category": "Уголовный кодекс",
+    "category": "Boston",
     "url": "",
-    "note": "Импортировано из текста форума: 836367d8-1645-4899-b451-7e878712efa5"
+    "note": "Импортировано из ранее собранной базы Boston."
   },
   {
-    "id": "procedure",
+    "id": "boston-processual-nyy-kodeks-shtata-san-andreas",
+    "project": "boston",
     "title": "Процессуальный кодекс штата San-Andreas",
-    "category": "Процессуальный кодекс",
+    "category": "Boston",
     "url": "",
-    "note": "Импортировано из текста форума: e51b2b49-8057-4e2c-80fb-5acddb0bf1a0"
+    "note": "Импортировано из ранее собранной базы Boston."
   },
   {
-    "id": "road",
+    "id": "boston-dorozhnyy-kodeks-shtata-san-andreas",
+    "project": "boston",
     "title": "Дорожный кодекс штата San-Andreas",
-    "category": "Дорожный кодекс",
+    "category": "Boston",
     "url": "",
-    "note": "Импортировано из текста форума: 00d0ad00-f4a3-4824-97c4-ec75565dce9e"
+    "note": "Импортировано из ранее собранной базы Boston."
+  },
+  {
+    "id": "ru-constitution",
+    "project": "russia",
+    "title": "Конституция Российской Федерации",
+    "category": "Конституция РФ",
+    "url": "",
+    "note": "Импортировано из файла Конституция РФ.txt."
+  },
+  {
+    "id": "ru-criminal",
+    "project": "russia",
+    "title": "Уголовный кодекс Российской Федерации",
+    "category": "УК РФ",
+    "url": "",
+    "note": "Импортировано из файла уголовный кодекс.txt."
+  },
+  {
+    "id": "ru-procedure",
+    "project": "russia",
+    "title": "Уголовно-процессуальный кодекс Российской Федерации",
+    "category": "УПК РФ",
+    "url": "",
+    "note": "Импортировано из файла уголовнго-процессуальный кодекс.txt."
+  },
+  {
+    "id": "ru-admin",
+    "project": "russia",
+    "title": "Кодекс Российской Федерации об административных правонарушениях",
+    "category": "КоАП РФ",
+    "url": "",
+    "note": "Импортировано из файла КоАП РФ.txt."
   }
 ];
+window.BOSTON_SOURCES = window.LAW_SOURCES;

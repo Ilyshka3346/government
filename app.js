@@ -1,13 +1,16 @@
 (function () {
-  const storageKey = "boston-lawbook-items-v3";
-  const legacyStorageKey = "boston-lawbook-items";
-  const legacyStorageKeyV2 = "boston-lawbook-items-v2";
-  const favoritesKey = "boston-lawbook-favorites";
+  const favoritesKey = "lawbook-favorites-v4";
+  const projectKey = "lawbook-active-project-v4";
+
+  const projects = window.PROJECTS || [
+    { id: "boston", label: "Boston", shortLabel: "Boston", eyebrow: "Majestic RP", title: "Lawbook", accent: "#0e3f46" }
+  ];
 
   const state = {
-    items: readItems(),
-    sources: window.BOSTON_SOURCES || [],
+    allItems: window.SEED_LAWS || [],
+    allSources: window.LAW_SOURCES || window.BOSTON_SOURCES || [],
     favorites: new Set(JSON.parse(localStorage.getItem(favoritesKey) || "[]")),
+    activeProject: localStorage.getItem(projectKey) || projects[0].id,
     activeTab: "Все",
     quick: "",
     query: ""
@@ -21,6 +24,11 @@
     countArticles: document.querySelector("#countArticles"),
     countSources: document.querySelector("#countSources"),
     countFavorites: document.querySelector("#countFavorites"),
+    projectSwitch: document.querySelector("#projectSwitch"),
+    activeProjectMark: document.querySelector("#activeProjectMark"),
+    projectEyebrow: document.querySelector("#projectEyebrow"),
+    projectTitle: document.querySelector("#projectTitle"),
+    projectNote: document.querySelector("#projectNote"),
     detailSheet: document.querySelector("#detailSheet"),
     detailClose: document.querySelector("#detailClose"),
     detailCode: document.querySelector("#detailCode"),
@@ -31,28 +39,25 @@
     detailText: document.querySelector("#detailText"),
     detailPenalty: document.querySelector("#detailPenalty"),
     detailSource: document.querySelector("#detailSource"),
-    importOpen: document.querySelector("#importOpen"),
-    importDialog: document.querySelector("#importDialog"),
-    importTitle: document.querySelector("#importTitle"),
-    importCategory: document.querySelector("#importCategory"),
-    importSource: document.querySelector("#importSource"),
-    importText: document.querySelector("#importText"),
-    importSave: document.querySelector("#importSave"),
-    clearLocal: document.querySelector("#clearLocal")
+    themeMeta: document.querySelector('meta[name="theme-color"]')
   };
 
   const quickFilters = [
     { label: "Штраф", value: "штраф" },
     { label: "Задержание", value: "задержание" },
     { label: "Лишение", value: "лишение" },
+    { label: "Суд", value: "суд" },
     { label: "Избранное", value: "favorite" }
   ];
 
   init();
 
   function init() {
-    localStorage.removeItem(legacyStorageKey);
-    localStorage.removeItem(legacyStorageKeyV2);
+    if (!projects.some((project) => project.id === state.activeProject)) {
+      state.activeProject = projects[0].id;
+    }
+
+    renderProjectSwitch();
     renderTabs();
     renderChips();
     render();
@@ -61,20 +66,6 @@
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register("./sw.js").catch(() => {});
     }
-  }
-
-  function readItems() {
-    const saved = localStorage.getItem(storageKey);
-    if (saved) return JSON.parse(saved);
-    return window.SEED_LAWS || [];
-  }
-
-  function saveItems() {
-    localStorage.setItem(storageKey, JSON.stringify(state.items));
-  }
-
-  function saveFavorites() {
-    localStorage.setItem(favoritesKey, JSON.stringify([...state.favorites]));
   }
 
   function bindEvents() {
@@ -88,25 +79,64 @@
       if (event.target === els.detailSheet) closeDetail();
     });
 
-    els.importOpen.addEventListener("click", () => els.importDialog.showModal());
-    els.importSave.addEventListener("click", importText);
-    els.clearLocal.addEventListener("click", () => {
-      localStorage.removeItem(storageKey);
-      localStorage.removeItem(legacyStorageKey);
-      state.items = [];
-      state.activeTab = "Источники";
-      renderTabs();
-      render();
-      els.importDialog.close();
-    });
-
     window.addEventListener("keydown", (event) => {
       if (event.key === "Escape") closeDetail();
     });
   }
 
+  function currentProject() {
+    return projects.find((project) => project.id === state.activeProject) || projects[0];
+  }
+
+  function projectItems() {
+    return state.allItems.filter((item) => item.project === state.activeProject);
+  }
+
+  function projectSources() {
+    return state.allSources.filter((source) => !source.project || source.project === state.activeProject);
+  }
+
+  function applyProjectTheme() {
+    const project = currentProject();
+    document.documentElement.style.setProperty("--accent", project.accent || "#0e3f46");
+    document.documentElement.dataset.project = project.id;
+    if (els.themeMeta) els.themeMeta.setAttribute("content", project.accent || "#0e3f46");
+    els.projectEyebrow.textContent = project.eyebrow || "Majestic RP";
+    els.projectTitle.textContent = project.title || project.label;
+    els.projectNote.textContent = project.note || "";
+    els.search.placeholder = `Поиск в ${project.label}: статья, наказание или описание`;
+    els.activeProjectMark.innerHTML = project.id === "russia"
+      ? `<img src="./russia-online-logo.png" alt="" />`
+      : `<span>B</span>`;
+  }
+
+  function renderProjectSwitch() {
+    applyProjectTheme();
+    els.projectSwitch.innerHTML = projects
+      .map(
+        (project) => `
+          <button class="project-button" type="button" aria-pressed="${project.id === state.activeProject}" data-project="${escapeAttr(project.id)}">
+            ${project.id === "russia" ? `<img src="./russia-online-logo.png" alt="" />` : `<span class="project-letter">B</span>`}
+            <span>${escapeHtml(project.shortLabel || project.label)}</span>
+          </button>
+        `
+      )
+      .join("");
+
+    els.projectSwitch.querySelectorAll(".project-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        state.activeProject = button.dataset.project;
+        state.activeTab = "Все";
+        localStorage.setItem(projectKey, state.activeProject);
+        renderProjectSwitch();
+        renderTabs();
+        render();
+      });
+    });
+  }
+
   function renderTabs() {
-    const lawCategories = [...new Set(state.items.map((item) => item.category))];
+    const lawCategories = [...new Set(projectItems().map((item) => item.category))];
     const categories = ["Все", ...lawCategories, "Избранное", "Источники"];
     if (!categories.includes(state.activeTab)) state.activeTab = "Все";
 
@@ -145,26 +175,25 @@
   }
 
   function render() {
-    els.countArticles.textContent = String(state.items.length);
-    els.countSources.textContent = String(new Set([...state.items.map((item) => item.codeTitle), ...state.sources.map((item) => item.title)]).size);
-    els.countFavorites.textContent = String(state.favorites.size);
+    applyProjectTheme();
+    const items = projectItems();
+    const sources = projectSources();
+    els.countArticles.textContent = String(items.length);
+    els.countSources.textContent = String(new Set([...items.map((item) => item.codeTitle), ...sources.map((item) => item.title)]).size);
+    els.countFavorites.textContent = String(items.filter((item) => state.favorites.has(item.id)).length);
 
     if (state.activeTab === "Источники") {
       renderSources();
       return;
     }
 
-    const items = getFilteredItems();
-    if (!items.length) {
-      els.results.innerHTML = `
-        <div class="empty-state">
-          База законки пока пустая. Нажми + и вставь текст темы форума, либо импортируй JSON, созданный извлекателем.
-        </div>
-      `;
+    const filtered = getFilteredItems(items);
+    if (!filtered.length) {
+      els.results.innerHTML = `<div class="empty-state">Ничего не найдено в проекте ${escapeHtml(currentProject().label)}.</div>`;
       return;
     }
 
-    els.results.innerHTML = items.map(renderCard).join("");
+    els.results.innerHTML = filtered.map(renderCard).join("");
     els.results.querySelectorAll(".law-card").forEach((card) => {
       card.addEventListener("click", () => openDetail(card.dataset.id));
       card.addEventListener("keydown", (event) => {
@@ -182,33 +211,36 @@
 
   function renderSources() {
     const query = normalize(state.query);
-    const sources = state.sources.filter((source) => {
+    const sources = projectSources().filter((source) => {
       if (!query) return true;
       return normalize([source.title, source.category, source.url, source.note].join(" ")).includes(query);
     });
 
     els.results.innerHTML = sources
-      .map(
-        (source) => `
+      .map((source) => {
+        const open = source.url
+          ? `<a class="favorite source-open" href="${escapeAttr(source.url)}" target="_blank" rel="noreferrer" title="Открыть">↗</a>`
+          : `<span class="favorite source-open muted-source">•</span>`;
+        return `
           <article class="law-card source-card">
             <div class="card-head">
               <div>
                 <div class="law-code">${escapeHtml(source.category)}</div>
                 <h3 class="law-title">${escapeHtml(source.title)}</h3>
               </div>
-              <a class="favorite source-open" href="${escapeAttr(source.url)}" target="_blank" rel="noreferrer" title="Открыть">↗</a>
+              ${open}
             </div>
             <p class="law-text">${escapeHtml(source.note)}</p>
-            <div class="article-pill">${escapeHtml(source.url.replace("https://forum.majestic-rp.ru/", ""))}</div>
+            <div class="article-pill">${escapeHtml(source.url || "локальный источник")}</div>
           </article>
-        `
-      )
+        `;
+      })
       .join("");
   }
 
-  function getFilteredItems() {
+  function getFilteredItems(items) {
     const query = normalize(state.query);
-    return state.items
+    return items
       .filter((item) => state.activeTab === "Все" || item.category === state.activeTab || (state.activeTab === "Избранное" && state.favorites.has(item.id)))
       .filter((item) => {
         if (!state.quick) return true;
@@ -223,7 +255,7 @@
   }
 
   function searchable(item) {
-    return normalize([item.articleNumber, item.title, item.text, item.penalty, item.codeTitle, item.category, ...(item.tags || [])].join(" "));
+    return normalize([item.articleNumber, item.title, item.text, item.penalty, item.codeTitle, item.category, item.chapter, item.section, ...(item.tags || [])].join(" "));
   }
 
   function score(item, query) {
@@ -231,7 +263,8 @@
     const article = normalize(item.articleNumber).replace("статья ", "");
     if (article === query) return 100;
     if (article.startsWith(query)) return 70;
-    if (normalize(item.title).includes(query)) return 40;
+    if (normalize(item.title).includes(query)) return 45;
+    if (normalize(item.codeTitle).includes(query)) return 35;
     if (normalize(item.penalty).includes(query)) return 25;
     return searchable(item).includes(query) ? 10 : 0;
   }
@@ -256,10 +289,10 @@
   }
 
   function openDetail(id) {
-    const item = state.items.find((entry) => entry.id === id);
+    const item = state.allItems.find((entry) => entry.id === id);
     if (!item) return;
 
-    els.detailCode.textContent = `${item.category} / ${item.codeTitle}`;
+    els.detailCode.textContent = `${currentProject().label} / ${item.category} / ${item.codeTitle}`;
     els.detailTitle.textContent = item.title;
     els.detailArticle.textContent = item.articleNumber;
     els.detailUpdated.textContent = `Обновлено: ${item.updatedAt || "не указано"}`;
@@ -281,137 +314,8 @@
   function toggleFavorite(id) {
     if (state.favorites.has(id)) state.favorites.delete(id);
     else state.favorites.add(id);
-    saveFavorites();
+    localStorage.setItem(favoritesKey, JSON.stringify([...state.favorites]));
     render();
-  }
-
-  function importText() {
-    const title = els.importTitle.value.trim() || "Импортированный раздел";
-    const category = els.importCategory.value;
-    const source = els.importSource.value.trim();
-    const text = els.importText.value.trim();
-    if (!text) return;
-
-    const parsed = parseInput(text, title, category, source);
-    state.items = [
-      ...state.items.filter((item) => !(item.codeTitle === title && item.source === source && item.id.startsWith("import-"))),
-      ...parsed
-    ];
-    saveItems();
-    state.activeTab = category;
-    renderTabs();
-    render();
-    els.importDialog.close();
-    els.importTitle.value = "";
-    els.importSource.value = "";
-    els.importText.value = "";
-  }
-
-  function parseInput(text, codeTitle, category, source) {
-    const trimmed = text.trim();
-    if (trimmed.startsWith("[") || trimmed.startsWith("{")) {
-      try {
-        const data = JSON.parse(trimmed);
-        if (!Array.isArray(data) && typeof data.text === "string") {
-          return parseArticles(
-            data.text,
-            data.title || codeTitle,
-            data.category || category,
-            data.source || source
-          );
-        }
-        const records = Array.isArray(data) ? data : data.items || data.articles || [];
-        return records.map((record, index) => normalizeImportedRecord(record, index, codeTitle, category, source));
-      } catch (error) {
-        return parseArticles(text, codeTitle, category, source);
-      }
-    }
-
-    return parseArticles(text, codeTitle, category, source);
-  }
-
-  function normalizeImportedRecord(record, index, codeTitle, category, source) {
-    const number = record.articleNumber || record.number || record.article || `Импорт ${index + 1}`;
-    const title = record.title || record.heading || String(number);
-    const body = record.text || record.body || record.content || "";
-    const penalty = record.penalty || extractPenalty(body);
-    return {
-      id: record.id || `import-${Date.now()}-${index}`,
-      category: record.category || category,
-      codeTitle: record.codeTitle || record.code || codeTitle,
-      articleNumber: String(number),
-      title: String(title),
-      text: String(body || title),
-      penalty: String(penalty),
-      source: record.source || source,
-      updatedAt: record.updatedAt || new Date().toISOString().slice(0, 10),
-      tags: record.tags || detectTags(`${title} ${body} ${penalty}`)
-    };
-  }
-
-  function parseArticles(text, codeTitle, category, source) {
-    const lines = text.replace(/\r/g, "").split("\n");
-    const chunks = [];
-    let current = null;
-
-    for (const rawLine of lines) {
-      const line = rawLine.trim();
-      if (!line) continue;
-      const match = line.match(/^(?:Статья\s*)?(\d+(?:\.\d+)*(?:\s*ч\.?\s*\d+)?(?:\s*\([A-ZА-Я/]+\))?)(?:[.\s|-]+)?(.+)?$/i);
-      const isHeading = match && (line.toLowerCase().startsWith("статья") || line.length < 180);
-
-      if (isHeading) {
-        if (current) chunks.push(current);
-        current = {
-          number: line.toLowerCase().startsWith("статья") ? `Статья ${match[1]}` : match[1],
-          title: (match[2] || "Без названия").trim(),
-          body: []
-        };
-      } else if (current) {
-        current.body.push(line);
-      }
-    }
-
-    if (current) chunks.push(current);
-
-    if (!chunks.length) {
-      chunks.push({
-        number: "Импорт",
-        title: codeTitle,
-        body: [text]
-      });
-    }
-
-    return chunks.map((chunk, index) => {
-      const body = chunk.body.join("\n");
-      const penalty = extractPenalty(`${chunk.title}\n${body}`);
-      return {
-        id: `import-${Date.now()}-${index}`,
-        category,
-        codeTitle,
-        articleNumber: chunk.number,
-        title: chunk.title,
-        text: body || chunk.title,
-        penalty,
-        source,
-        updatedAt: new Date().toISOString().slice(0, 10),
-        tags: detectTags(`${chunk.title} ${body} ${penalty}`)
-      };
-    });
-  }
-
-  function extractPenalty(text) {
-    const lines = text.split("\n").map((line) => line.trim()).filter(Boolean);
-    const line = lines.find((entry) => /наказани|штраф|лишени|залог|выговор|увольн|арест/i.test(entry));
-    if (line) return line;
-    return "Наказание не выделено автоматически.";
-  }
-
-  function detectTags(text) {
-    const normalized = normalize(text);
-    return ["штраф", "задержание", "обыск", "арест", "лишение", "залог", "увольнение", "выговор", "оружие", "транспорт"].filter((tag) =>
-      normalized.includes(tag)
-    );
   }
 
   function normalize(value) {

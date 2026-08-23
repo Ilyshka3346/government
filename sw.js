@@ -1,5 +1,5 @@
-const cacheName = "boston-lawbook-v3";
-const assets = ["./", "./index.html", "./styles.css", "./app.js", "./laws.js", "./manifest.json", "./icon.svg"];
+const cacheName = "majestic-lawbook-v4";
+const assets = ["./", "./index.html", "./styles.css", "./app.js", "./laws.js", "./manifest.json", "./icon.svg", "./russia-online-logo.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(cacheName).then((cache) => cache.addAll(assets)));

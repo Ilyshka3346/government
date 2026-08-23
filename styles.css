@@ -4,6 +4,8 @@
   --line: #dbe3df;
   --paper: #f7f8f4;
   --panel: #ffffff;
+  --panel-strong: #ffffff;
+  --accent: #0e3f46;
   --teal: #0e3f46;
   --teal-2: #1f6b70;
   --coral: #b84f42;
@@ -12,6 +14,22 @@
   --shadow: 0 18px 45px rgba(18, 32, 35, 0.14);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html[data-project="russia"] {
+  --ink: #f4eeee;
+  --muted: #b8aaaa;
+  --line: rgba(255, 255, 255, 0.12);
+  --paper: #141112;
+  --panel: #1e1819;
+  --panel-strong: #251a1c;
+  --accent: #b42b32;
+  --teal: #b42b32;
+  --teal-2: #f05a63;
+  --coral: #f05a63;
+  --gold: #f0d0a1;
+  --blue: #f05a63;
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.34);
 }
 
 * {
@@ -43,15 +61,117 @@ textarea {
   background:
     linear-gradient(180deg, rgba(14, 63, 70, 0.08), rgba(247, 248, 244, 0) 260px),
     var(--paper);
+  transition: background 180ms ease, color 180ms ease;
+}
+
+html[data-project="russia"] .app-shell {
+  background:
+    radial-gradient(circle at 0 0, rgba(180, 43, 50, 0.32), transparent 330px),
+    linear-gradient(180deg, #191314 0, #141112 320px),
+    var(--paper);
 }
 
 .topbar {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
   max-width: 980px;
   margin: 0 auto 18px;
+}
+
+.project-identity {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+}
+
+.project-mark {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--shadow);
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.project-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-note {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.project-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(82px, 1fr));
+  gap: 6px;
+  min-height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: 0 10px 26px rgba(18, 32, 35, 0.08);
+}
+
+html[data-project="russia"] .project-switch {
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+}
+
+.project-button {
+  display: grid;
+  grid-template-columns: 26px auto;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 0;
+  min-height: 38px;
+  border: 0;
+  border-radius: 8px;
+  padding: 0 10px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.project-button[aria-pressed="true"] {
+  background: var(--accent);
+  color: #fff;
+}
+
+.project-button img {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.project-letter {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  background: #0e3f46;
+  color: #fff;
+  font-size: 14px;
 }
 
 .eyebrow {
@@ -94,7 +214,7 @@ main {
   height: 44px;
   border: 1px solid rgba(14, 63, 70, 0.18);
   border-radius: 8px;
-  background: var(--teal);
+  background: var(--accent);
   color: #fff;
   box-shadow: 0 10px 24px rgba(14, 63, 70, 0.24);
   font-size: 28px;
@@ -118,6 +238,7 @@ main {
   padding: 0 14px;
   background: var(--panel);
   box-shadow: 0 12px 32px rgba(18, 32, 35, 0.08);
+  transition: background 180ms ease, border-color 180ms ease;
 }
 
 .search-box span {
@@ -155,7 +276,7 @@ main {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 0 12px;
-  background: rgba(255, 255, 255, 0.74);
+  background: var(--panel);
   color: var(--ink);
   font-weight: 700;
   cursor: pointer;
@@ -163,8 +284,8 @@ main {
 
 .tab[aria-selected="true"],
 .chip.active {
-  border-color: var(--teal);
-  background: var(--teal);
+  border-color: var(--accent);
+  background: var(--accent);
   color: #fff;
 }
 
@@ -181,11 +302,12 @@ main {
   border-radius: 8px;
   padding: 12px;
   background: var(--panel);
+  box-shadow: 0 8px 18px rgba(18, 32, 35, 0.05);
 }
 
 .summary-grid span {
   display: block;
-  color: var(--teal);
+  color: var(--accent);
   font-size: 24px;
   font-weight: 900;
 }
@@ -247,7 +369,7 @@ main {
   height: 36px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--panel-strong);
   color: var(--gold);
   cursor: pointer;
 }
@@ -261,6 +383,10 @@ main {
   color: var(--blue);
   font-size: 13px;
   font-weight: 900;
+}
+
+html[data-project="russia"] .article-pill {
+  background: rgba(240, 90, 99, 0.14);
 }
 
 .hierarchy {
@@ -294,11 +420,16 @@ main {
   line-height: 1.35;
 }
 
+html[data-project="russia"] .penalty {
+  background: rgba(240, 90, 99, 0.11);
+  color: #ffd2d6;
+}
+
 .empty-state {
   border: 1px dashed var(--line);
   border-radius: 8px;
   padding: 24px;
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--panel);
   color: var(--muted);
   text-align: center;
 }
@@ -309,7 +440,7 @@ main {
   display: none;
   align-items: end;
   padding: 16px;
-  background: rgba(18, 32, 35, 0.42);
+  background: rgba(18, 32, 35, 0.48);
   z-index: 20;
 }
 
@@ -361,6 +492,10 @@ main {
   font-weight: 800;
 }
 
+html[data-project="russia"] .detail-meta span {
+  background: rgba(240, 90, 99, 0.12);
+}
+
 .detail-text {
   white-space: pre-wrap;
   color: var(--ink);
@@ -370,9 +505,13 @@ main {
 .source-link {
   display: inline-flex;
   margin-top: 14px;
-  color: var(--teal);
+  color: var(--accent);
   font-weight: 800;
   text-decoration: none;
+}
+
+.muted-source {
+  color: var(--muted);
 }
 
 .import-dialog {
@@ -455,6 +594,23 @@ main {
 }
 
 @media (max-width: 420px) {
+  .topbar {
+    grid-template-columns: 1fr;
+  }
+
+  .project-switch {
+    width: 100%;
+  }
+
+  .project-identity {
+    grid-template-columns: 52px minmax(0, 1fr);
+  }
+
+  .project-mark {
+    width: 52px;
+    height: 52px;
+  }
+
   h1 {
     font-size: 30px;
   }

@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0e3f46" />
-    <title>Boston Lawbook</title>
+    <title>Majestic Lawbook</title>
     <link rel="manifest" href="./manifest.json" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div id="app" class="app-shell">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">Majestic RP / Boston</p>
-          <h1>Lawbook</h1>
+        <div class="project-identity">
+          <div id="activeProjectMark" class="project-mark" aria-hidden="true">B</div>
+          <div>
+            <p id="projectEyebrow" class="eyebrow">Majestic RP</p>
+            <h1 id="projectTitle">Lawbook</h1>
+            <p id="projectNote" class="project-note"></p>
+          </div>
         </div>
-        <button id="importOpen" class="icon-button" type="button" title="Импортировать текст">+</button>
+        <div id="projectSwitch" class="project-switch" aria-label="Переключение проекта"></div>
       </header>
 
       <main>
@@ -26,7 +30,7 @@
               id="searchInput"
               type="search"
               inputmode="search"
-              placeholder="Номер статьи, наказание, описание или источник"
+              placeholder="Статья, наказание или описание"
               autocomplete="off"
             />
           </label>
@@ -73,53 +77,6 @@
           <a id="detailSource" class="source-link" href="#" target="_blank" rel="noreferrer">Открыть источник</a>
         </div>
       </aside>
-
-      <dialog id="importDialog" class="import-dialog">
-        <form method="dialog" class="import-panel">
-          <div class="sheet-header">
-            <div>
-              <p class="eyebrow">Быстрое пополнение</p>
-              <h2>Импорт законки</h2>
-            </div>
-            <button class="icon-button" value="cancel" type="submit" title="Закрыть">×</button>
-          </div>
-
-          <label>
-            Название раздела
-            <input id="importTitle" type="text" placeholder="Например: Уголовный кодекс" />
-          </label>
-
-          <label>
-            Категория
-            <select id="importCategory">
-              <option value="Кодексы">Кодексы</option>
-              <option value="Уставы">Уставы</option>
-              <option value="Правила гос.">Правила гос.</option>
-              <option value="Законы">Законы</option>
-              <option value="Памятки">Памятки</option>
-            </select>
-          </label>
-
-          <label>
-            Ссылка на тему форума
-            <input id="importSource" type="url" placeholder="https://forum.majestic-rp.ru/threads/..." />
-          </label>
-
-          <label>
-            Текст или JSON
-            <textarea
-              id="importText"
-              rows="11"
-              placeholder="Вставь текст темы форума или JSON-массив статей. Приложение разобьет строки вида: Статья 1..., 7.2 (F), 15.6 ч.1..."
-            ></textarea>
-          </label>
-
-          <div class="dialog-actions">
-            <button id="clearLocal" class="secondary-button" type="button">Сбросить базу</button>
-            <button id="importSave" class="primary-button" value="default" type="button">Добавить</button>
-          </div>
-        </form>
-      </dialog>
     </div>
 
     <script src="./laws.js"></script>

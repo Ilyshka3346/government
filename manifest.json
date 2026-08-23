@@ -1,7 +1,7 @@
 {
-  "name": "Boston Lawbook",
+  "name": "Majestic Lawbook",
   "short_name": "Lawbook",
-  "description": "Поиск по законке Majestic RP Boston",
+  "description": "Поиск по законке Majestic RP Boston и Россия Онлайн",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f7f8f4",
